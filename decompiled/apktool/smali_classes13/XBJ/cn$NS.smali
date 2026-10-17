@@ -2557,7 +2557,7 @@
     move-result-object v5
 
     :goto_d
-    const-string v5, "com.goldmotion.pnkj_com.alightcreative.app.motion.fileprovider"
+    const-string v5, "com.uncensored.motion_com.alightcreative.app.motion.fileprovider"
 
     invoke-static {v1, v5, v4}, Landroidx/core/content/FileProvider;->D3D(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 

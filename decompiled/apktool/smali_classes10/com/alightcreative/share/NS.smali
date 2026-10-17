@@ -1304,7 +1304,7 @@
     move-result-object v0
 
     :goto_a
-    const-string v0, "com.goldmotion.pnkj_com.alightcreative.app.motion.fileprovider"
+    const-string v0, "com.uncensored.motion_com.alightcreative.app.motion.fileprovider"
 
     invoke-static {v8, v0, v4}, Landroidx/core/content/FileProvider;->D3D(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 
@@ -2969,7 +2969,7 @@
     move-result-object v0
 
     :goto_1e
-    const-string v0, "com.goldmotion.pnkj_com.alightcreative.app.motion.fileprovider"
+    const-string v0, "com.uncensored.motion_com.alightcreative.app.motion.fileprovider"
 
     invoke-static {v7, v0, v2}, Landroidx/core/content/FileProvider;->D3D(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 
@@ -3579,7 +3579,7 @@
     move-result-object v12
 
     :goto_a
-    const-string v12, "com.goldmotion.pnkj_com.alightcreative.app.motion.fileprovider"
+    const-string v12, "com.uncensored.motion_com.alightcreative.app.motion.fileprovider"
 
     invoke-static {v13, v12, v0}, Landroidx/core/content/FileProvider;->D3D(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 

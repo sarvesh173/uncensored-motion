@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.fluxmotion.studio"
+    namespace = "com.uncensored.motion"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.fluxmotion.studio"
+        applicationId = "com.uncensored.motion"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Uncensored APK</string>
-    <string name="title_projects">Projects</string>
-    <string name="title_editor">Motion Studio</string>
+    <string name="title_projects">Uncensored Motion (Open Source)</string>
+    <string name="title_editor">Uncensored Motion Studio [Open Source]</string>
     <string name="btn_export">Export</string>
     <string name="btn_add">Add Element</string>
     <string name="tab_shapes">Shapes</string>

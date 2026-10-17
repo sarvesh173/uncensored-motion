@@ -49,12 +49,12 @@ jobs:
       - name: Align and Sign APK
         run: |
           zipalign -p -f 4 build/Uncensored-APK-unsigned.apk build/Uncensored-APK-aligned.apk
-          keytool -genkeypair -v -keystore build/rebuild.keystore -alias rebuild \
+          keytool -genkeypair -v -keystore build/uncensored.keystore -alias uncensored_motion_key \
                   -keyalg RSA -keysize 2048 -validity 10000 \
-                  -storepass password123 -keypass password123 \
-                  -dname "CN=Uncensored APK, OU=Mobile, O=OpenSource, L=Global, S=Global, C=US"
-          apksigner sign --ks build/rebuild.keystore --ks-key-alias rebuild \
-                         --ks-pass pass:password123 \
+                  -storepass uncensored2026 -keypass uncensored2026 \
+                  -dname "CN=Uncensored Motion Open Source, OU=Open Source Community, O=Uncensored Motion, L=Worldwide, ST=OpenSource, C=US"
+          apksigner sign --ks build/uncensored.keystore --ks-key-alias uncensored_motion_key \
+                         --ks-pass pass:uncensored2026 \
                          --out build/Uncensored-APK.apk build/Uncensored-APK-aligned.apk
           apksigner verify --print-certs build/Uncensored-APK.apk
 
@@ -69,12 +69,13 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v2.0.0-uncensored
-          name: "Uncensored APK v2.0.0"
+          tag_name: v2.1.0-uncensored-opensource
+          name: "Uncensored APK v2.1.0 (Open Source Edition)"
           body: |
-            ## Uncensored APK v2.0.0 — Reconstructed Open-Source Release
-            - Fully recompiled and signed APK from open-source decompiled sources.
-            - Direct download: `Uncensored-APK.apk`
+            ## Uncensored APK v2.1.0 — Open Source Edition
+            - **Package Name:** `com.uncensored.motion` (100% custom package identifier)
+            - **Custom Signature:** Signed with custom `CN=Uncensored Motion Open Source` verified key.
+            - **Direct Download:** `Uncensored-APK.apk`
           files: build/Uncensored-APK.apk
           draft: false
           prerelease: false

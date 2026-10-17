@@ -166,8 +166,8 @@ To preview, edit, or share this project, Gold Motion requires access to your med
     <string name="anonymous_user">Anonymous User</string>
     <string name="app_info_item">App Version and Build number</string>
     <string name="app_name">Uncensored APK</string>
-    <string name="app_name_transliterated">Uncensored APK</string>
-    <string name="app_version">App Version</string>
+    <string name="app_name_transliterated">Uncensored Motion Open Source</string>
+    <string name="app_version">Open Source Edition 7.0.3</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="applovin_list_item_image_description">Displays more info about the list item.</string>
     <string name="appsetup_error_generic_error">Something went wrong</string>

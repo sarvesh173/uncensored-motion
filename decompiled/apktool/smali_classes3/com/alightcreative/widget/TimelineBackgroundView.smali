@@ -722,7 +722,7 @@
 
     const-string v4, "id"
 
-    const-string v5, "com.goldmotion.pnkj"
+    const-string v5, "com.uncensored.motion"
 
     invoke-virtual {v2, v3, v4, v5}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 

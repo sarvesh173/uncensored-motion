@@ -74,7 +74,7 @@
     </PreferenceCategory>
     <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Gold Motion Customization" app:iconSpaceReserved="false">
         <Preference android:title="Customize Gold Motion" android:summary="Pick theme, timeline and home colours, customize the homepage title/subtitle, or replace the homepage logo area with your own photo. The original logo colours stay unchanged." app:iconSpaceReserved="false">
-            <intent android:targetPackage="com.goldmotion.pnkj" android:targetClass="com.goldmotion.customize.CustomizationActivity" />
+            <intent android:targetPackage="com.uncensored.motion" android:targetClass="com.goldmotion.customize.CustomizationActivity" />
         </Preference>
     </PreferenceCategory>
     <SwitchPreference android:enabled="false" android:title="Bypass Login (Experimental)" android:summary="Allows this mod to bypass login with Continue As Guest" android:defaultValue="true" app:iconSpaceReserved="false" />

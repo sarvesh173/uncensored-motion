@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" android:installLocation="auto" package="com.goldmotion.pnkj" platformBuildVersionCode="35" platformBuildVersionName="15">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" android:installLocation="auto" package="com.uncensored.motion" platformBuildVersionCode="35" platformBuildVersionName="15">
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
@@ -35,14 +35,14 @@
     <uses-permission android:name="com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
-    <permission android:name="com.goldmotion.pnkj.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.goldmotion.pnkj.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="com.uncensored.motion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.uncensored.motion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:fullBackupContent="false" android:hardwareAccelerated="true" android:icon="@drawable/gold_motion_icon" android:label="Gold Motion" android:largeHeap="true" android:name="arm.EpicVm" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:roundIcon="@drawable/gold_motion_icon" android:supportsRtl="true" android:theme="@style/AppTheme.NoActionBar" android:usesCleartextTraffic="true">
         <activity android:name="com.alightcreative.app.motion.activities.DeviceMismatchNoticeActivity"/>
-        <provider android:authorities="com.goldmotion.pnkj.goldai.init" android:exported="false" android:initOrder="100" android:name="com.goldmotion.ai.GoldAiInitProvider"/>
-        <provider android:authorities="com.goldmotion.pnkj.goldupdate.init" android:exported="false" android:initOrder="90" android:name="com.goldmotion.update.ForceUpdateInitProvider"/>
-        <provider android:authorities="com.goldmotion.pnkj.customization.init" android:exported="false" android:initOrder="80" android:name="com.goldmotion.customize.CustomizationInitProvider"/>
-        <provider android:authorities="com.goldmotion.pnkj.performance.init" android:exported="false" android:initOrder="70" android:name="com.goldmotion.performance.PerformanceInitProvider"/>
+        <provider android:authorities="com.uncensored.motion.goldai.init" android:exported="false" android:initOrder="100" android:name="com.goldmotion.ai.GoldAiInitProvider"/>
+        <provider android:authorities="com.uncensored.motion.goldupdate.init" android:exported="false" android:initOrder="90" android:name="com.goldmotion.update.ForceUpdateInitProvider"/>
+        <provider android:authorities="com.uncensored.motion.customization.init" android:exported="false" android:initOrder="80" android:name="com.goldmotion.customize.CustomizationInitProvider"/>
+        <provider android:authorities="com.uncensored.motion.performance.init" android:exported="false" android:initOrder="70" android:name="com.goldmotion.performance.PerformanceInitProvider"/>
         <activity android:exported="false" android:name="com.goldmotion.customize.CustomizationActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:exported="false" android:name="com.goldmotion.tools.ToolStudioActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:exported="false" android:name="com.goldmotion.tools.YtvdBridgeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
@@ -121,7 +121,7 @@
         <activity android:name="com.alightcreative.app.motion.activities.SaveToStorageActivity" android:theme="@style/Theme.Transparent"/>
         <activity android:name="com.alightcreative.app.motion.activities.ColorPickerActivity" android:screenOrientation="portrait"/>
         <activity android:name="com.alightcreative.app.motion.activities.main.newfeature.NewFeaturePagerActivity" android:screenOrientation="portrait"/>
-        <provider android:authorities="com.goldmotion.pnkj_com.alightcreative.app.motion.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+        <provider android:authorities="com.uncensored.motion_com.alightcreative.app.motion.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
         </provider>
         <receiver android:name="com.alightcreative.share.ChooserResultReceiver"/>
@@ -255,7 +255,7 @@
         </activity>
         <activity android:exported="false" android:label="@string/fui_sign_in_default" android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity" android:windowSoftInputMode="adjustResize"/>
         <activity android:exported="false" android:label="@string/fui_default_toolbar_title" android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"/>
-        <provider android:authorities="com.goldmotion.pnkj.authuiinitprovider" android:exported="false" android:initOrder="90" android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"/>
+        <provider android:authorities="com.uncensored.motion.authuiinitprovider" android:exported="false" android:initOrder="90" android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"/>
         <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
             <meta-data android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
             <meta-data android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
@@ -294,16 +294,16 @@
                 <data android:host="firebase.auth" android:path="/" android:scheme="recaptcha"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.goldmotion.pnkj.firebaseperfprovider" android:enabled="false" android:exported="false" android:initOrder="101" android:name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
+        <provider android:authorities="com.uncensored.motion.firebaseperfprovider" android:enabled="false" android:exported="false" android:initOrder="101" android:name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
         <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
         <activity android:exported="false" android:name="com.bendingspoons.secretmenu.ui.SecretMenuActivity" android:theme="@style/Theme.AppCompat"/>
         <activity android:autoRemoveFromRecents="true" android:name="com.bendingspoons.secretmenu.ui.items.exit.ExitActivity" android:theme="@android:style/Theme.NoDisplay"/>
         <activity android:name="com.facebook.CustomTabMainActivity"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
-        <provider android:authorities="com.goldmotion.pnkj.mobileadsinitprovider" android:enabled="false" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
+        <provider android:authorities="com.uncensored.motion.mobileadsinitprovider" android:enabled="false" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
         <service android:enabled="false" android:exported="false" android:name="com.google.android.gms.ads.AdService"/>
-        <provider android:authorities="com.goldmotion.pnkj.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+        <provider android:authorities="com.uncensored.motion.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
             <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
@@ -355,8 +355,8 @@
         </receiver>
         <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
         <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <provider android:authorities="com.goldmotion.pnkj.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
-        <provider android:authorities="com.goldmotion.pnkj.applovininitprovider" android:enabled="false" android:exported="false" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/>
+        <provider android:authorities="com.uncensored.motion.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.uncensored.motion.applovininitprovider" android:enabled="false" android:exported="false" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/>
         <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenActivity" android:screenOrientation="behind"/>
         <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.sdk.AppLovinWebViewActivity"/>
         <activity android:configChanges="locale|keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:name="com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity"/>
@@ -373,7 +373,7 @@
         <receiver android:enabled="false" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
         <service android:enabled="false" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
         <service android:enabled="false" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <provider android:authorities="com.goldmotion.pnkj.FacebookInitProvider" android:enabled="false" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <provider android:authorities="com.uncensored.motion.FacebookInitProvider" android:enabled="false" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
         <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
             <intent-filter>
                 <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
