@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Flux Motion</string>
+    <string name="title_projects">Projects</string>
+    <string name="title_editor">Motion Studio</string>
+    <string name="btn_export">Export</string>
+    <string name="btn_add">Add Element</string>
+    <string name="tab_shapes">Shapes</string>
+    <string name="tab_media">Media</string>
+    <string name="tab_audio">Audio</string>
+    <string name="tab_text">Text</string>
+    <string name="tab_elements">Elements</string>
+</resources>
