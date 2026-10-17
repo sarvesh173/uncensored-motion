@@ -1,0 +1,18 @@
+.class public final synthetic Landroidx/core/view/hcP;
+.super Ljava/lang/Object;
+
+
+# direct methods
+.method public static bridge synthetic XF(Landroid/view/ViewConfiguration;)Z
+    .locals 1
+
+    const-string v0, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    invoke-virtual {p0}, Landroid/view/ViewConfiguration;->shouldShowMenuShortcutsWhenKeyboardPresent()Z
+
+    move-result p0
+
+    const/4 v0, 0x4
+
+    return p0
+.end method

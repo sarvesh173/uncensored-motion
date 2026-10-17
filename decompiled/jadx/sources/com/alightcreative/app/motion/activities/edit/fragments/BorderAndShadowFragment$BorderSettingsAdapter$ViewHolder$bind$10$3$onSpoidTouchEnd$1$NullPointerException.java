@@ -1,0 +1,5 @@
+package com.alightcreative.app.motion.activities.edit.fragments;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes2.dex */
+public class BorderAndShadowFragment$BorderSettingsAdapter$ViewHolder$bind$10$3$onSpoidTouchEnd$1$NullPointerException extends java.lang.RuntimeException {
+}

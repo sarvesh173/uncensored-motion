@@ -1,0 +1,71 @@
+.class public final synthetic LEKg/Jf$h6W;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LEKg/Jf;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1001
+    name = "h6W"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x5,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final synthetic $EnumSwitchMapping$0:[I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    const/4 v3, 0x0
+
+    invoke-static {}, LW7I/z4A;->values()[LW7I/z4A;
+
+    move-result-object v0
+
+    const/4 v3, 0x7
+
+    array-length v0, v0
+
+    const/4 v3, 0x4
+
+    new-array v0, v0, [I
+
+    const/4 v3, 0x0
+
+    sget-object v1, LW7I/z4A;->b:LW7I/z4A;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v3, 0x4
+
+    const/4 v2, 0x1
+
+    const/4 v3, 0x2
+
+    aput v2, v0, v1
+
+    const/4 v3, 0x1
+
+    sput-object v0, LEKg/Jf$h6W;->$EnumSwitchMapping$0:[I
+
+    const/4 v3, 0x1
+
+    return-void
+.end method

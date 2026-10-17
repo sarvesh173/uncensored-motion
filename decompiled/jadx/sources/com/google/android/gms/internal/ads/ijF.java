@@ -1,0 +1,34 @@
+package com.google.android.gms.internal.ads;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes14.dex */
+public final /* synthetic */ class ijF implements com.google.android.gms.internal.ads.yK5 {
+    public static final /* synthetic */ com.google.android.gms.internal.ads.ijF XF = null;
+
+    static {
+            com.google.android.gms.internal.ads.ijF r0 = new com.google.android.gms.internal.ads.ijF
+            r1 = 0
+            r0.<init>()
+            r1 = 6
+            com.google.android.gms.internal.ads.ijF.XF = r0
+            r1 = 1
+            return
+    }
+
+    private /* synthetic */ ijF() {
+            r1 = this;
+            r0 = 7
+            r1.<init>()
+            r0 = 0
+            return
+    }
+
+    public final void XF(java.lang.Object r2) {
+            r1 = this;
+            java.lang.String r0 = "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif'   ~@~@~@~@~@~@~@~@~@~@~  "
+            com.google.android.gms.internal.ads.TtM r2 = (com.google.android.gms.internal.ads.TtM) r2
+            r0 = 6
+            r2.D3D()
+            r0 = 5
+            return
+    }
+}

@@ -1,0 +1,74 @@
+package com.google.android.gms.internal.ads;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes18.dex */
+public final class DP7 implements com.google.android.gms.internal.ads.CtK {
+    private final com.google.android.gms.internal.ads.uEi XF;
+    private final com.google.android.gms.internal.ads.uEi h;
+    private final com.google.android.gms.internal.ads.uEi r5;
+
+    public DP7(com.google.android.gms.internal.ads.uEi r2, com.google.android.gms.internal.ads.uEi r3, com.google.android.gms.internal.ads.uEi r4) {
+            r1 = this;
+            r0 = 0
+            r1.<init>()
+            r0 = 2
+            r1.XF = r2
+            r0 = 6
+            r1.h = r3
+            r0 = 6
+            r1.r5 = r4
+            r0 = 6
+            return
+    }
+
+    public final /* bridge */ /* synthetic */ java.lang.Object XF() {
+            r6 = this;
+            java.lang.String r5 = "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif'   ~@~@~@~@~@~@~@~@~@~@~  "
+            com.google.android.gms.internal.ads.uEi r0 = r6.XF
+            r5 = 1
+            com.google.android.gms.internal.ads.SRC r0 = com.google.android.gms.internal.ads.WoC.h(r0)
+            r5 = 6
+            com.google.android.gms.internal.ads.uEi r1 = r6.h
+            r5 = 0
+            com.google.android.gms.internal.ads.SRC r1 = com.google.android.gms.internal.ads.WoC.h(r1)
+            r5 = 1
+            com.google.android.gms.internal.ads.uEi r2 = r6.r5
+            r5 = 6
+            java.lang.Object r2 = r2.XF()
+            r5 = 4
+            java.util.concurrent.ScheduledExecutorService r2 = (java.util.concurrent.ScheduledExecutorService) r2
+            r5 = 3
+            com.google.android.gms.internal.ads.Dp r3 = com.google.android.gms.internal.ads.O57.uZz
+            r5 = 0
+            com.google.android.gms.internal.ads.tPJ r4 = YI.zNj.r5()
+            r5 = 7
+            java.lang.Object r3 = r4.h(r3)
+            r5 = 5
+            java.lang.Boolean r3 = (java.lang.Boolean) r3
+            r5 = 3
+            boolean r3 = r3.booleanValue()
+            r5 = 0
+            if (r3 == 0) goto L45
+            r5 = 1
+            com.google.android.gms.internal.ads.di4 r1 = new com.google.android.gms.internal.ads.di4
+            r5 = 4
+            java.lang.Object r0 = r0.XF()
+            r5 = 0
+            com.google.android.gms.internal.ads.P4c r0 = (com.google.android.gms.internal.ads.P4c) r0
+            r5 = 2
+            r1.<init>(r0, r2)
+            r5 = 5
+            goto L4f
+        L45:
+            r5 = 3
+            java.lang.Object r0 = r1.XF()
+            r1 = r0
+            r1 = r0
+            r5 = 6
+            com.google.android.gms.internal.ads.P4c r1 = (com.google.android.gms.internal.ads.P4c) r1
+        L4f:
+            r5 = 7
+            com.google.android.gms.internal.ads.JGO.h(r1)
+            r5 = 0
+            return r1
+    }
+}

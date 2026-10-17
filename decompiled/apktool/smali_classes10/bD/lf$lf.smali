@@ -1,0 +1,13 @@
+.class public interface abstract LbD/lf$lf;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LbD/lf;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "lf"
+.end annotation

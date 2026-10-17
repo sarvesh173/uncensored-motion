@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NETWORK SECURITY CONFIG TEMPLATE - placement: res/xml/network_security_config.xml.
+  The base pattern is the REAL file shipped by the Gold Motion APK (cleartext only for
+  fonts.gstatic.com, wired via <application
+  android:networkSecurityConfig="@xml/network_security_config">); the base-config and
+  debug-overrides blocks are the standard form for a strict default posture (labeled:
+  not in the shipped file). Note the real manifest additionally sets
+  android:usesCleartextTraffic="true" - network_security_config supersedes that flag
+  when both are present on API 24+.
+-->
+<network-security-config>
+
+    <!-- Default posture: TLS only, system CAs (STANDARD FORM - the shipped file has
+         only the domain-config block below) -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- REAL pattern from the APK: per-domain exception, most specific first -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">fonts.gstatic.com</domain>
+    </domain-config>
+
+    <!-- Development only: trust user-installed CAs (charles/proxy) in debug builds
+         (STANDARD FORM) -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user" />
+            <certificates src="system" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

@@ -1,0 +1,58 @@
+.class public final Lkotlin/jvm/internal/LocalVariableReferencesKt;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0008\n\u0000\n\u0002\u0010\u0001\n\u0000\u001a\u0008\u0010\u0000\u001a\u00020\u0001H\u0002\u00a8\u0006\u0002"
+    }
+    d2 = {
+        "notSupportedError",
+        "",
+        "kotlin-stdlib"
+    }
+    k = 0x2
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public static final synthetic access$notSupportedError()Ljava/lang/Void;
+    .locals 2
+
+    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    invoke-static {}, Lkotlin/jvm/internal/LocalVariableReferencesKt;->notSupportedError()Ljava/lang/Void;
+
+    move-result-object v0
+
+    const/4 v1, 0x7
+
+    return-object v0
+.end method
+
+.method private static final notSupportedError()Ljava/lang/Void;
+    .locals 3
+
+    const/4 v2, 0x4
+
+    new-instance v0, Ljava/lang/UnsupportedOperationException;
+
+    const/4 v2, 0x1
+
+    const-string v1, " os  cp tpNoforteats.unfoyel rlpercperrrode"
+
+    const-string v1, "Not supported for local property reference."
+
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    const/4 v2, 0x1
+
+    throw v0
+.end method

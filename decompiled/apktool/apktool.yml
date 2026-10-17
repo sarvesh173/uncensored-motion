@@ -1,0 +1,23 @@
+version: 3.0.3
+apkFileName: GoldMotion.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 23
+  targetSdkVersion: 36
+versionInfo:
+  versionCode: 1000000011
+  versionName: 7.0.3
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- gif
+- jpg
+- mp4
+- png
+- webp
+- assets/film-v1/film_fp16.tflite
+- assets/goldmotion/gm_anime_x4.tflite
+- assets/goldmotion/gm_soul_x4.tflite

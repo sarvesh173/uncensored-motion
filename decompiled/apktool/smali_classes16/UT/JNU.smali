@@ -1,0 +1,61 @@
+.class public final synthetic LUT/JNU;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements LUT/FlD$lf;
+
+
+# instance fields
+.field public final synthetic XF:LUT/FlD;
+
+.field public final synthetic h:J
+
+
+# direct methods
+.method public synthetic constructor <init>(LUT/FlD;J)V
+    .locals 1
+
+    const/4 v0, 0x7
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x4
+
+    iput-object p1, p0, LUT/JNU;->XF:LUT/FlD;
+
+    const/4 v0, 0x4
+
+    iput-wide p2, p0, LUT/JNU;->h:J
+
+    const/4 v0, 0x1
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 4
+
+    const-string v3, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    iget-object v0, p0, LUT/JNU;->XF:LUT/FlD;
+
+    const/4 v3, 0x2
+
+    iget-wide v1, p0, LUT/JNU;->h:J
+
+    const/4 v3, 0x2
+
+    check-cast p1, Landroid/database/sqlite/SQLiteDatabase;
+
+    const/4 v3, 0x4
+
+    invoke-static {v0, v1, v2, p1}, LUT/FlD;->I9A(LUT/FlD;JLandroid/database/sqlite/SQLiteDatabase;)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    const/4 v3, 0x6
+
+    return-object p1
+.end method

@@ -1,0 +1,80 @@
+name: Build Uncensored APK from Reconstructed Sources
+
+on:
+  push:
+    branches: [ "main", "feat/*" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-apktool:
+    name: Build & Sign Uncensored APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "21"
+
+      - name: Locate Android Build Tools
+        run: |
+          BUILD_TOOLS_DIR=$(ls -d /usr/local/lib/android/sdk/build-tools/* | sort -V | tail -n 1)
+          echo "Using Android Build Tools: $BUILD_TOOLS_DIR"
+          echo "$BUILD_TOOLS_DIR" >> $GITHUB_PATH
+
+      - name: Install Apktool 3.0.3
+        run: |
+          mkdir -p ~/.local/bin
+          curl -L -s https://github.com/iBotPeaches/Apktool/releases/download/v3.0.3/apktool_3.0.3.jar -o ~/.local/bin/apktool.jar
+          printf '#!/bin/bash\nexec java -jar ~/.local/bin/apktool.jar "$@"\n' > ~/.local/bin/apktool
+          chmod +x ~/.local/bin/apktool
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Compile APK via Apktool
+        run: |
+          mkdir -p build
+          apktool b decompiled/apktool -o build/Uncensored-APK-unsigned.apk
+
+      - name: Align and Sign APK
+        run: |
+          zipalign -p -f 4 build/Uncensored-APK-unsigned.apk build/Uncensored-APK-aligned.apk
+          keytool -genkeypair -v -keystore build/rebuild.keystore -alias rebuild \
+                  -keyalg RSA -keysize 2048 -validity 10000 \
+                  -storepass password123 -keypass password123 \
+                  -dname "CN=Uncensored APK, OU=Mobile, O=OpenSource, L=Global, S=Global, C=US"
+          apksigner sign --ks build/rebuild.keystore --ks-key-alias rebuild \
+                         --ks-pass pass:password123 \
+                         --out build/Uncensored-APK.apk build/Uncensored-APK-aligned.apk
+          apksigner verify --print-certs build/Uncensored-APK.apk
+
+      - name: Upload Uncensored APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Uncensored-APK
+          path: build/Uncensored-APK.apk
+          retention-days: 14
+
+      - name: Publish GitHub Release (main branch only)
+        if: github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v2.0.0-uncensored
+          name: "Uncensored APK v2.0.0"
+          body: |
+            ## Uncensored APK v2.0.0 — Reconstructed Open-Source Release
+            - Fully recompiled and signed APK from open-source decompiled sources.
+            - Direct download: `Uncensored-APK.apk`
+          files: build/Uncensored-APK.apk
+          draft: false
+          prerelease: false

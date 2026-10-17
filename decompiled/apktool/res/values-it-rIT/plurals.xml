@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="one">%1$d file di %2$d è stato caricato correttamente.</item>
+        <item quantity="other">%1$d file di %2$d sono stati caricati correttamente.</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="one">Purtroppo non è stato possibile caricare il file %1$d.</item>
+        <item quantity="other">Purtroppo non è stato possibile caricare i file %1$d.</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="one">Copia livello</item>
+        <item quantity="other">Copia %d livelli</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="one">ora</item>
+        <item quantity="other">ore</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="one">minuto</item>
+        <item quantity="other">minuti</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="one">secondo</item>
+        <item quantity="other">secondi</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="one">Hai condiviso %1$d pacchetto di progetti utilizzando questo account. [b]Se elimini questo account, i pacchi verranno eliminati dal cloud e i link ai pacchi e i codici QR verranno eliminati definitivamente e non potranno essere recuperati.[/b]</item>
+        <item quantity="other">Hai condiviso %1$d pacchetti di progetti utilizzando questo account. [b]Se elimini questo account, i pacchi verranno eliminati dal cloud e i link ai pacchi e i codici QR verranno eliminati definitivamente e non potranno essere recuperati.[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="one">Elimina %d elemento</item>
+        <item quantity="other">Elimina %d elementi</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="one">Elimina %d progetto</item>
+        <item quantity="other">Elimina %d progetti</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="one">Elimina %1$d modello</item>
+        <item quantity="other">Elimina %1$d modelli</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="one">Duplica %d elemento</item>
+        <item quantity="other">Duplica %d elementi</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="one">Livello duplicato</item>
+        <item quantity="other">Duplica %d livelli</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="one">Duplica %d progetto</item>
+        <item quantity="other">Duplica %d progetti</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="one">%d elemento selezionato</item>
+        <item quantity="other">%d elementi selezionati</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="one">"L'offerta scade tra un giorno."</item>
+        <item quantity="other">"L'offerta scade tra %1$d giorni."</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="one">"L'offerta scade tra un'ora."</item>
+        <item quantity="other">"L'offerta scade tra %1$d ore"</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="one">Importa Elemento</item>
+        <item quantity="other">Importa %d Elementi</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="one">Importa progetto</item>
+        <item quantity="other">Importa %d Progetti</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="one">%d layer selezionato</item>
+        <item quantity="other">%d layer selezionati</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="one">"Manca l'originale di un progetto/elemento collegato; verrà invece utilizzata la più recente copia incorporata in questo progetto."</item>
+        <item quantity="other">Mancano gli originali per %d progetti/elementi collegati; verranno invece utilizzate le più recenti copie incorporate in questo progetto.</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="one">+ un altro</item>
+        <item quantity="other">+ altri %d</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="one">Pass di un giorno</item>
+        <item quantity="other">Pass di %d -Giorni</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="one">Include la prova gratuita di %d -Giorno</item>
+        <item quantity="other">Include la prova gratuita di %d -Giorni</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="one">"Pass di un'ora"</item>
+        <item quantity="other">Pass di %d -Ore</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="one">Pass di un minuto</item>
+        <item quantity="other">Pass di %d -Minuti</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="one">Pass per un mese</item>
+        <item quantity="other">Pass per %d -Mesi</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="one">Sottoscrizione abbonamento mensile</item>
+        <item quantity="other">Sottoscrizione abbonamento %d -Mesi</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="one">Pass di un anno</item>
+        <item quantity="other">Pass di %d -Anni</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="one">Sottoscrizione abbonamento annuale</item>
+        <item quantity="other">Sottoscrizione abbonamento %d -Anni</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="one">%d selezionato</item>
+        <item quantity="other">%d selezionati</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="one">Incolla %d livello</item>
+        <item quantity="other">Incolla %d livelli</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="one">Elimina %1$d preset</item>
+        <item quantity="other">Elimina %1$d presets</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="one">Esporta %1$d preset</item>
+        <item quantity="other">Esporta %1$d preset</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="one">Importa %1$d preset</item>
+        <item quantity="other">Importa %1$d preset</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="one">%1$d selezionato</item>
+        <item quantity="other">%1$d selezionati</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="one">%d progetto selezionato</item>
+        <item quantity="other">%d progetti selezionati</item>
+    </plurals>
+</resources>

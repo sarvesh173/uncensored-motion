@@ -1,0 +1,198 @@
+.class final synthetic Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt$copyToRecursively$5$3;
+.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt$copyToRecursively$5;->invoke(Lkotlin/io/path/FileVisitorBuilder;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1000
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Ljava/nio/file/Path;",
+        "Ljava/lang/Exception;",
+        "Ljava/nio/file/FileVisitResult;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $onError:Lkotlin/jvm/functions/Function3;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function3<",
+            "Ljava/nio/file/Path;",
+            "Ljava/nio/file/Path;",
+            "Ljava/lang/Exception;",
+            "Lkotlin/io/path/OnErrorResult;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field final synthetic $target:Ljava/nio/file/Path;
+
+.field final synthetic $this_copyToRecursively:Ljava/nio/file/Path;
+
+
+# direct methods
+.method constructor <init>(Lkotlin/jvm/functions/Function3;Ljava/nio/file/Path;Ljava/nio/file/Path;)V
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/jvm/functions/Function3<",
+            "-",
+            "Ljava/nio/file/Path;",
+            "-",
+            "Ljava/nio/file/Path;",
+            "-",
+            "Ljava/lang/Exception;",
+            "+",
+            "Lkotlin/io/path/OnErrorResult;",
+            ">;",
+            "Ljava/nio/file/Path;",
+            "Ljava/nio/file/Path;",
+            ")V"
+        }
+    .end annotation
+
+    const/4 v6, 0x0
+
+    iput-object p1, p0, Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt$copyToRecursively$5$3;->$onError:Lkotlin/jvm/functions/Function3;
+
+    const/4 v6, 0x6
+
+    iput-object p2, p0, Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt$copyToRecursively$5$3;->$this_copyToRecursively:Ljava/nio/file/Path;
+
+    const/4 v6, 0x7
+
+    iput-object p3, p0, Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt$copyToRecursively$5$3;->$target:Ljava/nio/file/Path;
+
+    const/4 v6, 0x7
+
+    const/4 v1, 0x2
+
+    const-class v2, Lkotlin/jvm/internal/Intrinsics$Kotlin;
+
+    const-class v2, Lkotlin/jvm/internal/Intrinsics$Kotlin;
+
+    const/4 v6, 0x2
+
+    const-string/jumbo v3, "orser"
+
+    const-string v3, "error"
+
+    const/4 v6, 0x5
+
+    const-string/jumbo v4, "hvtmrheneFptjsjFaa/ls/clc/tLeviyLofLoKjauicoKuttto/inieu/;tp/oV/lePafoPol;3vLn/l/ealn/stFPnraPoifj;ra/aittak(;njPitaecn$em_nuLoxihTEtnanfRviiaseRo_yfoiv/nncvrc/visevaiRa$tu/gs;iaLnitijaih/ieec/sr)o/lllu;"
+
+    const-string v4, "copyToRecursively$error$PathsKt__PathRecursiveFunctionsKt(Lkotlin/jvm/functions/Function3;Ljava/nio/file/Path;Ljava/nio/file/Path;Ljava/nio/file/Path;Ljava/lang/Exception;)Ljava/nio/file/FileVisitResult;"
+
+    const/4 v6, 0x1
+
+    const/4 v5, 0x0
+
+    move-object v0, p0
+
+    move-object v0, p0
+
+    const/4 v6, 0x7
+
+    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    const/4 v6, 0x4
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    const-string v0, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    check-cast p1, Ljava/nio/file/Path;
+
+    const/4 v0, 0x3
+
+    check-cast p2, Ljava/lang/Exception;
+
+    const/4 v0, 0x4
+
+    invoke-virtual {p0, p1, p2}, Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt$copyToRecursively$5$3;->invoke(Ljava/nio/file/Path;Ljava/lang/Exception;)Ljava/nio/file/FileVisitResult;
+
+    move-result-object p1
+
+    const/4 v0, 0x3
+
+    return-object p1
+.end method
+
+.method public final invoke(Ljava/nio/file/Path;Ljava/lang/Exception;)Ljava/nio/file/FileVisitResult;
+    .locals 4
+
+    const/4 v3, 0x3
+
+    const-string v0, "0p"
+
+    const-string/jumbo v0, "p0"
+
+    const/4 v3, 0x1
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v3, 0x4
+
+    const-string/jumbo v0, "p1"
+
+    const-string/jumbo v0, "p1"
+
+    const/4 v3, 0x1
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v3, 0x5
+
+    iget-object v0, p0, Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt$copyToRecursively$5$3;->$onError:Lkotlin/jvm/functions/Function3;
+
+    const/4 v3, 0x5
+
+    iget-object v1, p0, Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt$copyToRecursively$5$3;->$this_copyToRecursively:Ljava/nio/file/Path;
+
+    const/4 v3, 0x7
+
+    iget-object v2, p0, Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt$copyToRecursively$5$3;->$target:Ljava/nio/file/Path;
+
+    const/4 v3, 0x2
+
+    invoke-static {v0, v1, v2, p1, p2}, Lkotlin/io/path/PathsKt__PathRecursiveFunctionsKt;->access$copyToRecursively$error(Lkotlin/jvm/functions/Function3;Ljava/nio/file/Path;Ljava/nio/file/Path;Ljava/nio/file/Path;Ljava/lang/Exception;)Ljava/nio/file/FileVisitResult;
+
+    move-result-object p1
+
+    const/4 v3, 0x4
+
+    return-object p1
+.end method

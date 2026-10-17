@@ -1,0 +1,106 @@
+package com.google.android.gms.internal.ads;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes11.dex */
+public final class lj {
+    public static final com.google.android.gms.internal.ads.N8l BW = null;
+    public static final com.google.android.gms.internal.ads.N8l D3D = null;
+    public static final com.google.android.gms.internal.ads.N8l J = null;
+    public static final com.google.android.gms.internal.ads.N8l XF = null;
+    public static final com.google.android.gms.internal.ads.N8l Z = null;
+    public static final com.google.android.gms.internal.ads.N8l b = null;
+    public static final com.google.android.gms.internal.ads.N8l f = null;
+    public static final com.google.android.gms.internal.ads.N8l g = null;
+    public static final com.google.android.gms.internal.ads.N8l h = null;
+    public static final com.google.android.gms.internal.ads.N8l qu = null;
+    public static final com.google.android.gms.internal.ads.N8l r5 = null;
+
+    static {
+            r4 = 6
+            java.lang.String r0 = "idstaoo_cs:tasgcnarttlkgaemgtca_ni::rsm"
+            java.lang.String r0 = "gads:gma_attestation:click:macro_string"
+            r4 = 1
+            java.lang.String r1 = "ko@mltt@ikc_a"
+            java.lang.String r1 = "@click_attok@"
+            r4 = 4
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.r5(r0, r1)
+            r4 = 5
+            com.google.android.gms.internal.ads.lj.XF = r0
+            java.lang.String r0 = "::ycog_neolasearpmismaqirtckad_atat:ut"
+            java.lang.String r0 = "gads:gma_attestation:click:query_param"
+            r4 = 5
+            java.lang.String r1 = "btaok"
+            java.lang.String r1 = "attok"
+            r4 = 0
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.r5(r0, r1)
+            r4 = 5
+            com.google.android.gms.internal.ads.lj.h = r0
+            r4 = 3
+            java.lang.String r0 = "e:_aimutnda:toccmgiuatltgiketaotss"
+            java.lang.String r0 = "gads:gma_attestation:click:timeout"
+            r1 = 2000(0x7d0, double:9.88E-321)
+            r1 = 2000(0x7d0, double:9.88E-321)
+            r4 = 6
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.h(r0, r1)
+            r4 = 3
+            com.google.android.gms.internal.ads.lj.r5 = r0
+            r4 = 2
+            java.lang.String r0 = "gads:gma_attestation:click:enable"
+            r1 = 0
+            r4 = r1
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.qu(r0, r1)
+            r4 = 5
+            com.google.android.gms.internal.ads.lj.qu = r0
+            java.lang.String r0 = "etcnoi_pbgolsangaateeirnna_ae:itvlytdt:ikde:sam_sm"
+            java.lang.String r0 = "gads:gma_attestation:click:enable_dynamite_version"
+            r4 = 1
+            r2 = 213806100(0xcbe6c14, double:1.05634249E-315)
+            r2 = 213806100(0xcbe6c14, double:1.05634249E-315)
+            r4 = 1
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.h(r0, r2)
+            r4 = 1
+            com.google.android.gms.internal.ads.lj.Z = r0
+            java.lang.String r0 = ":sa_koimqltiaaaiet:onitinelfl:tacaabeqtduccgngs"
+            java.lang.String r0 = "gads:gma_attestation:click:qualification:enable"
+            r4 = 2
+            r2 = 1
+            r4 = 5
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.qu(r0, r2)
+            r4 = 7
+            com.google.android.gms.internal.ads.lj.D3D = r0
+            r4 = 6
+            java.lang.String r0 = "hgsgnmiasto_ia:gstadm:teesaatah"
+            java.lang.String r0 = "gads:gma_attestation:image_hash"
+            r4 = 3
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.qu(r0, r1)
+            r4 = 1
+            com.google.android.gms.internal.ads.lj.g = r0
+            r4 = 0
+            java.lang.String r0 = "atmmnotiebtamnesi:resades:_lipnsaaoggt"
+            java.lang.String r0 = "gads:gma_attestation:impression:enable"
+            r4 = 6
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.qu(r0, r2)
+            r4 = 0
+            com.google.android.gms.internal.ads.lj.BW = r0
+            r4 = 0
+            java.lang.String r0 = "vebcos_teldujsa::spmaaantta:neriqgsotaeae_rtig"
+            java.lang.String r0 = "gads:gma_attestation:request:enable_javascript"
+            r4 = 7
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.qu(r0, r1)
+            r4 = 7
+            com.google.android.gms.internal.ads.lj.b = r0
+            r4 = 4
+            java.lang.String r0 = "i:qbtbtean:sdremtuaa_aaegsoelttesgn"
+            java.lang.String r0 = "gads:gma_attestation:request:enable"
+            r4 = 5
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.qu(r0, r2)
+            r4 = 5
+            com.google.android.gms.internal.ads.lj.J = r0
+            java.lang.String r0 = "krcr:cuesotitog:_giltpasaeona:rteamt_dr"
+            java.lang.String r0 = "gads:gma_attestation:click:report_error"
+            r4 = 5
+            com.google.android.gms.internal.ads.N8l r0 = com.google.android.gms.internal.ads.N8l.qu(r0, r2)
+            r4 = 1
+            com.google.android.gms.internal.ads.lj.f = r0
+            return
+    }
+}

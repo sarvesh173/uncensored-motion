@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  LINEARLAYOUT TEMPLATE (settings-style vertical list) - placement:
+  res/layout/tpl_activity_settings.xml.
+  Demonstrates: nested LinearLayout + weight distribution, ScrollView wrapping, a themed
+  TextView, a SwitchCompat row like the mod preferences (gold.ai.floating.enabled in the
+  real res/xml/dev_preferences.xml), a Spinner fed by @array, a Button using the selector
+  drawable, and the shared vector placeholder. Weighted rows follow the real
+  activity_colorpicker.xml tab bar (0dp children + layout_weight).
+  Cross-refs: @string/tpl_*, @dimen/tpl_*, @drawable/tpl_bg_card,
+  @drawable/ic_vector_placeholder, @array/tpl_settings_option_labels.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tpl_color_background_light"
+    android:fillViewport="true"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:id="@+id/tpl_settings_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/tpl_activity_margin">
+
+        <!-- Section header -->
+        <TextView
+            android:id="@+id/tpl_settings_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tpl_spacing_md"
+            android:text="@string/tpl_settings_header"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="@dimen/tpl_text_size_title"
+            android:textStyle="bold" />
+
+        <!-- Card container styled by the shape drawable template -->
+        <LinearLayout
+            android:id="@+id/tpl_settings_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tpl_bg_card"
+            android:orientation="vertical"
+            android:padding="@dimen/tpl_spacing_lg">
+
+            <!-- Row: icon + label + switch (horizontal, weighted middle) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/tpl_settings_icon"
+                    android:layout_width="@dimen/tpl_thumbnail_size"
+                    android:layout_height="@dimen/tpl_thumbnail_size"
+                    android:layout_marginEnd="@dimen/tpl_spacing_lg"
+                    android:contentDescription="@string/tpl_cd_icon"
+                    android:src="@drawable/ic_vector_placeholder" />
+
+                <TextView
+                    android:id="@+id/tpl_settings_row_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tpl_action_settings"
+                    android:textColor="@color/tpl_color_text_primary_light"
+                    android:textSize="@dimen/tpl_text_size_subtitle" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/tpl_settings_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tpl_settings_row_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tpl_spacing_sm"
+                android:text="@string/tpl_settings_summary_ai"
+                android:textColor="@color/tpl_color_text_secondary_light"
+                android:textSize="@dimen/tpl_text_size_body" />
+
+            <View
+                android:id="@+id/tpl_settings_divider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tpl_divider_height"
+                android:layout_marginTop="@dimen/tpl_spacing_lg"
+                android:background="@color/tpl_color_divider" />
+
+            <!-- Spinner fed by the arrays template -->
+            <Spinner
+                android:id="@+id/tpl_settings_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tpl_spacing_lg"
+                android:entries="@array/tpl_settings_option_labels" />
+        </LinearLayout>
+
+        <!-- Action button using the selector background via TplButton style -->
+        <Button
+            android:id="@+id/tpl_settings_save"
+            style="@style/TplButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tpl_button_height"
+            android:layout_marginTop="@dimen/tpl_spacing_lg"
+            android:text="@string/tpl_button_save"
+            android:textColor="@color/tpl_color_text_primary_light"
+            tools:text="Save" />
+    </LinearLayout>
+</ScrollView>

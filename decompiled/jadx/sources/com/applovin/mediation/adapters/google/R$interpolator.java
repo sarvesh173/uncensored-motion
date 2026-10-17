@@ -1,0 +1,20 @@
+package com.applovin.mediation.adapters.google;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes14.dex */
+public final class R$interpolator {
+    public static final int btn_checkbox_checked_mtrl_animation_interpolator_0 = 2131492864;
+    public static final int btn_checkbox_checked_mtrl_animation_interpolator_1 = 2131492865;
+    public static final int btn_checkbox_unchecked_mtrl_animation_interpolator_0 = 2131492866;
+    public static final int btn_checkbox_unchecked_mtrl_animation_interpolator_1 = 2131492867;
+    public static final int btn_radio_to_off_mtrl_animation_interpolator_0 = 2131492868;
+    public static final int btn_radio_to_on_mtrl_animation_interpolator_0 = 2131492869;
+    public static final int fast_out_slow_in = 2131492870;
+
+    private R$interpolator() {
+            r1 = this;
+            r0 = 2
+            r1.<init>()
+            r0 = 2
+            return
+    }
+}

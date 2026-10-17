@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Avançar %d segundo</item>
+        <item quantity="other">Avançar %d segundos</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Voltar %d segundo</item>
+        <item quantity="other">Voltar %d segundos</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">A senha não é forte o suficiente. Use pelo menos %1$d caractere e combine letras e números.</item>
+        <item quantity="other">A senha não é forte o suficiente. Use pelo menos %1$d caracteres e combine letras e números.</item>
+    </plurals>
+</resources>

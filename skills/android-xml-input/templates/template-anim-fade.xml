@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FADE ANIMATION TEMPLATE (tween) - placement: res/anim/tpl_fade.xml.
+  Modeled on the real res/anim/fade_in.xml of the Gold Motion APK (a bare <alpha> with
+  @android:anim/decelerate_interpolator and @android:integer/config_shortAnimTime) plus a
+  set wrapper. The abc_* / btn_* files in res/anim/ are AppCompat library boilerplate;
+  fade_in.xml is app-authored. Play from code with
+  AnimationUtils.loadAnimation(context, R.anim.tpl_fade). Duration 300 = the Material
+  standard range; the APK's animator cover_hide.xml uses 200ms - use 150-200ms for
+  micro-transitions.
+-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="300"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+
+    <!-- Fade in: 0 -> 1 alpha (real fade_in.xml core) -->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+    <!-- Optional rise-in: uncomment to combine (deltas: px, % of own size, %p of parent)
+    <translate
+        android:fromYDelta="8%p"
+        android:toYDelta="0%p" />
+    -->
+</set>

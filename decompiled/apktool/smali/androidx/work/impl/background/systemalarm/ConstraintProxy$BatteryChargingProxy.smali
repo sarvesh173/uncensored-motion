@@ -1,0 +1,41 @@
+.class public Landroidx/work/impl/background/systemalarm/ConstraintProxy$BatteryChargingProxy;
+.super Landroidx/work/impl/background/systemalarm/ConstraintProxy;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/work/impl/background/systemalarm/ConstraintProxy;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "BatteryChargingProxy"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x5
+
+    invoke-direct {p0}, Landroidx/work/impl/background/systemalarm/ConstraintProxy;-><init>()V
+
+    const/4 v0, 0x6
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    .locals 1
+
+    const-string v0, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    invoke-super {p0, p1, p2}, Landroidx/work/impl/background/systemalarm/ConstraintProxy;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+
+    const/4 v0, 0x2
+
+    return-void
+.end method

@@ -1,0 +1,2 @@
+.class public Lcom/bendingspoons/spidersense/ui/secretmenu/SpiderSenseUserRecognizerScreenKt$SpiderSenseUserRecognizerScreen$1$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

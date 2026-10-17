@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SHAPE TEMPLATE (gradient drawable) - placement: res/drawable/tpl_bg_card.xml.
+  Referenced by template-layout-linearlayout.xml and template-layout-recyclerview-item.xml
+  as the card/row background. Variants: swap <gradient> for <solid> (the real
+  gold_home_status.xml / gold_home_feature.xml use solid + stroke + 8dp corners),
+  change android:shape to oval/line/ring (real oval example: gold_home_emblem_frame.xml).
+  Dimens and colors come from the shared values templates.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Even rounding; for partial rounding use topLeftRadius etc.
+         (real anchor: gold_home_status.xml uses android:radius="8.0dp") -->
+    <corners android:radius="@dimen/tpl_corner_radius" />
+
+    <!-- Subtle vertical gradient (angle must be a multiple of 45; real gradient
+         example: action_grad_circle.xml uses angle 315 on an oval) -->
+    <gradient
+        android:angle="270"
+        android:startColor="@color/tpl_color_surface_light"
+        android:endColor="@color/tpl_color_background_light"
+        android:type="linear" />
+
+    <!-- Hairline outline (real pattern: gold_home_feature.xml 1dp stroke #34373b) -->
+    <stroke
+        android:width="1dp"
+        android:color="@color/tpl_color_divider" />
+
+    <!-- Content inset hint for views without their own padding
+         (real pattern: transparent_pattern.xml sets width/height per item) -->
+    <padding
+        android:left="@dimen/tpl_spacing_lg"
+        android:top="@dimen/tpl_spacing_md"
+        android:right="@dimen/tpl_spacing_lg"
+        android:bottom="@dimen/tpl_spacing_md" />
+
+    <!-- Optional preferred intrinsic size -->
+    <size
+        android:width="120dp"
+        android:height="@dimen/tpl_list_item_height" />
+</shape>

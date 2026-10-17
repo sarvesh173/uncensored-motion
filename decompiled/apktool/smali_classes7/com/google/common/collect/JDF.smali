@@ -1,0 +1,175 @@
+.class final Lcom/google/common/collect/JDF;
+.super Lcom/google/common/collect/AN;
+
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/AN<",
+        "TT;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
+
+
+# instance fields
+.field final h:Ljava/util/Comparator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Comparator<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method constructor <init>(Ljava/util/Comparator;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Comparator<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    const/4 v0, 0x3
+
+    invoke-direct {p0}, Lcom/google/common/collect/AN;-><init>()V
+
+    invoke-static {p1}, LOcr/co;->JrO(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    const/4 v0, 0x1
+
+    check-cast p1, Ljava/util/Comparator;
+
+    const/4 v0, 0x6
+
+    iput-object p1, p0, Lcom/google/common/collect/JDF;->h:Ljava/util/Comparator;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;TT;)I"
+        }
+    .end annotation
+
+    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    iget-object v0, p0, Lcom/google/common/collect/JDF;->h:Ljava/util/Comparator;
+
+    const/4 v1, 0x4
+
+    invoke-interface {v0, p1, p2}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
+
+    move-result p1
+
+    const/4 v1, 0x4
+
+    return p1
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 2
+
+    const/4 v1, 0x1
+
+    if-ne p1, p0, :cond_0
+
+    const/4 v1, 0x6
+
+    const/4 p1, 0x1
+
+    const/4 v1, 0x5
+
+    return p1
+
+    :cond_0
+    const/4 v1, 0x7
+
+    instance-of v0, p1, Lcom/google/common/collect/JDF;
+
+    const/4 v1, 0x1
+
+    if-eqz v0, :cond_1
+
+    const/4 v1, 0x1
+
+    check-cast p1, Lcom/google/common/collect/JDF;
+
+    const/4 v1, 0x6
+
+    iget-object v0, p0, Lcom/google/common/collect/JDF;->h:Ljava/util/Comparator;
+
+    const/4 v1, 0x4
+
+    iget-object p1, p1, Lcom/google/common/collect/JDF;->h:Ljava/util/Comparator;
+
+    const/4 v1, 0x5
+
+    invoke-interface {v0, p1}, Ljava/util/Comparator;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    const/4 v1, 0x0
+
+    return p1
+
+    :cond_1
+    const/4 v1, 0x3
+
+    const/4 p1, 0x0
+
+    const/4 v1, 0x7
+
+    return p1
+.end method
+
+.method public hashCode()I
+    .locals 2
+
+    iget-object v0, p0, Lcom/google/common/collect/JDF;->h:Ljava/util/Comparator;
+
+    const/4 v1, 0x3
+
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    const/4 v1, 0x4
+
+    iget-object v0, p0, Lcom/google/common/collect/JDF;->h:Ljava/util/Comparator;
+
+    const/4 v1, 0x4
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v1, 0x4
+
+    return-object v0
+.end method

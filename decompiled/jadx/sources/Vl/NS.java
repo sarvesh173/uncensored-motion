@@ -1,0 +1,7 @@
+package Vl;
+
+@kotlin.Metadata(d1 = {"\u00006\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bf\u0018\u00002\u00020\u0001JG\u0010\u000f\u001a\u000e\u0012\u0004\u0012\u00020\r\u0012\u0004\u0012\u00020\u000e0\f2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\t\u001a\u00020\b2\u0006\u0010\u000b\u001a\u00020\nH¦@ø\u0001\u0000¢\u0006\u0004\b\u000f\u0010\u0010\u0082\u0002\u0004\n\u0002\b\u0019¨\u0006\u0011"}, d2 = {"LVl/NS;", "", "Landroid/content/Context;", "context", "Landroid/net/Uri;", "uri", "", "trackId", "Landroid/view/Surface;", "surface", "Lkotlinx/coroutines/idB;", "scope", "LsL/NS;", "Lyo/f;", "Ljd/lf;", "XF", "(Landroid/content/Context;Landroid/net/Uri;ILandroid/view/Surface;Lkotlinx/coroutines/idB;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "mediacodec_release"}, k = 1, mv = {1, 7, 1})
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes5.dex */
+public interface NS {
+    java.lang.Object XF(android.content.Context r1, android.net.Uri r2, int r3, android.view.Surface r4, kotlinx.coroutines.idB r5, kotlin.coroutines.Continuation<? super sL.NS<? extends yo.f, ? extends jd.lf>> r6);
+}

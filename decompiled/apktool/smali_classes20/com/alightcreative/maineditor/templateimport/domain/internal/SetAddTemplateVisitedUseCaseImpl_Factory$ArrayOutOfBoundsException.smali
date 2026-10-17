@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/maineditor/templateimport/domain/internal/SetAddTemplateVisitedUseCaseImpl_Factory$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

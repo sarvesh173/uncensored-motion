@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  RECYCLERVIEW ITEM TEMPLATE - placement: res/layout/tpl_list_item.xml.
+  Fixed-height row modeled on the real listitem_project_list.xml of the Gold Motion APK:
+  leading icon card, packed title/subtitle chain, hairline divider at the bottom
+  (the real file uses a 0.5dp View over @color/G3). android:foreground on a
+  ConstraintLayout requires API 23+ - fine, Gold Motion's minSdk is 23.
+  Cross-refs: @drawable/ic_vector_placeholder, @drawable/tpl_bg_card, @string/tpl_*,
+  @dimen/tpl_list_item_height, @color/tpl_*.
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tpl_list_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tpl_list_item_height"
+    android:background="@drawable/tpl_bg_card"
+    android:foreground="?attr/selectableItemBackground">
+
+    <!-- Leading thumbnail: fixed square, vertically centered (real anchor: CardView
+         thumbnailHolder 64dp in listitem_project_list.xml) -->
+    <ImageView
+        android:id="@+id/tpl_list_item_icon"
+        android:layout_width="@dimen/tpl_thumbnail_size"
+        android:layout_height="@dimen/tpl_thumbnail_size"
+        android:layout_marginStart="@dimen/tpl_activity_margin"
+        android:contentDescription="@string/tpl_cd_icon"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_vector_placeholder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Packed vertical chain: title over subtitle, centered as a block
+         (exactly the real listItem_projectTitle / listItem_projectDetails pair) -->
+    <TextView
+        android:id="@+id/tpl_list_item_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tpl_spacing_lg"
+        android:layout_marginEnd="@dimen/tpl_activity_margin"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/tpl_item_title_template"
+        android:textColor="@color/tpl_color_text_primary_light"
+        android:textSize="@dimen/tpl_text_size_subtitle"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tpl_list_item_subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tpl_list_item_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Project title" />
+
+    <TextView
+        android:id="@+id/tpl_list_item_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tpl_spacing_lg"
+        android:layout_marginEnd="@dimen/tpl_activity_margin"
+        android:layout_marginTop="@dimen/tpl_spacing_xs"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/tpl_item_subtitle_template"
+        android:textColor="@color/tpl_color_text_secondary_light"
+        android:textSize="@dimen/tpl_text_size_caption"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tpl_list_item_icon"
+        app:layout_constraintTop_toBottomOf="@id/tpl_list_item_title"
+        tools:text="Edited 2 hours ago" />
+
+    <!-- Hairline divider pinned to the bottom edge, full width (real anchor:
+         0.5dp View with background @color/G3) -->
+    <View
+        android:id="@+id/tpl_list_item_divider"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tpl_divider_height"
+        android:background="@color/tpl_color_divider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

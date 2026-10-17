@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="one">%2$d में से %1$d फ़ाइल सफलतापूर्वक अपलोड हो गई</item>
+        <item quantity="other">%2$d में से %1$d फ़ाइलें सफलतापूर्वक अपलोड हो गईं</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="one">माफ़ करें, हम %1$d फ़ाइल को अपलोड नहीं कर सके</item>
+        <item quantity="other">माफ़ करें, हम %1$d फ़ाइलें अपलोड नहीं कर सके</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="one">कापी %d लेयर</item>
+        <item quantity="other">%d परतें कॉपी करें</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="one">घंटा</item>
+        <item quantity="other">घंटे</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="one">मिनट</item>
+        <item quantity="other">मिनट</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="one">सेकंड</item>
+        <item quantity="other">सेकंड</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="one">आपने इस खाते का इस्तेमाल करके %1$d प्रोजेक्ट पैकेज शेयर किया है. [b]अगर आप इस खाते को हटाते हैं, तो संकुल क्लाउड से हटा दिए जाएंगे और पैकेज लिंक और क्यूआर कोड स्थायी रूप से हटा दिए जाएंगे और उन्हें पुनर्प्राप्त नहीं किया जा सकता है.[/b]</item>
+        <item quantity="other">आपने इस खाते का इस्तेमाल करके %1$d प्रोजेक्ट पैकेज शेयर किए हैं. [b]अगर आप इस खाते को हटाते हैं, तो संकुल क्लाउड से हटा दिए जाएंगे और पैकेज लिंक और क्यूआर कोड स्थायी रूप से हटा दिए जाएंगे और उन्हें पुनर्प्राप्त नहीं किया जा सकता है.[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="one">%d तत्व हटाएं</item>
+        <item quantity="other">%d तत्वों को हटाएं</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="one">%d प्रोजेक्ट हटाएं</item>
+        <item quantity="other">%d प्रोजेक्ट हटाएं</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="one">%1$d टेम्पलेट मिटाएँ</item>
+        <item quantity="other">%1$d टेम्पलेट मिटाएँ</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="one">डुप्लिकेट %d तत्व</item>
+        <item quantity="other">डुप्लिकेट %d तत्व</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="one">%d नकली परत</item>
+        <item quantity="other">डुप्लिकेट %d परतें</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="one">डुप्लिकेट %d प्रोजेक्ट</item>
+        <item quantity="other">डुप्लिकेट %d प्रोजेक्ट्स</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="one">%d तत्व चयनित है</item>
+        <item quantity="other">%d तत्वों का चयन किया</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="one">%1$d दिन में समाप्ति की पेशकश करें.</item>
+        <item quantity="other">%1$d दिनों में समाप्ति की पेशकश.</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="one">%1$d घंटे में समाप्ति की पेशकश करें.</item>
+        <item quantity="other">%1$d घंटे में समाप्त हो रहा है</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="one">%d तत्व आयात करें</item>
+        <item quantity="other">%d तत्व आयात करें</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="one">%d परियोजना आयात करें</item>
+        <item quantity="other">%d प्रोजेक्ट आयात करें</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="one">%d परत चयनित की</item>
+        <item quantity="other">%d परतों का चयन किया</item>
+    </plurals>
+    <plurals name="linked_projects_changed">
+        <item quantity="one">लिंक की गई %d परियोजना या तत्व को बदल दिया गया है. क्या आप इस प्रोजेक्ट में एम्बेडेड कॉपी अपडेट करना चाहेंगे?</item>
+        <item quantity="other">%d लिंक किए गए प्रोजेक्ट/तत्व बदल दिए गए हैं. क्या आप इस परियोजना में एम्बेडेड प्रतियों को अद्यतन करना चाहेंगे?</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="one">लिंक की गई %d परियोजना/तत्व का मूल गायब है; इस परियोजना में सबसे हाल ही में एम्बेडेड प्रति के बजाय इसका उपयोग किया जाएगा.</item>
+        <item quantity="other">%d लिंक किए गए प्रोजेक्ट/तत्व के लिए मूल गायब हैं; इस परियोजना में सबसे हाल ही में एम्बेडेड प्रतियों का उपयोग इसके बजाय किया जाएगा.</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="one">+ %d अधिक</item>
+        <item quantity="other">+ %d अधिक</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="one">%d वन-डे पास</item>
+        <item quantity="other">%d - डे पास</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="one">इसमें %d - दिन नि: शुल्क परीक्षण शामिल है</item>
+        <item quantity="other">इसमें %d - दिन नि: शुल्क परीक्षण शामिल है</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="one">%d घंटे का पास</item>
+        <item quantity="other">%d - घंटे का पास</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="one">%d एक-मिनट का पास</item>
+        <item quantity="other">%d - मिनट का पास</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="one">%d एक महीने का पास</item>
+        <item quantity="other">%d - महीने का पास</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="one">%d मासिक सदस्यता मेम्बरशिप</item>
+        <item quantity="other">%d - महीना सदस्यता मेम्बरशिप</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="one">%d एक साल का पास</item>
+        <item quantity="other">%d - वर्ष का पास</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="one">%d वार्षिक सदस्यता मेम्बरशिप</item>
+        <item quantity="other">%d - वर्ष सदस्यता मेम्बरशिप</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="one">%d चुना गया</item>
+        <item quantity="other">%d चुना गया</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="one">%d लेयर पेस्ट करें</item>
+        <item quantity="other">पेस्ट %d परतें</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="one">%1$d प्रीसेट हटाएं</item>
+        <item quantity="other">%1$d प्रीसेट हटाएं</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="one">%1$d प्रीसेट निर्यात करें</item>
+        <item quantity="other">%1$d प्रीसेट निर्यात करें</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="one">%1$d प्रीसेट आयात करें</item>
+        <item quantity="other">%1$d प्रीसेट आयात करें</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="one">%1$d चुना गया</item>
+        <item quantity="other">%1$d चुने गए</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="one">%d प्रोजेक्ट चयनित</item>
+        <item quantity="other">%d प्रोजेक्ट चयनित हैं</item>
+    </plurals>
+</resources>

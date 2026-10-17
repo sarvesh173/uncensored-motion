@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/monorepo/inject/MonorepoHiltModule_Companion_ProvideOracleServiceFactory$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

@@ -1,0 +1,28 @@
+package WQQ;
+
+@kotlin.Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"LWQQ/NS$IJo;", "LWQQ/NS;", "<init>", "()V", "app_release"}, k = 1, mv = {1, 8, 0})
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes16.dex */
+public final class NS$IJo extends WQQ.NS {
+    public static final WQQ.NS$IJo XF = null;
+
+    static {
+            r1 = 0
+            WQQ.NS$IJo r0 = new WQQ.NS$IJo     // Catch: com.alightcreative.logging.Event.ParseException -> La
+            r1 = 5
+            r0.<init>()     // Catch: com.alightcreative.logging.Event.ParseException -> La
+            r1 = 4
+            WQQ.NS$IJo.XF = r0     // Catch: com.alightcreative.logging.Event.ParseException -> La
+        La:
+            return
+    }
+
+    private NS$IJo() {
+            r2 = this;
+            r1 = 2
+            r0 = 0
+            r1 = 6
+            r2.<init>(r0)
+            r1 = 2
+            return
+    }
+}

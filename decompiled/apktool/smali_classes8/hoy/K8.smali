@@ -1,0 +1,337 @@
+.class public final Lhoy/K8;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements LCEb/NS;
+
+
+# instance fields
+.field private final XF:Landroid/widget/LinearLayout;
+
+.field public final Z:Landroid/widget/LinearLayout;
+
+.field public final h:Landroidx/appcompat/widget/AppCompatImageView;
+
+.field public final qu:Landroidx/appcompat/widget/AppCompatImageView;
+
+.field public final r5:Landroidx/appcompat/widget/AppCompatTextView;
+
+
+# direct methods
+.method private constructor <init>(Landroid/widget/LinearLayout;Landroidx/appcompat/widget/AppCompatImageView;Landroidx/appcompat/widget/AppCompatTextView;Landroidx/appcompat/widget/AppCompatImageView;Landroid/widget/LinearLayout;)V
+    .locals 1
+
+    const/4 v0, 0x5
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lhoy/K8;->XF:Landroid/widget/LinearLayout;
+
+    const/4 v0, 0x4
+
+    iput-object p2, p0, Lhoy/K8;->h:Landroidx/appcompat/widget/AppCompatImageView;
+
+    const/4 v0, 0x2
+
+    iput-object p3, p0, Lhoy/K8;->r5:Landroidx/appcompat/widget/AppCompatTextView;
+
+    iput-object p4, p0, Lhoy/K8;->qu:Landroidx/appcompat/widget/AppCompatImageView;
+
+    const/4 v0, 0x7
+
+    iput-object p5, p0, Lhoy/K8;->Z:Landroid/widget/LinearLayout;
+
+    const/4 v0, 0x5
+
+    return-void
+.end method
+
+.method public static XF(Landroid/view/View;)Lhoy/K8;
+    .locals 9
+
+    const-string v8, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    const v0, 0x7f0a02e3
+
+    :try_start_0
+    const/4 v8, 0x6
+
+    invoke-static {p0, v0}, LCEb/lf;->XF(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v1
+
+    move-object v4, v1
+
+    const/4 v8, 0x2
+
+    check-cast v4, Landroidx/appcompat/widget/AppCompatImageView;
+
+    const/4 v8, 0x4
+
+    if-nez v4, :cond_0
+
+    const/4 v8, 0x3
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v8, 0x7
+
+    const v0, 0x7f0a0477
+
+    invoke-static {p0, v0}, LCEb/lf;->XF(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v1
+
+    move-object v5, v1
+
+    move-object v5, v1
+
+    const/4 v8, 0x5
+
+    check-cast v5, Landroidx/appcompat/widget/AppCompatTextView;
+
+    const/4 v8, 0x7
+
+    if-nez v5, :cond_1
+
+    const/4 v8, 0x6
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v8, 0x3
+
+    const v0, 0x7f0a0513
+
+    const/4 v8, 0x0
+
+    invoke-static {p0, v0}, LCEb/lf;->XF(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v1
+
+    move-object v6, v1
+
+    move-object v6, v1
+
+    const/4 v8, 0x7
+
+    check-cast v6, Landroidx/appcompat/widget/AppCompatImageView;
+
+    const/4 v8, 0x4
+
+    if-nez v6, :cond_2
+
+    const/4 v8, 0x3
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v8, 0x5
+
+    const v0, 0x7f0a0842
+
+    const/4 v8, 0x2
+
+    invoke-static {p0, v0}, LCEb/lf;->XF(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v1
+
+    move-object v7, v1
+
+    move-object v7, v1
+
+    const/4 v8, 0x3
+
+    check-cast v7, Landroid/widget/LinearLayout;
+
+    const/4 v8, 0x0
+
+    if-nez v7, :cond_4
+
+    :goto_0
+    const/4 v8, 0x1
+
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p0
+
+    const/4 v8, 0x0
+
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    const/4 v8, 0x3
+
+    new-instance v0, Ljava/lang/NullPointerException;
+
+    const/4 v8, 0x6
+
+    invoke-static {}, LuC/vdD;->XF()I
+
+    move-result v1
+
+    const/4 v8, 0x4
+
+    mul-int/lit8 v2, v1, 0x3
+
+    const/4 v8, 0x5
+
+    rem-int/2addr v2, v1
+
+    const/4 v8, 0x5
+
+    if-nez v2, :cond_3
+
+    const/4 v8, 0x1
+
+    const-string v1, "Ilutagm+~h\u007fzycww4c\u007fro9mrhu>VD;\""
+
+    const/4 v8, 0x1
+
+    goto :goto_1
+
+    :cond_3
+    const/4 v8, 0x4
+
+    const-string/jumbo v1, "q/s}&}/w2ux/),nfz7!00tw,v~fjp//07qti/uz4/`,/fpu0(k7/"
+
+    const-string/jumbo v1, "twwp,&,/,!}x)zz\"p\"\'\u007ftvqqp\u007f(~}u24jkn7`fi"
+
+    const/4 v8, 0x3
+
+    const/16 v2, 0x32
+
+    const/4 v8, 0x6
+
+    invoke-static {v2, v1}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    :goto_1
+    const/4 v8, 0x3
+
+    const/4 v2, 0x4
+
+    const/4 v8, 0x4
+
+    invoke-static {v2, v1}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v8, 0x2
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    const/4 v8, 0x7
+
+    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    const/4 v8, 0x2
+
+    throw v0
+
+    :cond_4
+    const/4 v8, 0x0
+
+    new-instance v0, Lhoy/K8;
+
+    move-object v3, p0
+
+    move-object v3, p0
+
+    const/4 v8, 0x7
+
+    check-cast v3, Landroid/widget/LinearLayout;
+
+    move-object v2, v0
+
+    move-object v2, v0
+
+    const/4 v8, 0x7
+
+    invoke-direct/range {v2 .. v7}, Lhoy/K8;-><init>(Landroid/widget/LinearLayout;Landroidx/appcompat/widget/AppCompatImageView;Landroidx/appcompat/widget/AppCompatTextView;Landroidx/appcompat/widget/AppCompatImageView;Landroid/widget/LinearLayout;)V
+    :try_end_0
+    .catch Lcom/alightcreative/app/motion/databinding/EditGroupNavItemBinding$NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v8, 0x3
+
+    return-object v0
+
+    :catch_0
+    const/4 v8, 0x6
+
+    const/4 p0, 0x0
+
+    const/4 v8, 0x0
+
+    return-object p0
+.end method
+
+.method public static r5(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lhoy/K8;
+    .locals 3
+
+    const/4 v2, 0x6
+
+    const v0, 0x7f0d008d
+
+    const/4 v2, 0x1
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p0
+
+    const/4 v2, 0x2
+
+    if-eqz p2, :cond_0
+
+    const/4 v2, 0x4
+
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    :cond_0
+    const/4 v2, 0x2
+
+    invoke-static {p0}, Lhoy/K8;->XF(Landroid/view/View;)Lhoy/K8;
+
+    move-result-object p0
+
+    const/4 v2, 0x7
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public bridge synthetic getRoot()Landroid/view/View;
+    .locals 2
+
+    const/4 v1, 0x2
+
+    invoke-virtual {p0}, Lhoy/K8;->h()Landroid/widget/LinearLayout;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    return-object v0
+.end method
+
+.method public h()Landroid/widget/LinearLayout;
+    .locals 2
+
+    const/4 v1, 0x6
+
+    iget-object v0, p0, Lhoy/K8;->XF:Landroid/widget/LinearLayout;
+
+    const/4 v1, 0x6
+
+    return-object v0
+.end method

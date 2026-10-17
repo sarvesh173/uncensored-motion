@@ -1,0 +1,5 @@
+package com.alightcreative.app.motion.activities.edit.fragments;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes2.dex */
+public class CameraOptionsFragment$keyableLensForParam$9$Exception extends java.lang.RuntimeException {
+}

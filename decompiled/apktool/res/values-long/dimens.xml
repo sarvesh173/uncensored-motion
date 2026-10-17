@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aboutSiteLinkMargin">45.0dp</dimen>
+    <dimen name="rotate_color_margin_bottom">70.0dp</dimen>
+    <dimen name="rotate_color_margin_top">75.0dp</dimen>
+</resources>

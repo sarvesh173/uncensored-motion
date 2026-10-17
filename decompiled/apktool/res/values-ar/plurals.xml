@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="zero">تم تحميل %1$d ملف من %2$d بنجاح.</item>
+        <item quantity="one">تم تحميل ملف من %2$d بنجاح.</item>
+        <item quantity="two">تم تحميل ملفين من %2$d بنجاح.</item>
+        <item quantity="few">تم تحميل %1$d ملفات من %2$d بنجاح.</item>
+        <item quantity="many">تم تحميل %1$d ملفًا من %2$d بنجاح.</item>
+        <item quantity="other">تم تحميل %1$d ملف من %2$d بنجاح.</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="zero">عذرًا، لم نتمكن من تحميل أي ملف.</item>
+        <item quantity="one">عُذرًا لم نتمكن من تحميل ملف.</item>
+        <item quantity="two">عُذرًا لم نتمكن من تحميل ملفين.</item>
+        <item quantity="few">عُذرًا لم نتمكن من تحميل %1$d ملفات.</item>
+        <item quantity="many">عُذرًا لم نتمكن من تحميل %1$d ملفًا.</item>
+        <item quantity="other">عُذرًا لم نتمكن من تحميل %1$d ملف.</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="zero">نسخ %d طبقة</item>
+        <item quantity="one">نسخ طبقة</item>
+        <item quantity="two">نسخ %d طبقتين</item>
+        <item quantity="few">نسخ %d طبقات</item>
+        <item quantity="many">نسخ %d طبقة</item>
+        <item quantity="other">نسخ %d طبقة</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="zero">صفر</item>
+        <item quantity="one">ساعة</item>
+        <item quantity="two">ساعتين</item>
+        <item quantity="few">بضع ساعات</item>
+        <item quantity="many">عديدة</item>
+        <item quantity="other">ساعات</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="zero">دقيقة</item>
+        <item quantity="one">دقيقة</item>
+        <item quantity="two">دقيقتين</item>
+        <item quantity="few">دقائق</item>
+        <item quantity="many">عدة دقائق</item>
+        <item quantity="other">دقائق</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="zero">ثانية</item>
+        <item quantity="one">ثانية</item>
+        <item quantity="two">ثانيتين</item>
+        <item quantity="few">بضع ثوان</item>
+        <item quantity="many">عدة ثوان</item>
+        <item quantity="other">ثواني</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="zero">لقد شاركت %1$d من حزم المشروع باستخدام هذا الحساب. [b]إذا حذفت هذا الحساب، فسيتم حذف الحزم من السحابة وسيتم حذف روابط الحزمة ورموز الاستجابة السريعة نهائياً ولا يمكن استردادها.[/b]</item>
+        <item quantity="one">لقد شاركت حزمة مشروع %1$d باستخدام هذا الحساب. [b]إذا حذفت هذا الحساب، فسيتم حذف الحزم من السحابة وسيتم حذف روابط الحزمة ورموز الاستجابة السريعة نهائياً ولا يمكن استردادها.[/b]</item>
+        <item quantity="two">لقد شاركت %1$d من حزم المشروع باستخدام هذا الحساب. [b]إذا حذفت هذا الحساب، فسيتم حذف الحزم من السحابة وسيتم حذف روابط الحزمة ورموز الاستجابة السريعة نهائياً ولا يمكن استردادها.[/b]</item>
+        <item quantity="few">لقد شاركت %1$d من حزم المشروع باستخدام هذا الحساب. [b]إذا حذفت هذا الحساب، فسيتم حذف الحزم من السحابة وسيتم حذف روابط الحزمة ورموز الاستجابة السريعة نهائياً ولا يمكن استردادها.[/b]</item>
+        <item quantity="many">لقد شاركت %1$d من حزم المشروع باستخدام هذا الحساب. [b]إذا حذفت هذا الحساب، فسيتم حذف الحزم من السحابة وسيتم حذف روابط الحزمة ورموز الاستجابة السريعة نهائياً ولا يمكن استردادها.[/b]</item>
+        <item quantity="other">لقد شاركت %1$d من حزم المشروع باستخدام هذا الحساب. [b]إذا حذفت هذا الحساب، فسيتم حذف الحزم من السحابة وسيتم حذف روابط الحزمة ورموز الاستجابة السريعة نهائياً ولا يمكن استردادها.[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="zero">حذف %d عنصر</item>
+        <item quantity="one">حذف %d عنصر</item>
+        <item quantity="two">حذف %d عنصران</item>
+        <item quantity="few">حذف %d عناصر</item>
+        <item quantity="many">حذف %d عنصر</item>
+        <item quantity="other">حذف %d عنصر</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="zero">حذف %d مشروع</item>
+        <item quantity="one">حذف %d مشروع</item>
+        <item quantity="two">حذف %d مشروعان</item>
+        <item quantity="few">حذف %d مشاريع</item>
+        <item quantity="many">حذف %d مشروع</item>
+        <item quantity="other">حذف %d مشروع</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="zero">حذف %1$d نموذج</item>
+        <item quantity="one">حذف نموذج واحد</item>
+        <item quantity="two">حذف نموذجين</item>
+        <item quantity="few">حذف %1$d نماذج</item>
+        <item quantity="many">حذف %1$d نموذج</item>
+        <item quantity="other">حذف %1$d نموذجًا</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="zero">نسخ %d عنصر</item>
+        <item quantity="one">نسخ %d عنصر</item>
+        <item quantity="two">نسخ %d عنصران</item>
+        <item quantity="few">نسخ %d عناصر</item>
+        <item quantity="many">نسخ %d عنصر</item>
+        <item quantity="other">نسخ %d عنصر</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="zero">مكررة %d طبقة</item>
+        <item quantity="one">طبقة مكررة</item>
+        <item quantity="two">مكررة %d طبقتين</item>
+        <item quantity="few">مكررة %d طبقات</item>
+        <item quantity="many">مكررة %d طبقة</item>
+        <item quantity="other">مكررة %d طبقة</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="zero">نسخ %d مشروع</item>
+        <item quantity="one">نسخ %d مشروع</item>
+        <item quantity="two">نسخ %d مشروعان</item>
+        <item quantity="few">نسخ %d مشاريع</item>
+        <item quantity="many">نسخ %d مشروع</item>
+        <item quantity="other">نسخ %d مشروع</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="zero">%d عنصر محدد</item>
+        <item quantity="one">%d عنصر محدد</item>
+        <item quantity="two">%d عنصران مُحددان</item>
+        <item quantity="few">%d عناصر محددة</item>
+        <item quantity="many">%d عنصر محدد</item>
+        <item quantity="other">%d عنصر محدد</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="zero">ينتهي العرض في غضون %1$d يوم</item>
+        <item quantity="one">ينتهي العرض في غضون يوم واحد.</item>
+        <item quantity="two">ينتهي العرض في غضون %1$d يوم</item>
+        <item quantity="few">ينتهي العرض في غضون %1$d أيام</item>
+        <item quantity="many">ينتهي العرض في غضون %1$d يوم</item>
+        <item quantity="other">ينتهي العرض في غضون %1$d يوم</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="zero">ينتهي العرض في غضون %1$d ساعة</item>
+        <item quantity="one">العرض ينتهي في غضون ساعة واحدة.</item>
+        <item quantity="two">ينتهي العرض في غضون %1$d ساعة</item>
+        <item quantity="few">ينتهي العرض في غضون %1$d ساعات</item>
+        <item quantity="many">ينتهي العرض في غضون %1$d ساعة</item>
+        <item quantity="other">ينتهي العرض في غضون %1$d ساعة</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="zero">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام %1$d رقم على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="one">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام رقم واحد (%1$d) على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="two">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام رقمين (%1$d) على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="few">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام %1$d أرقام على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="many">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام %1$d رقمًا على الأقل ومزيج من الأحرف والأرقام</item>
+        <item quantity="other">كلمة المرور ليست قوية بما فيه الكفاية. يجب استخدام %1$d رقم على الأقل ومزيج من الأحرف والأرقام</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="zero">استيراد %d عنصر</item>
+        <item quantity="one">استيراد عنصر</item>
+        <item quantity="two">استيراد %d عنصران</item>
+        <item quantity="few">استيراد %d عناصر</item>
+        <item quantity="many">استيراد %d عنصر</item>
+        <item quantity="other">استيراد %d عنصر</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="zero">استيراد %d مشروع</item>
+        <item quantity="one">استيراد مشروع</item>
+        <item quantity="two">استيراد %d مشروعان</item>
+        <item quantity="few">استيراد %d مشروع</item>
+        <item quantity="many">استيراد %d مشاريع</item>
+        <item quantity="other">استيراد %d مشروع</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="zero">%d طبقة محددة</item>
+        <item quantity="one">%d طبقة محددة</item>
+        <item quantity="two">%d طبقتان محددتان</item>
+        <item quantity="few">%d طبقات محددة</item>
+        <item quantity="many">%d طبقة محددة</item>
+        <item quantity="other">%d طبقة محددة</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="zero">أصول %d من المشاريع/العناصر المرتبطة مفقودة؛ ستُستخدم أحدث النسخ المضمنة في هذا المشروع بدلاً من ذلك.</item>
+        <item quantity="one">أصل المشروع/العنصر المرتبط مفقود؛ ستُستخدم أحدث نسخة مضمنة في هذا المشروع بدلاً من ذلك.</item>
+        <item quantity="two">أصول %d من المشاريع/العناصر المرتبطة مفقودة؛ ستُستخدم أحدث النسخ المضمنة في هذا المشروع بدلاً من ذلك.</item>
+        <item quantity="few">أصول %d من المشاريع/العناصر المرتبطة مفقودة؛ ستُستخدم أحدث النسخ المضمنة في هذا المشروع بدلاً من ذلك.</item>
+        <item quantity="many">أصول %d من المشاريع/العناصر المرتبطة مفقودة؛ ستُستخدم أحدث النسخ المضمنة في هذا المشروع بدلاً من ذلك.</item>
+        <item quantity="other">أصول %d من المشاريع/العناصر المرتبطة مفقودة؛ ستُستخدم أحدث النسخ المضمنة في هذا المشروع بدلاً من ذلك.</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="zero">+%d اضافية</item>
+        <item quantity="one">+%d اضافية</item>
+        <item quantity="two">+%d اضافية</item>
+        <item quantity="few">+%d اضافية</item>
+        <item quantity="many">+%d اضافية</item>
+        <item quantity="other">+%d اضافية</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="zero">تصريح %d يوم</item>
+        <item quantity="one">تصريح يوم واحد</item>
+        <item quantity="two">تصريح %d يوم</item>
+        <item quantity="few">تصريح %d أيام</item>
+        <item quantity="many">تصريح %d يوم</item>
+        <item quantity="other">تصريح %d يوم</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="zero">يشمل %d يوم تجربة مجانية</item>
+        <item quantity="one">يشمل %d يوم تجربة مجانية</item>
+        <item quantity="two">يشمل %d يوم تجربة مجانية</item>
+        <item quantity="few">يشمل %d أيام تجربة مجانية</item>
+        <item quantity="many">يشمل %d يوم تجربة مجانية</item>
+        <item quantity="other">يشمل %d يوم تجربة مجانية</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="zero">تصريح %d ساعة</item>
+        <item quantity="one">تصريح ساعة واحدة</item>
+        <item quantity="two">تصريح %d ساعة</item>
+        <item quantity="few">تصريح %d ساعات</item>
+        <item quantity="many">تصريح %d ساعة</item>
+        <item quantity="other">تصريح %d ساعة</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="zero">تصريح %d دقيقة</item>
+        <item quantity="one">تصريح دقيقة واحدة</item>
+        <item quantity="two">تصريح %d دقيقة</item>
+        <item quantity="few">تصريح %d دقائق</item>
+        <item quantity="many">تصريح %d دقيقة</item>
+        <item quantity="other">تصريح %d دقيقة</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="zero">تصريح %d شهر</item>
+        <item quantity="one">تصريح شهر واحد</item>
+        <item quantity="two">تصريح %d شهر</item>
+        <item quantity="few">تصريح %d أشهر</item>
+        <item quantity="many">تصريح %d شهر</item>
+        <item quantity="other">تصريح %d شهر</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="zero">%d - شهر عضوية اشتراك</item>
+        <item quantity="one">عضوية الاشتراك شهريا</item>
+        <item quantity="two">%d - شهرين عضوية اشتراك</item>
+        <item quantity="few">%d - أشهر عضوية اشتراك</item>
+        <item quantity="many">%d - شهر عضوية اشتراك</item>
+        <item quantity="other">%d - شهر عضوية اشتراك</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="zero">تصريح %d سنة</item>
+        <item quantity="one">تصريح سنة واحدة</item>
+        <item quantity="two">تصريح %d سنة</item>
+        <item quantity="few">تصريح %d سنين</item>
+        <item quantity="many">تصريح %d سنة</item>
+        <item quantity="other">تصريح %d سنة</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="zero">%d - سنة عضوية اشتراك</item>
+        <item quantity="one">عضوية الاشتراك السنوي</item>
+        <item quantity="two">%d - سنتان عضوية اشتراك</item>
+        <item quantity="few">%d - سنين عضوية اشتراك</item>
+        <item quantity="many">%d - سنة عضوية اشتراك</item>
+        <item quantity="other">%d - سنة عضوية اشتراك</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="zero">%d تم تحديد</item>
+        <item quantity="one">%d تم تحديد</item>
+        <item quantity="two">%d تم تحديد</item>
+        <item quantity="few">%d تم تحديد</item>
+        <item quantity="many">%d تم تحديد</item>
+        <item quantity="other">%d تم تحديد</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="zero">لصق %d طبقة</item>
+        <item quantity="one">طبقة لصق</item>
+        <item quantity="two">لصق %d طبقتين</item>
+        <item quantity="few">لصق %d طبقات</item>
+        <item quantity="many">لصق %d طبقة</item>
+        <item quantity="other">لصق %d طبقة</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="zero"></item>
+        <item quantity="one">احدف %1$d إعداد مسبق</item>
+        <item quantity="two">احدف %1$d إعدادات مسبقة</item>
+        <item quantity="few">احدف %1$d إعدادات مسبقة</item>
+        <item quantity="many">احدف %1$d إعدادات مسبقة</item>
+        <item quantity="other">احدف %1$d إعدادات مسبقة</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="zero"></item>
+        <item quantity="one">تصدير %1$d الإعداد المسبق</item>
+        <item quantity="two">تصدير %1$d الإعداد المسبقين</item>
+        <item quantity="few">تصدير %1$d إعدادات مسبقة</item>
+        <item quantity="many">تصدير %1$d إعدادًا مسبقًا</item>
+        <item quantity="other">تصدير %1$d إعداد مسبق</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="zero"></item>
+        <item quantity="one">استيراد %1$d من الإعداد المسبق</item>
+        <item quantity="two">استيراد %1$d إعدادات مسبقة</item>
+        <item quantity="few">استيراد %1$d إعدادات مسبقة</item>
+        <item quantity="many">استيراد %1$d إعدادات مسبقة</item>
+        <item quantity="other">استيراد %1$d من الإعدادات المسبقة</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="zero">لم يُحدد أي شيء</item>
+        <item quantity="one">تم تحديد %1$d</item>
+        <item quantity="two">تم تحديد %1$d</item>
+        <item quantity="few">تم تحديد %1$d</item>
+        <item quantity="many">تم تحديد %1$d</item>
+        <item quantity="other">تم تحديد %1$d</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="zero">%d مشروع محدد</item>
+        <item quantity="one">%d مشروع محدد</item>
+        <item quantity="two">%d مشروعان مُحددان</item>
+        <item quantity="few">%d مشاريع محددة</item>
+        <item quantity="many">%d مشروع محدد</item>
+        <item quantity="other">%d مشروع محدد</item>
+    </plurals>
+</resources>

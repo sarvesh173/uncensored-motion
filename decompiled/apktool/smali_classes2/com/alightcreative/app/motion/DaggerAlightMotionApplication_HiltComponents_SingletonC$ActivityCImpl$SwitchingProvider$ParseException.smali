@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/app/motion/DaggerAlightMotionApplication_HiltComponents_SingletonC$ActivityCImpl$SwitchingProvider$ParseException;
+.super Ljava/lang/RuntimeException;

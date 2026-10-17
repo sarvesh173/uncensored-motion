@@ -1,0 +1,324 @@
+.class final Landroidx/lifecycle/f$lf;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/lifecycle/f;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = "lf"
+.end annotation
+
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# instance fields
+.field final XF:I
+
+.field final h:Ljava/lang/reflect/Method;
+
+
+# direct methods
+.method constructor <init>(ILjava/lang/reflect/Method;)V
+    .locals 1
+
+    const/4 v0, 0x2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x2
+
+    iput p1, p0, Landroidx/lifecycle/f$lf;->XF:I
+
+    const/4 v0, 0x7
+
+    iput-object p2, p0, Landroidx/lifecycle/f$lf;->h:Ljava/lang/reflect/Method;
+
+    const/4 v0, 0x6
+
+    const/4 p1, 0x1
+
+    const/4 v0, 0x4
+
+    invoke-virtual {p2, p1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+
+    const/4 v0, 0x7
+
+    return-void
+.end method
+
+
+# virtual methods
+.method XF(Landroidx/lifecycle/zNj;Landroidx/lifecycle/LZn$NS;Ljava/lang/Object;)V
+    .locals 5
+
+    :try_start_0
+    const-string v4, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    iget v0, p0, Landroidx/lifecycle/f$lf;->XF:I
+
+    const/4 v4, 0x0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_2
+
+    const/4 v4, 0x1
+
+    const/4 v2, 0x1
+
+    const/4 v4, 0x4
+
+    if-eq v0, v2, :cond_1
+
+    const/4 v4, 0x4
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x3
+
+    if-eq v0, v3, :cond_0
+
+    const/4 v4, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v4, 0x7
+
+    iget-object v0, p0, Landroidx/lifecycle/f$lf;->h:Ljava/lang/reflect/Method;
+
+    const/4 v4, 0x3
+
+    new-array v3, v3, [Ljava/lang/Object;
+
+    const/4 v4, 0x3
+
+    aput-object p1, v3, v1
+
+    const/4 v4, 0x2
+
+    aput-object p2, v3, v2
+
+    const/4 v4, 0x5
+
+    invoke-virtual {v0, p3, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    const/4 v4, 0x3
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v4, 0x1
+
+    iget-object p2, p0, Landroidx/lifecycle/f$lf;->h:Ljava/lang/reflect/Method;
+
+    const/4 v4, 0x1
+
+    new-array v0, v2, [Ljava/lang/Object;
+
+    const/4 v4, 0x1
+
+    aput-object p1, v0, v1
+
+    const/4 v4, 0x7
+
+    invoke-virtual {p2, p3, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    const/4 v4, 0x4
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v4, 0x7
+
+    iget-object p1, p0, Landroidx/lifecycle/f$lf;->h:Ljava/lang/reflect/Method;
+
+    const/4 v4, 0x4
+
+    new-array p2, v1, [Ljava/lang/Object;
+
+    const/4 v4, 0x3
+
+    invoke-virtual {p1, p3, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    :try_end_0
+    .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :goto_0
+    const/4 v4, 0x4
+
+    return-void
+
+    :catch_0
+    move-exception p1
+
+    const/4 v4, 0x5
+
+    new-instance p2, Ljava/lang/RuntimeException;
+
+    const/4 v4, 0x4
+
+    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+
+    const/4 v4, 0x1
+
+    throw p2
+
+    :catch_1
+    move-exception p1
+
+    const/4 v4, 0x4
+
+    new-instance p2, Ljava/lang/RuntimeException;
+
+    const-string/jumbo p3, "taslbthe slcdeo ro  omleediFra"
+
+    const-string p3, "Failed to call observer method"
+
+    const/4 v4, 0x7
+
+    invoke-virtual {p1}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
+
+    move-result-object p1
+
+    const/4 v4, 0x1
+
+    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    const/4 v4, 0x7
+
+    throw p2
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 5
+
+    const/4 v4, 0x2
+
+    const/4 v0, 0x1
+
+    const/4 v4, 0x7
+
+    if-ne p0, p1, :cond_0
+
+    const/4 v4, 0x4
+
+    return v0
+
+    :cond_0
+    const/4 v4, 0x6
+
+    instance-of v1, p1, Landroidx/lifecycle/f$lf;
+
+    const/4 v4, 0x1
+
+    const/4 v2, 0x0
+
+    const/4 v4, 0x4
+
+    if-nez v1, :cond_1
+
+    const/4 v4, 0x1
+
+    return v2
+
+    :cond_1
+    const/4 v4, 0x1
+
+    check-cast p1, Landroidx/lifecycle/f$lf;
+
+    iget v1, p0, Landroidx/lifecycle/f$lf;->XF:I
+
+    const/4 v4, 0x7
+
+    iget v3, p1, Landroidx/lifecycle/f$lf;->XF:I
+
+    const/4 v4, 0x1
+
+    if-ne v1, v3, :cond_2
+
+    const/4 v4, 0x5
+
+    iget-object v1, p0, Landroidx/lifecycle/f$lf;->h:Ljava/lang/reflect/Method;
+
+    const/4 v4, 0x3
+
+    invoke-virtual {v1}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v4, 0x6
+
+    iget-object p1, p1, Landroidx/lifecycle/f$lf;->h:Ljava/lang/reflect/Method;
+
+    const/4 v4, 0x5
+
+    invoke-virtual {p1}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+
+    move-result-object p1
+
+    const/4 v4, 0x4
+
+    invoke-virtual {v1, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    const/4 v4, 0x2
+
+    if-eqz p1, :cond_2
+
+    const/4 v4, 0x3
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v4, 0x0
+
+    move v0, v2
+
+    move v0, v2
+
+    :goto_0
+    const/4 v4, 0x6
+
+    return v0
+.end method
+
+.method public hashCode()I
+    .locals 3
+
+    const/4 v2, 0x3
+
+    iget v0, p0, Landroidx/lifecycle/f$lf;->XF:I
+
+    const/4 v2, 0x0
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    const/4 v2, 0x0
+
+    iget-object v1, p0, Landroidx/lifecycle/f$lf;->h:Ljava/lang/reflect/Method;
+
+    invoke-virtual {v1}, Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v2, 0x6
+
+    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+
+    move-result v1
+
+    const/4 v2, 0x2
+
+    add-int/2addr v0, v1
+
+    const/4 v2, 0x1
+
+    return v0
+.end method

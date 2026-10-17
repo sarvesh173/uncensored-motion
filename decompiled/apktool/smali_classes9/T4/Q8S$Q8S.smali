@@ -1,0 +1,369 @@
+.class final synthetic LT4/Q8S$Q8S;
+.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LT4/Q8S;->J(LT4/LZn;LT4/J;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1000
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lkotlin/jvm/functions/Function2<",
+        "LT4/LZn;",
+        "LT4/z9;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final h:LT4/Q8S$Q8S;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    :try_start_0
+    const/4 v1, 0x0
+
+    new-instance v0, LT4/Q8S$Q8S;
+
+    const/4 v1, 0x4
+
+    invoke-direct {v0}, LT4/Q8S$Q8S;-><init>()V
+
+    const/4 v1, 0x3
+
+    sput-object v0, LT4/Q8S$Q8S;->h:LT4/Q8S$Q8S;
+    :try_end_0
+    .catch Lcom/alightcreative/libsamplerate_kotlin/SRCSincKt$sinc_set_converter$5$NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    const/4 v1, 0x7
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 7
+
+    const/4 v6, 0x6
+
+    const/4 v1, 0x2
+
+    const/4 v6, 0x5
+
+    const-class v2, LT4/Q8S;
+
+    const-class v2, LT4/Q8S;
+
+    const/4 v6, 0x5
+
+    invoke-static {}, Ln0q/f;->XF()I
+
+    move-result v0
+
+    const/4 v6, 0x5
+
+    mul-int/lit8 v3, v0, 0x2
+
+    const/4 v6, 0x1
+
+    rem-int/2addr v3, v0
+
+    const/4 v6, 0x7
+
+    if-eqz v3, :cond_0
+
+    const/4 v6, 0x5
+
+    const/16 v0, 0x1f
+
+    const-string v3, ",=s13/+87./?75"
+
+    const-string v3, ".73,1=+758\'=?"
+
+    const/4 v6, 0x2
+
+    invoke-static {v0, v3}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v6, 0x6
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v6, 0x6
+
+    const-string/jumbo v0, "ovqmd{t~iij}kQyicg{LyV"
+
+    const-string/jumbo v0, "voikV{~miQyqc{Ldgyt}ji"
+
+    :goto_0
+    const/4 v6, 0x1
+
+    const/4 v3, 0x5
+
+    const/4 v6, 0x3
+
+    invoke-static {v0, v3}, Ln0q/f;->h(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v3
+
+    const/4 v6, 0x7
+
+    invoke-static {}, Ln0q/f;->XF()I
+
+    move-result v0
+
+    const/4 v6, 0x5
+
+    mul-int/lit8 v4, v0, 0x5
+
+    const/4 v6, 0x7
+
+    rem-int/2addr v4, v0
+
+    const/4 v6, 0x3
+
+    if-eqz v4, :cond_1
+
+    const/4 v6, 0x4
+
+    const/16 v0, 0x2d
+
+    const/4 v6, 0x7
+
+    const-string/jumbo v4, "/irwo *%i&o8f9{(*z/7wp0p//k,x/u.!/27y)s0{p"
+
+    const-string/jumbo v4, "ok9rspww8w.z*7/y%{2x\" pi&p!{\u007f(*/)/,i"
+
+    const/4 v6, 0x4
+
+    invoke-static {v0, v4}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v6, 0x7
+
+    goto :goto_1
+
+    :cond_1
+    const/4 v6, 0x4
+
+    const-string/jumbo v0, "dz$v(b00WJ?nu!c}1/u&eag0u256r/ 1//g=/110;fg/r(~/i/re>U9v$480;07jft>&X!4/00Or2$/%rW7//A0a0;)fW.fd//0Ad>/Wg27;(C<1m0%rvB8,R<<u7qi~d04~(x;kI1:>0/qpu/ r.uAeuuu/M`ct0c6`d9n4/00c1/"
+
+    const-string/jumbo v0, "irr~An5 &\u001c2$4.\u001798$/(=<x\u001d1<9z7;1>2/?/;>4(4&k)/%;(\'; (<.$4\r8;!:>6v\t\t\u001f\u0002\u000e\rIWCWA>Jdgd%j`digdr`vua\u007fa}6vr~n\u007frpmgqeqcXcf~gec!\\BRMWUAW,1O"
+
+    :goto_1
+    const/4 v6, 0x7
+
+    const/16 v4, 0x3a
+
+    const/4 v6, 0x2
+
+    invoke-static {v0, v4}, Ln0q/f;->h(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v4
+
+    const/4 v6, 0x3
+
+    const/4 v5, 0x1
+
+    move-object v0, p0
+
+    move-object v0, p0
+
+    const/4 v6, 0x6
+
+    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    const/4 v6, 0x5
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final XF(LT4/LZn;LT4/z9;)V
+    .locals 3
+
+    const-string v2, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    invoke-static {}, LuC/vdD;->XF()I
+
+    move-result v0
+
+    const/4 v2, 0x6
+
+    mul-int/lit8 v1, v0, 0x3
+
+    rem-int/2addr v1, v0
+
+    const/4 v2, 0x3
+
+    if-nez v1, :cond_0
+
+    const/4 v2, 0x1
+
+    const-string/jumbo v0, "/7 0fuu"
+
+    const-string/jumbo v0, "\u007f "
+
+    const/4 v2, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v2, 0x4
+
+    const-string/jumbo v0, "tquf{se}|waaae"
+
+    const/4 v2, 0x2
+
+    const/16 v1, 0x45
+
+    const/4 v2, 0x3
+
+    invoke-static {v0, v1}, Ln0q/f;->h(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_0
+    const/4 v2, 0x6
+
+    const/16 v1, 0x60f
+
+    const/4 v2, 0x5
+
+    invoke-static {v1, v0}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v2, 0x4
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v2, 0x1
+
+    invoke-static {}, LuC/vdD;->XF()I
+
+    move-result v0
+
+    const/4 v2, 0x0
+
+    mul-int/lit8 v1, v0, 0x4
+
+    const/4 v2, 0x6
+
+    rem-int/2addr v1, v0
+
+    const/4 v2, 0x1
+
+    if-nez v1, :cond_1
+
+    const/4 v2, 0x6
+
+    const-string/jumbo v0, "-k"
+
+    const-string/jumbo v0, "k-"
+
+    const/4 v2, 0x1
+
+    goto :goto_1
+
+    :cond_1
+    const/4 v2, 0x2
+
+    const/16 v0, 0x21
+
+    const/4 v2, 0x5
+
+    const-string/jumbo v1, "\ud83c\udec7"
+
+    const/4 v2, 0x2
+
+    invoke-static {v0, v1}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_1
+    const/4 v2, 0x2
+
+    const/16 v1, 0x83b
+
+    invoke-static {v1, v0}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v2, 0x1
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v2, 0x2
+
+    invoke-static {p1, p2}, LT4/Q8S;->BW(LT4/LZn;LT4/z9;)V
+
+    const/4 v2, 0x1
+
+    return-void
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    :try_start_0
+    const/4 v0, 0x6
+
+    check-cast p1, LT4/LZn;
+
+    const/4 v0, 0x4
+
+    check-cast p2, LT4/z9;
+
+    const/4 v0, 0x5
+
+    invoke-virtual {p0, p1, p2}, LT4/Q8S$Q8S;->XF(LT4/LZn;LT4/z9;)V
+
+    const/4 v0, 0x6
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+    :try_end_0
+    .catch Lcom/alightcreative/libsamplerate_kotlin/SRCSincKt$sinc_set_converter$5$NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v0, 0x0
+
+    return-object p1
+
+    :catch_0
+    const/4 v0, 0x1
+
+    const/4 p1, 0x0
+
+    const/4 v0, 0x4
+
+    return-object p1
+.end method

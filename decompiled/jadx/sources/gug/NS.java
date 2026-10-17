@@ -1,0 +1,6 @@
+package gug;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes19.dex */
+public interface NS {
+    long getTime();
+}

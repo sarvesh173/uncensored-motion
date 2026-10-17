@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/monorepo/inject/MonorepoHiltModule_Companion_ProvideOkHttpClientFactory$NullPointerException;
+.super Ljava/lang/RuntimeException;

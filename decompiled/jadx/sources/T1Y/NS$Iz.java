@@ -1,0 +1,97 @@
+package T1Y;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes5.dex */
+final class NS$Iz implements JEg.f<T1Y.mlu.Mk.Mk> {
+    static final T1Y.NS$Iz XF = null;
+
+    /* renamed from: Z, reason: collision with root package name */
+    private static final JEg.lf f602Z = null;
+    private static final JEg.lf h = null;
+    private static final JEg.lf qu = null;
+    private static final JEg.lf r5 = null;
+
+    static {
+            r1 = 2
+            T1Y.NS$Iz r0 = new T1Y.NS$Iz
+            r1 = 4
+            r0.<init>()
+            r1 = 1
+            T1Y.NS$Iz.XF = r0
+            r1 = 4
+            java.lang.String r0 = "ptsomflr"
+            java.lang.String r0 = "platform"
+            r1 = 5
+            JEg.lf r0 = JEg.lf.qu(r0)
+            r1 = 2
+            T1Y.NS$Iz.h = r0
+            java.lang.String r0 = "resmniv"
+            java.lang.String r0 = "version"
+            r1 = 3
+            JEg.lf r0 = JEg.lf.qu(r0)
+            r1 = 3
+            T1Y.NS$Iz.r5 = r0
+            java.lang.String r0 = "lnobosViriud"
+            java.lang.String r0 = "buildVersion"
+            r1 = 1
+            JEg.lf r0 = JEg.lf.qu(r0)
+            r1 = 5
+            T1Y.NS$Iz.qu = r0
+            r1 = 4
+            java.lang.String r0 = "oelnabbkir"
+            java.lang.String r0 = "jailbroken"
+            r1 = 0
+            JEg.lf r0 = JEg.lf.qu(r0)
+            r1 = 4
+            T1Y.NS$Iz.f602Z = r0
+            r1 = 4
+            return
+    }
+
+    private NS$Iz() {
+            r1 = this;
+            r0 = 3
+            r1.<init>()
+            r0 = 0
+            return
+    }
+
+    public /* bridge */ /* synthetic */ void XF(java.lang.Object r2, java.lang.Object r3) throws java.io.IOException {
+            r1 = this;
+            java.lang.String r0 = "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif'   ~@~@~@~@~@~@~@~@~@~@~  "
+            T1Y.mlu$Mk$Mk r2 = (T1Y.mlu.Mk.Mk) r2
+            r0 = 5
+            JEg.Jl r3 = (JEg.Jl) r3
+            r1.h(r2, r3)
+            return
+    }
+
+    public void h(T1Y.mlu.Mk.Mk r4, JEg.Jl r5) throws java.io.IOException {
+            r3 = this;
+            r2 = 7
+            JEg.lf r0 = T1Y.NS$Iz.h
+            r2 = 3
+            int r1 = r4.r5()
+            r2 = 2
+            r5.r5(r0, r1)
+            r2 = 2
+            JEg.lf r0 = T1Y.NS$Iz.r5
+            r2 = 0
+            java.lang.String r1 = r4.qu()
+            r2 = 1
+            r5.Z(r0, r1)
+            r2 = 0
+            JEg.lf r0 = T1Y.NS$Iz.qu
+            r2 = 7
+            java.lang.String r1 = r4.h()
+            r2 = 0
+            r5.Z(r0, r1)
+            r2 = 5
+            JEg.lf r0 = T1Y.NS$Iz.f602Z
+            r2 = 7
+            boolean r4 = r4.Z()
+            r2 = 0
+            r5.XF(r0, r4)
+            r2 = 5
+            return
+    }
+}

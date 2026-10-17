@@ -1,0 +1,78 @@
+.class Lcom/goldmotion/tracking/TrackingPanel$100;
+.super Ljava/lang/Object;
+.source "TrackingPanel.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/goldmotion/tracking/TrackingPanel;->showCatalog()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/goldmotion/tracking/TrackingPanel;
+
+
+# direct methods
+.method constructor <init>(Lcom/goldmotion/tracking/TrackingPanel;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x8010
+        }
+        names = {
+            null
+        }
+    .end annotation
+
+    iput-object p1, p0, Lcom/goldmotion/tracking/TrackingPanel$100;->this$0:Lcom/goldmotion/tracking/TrackingPanel;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object p1, p0, Lcom/goldmotion/tracking/TrackingPanel$100;->this$0:Lcom/goldmotion/tracking/TrackingPanel;
+
+    invoke-static {p1}, Lcom/goldmotion/tracking/TrackingPanel;->access$500(Lcom/goldmotion/tracking/TrackingPanel;)Lcom/goldmotion/tracking/TrackingPanel$LayerInfo;
+
+    move-result-object p1
+
+    iget-object p1, p1, Lcom/goldmotion/tracking/TrackingPanel$LayerInfo;->kind:Lcom/goldmotion/tracking/TrackingPanel$LayerKind;
+
+    iget-boolean p1, p1, Lcom/goldmotion/tracking/TrackingPanel$LayerKind;->tracerySupported:Z
+
+    if-nez p1, :cond_0
+
+    iget-object p1, p0, Lcom/goldmotion/tracking/TrackingPanel$100;->this$0:Lcom/goldmotion/tracking/TrackingPanel;
+
+    invoke-static {p1}, Lcom/goldmotion/tracking/TrackingPanel;->access$600(Lcom/goldmotion/tracking/TrackingPanel;)V
+
+    return-void
+
+    :cond_0
+    iget-object p1, p0, Lcom/goldmotion/tracking/TrackingPanel$100;->this$0:Lcom/goldmotion/tracking/TrackingPanel;
+
+    const-string v0, "com.goldmotion.tracking.gmcyberbeam"
+
+    sput-object v0, Lcom/goldmotion/tracking/TrackingPanel;->TARGET_EFFECT:Ljava/lang/String;
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v0}, Lcom/goldmotion/tracking/TrackingPanel;->access$200(Lcom/goldmotion/tracking/TrackingPanel;Z)V
+
+    return-void
+.end method

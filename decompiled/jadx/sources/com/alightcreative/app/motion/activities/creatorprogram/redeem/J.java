@@ -1,0 +1,104 @@
+package com.alightcreative.app.motion.activities.creatorprogram.redeem;
+
+@kotlin.Metadata(d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\bv\u0018\u00002\u00020\u0001:\u0004\u0002\u0003\u0004\u0005\u0082\u0001\u0004\u0006\u0007\b\t¨\u0006\n"}, d2 = {"Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J;", "", "NS", "lf", "f", "Jl", "Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J$NS;", "Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J$lf;", "Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J$f;", "Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J$Jl;", "app_release"}, k = 1, mv = {1, 8, 0})
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes2.dex */
+public interface J {
+
+    @kotlin.Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J$Jl;", "Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J;", "<init>", "()V", "app_release"}, k = 1, mv = {1, 8, 0})
+    public static final class Jl implements com.alightcreative.app.motion.activities.creatorprogram.redeem.J {
+        public static final com.alightcreative.app.motion.activities.creatorprogram.redeem.J.Jl XF = null;
+
+        static {
+                com.alightcreative.app.motion.activities.creatorprogram.redeem.J$Jl r0 = new com.alightcreative.app.motion.activities.creatorprogram.redeem.J$Jl     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> L9
+                r1 = 2
+                r0.<init>()     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> L9
+                r1 = 1
+                com.alightcreative.app.motion.activities.creatorprogram.redeem.J.Jl.XF = r0     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> L9
+            L9:
+                r1 = 4
+                return
+        }
+
+        private Jl() {
+                r1 = this;
+                r0 = 5
+                r1.<init>()
+                r0 = 6
+                return
+        }
+    }
+
+    @kotlin.Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J$NS;", "Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J;", "<init>", "()V", "app_release"}, k = 1, mv = {1, 8, 0})
+    public static final class NS implements com.alightcreative.app.motion.activities.creatorprogram.redeem.J {
+        public static final com.alightcreative.app.motion.activities.creatorprogram.redeem.J.NS XF = null;
+
+        static {
+                r1 = 7
+                com.alightcreative.app.motion.activities.creatorprogram.redeem.J$NS r0 = new com.alightcreative.app.motion.activities.creatorprogram.redeem.J$NS     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> La
+                r1 = 4
+                r0.<init>()     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> La
+                r1 = 5
+                com.alightcreative.app.motion.activities.creatorprogram.redeem.J.NS.XF = r0     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> La
+            La:
+                r1 = 5
+                return
+        }
+
+        private NS() {
+                r1 = this;
+                r0 = 6
+                r1.<init>()
+                r0 = 1
+                return
+        }
+    }
+
+    @kotlin.Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J$f;", "Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J;", "<init>", "()V", "app_release"}, k = 1, mv = {1, 8, 0})
+    public static final class f implements com.alightcreative.app.motion.activities.creatorprogram.redeem.J {
+        public static final com.alightcreative.app.motion.activities.creatorprogram.redeem.J.f XF = null;
+
+        static {
+                r1 = 3
+                com.alightcreative.app.motion.activities.creatorprogram.redeem.J$f r0 = new com.alightcreative.app.motion.activities.creatorprogram.redeem.J$f     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> La
+                r1 = 1
+                r0.<init>()     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> La
+                r1 = 1
+                com.alightcreative.app.motion.activities.creatorprogram.redeem.J.f.XF = r0     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> La
+            La:
+                r1 = 4
+                return
+        }
+
+        private f() {
+                r1 = this;
+                r0 = 4
+                r1.<init>()
+                r0 = 4
+                return
+        }
+    }
+
+    @kotlin.Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J$lf;", "Lcom/alightcreative/app/motion/activities/creatorprogram/redeem/J;", "<init>", "()V", "app_release"}, k = 1, mv = {1, 8, 0})
+    public static final class lf implements com.alightcreative.app.motion.activities.creatorprogram.redeem.J {
+        public static final com.alightcreative.app.motion.activities.creatorprogram.redeem.J.lf XF = null;
+
+        static {
+                r1 = 7
+                com.alightcreative.app.motion.activities.creatorprogram.redeem.J$lf r0 = new com.alightcreative.app.motion.activities.creatorprogram.redeem.J$lf     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> L9
+                r0.<init>()     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> L9
+                r1 = 4
+                com.alightcreative.app.motion.activities.creatorprogram.redeem.J.lf.XF = r0     // Catch: com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensViewAction$NullPointerException -> L9
+            L9:
+                r1 = 2
+                return
+        }
+
+        private lf() {
+                r1 = this;
+                r0 = 2
+                r1.<init>()
+                r0 = 6
+                return
+        }
+    }
+}

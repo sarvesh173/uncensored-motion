@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  CONSTRAINTLAYOUT TEMPLATE - placement: res/layout/tpl_activity_detail.xml.
+  Demonstrates the four power tools in one file (see references/layout-reference.md for
+  the real activity_colorpicker.xml usage: two vertical Guidelines at 50dp from each
+  edge): Guideline, Barrier, bias, and a packed chain. Every child has horizontal AND
+  vertical constraints. Cross-refs: @drawable/ic_vector_placeholder,
+  @drawable/tpl_button_selector, @string/tpl_*, @dimen/tpl_*.
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tpl_detail_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tpl_color_background_light"
+    tools:context=".MainActivity">
+
+    <!-- 1) GUIDELINE: invisible vertical axis at 72dp from the start edge
+         (real pattern: wheel_guideline / wheel_guideline2 in activity_colorpicker.xml) -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/tpl_guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="72dp" />
+
+    <!-- Icon pinned between parent start and the guideline, pushed down with BIAS -->
+    <ImageView
+        android:id="@+id/tpl_detail_icon"
+        android:layout_width="@dimen/tpl_thumbnail_size"
+        android:layout_height="@dimen/tpl_thumbnail_size"
+        android:contentDescription="@string/tpl_cd_icon"
+        android:src="@drawable/ic_vector_placeholder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tpl_guideline_start"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <!-- 2) CHAIN: title + subtitle form a packed vertical chain (head = title).
+         Real pattern: listItem_projectTitle / listItem_projectDetails in
+         listitem_project_list.xml with chainStyle="packed". -->
+    <TextView
+        android:id="@+id/tpl_detail_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tpl_spacing_lg"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/tpl_item_title_template"
+        android:textColor="@color/tpl_color_text_primary_light"
+        android:textSize="@dimen/tpl_text_size_title"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tpl_detail_subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tpl_guideline_start"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/tpl_detail_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/tpl_spacing_lg"
+        android:layout_marginTop="@dimen/tpl_spacing_sm"
+        android:maxLines="1"
+        android:text="@string/tpl_item_subtitle_template"
+        android:textColor="@color/tpl_color_text_secondary_light"
+        android:textSize="@dimen/tpl_text_size_body"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tpl_guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/tpl_detail_title"
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintVertical_weight="1" />
+
+    <!-- 3) BARRIER: floats below whichever of the two texts is taller -->
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/tpl_barrier_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="tpl_detail_title,tpl_detail_subtitle" />
+
+    <!-- Body text sits under the barrier, so it never overlaps long titles -->
+    <TextView
+        android:id="@+id/tpl_detail_body"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/tpl_activity_margin"
+        android:text="@string/tpl_greeting_with_placeholder"
+        android:textColor="@color/tpl_color_text_primary_light"
+        android:textSize="@dimen/tpl_text_size_body"
+        app:layout_constraintBottom_toTopOf="@id/tpl_detail_buttons_chain_start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tpl_barrier_body"
+        tools:text="Body copy goes here." />
+
+    <!-- 4) second CHAIN: two buttons spread horizontally above the bottom -->
+    <Button
+        android:id="@+id/tpl_detail_buttons_chain_start"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tpl_button_height"
+        android:layout_marginStart="@dimen/tpl_activity_margin"
+        android:layout_marginEnd="@dimen/tpl_spacing_md"
+        android:background="@drawable/tpl_button_selector"
+        android:text="@string/tpl_nav_home"
+        android:textColor="@color/tpl_color_text_primary_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tpl_detail_buttons_chain_end"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tpl_detail_body"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/tpl_detail_buttons_chain_end"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tpl_button_height"
+        android:layout_marginStart="@dimen/tpl_spacing_md"
+        android:layout_marginEnd="@dimen/tpl_activity_margin"
+        android:background="@drawable/tpl_button_selector"
+        android:text="@string/tpl_action_settings"
+        android:textColor="@color/tpl_color_text_primary_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/tpl_detail_buttons_chain_start"
+        app:layout_constraintTop_toBottomOf="@id/tpl_detail_body"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

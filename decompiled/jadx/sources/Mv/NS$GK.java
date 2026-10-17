@@ -1,0 +1,113 @@
+package Mv;
+
+/* JADX INFO: Add missing generic type declarations: [T] */
+@kotlin.Metadata(d1 = {"\u0000\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\b\u0012\u0004\u0012\u00028\u00000\u0003\"\u0004\b\u0000\u0010\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u008a@"}, d2 = {"T", "LUKh/Mk$NS;", "it", "LMv/D;", "<anonymous>"}, k = 3, mv = {1, 7, 1})
+@kotlin.coroutines.jvm.internal.DebugMetadata(c = "com.bendingspoons.fellini.fmfoundation.graphicpipeline.internal.impl.DrawableTextureProviderImpl$resourcesFor$2$1$1", f = "DrawableTextureProviderImpl.kt", i = {}, l = {142}, m = "invokeSuspend", n = {}, s = {})
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes5.dex */
+final class NS$GK<T> extends kotlin.coroutines.jvm.internal.SuspendLambda implements kotlin.jvm.functions.Function2<UKh.Mk.NS, kotlin.coroutines.Continuation<? super Mv.D<T>>, java.lang.Object> {
+
+    /* renamed from: Z, reason: collision with root package name */
+    final /* synthetic */ Mv.NS<T> f455Z;
+    final /* synthetic */ UKh.Mk.NS g;
+    int h;
+
+    NS$GK(Mv.NS<T> r2, UKh.Mk.NS r3, kotlin.coroutines.Continuation<? super Mv.NS$GK> r4) {
+            r1 = this;
+            r0 = 0
+            r1.f455Z = r2
+            r0 = 1
+            r1.g = r3
+            r0 = 3
+            r2 = 2
+            r0 = 6
+            r1.<init>(r2, r4)
+            r0 = 3
+            return
+    }
+
+    public final java.lang.Object XF(UKh.Mk.NS r2, kotlin.coroutines.Continuation<? super Mv.D<T>> r3) {
+            r1 = this;
+            java.lang.String r0 = "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif'   ~@~@~@~@~@~@~@~@~@~@~  "
+            kotlin.coroutines.Continuation r2 = r1.create(r2, r3)
+            r0 = 5
+            Mv.NS$GK r2 = (Mv.NS$GK) r2
+            r0 = 2
+            kotlin.Unit r3 = kotlin.Unit.INSTANCE
+            r0 = 0
+            java.lang.Object r2 = r2.invokeSuspend(r3)
+            r0 = 7
+            return r2
+    }
+
+    public final kotlin.coroutines.Continuation<kotlin.Unit> create(java.lang.Object r4, kotlin.coroutines.Continuation<?> r5) {
+            r3 = this;
+            r2 = 3
+            Mv.NS$GK r4 = new Mv.NS$GK
+            r2 = 6
+            Mv.NS<T> r0 = r3.f455Z
+            r2 = 1
+            UKh.Mk$NS r1 = r3.g
+            r2 = 7
+            r4.<init>(r0, r1, r5)
+            r2 = 0
+            return r4
+    }
+
+    public /* bridge */ /* synthetic */ java.lang.Object invoke(java.lang.Object r2, java.lang.Object r3) {
+            r1 = this;
+            r0 = 5
+            UKh.Mk$NS r2 = (UKh.Mk.NS) r2
+            r0 = 6
+            kotlin.coroutines.Continuation r3 = (kotlin.coroutines.Continuation) r3
+            r0 = 2
+            java.lang.Object r2 = r1.XF(r2, r3)
+            r0 = 3
+            return r2
+    }
+
+    public final java.lang.Object invokeSuspend(java.lang.Object r5) {
+            r4 = this;
+            r3 = 0
+            java.lang.Object r0 = kotlin.coroutines.intrinsics.IntrinsicsKt.getCOROUTINE_SUSPENDED()
+            r3 = 5
+            int r1 = r4.h
+            r3 = 1
+            r2 = 1
+            r3 = 3
+            if (r1 == 0) goto L22
+            if (r1 != r2) goto L15
+            r3 = 6
+            kotlin.ResultKt.throwOnFailure(r5)
+            r3 = 7
+            goto L3e
+        L15:
+            java.lang.IllegalStateException r5 = new java.lang.IllegalStateException
+            r3 = 5
+            java.lang.String r0 = "b sn/e ee r/mth//rloktseo/i iruwa/l oeicfoe/tvo /cu"
+            java.lang.String r0 = "call to 'resume' before 'invoke' with coroutine"
+            r3 = 5
+            r5.<init>(r0)
+            r3 = 6
+            throw r5
+        L22:
+            r3 = 3
+            kotlin.ResultKt.throwOnFailure(r5)
+            r3 = 3
+            Mv.NS<T> r5 = r4.f455Z
+            r3 = 7
+            UKh.Mk$NS r1 = r4.g
+            r3 = 3
+            riN.NS r1 = r1.XF()
+            r3 = 0
+            r4.h = r2
+            r3 = 4
+            java.lang.Object r5 = Mv.NS.b(r5, r1, r4)
+            r3 = 1
+            if (r5 != r0) goto L3e
+            r3 = 3
+            return r0
+        L3e:
+            r3 = 7
+            return r5
+    }
+}

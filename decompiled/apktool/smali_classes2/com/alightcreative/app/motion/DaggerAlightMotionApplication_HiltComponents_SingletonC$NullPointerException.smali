@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/app/motion/DaggerAlightMotionApplication_HiltComponents_SingletonC$NullPointerException;
+.super Ljava/lang/RuntimeException;

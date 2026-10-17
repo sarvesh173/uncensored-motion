@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/crisper/DidTapAdvancedEasing_Menu_CopyAdvancedEasing$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

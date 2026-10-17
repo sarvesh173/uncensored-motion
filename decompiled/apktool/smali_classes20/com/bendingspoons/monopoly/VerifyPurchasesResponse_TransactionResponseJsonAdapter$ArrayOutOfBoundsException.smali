@@ -1,0 +1,2 @@
+.class public Lcom/bendingspoons/monopoly/VerifyPurchasesResponse_TransactionResponseJsonAdapter$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

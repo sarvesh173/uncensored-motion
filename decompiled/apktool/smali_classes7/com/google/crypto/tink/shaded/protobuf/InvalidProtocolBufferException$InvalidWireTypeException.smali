@@ -1,0 +1,27 @@
+.class public Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+.super Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "InvalidWireTypeException"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1}, Lcom/google/crypto/tink/shaded/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+
+    const/4 v0, 0x4
+
+    return-void
+.end method

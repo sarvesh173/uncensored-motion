@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/setup/initialization/inject/InitializerModule_Companion_SetupUseCaseInitializersFactory$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

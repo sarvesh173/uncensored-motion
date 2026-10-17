@@ -1,0 +1,80 @@
+.class public final Lkotlin/coroutines/jvm/internal/RunSuspendKt;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0018\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\u001a.\u0010\u0000\u001a\u00020\u00012\u001c\u0010\u0002\u001a\u0018\u0008\u0001\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00010\u0004\u0012\u0006\u0012\u0004\u0018\u00010\u00050\u0003H\u0001\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010\u0006\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u0007"
+    }
+    d2 = {
+        "runSuspend",
+        "",
+        "block",
+        "Lkotlin/Function1;",
+        "Lkotlin/coroutines/Continuation;",
+        "",
+        "(Lkotlin/jvm/functions/Function1;)V",
+        "kotlin-stdlib"
+    }
+    k = 0x2
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public static final runSuspend(Lkotlin/jvm/functions/Function1;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/jvm/functions/Function1<",
+            "-",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lkotlin/Unit;",
+            ">;+",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    .annotation build Lkotlin/SinceKotlin;
+        version = "1.3"
+    .end annotation
+
+    const/4 v1, 0x4
+
+    const-string/jumbo v0, "loskc"
+
+    const-string v0, "block"
+
+    const/4 v1, 0x6
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v1, 0x3
+
+    new-instance v0, Lkotlin/coroutines/jvm/internal/RunSuspend;
+
+    const/4 v1, 0x3
+
+    invoke-direct {v0}, Lkotlin/coroutines/jvm/internal/RunSuspend;-><init>()V
+
+    const/4 v1, 0x5
+
+    invoke-static {p0, v0}, Lkotlin/coroutines/ContinuationKt;->startCoroutine(Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)V
+
+    const/4 v1, 0x3
+
+    invoke-virtual {v0}, Lkotlin/coroutines/jvm/internal/RunSuspend;->await()V
+
+    const/4 v1, 0x6
+
+    return-void
+.end method

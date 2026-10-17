@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="other">%1$d 檔案已順利上傳，共有 %2$d 個檔案。</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="other">很抱歉，我們無法上傳 %1$d 個檔案。</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="other">複製%d個圖層</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="other">小時</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="other">分鐘</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="other">秒</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="other">您已使用此帳戶共享%1$d個項目包。 [b]如果您刪除此帳戶，則包將從雲端刪除，並且包連結和二維碼將被永久刪除且無法恢復。[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="other">刪除%d個元素</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="other">刪除%d個項目</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="other">刪除 %1$d 個模板</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="other">複製%d個元素</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="other">複製%d個圖層</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="other">複製%d個項目</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="other">已選擇%d個元素</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">快轉 %d 秒</item>
+        <item quantity="other">快轉 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">倒轉 %d 秒</item>
+        <item quantity="other">倒轉 %d 秒</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="other">優惠在%1$d天後過期。</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="other">優惠在%1$d小時後過期</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">密碼安全強度不足。請使用至少 %1$d 個字元並混用字母和數字</item>
+        <item quantity="other">密碼安全強度不足。請使用至少 %1$d 個字元並混用字母和數字</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="other">匯入%d個元素</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="other">匯入%d個項目</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="other">已選擇%d個圖層</item>
+    </plurals>
+    <plurals name="linked_projects_changed">
+        <item quantity="other">%d個連結的項目/元素已更改。您要更新此項目中的嵌入式副本嗎？</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="other">%d個連結的項目/元素的原件丟失；將使用此項目中最新的嵌入式副本。</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="other">加多%d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 則新通知</item>
+        <item quantity="other">%d 則新通知</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="other">%d天通行證</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="other">包括%d天免費試用</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="other">%d小時通行證</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="other">%d分鐘通行證</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="other">%d月通行證</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="other">%d月訂閱會員</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="other">%d年通行證</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="other">%d年訂閱會員</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">已選擇%d</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="other">粘貼%d個圖層</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="other">刪除 %1$d 個預設</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="other">匯出 %1$d 預設</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="other">匯入 %1$d 個預設</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="other">已選取 %1$d</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="other">已選擇%d個項目</item>
+    </plurals>
+</resources>

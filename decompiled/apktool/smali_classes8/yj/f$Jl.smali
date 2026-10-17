@@ -1,0 +1,141 @@
+.class public final synthetic Lyj/f$Jl;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lyj/f;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1001
+    name = "Jl"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x5,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final synthetic $EnumSwitchMapping$0:[I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    const/4 v3, 0x0
+
+    invoke-static {}, Lyj/f$f;->values()[Lyj/f$f;
+
+    move-result-object v0
+
+    const/4 v3, 0x5
+
+    array-length v0, v0
+
+    const/4 v3, 0x5
+
+    new-array v0, v0, [I
+
+    const/4 v3, 0x4
+
+    sget-object v1, Lyj/f$f;->Z:Lyj/f$f;
+
+    const/4 v3, 0x3
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v3, 0x2
+
+    const/4 v2, 0x1
+
+    const/4 v3, 0x7
+
+    aput v2, v0, v1
+
+    const/4 v3, 0x0
+
+    sget-object v1, Lyj/f$f;->g:Lyj/f$f;
+
+    const/4 v3, 0x2
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v3, 0x2
+
+    const/4 v2, 0x2
+
+    const/4 v3, 0x2
+
+    aput v2, v0, v1
+
+    sget-object v1, Lyj/f$f;->b:Lyj/f$f;
+
+    const/4 v3, 0x2
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v3, 0x5
+
+    const/4 v2, 0x3
+
+    const/4 v3, 0x7
+
+    aput v2, v0, v1
+
+    const/4 v3, 0x4
+
+    sget-object v1, Lyj/f$f;->J:Lyj/f$f;
+
+    const/4 v3, 0x1
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v3, 0x5
+
+    const/4 v2, 0x4
+
+    const/4 v3, 0x0
+
+    aput v2, v0, v1
+
+    const/4 v3, 0x5
+
+    sget-object v1, Lyj/f$f;->f:Lyj/f$f;
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v3, 0x7
+
+    const/4 v2, 0x5
+
+    aput v2, v0, v1
+
+    const/4 v3, 0x4
+
+    sput-object v0, Lyj/f$Jl;->$EnumSwitchMapping$0:[I
+
+    const/4 v3, 0x3
+
+    return-void
+.end method

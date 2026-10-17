@@ -1,0 +1,115 @@
+package com.applovin.sdk;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes11.dex */
+public final class R$string {
+    public static final int abc_action_bar_home_description = 2132017163;
+    public static final int abc_action_bar_up_description = 2132017164;
+    public static final int abc_action_menu_overflow_description = 2132017165;
+    public static final int abc_action_mode_done = 2132017166;
+    public static final int abc_activity_chooser_view_see_all = 2132017167;
+    public static final int abc_activitychooserview_choose_application = 2132017168;
+    public static final int abc_capital_off = 2132017169;
+    public static final int abc_capital_on = 2132017170;
+    public static final int abc_menu_alt_shortcut_label = 2132017171;
+    public static final int abc_menu_ctrl_shortcut_label = 2132017172;
+    public static final int abc_menu_delete_shortcut_label = 2132017173;
+    public static final int abc_menu_enter_shortcut_label = 2132017174;
+    public static final int abc_menu_function_shortcut_label = 2132017175;
+    public static final int abc_menu_meta_shortcut_label = 2132017176;
+    public static final int abc_menu_shift_shortcut_label = 2132017177;
+    public static final int abc_menu_space_shortcut_label = 2132017178;
+    public static final int abc_menu_sym_shortcut_label = 2132017179;
+    public static final int abc_prepend_shortcut_label = 2132017180;
+    public static final int abc_search_hint = 2132017181;
+    public static final int abc_searchview_description_clear = 2132017182;
+    public static final int abc_searchview_description_query = 2132017183;
+    public static final int abc_searchview_description_search = 2132017184;
+    public static final int abc_searchview_description_submit = 2132017185;
+    public static final int abc_searchview_description_voice = 2132017186;
+    public static final int abc_shareactionprovider_share_with = 2132017187;
+    public static final int abc_shareactionprovider_share_with_application = 2132017188;
+    public static final int abc_toolbar_collapse_description = 2132017189;
+    public static final int al_exo_controls_cc_disabled_description = 2132017233;
+    public static final int al_exo_controls_cc_enabled_description = 2132017234;
+    public static final int al_exo_controls_custom_playback_speed = 2132017235;
+    public static final int al_exo_controls_fastforward_description = 2132017236;
+    public static final int al_exo_controls_fullscreen_enter_description = 2132017237;
+    public static final int al_exo_controls_fullscreen_exit_description = 2132017238;
+    public static final int al_exo_controls_hide = 2132017239;
+    public static final int al_exo_controls_next_description = 2132017240;
+    public static final int al_exo_controls_overflow_hide_description = 2132017241;
+    public static final int al_exo_controls_overflow_show_description = 2132017242;
+    public static final int al_exo_controls_pause_description = 2132017243;
+    public static final int al_exo_controls_play_description = 2132017244;
+    public static final int al_exo_controls_playback_speed = 2132017245;
+    public static final int al_exo_controls_playback_speed_normal = 2132017246;
+    public static final int al_exo_controls_previous_description = 2132017247;
+    public static final int al_exo_controls_repeat_all_description = 2132017248;
+    public static final int al_exo_controls_repeat_off_description = 2132017249;
+    public static final int al_exo_controls_repeat_one_description = 2132017250;
+    public static final int al_exo_controls_rewind_description = 2132017251;
+    public static final int al_exo_controls_seek_bar_description = 2132017252;
+    public static final int al_exo_controls_settings_description = 2132017253;
+    public static final int al_exo_controls_show = 2132017254;
+    public static final int al_exo_controls_shuffle_off_description = 2132017255;
+    public static final int al_exo_controls_shuffle_on_description = 2132017256;
+    public static final int al_exo_controls_stop_description = 2132017257;
+    public static final int al_exo_controls_time_placeholder = 2132017258;
+    public static final int al_exo_controls_vr_description = 2132017259;
+    public static final int al_exo_download_completed = 2132017260;
+    public static final int al_exo_download_description = 2132017261;
+    public static final int al_exo_download_downloading = 2132017262;
+    public static final int al_exo_download_failed = 2132017263;
+    public static final int al_exo_download_notification_channel_name = 2132017264;
+    public static final int al_exo_download_paused = 2132017265;
+    public static final int al_exo_download_paused_for_network = 2132017266;
+    public static final int al_exo_download_paused_for_wifi = 2132017267;
+    public static final int al_exo_download_removing = 2132017268;
+    public static final int al_exo_item_list = 2132017269;
+    public static final int al_exo_track_bitrate = 2132017270;
+    public static final int al_exo_track_mono = 2132017271;
+    public static final int al_exo_track_resolution = 2132017272;
+    public static final int al_exo_track_role_alternate = 2132017273;
+    public static final int al_exo_track_role_closed_captions = 2132017274;
+    public static final int al_exo_track_role_commentary = 2132017275;
+    public static final int al_exo_track_role_supplementary = 2132017276;
+    public static final int al_exo_track_selection_auto = 2132017277;
+    public static final int al_exo_track_selection_none = 2132017278;
+    public static final int al_exo_track_selection_title_audio = 2132017279;
+    public static final int al_exo_track_selection_title_text = 2132017280;
+    public static final int al_exo_track_selection_title_video = 2132017281;
+    public static final int al_exo_track_stereo = 2132017282;
+    public static final int al_exo_track_surround = 2132017283;
+    public static final int al_exo_track_surround_5_point_1 = 2132017284;
+    public static final int al_exo_track_surround_7_point_1 = 2132017285;
+    public static final int al_exo_track_unknown = 2132017286;
+    public static final int applovin_list_item_image_description = 2132017310;
+    public static final int common_google_play_services_enable_button = 2132017507;
+    public static final int common_google_play_services_enable_text = 2132017508;
+    public static final int common_google_play_services_enable_title = 2132017509;
+    public static final int common_google_play_services_install_button = 2132017510;
+    public static final int common_google_play_services_install_text = 2132017511;
+    public static final int common_google_play_services_install_title = 2132017512;
+    public static final int common_google_play_services_notification_channel_name = 2132017513;
+    public static final int common_google_play_services_notification_ticker = 2132017514;
+    public static final int common_google_play_services_unknown_issue = 2132017515;
+    public static final int common_google_play_services_unsupported_text = 2132017516;
+    public static final int common_google_play_services_update_button = 2132017517;
+    public static final int common_google_play_services_update_text = 2132017518;
+    public static final int common_google_play_services_update_title = 2132017519;
+    public static final int common_google_play_services_updating_text = 2132017520;
+    public static final int common_google_play_services_wear_update_text = 2132017521;
+    public static final int common_open_on_phone = 2132017522;
+    public static final int common_signin_button_text = 2132017523;
+    public static final int common_signin_button_text_long = 2132017524;
+    public static final int search_menu_title = 2132020024;
+    public static final int status_bar_notification_info_overflow = 2132020110;
+
+    private R$string() {
+            r1 = this;
+            r0 = 2
+            r1.<init>()
+            r0 = 2
+            return
+    }
+}

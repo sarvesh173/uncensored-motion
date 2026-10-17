@@ -1,0 +1,18 @@
+.class public interface abstract Landroidx/recyclerview/widget/RecyclerView$vrp$f;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/recyclerview/widget/RecyclerView$vrp;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "f"
+.end annotation
+
+
+# virtual methods
+.method public abstract XF(II)V
+.end method

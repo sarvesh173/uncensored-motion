@@ -1,0 +1,42 @@
+.class final Lcom/google/android/gms/internal/ads/hk;
+.super Landroid/os/Handler;
+
+
+# instance fields
+.field final synthetic XF:Lcom/google/android/gms/internal/ads/lHm;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/internal/ads/lHm;Landroid/os/Looper;)V
+    .locals 1
+
+    const/4 v0, 0x6
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/hk;->XF:Lcom/google/android/gms/internal/ads/lHm;
+
+    const/4 v0, 0x6
+
+    invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+
+    const/4 v0, 0x2
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final handleMessage(Landroid/os/Message;)V
+    .locals 2
+
+    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/hk;->XF:Lcom/google/android/gms/internal/ads/lHm;
+
+    const/4 v1, 0x4
+
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/lHm;->qu(Landroid/os/Message;)V
+
+    const/4 v1, 0x4
+
+    return-void
+.end method

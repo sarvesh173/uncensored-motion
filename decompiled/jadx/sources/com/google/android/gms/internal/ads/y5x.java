@@ -1,0 +1,6 @@
+package com.google.android.gms.internal.ads;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes20.dex */
+interface y5x {
+    void I4t();
+}

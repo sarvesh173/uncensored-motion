@@ -1,0 +1,28 @@
+package J9;
+
+@kotlin.Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"LJ9/lf$Mk;", "LJ9/lf;", "<init>", "()V", "app_release"}, k = 1, mv = {1, 8, 0})
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes.dex */
+public final class lf$Mk extends J9.lf {
+    public static final J9.lf$Mk XF = null;
+
+    static {
+            r1 = 7
+            J9.lf$Mk r0 = new J9.lf$Mk     // Catch: com.alightcreative.monetization.ui.entities.PaywallActivityAction.NullPointerException -> La
+            r1 = 0
+            r0.<init>()     // Catch: com.alightcreative.monetization.ui.entities.PaywallActivityAction.NullPointerException -> La
+            r1 = 1
+            J9.lf$Mk.XF = r0     // Catch: com.alightcreative.monetization.ui.entities.PaywallActivityAction.NullPointerException -> La
+        La:
+            r1 = 7
+            return
+    }
+
+    private lf$Mk() {
+            r2 = this;
+            r0 = 0
+            r1 = r0
+            r2.<init>(r0)
+            r1 = 0
+            return
+    }
+}

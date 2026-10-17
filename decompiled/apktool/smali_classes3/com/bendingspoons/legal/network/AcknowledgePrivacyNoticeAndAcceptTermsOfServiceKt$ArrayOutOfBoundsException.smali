@@ -1,0 +1,2 @@
+.class public Lcom/bendingspoons/legal/network/AcknowledgePrivacyNoticeAndAcceptTermsOfServiceKt$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

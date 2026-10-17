@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_n_years">%d 年</string>
+    <string name="calendar_up_to_n_months">高達 %d 個月</string>
+    <string name="calendar_up_to_n_years">高達 %d 年</string>
+    <string name="privacy_banner_accept_and_continue">全部接受並繼續</string>
+    <string name="privacy_banner_customize">自訂偏好設定</string>
+    <string name="privacy_banner_description">"我們使用的應用程式追蹤技術能確保應用程式功能運作如常，可以用來提供綜合統計資料。取得你
+的同意後，我們和第三方合作夥伴也將會使用此追蹤技術，來改善應用程式體驗，同時為你提供個人化服務和定向廣告。若你同意，請點選"<i>全部接受並繼續</i>"。
+
+你也可以透過點選"<i>自訂偏好設定</i>或隨時至<i>隱私權設定</i>"中，自訂隱私權設定。假如您不希望我們使用非技術性追蹤技術，請點選畫面上方角落的「X」。
+
+若想進一步了解我們如何透過追蹤技術處理個人資料，請查閱官方隱私權政策。"</string>
+    <string name="privacy_banner_description_with_profiling">"我們使用的應用程式追蹤技術能確保應用程式功能運作如常，可以用來提供綜合統計資料。取得你
+的同意後，我們和第三方合作夥伴也將會使用此追蹤技術，來改善應用程式體驗，同時為你提供個人化服務和定向廣告。若你同意，請點選"<i>全部接受，並繼續</i>"。
+
+你也可以透過點選"<i>自訂偏好設定</i>或隨時至<i>隱私權設定</i>"中，自訂隱私權設定。假如您不希望我們使用非技術性追蹤技術，請點選畫面上方角落的「X」。
+
+若想進一步了解我們如何透過追蹤技術處理個人資料，請查閱我們的隱私權政策。"</string>
+    <string name="privacy_banner_title">我們尊重您的隱私權。</string>
+    <string name="privacy_settings_accept">全部接受</string>
+    <string name="privacy_settings_analytics_subtitle">可用來追蹤應用程式的流量和效能、最熱門或較不受歡迎的功能，還能追蹤你瀏覽應用程式的方式。上述追蹤程式，可由我方或由第三方合作夥伴設定。</string>
+    <string name="privacy_settings_analytics_title">分析</string>
+    <string name="privacy_settings_close">關閉</string>
+    <string name="privacy_settings_deny">拒絕非必要功能</string>
+    <string name="privacy_settings_description">"只要你同意，我們和第三方合作夥伴將會使用以下應用程式追蹤技術。你可以選擇同意我方使用哪些非技術性追蹤技術。
+
+若想進一步了解我們如何透過追蹤技術來處理個人資料，請查閱官方隱私權政策。"</string>
+    <string name="privacy_settings_profiling_subtitle">根據你分享的資料和應用程式行為，可用來提供自訂服務和廣告並衡量廣告成效。上述追蹤程式，可由我方或由第三方合作夥伴設定。</string>
+    <string name="privacy_settings_profiling_title">分析</string>
+    <string name="privacy_settings_retention">保留</string>
+    <string name="privacy_settings_technical_subtitle">能有效確保應用程式運作，或者只由我方用來執行彙整的統計資料分析。</string>
+    <string name="privacy_settings_technical_title">技術性</string>
+    <string name="privacy_settings_third_party_pp">第三方隱私權政策</string>
+    <string name="privacy_settings_title">隱私權設定</string>
+    <string name="retention_third_party">由第三方來定義</string>
+    <string name="trackers_analytics_firebase_description">Firebase 是 Google 提供的工具，能有效協助應用程式運作。當啟用分析功能時，此工具就能協助我們改善應用程式的流量和效能。</string>
+    <string name="trackers_privacy_policy_link_label">第三方隱私權政策</string>
+    <string name="trackers_profiling_adjust_description">Adjust 是種行動裝置歸因工具，能協助我方衡量廣告成效。</string>
+    <string name="trackers_profiling_bsp_description">內部分析軟體開發套件 (SDK) 讓我們可以提供自訂服務。</string>
+    <string name="trackers_profiling_firebase_description">Firebase 是 Google 提供的工具，能有效協助應用程式運作。當啟用分析功能時，此工具就能協助我們評估廣告的成效。</string>
+    <string name="trackers_profiling_generic_description">%s允許我們對你投放廣告。當啟用分析功能時，就會依你的偏好設定來自訂廣告內容。</string>
+</resources>

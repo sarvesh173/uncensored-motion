@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="other">%1$d dari %2$d file berhasil diunggah.</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="other">Maaf, kami tidak bisa mengunggah %1$d file.</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="other">Salin %d Layer</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="other">jam</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="other">menit</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="other">detik</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="other">Anda telah membagikan %1$d paket proyek menggunakan akun ini. [b]Jika Anda menghapus akun ini, paket proyek yang telah dibagikan akan dihapus dari cloud, dan tautan Alight serta kode QR akan dihapus secara permanen dan tidak dapat dipulihkan.[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="other">Hapus %d elemen</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="other">Hapus %d proyek</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="other">Hapus %1$d templat</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="other">Gandakan %d elemen</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="other">Gandakan %d Layer</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="other">Gandakan %d proyek</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="other">Memilih %d elemen</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Maju cepat %d detik</item>
+        <item quantity="other">Maju cepat %d detik</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Mundur %d detik</item>
+        <item quantity="other">Mundur %d detik</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="other">Penawaran berakhir dalam %1$d hari.</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="other">Penawaran berakhir dalam %1$d jam</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Sandi tidak cukup kuat. Gunakan minimal %1$d karakter dan merupakan kombinasi huruf dan angka</item>
+        <item quantity="other">Sandi tidak cukup kuat. Gunakan minimal %1$d karakter dan merupakan kombinasi huruf dan angka</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="other">Impor %d Elemen</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="other">Impor %d Proyek</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="other">Memilih %d layer</item>
+    </plurals>
+    <plurals name="linked_projects_changed">
+        <item quantity="other">%d proyek/elemen yang dihubungkan telah diubah. Apakah Anda ingin memperbarui salinan yang disematkan dalam proyek ini?</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="other">File asli untuk %d proyek/elemen yang dihubungkan tidak ditemukan; akan menggunakan salinan terbaru yang disematkan dalam proyek ini.</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="other">+%d lagi</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notifikasi baru</item>
+        <item quantity="other">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="other">Pass %d Hari</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="other">Mencakup Uji Coba Gratis Selama %d Hari</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="other">Pass %d Jam</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="other">Pass %d Menit</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="other">Pass %d Bulan</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="other">Keanggotaan Berlangganan %d Bulan</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="other">Pass %d Tahun</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="other">Keanggotaan Berlangganan %d Tahun</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d dipilih</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="other">Tempel %d Layer</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="other">Hapus %1$d preset</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="other">Ekspor %1$d preset</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="other">Impor %1$d Preset</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="other">%1$d dipilih</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="other">Memilih %d proyek</item>
+    </plurals>
+</resources>

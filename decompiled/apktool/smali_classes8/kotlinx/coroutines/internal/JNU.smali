@@ -1,0 +1,95 @@
+.class final synthetic Lkotlinx/coroutines/internal/JNU;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0010\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0005\u001a\u0012\u0010\u0002\u001a\u0004\u0018\u00010\u00002\u0006\u0010\u0001\u001a\u00020\u0000H\u0000\"\u001a\u0010\u0007\u001a\u00020\u00038\u0000X\u0080\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0004\u0010\u0005\u001a\u0004\u0008\u0004\u0010\u0006\u00a8\u0006\u0008"
+    }
+    d2 = {
+        "",
+        "propertyName",
+        "h",
+        "",
+        "XF",
+        "I",
+        "()I",
+        "AVAILABLE_PROCESSORS",
+        "kotlinx-coroutines-core"
+    }
+    k = 0x5
+    mv = {
+        0x1,
+        0x6,
+        0x0
+    }
+    xs = "kotlinx/coroutines/internal/SystemPropsKt"
+.end annotation
+
+
+# static fields
+.field private static final XF:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    const/4 v1, 0x0
+
+    invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+
+    move-result-object v0
+
+    const/4 v1, 0x5
+
+    invoke-virtual {v0}, Ljava/lang/Runtime;->availableProcessors()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    sput v0, Lkotlinx/coroutines/internal/JNU;->XF:I
+
+    const/4 v1, 0x5
+
+    return-void
+.end method
+
+.method public static final XF()I
+    .locals 2
+
+    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    sget v0, Lkotlinx/coroutines/internal/JNU;->XF:I
+
+    const/4 v1, 0x6
+
+    return v0
+.end method
+
+.method public static final h(Ljava/lang/String;)Ljava/lang/String;
+    .locals 1
+
+    :try_start_0
+    const/4 v0, 0x5
+
+    invoke-static {p0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+    :try_end_0
+    .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v0, 0x7
+
+    goto :goto_0
+
+    :catch_0
+    const/4 p0, 0x0
+
+    move v0, p0
+
+    :goto_0
+    return-object p0
+.end method

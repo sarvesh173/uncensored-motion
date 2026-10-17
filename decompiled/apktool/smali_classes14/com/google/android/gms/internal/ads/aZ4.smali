@@ -1,0 +1,156 @@
+.class public final synthetic Lcom/google/android/gms/internal/ads/aZ4;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/Pws;
+
+
+# static fields
+.field public static final synthetic XF:Lcom/google/android/gms/internal/ads/aZ4;
+
+
+# direct methods
+.method static synthetic constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lcom/google/android/gms/internal/ads/aZ4;
+
+    const/4 v1, 0x4
+
+    invoke-direct {v0}, Lcom/google/android/gms/internal/ads/aZ4;-><init>()V
+
+    const/4 v1, 0x7
+
+    sput-object v0, Lcom/google/android/gms/internal/ads/aZ4;->XF:Lcom/google/android/gms/internal/ads/aZ4;
+
+    return-void
+.end method
+
+.method private synthetic constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x3
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza()Ljava/lang/reflect/Constructor;
+    .locals 6
+
+    const-string v5, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    const/4 v5, 0x4
+
+    const-string v1, "adsdiFery3oxa..ocralbm.ardrdfieLand.ccle"
+
+    const-string v1, "androidx.media3.decoder.flac.FlacLibrary"
+
+    const/4 v5, 0x7
+
+    invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+
+    move-result-object v1
+
+    const/4 v5, 0x6
+
+    const/4 v2, 0x0
+
+    const/4 v5, 0x1
+
+    new-array v3, v2, [Ljava/lang/Class;
+
+    const/4 v5, 0x0
+
+    const-string/jumbo v4, "saimiveblaA"
+
+    const-string/jumbo v4, "isAvailable"
+
+    const/4 v5, 0x1
+
+    invoke-virtual {v1, v4, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    move-result-object v1
+
+    const/4 v5, 0x3
+
+    new-array v3, v2, [Ljava/lang/Object;
+
+    const/4 v5, 0x6
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x5
+
+    invoke-virtual {v1, v4, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    const/4 v5, 0x5
+
+    invoke-virtual {v0, v1}, Ljava/lang/Boolean;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    const/4 v5, 0x1
+
+    if-eqz v0, :cond_0
+
+    const/4 v5, 0x2
+
+    const-string/jumbo v0, "ll.roxfa3d.diiercreEneoadcaart.xcatFddo.mc"
+
+    const-string v0, "androidx.media3.decoder.flac.FlacExtractor"
+
+    const/4 v5, 0x3
+
+    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+
+    move-result-object v0
+
+    const/4 v5, 0x7
+
+    const-class v1, Lcom/google/android/gms/internal/ads/YkU;
+
+    const-class v1, Lcom/google/android/gms/internal/ads/YkU;
+
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
+
+    move-result-object v0
+
+    const/4 v5, 0x0
+
+    const/4 v1, 0x1
+
+    const/4 v5, 0x4
+
+    new-array v1, v1, [Ljava/lang/Class;
+
+    sget-object v3, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+
+    const/4 v5, 0x2
+
+    aput-object v3, v1, v2
+
+    const/4 v5, 0x4
+
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+
+    move-result-object v0
+
+    const/4 v5, 0x6
+
+    return-object v0
+
+    :cond_0
+    const/4 v5, 0x5
+
+    return-object v4
+.end method

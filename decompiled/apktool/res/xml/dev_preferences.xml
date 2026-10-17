@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="MOD by pnkj" app:iconSpaceReserved="false">
+        <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Mod Menu" app:iconSpaceReserved="false">
+            <SwitchPreference android:title="Enable Floating Gold AI" android:key="gold.ai.floating.enabled" android:summary="Show the draggable Gold AI assistant on Home and in the project editor" android:defaultValue="false" app:iconSpaceReserved="false" />
+            <PreferenceScreen android:title="Mod Menu Settings" android:key="mod_menu_settings" android:summary="Configure extra mod options here" app:iconSpaceReserved="false">
+                <SwitchPreference android:title="Enable Secret Feature" android:key="com.mod.menu.feature1" android:summary="Turns on hidden functionality" android:defaultValue="false" app:iconSpaceReserved="false" />
+                <EditTextPreference android:title="Set Custom Label" android:key="com.mod.menu.customLabel" android:summary="Change the text shown on your Gold Motion mod" android:defaultValue="Pnkj" app:iconSpaceReserved="false" app:useSimpleSummaryProvider="true" />
+                <ListPreference android:entries="@array/effectStrengthLabels" android:title="Effect Strength" android:key="com.mod.menu.effectStrength" android:summary="%s" android:defaultValue="medium" android:entryValues="@array/effectStrengthValues" app:iconSpaceReserved="false" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <SwitchPreference android:enabled="false" android:title="@string/show_watermark_on_projects" android:summary="Watermark disabled by pnkj" android:defaultValue="false" android:singleLineTitle="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="@string/pref_low_quality_preview_title" android:key="com.alightcreative.motion.lowQualityPreview" android:summary="@string/pref_low_quality_preview_detail" android:defaultValue="true" android:singleLineTitle="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="@string/enhanced_controlpad_precision" android:key="com.alightcreative.motion.controlpadAccel" android:summary="@string/enhanced_controlpad_precision_detail" android:defaultValue="false" android:singleLineTitle="false" app:iconSpaceReserved="false" />
+        <ListPreference android:entries="@array/timelineHeaderThumbBoundsLabels" android:title="@string/thumbnail_bounds" android:key="com.alightcreative.motion.thumbBounds" android:summary="@string/thumbnail_bounds_summary" android:defaultValue="element" android:entryValues="@array/timelineHeaderThumbBoundsValues" android:singleLineTitle="false" app:iconSpaceReserved="false" />
+        <ListPreference android:entries="@array/recentlyUsedVisualMedia" android:title="@string/mini_browser_recent_media" android:key="com.alightcreative.motion.recentMediaSize" android:summary="%s" android:defaultValue="0" android:entryValues="@array/recentlyUsedVisualMediaValues" android:singleLineTitle="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="@string/desaturated_ui_theme" android:key="com.alightcreative.motion.grayTheme" android:summary="@string/desaturated_ui_theme_detail" android:defaultValue="false" android:singleLineTitle="false" app:iconSpaceReserved="false" />
+        <Preference android:title="@string/clear_export_cache" android:key="com.alightcreative.motion.prefbutton.clearExportCache" android:summary="🗿🗿🗿🗿" android:singleLineTitle="false" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="General" android:key="header.com.alightcreative.motion.acDevMode" app:iconSpaceReserved="false">
+        <SwitchPreference android:title="Developer Testing Override" android:key="com.alightcreative.motion.acDevMode" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Demo Mode" android:key="com.alightcreative.motion.demoMode" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Show Experimental Effects" android:key="com.alightcreative.motion.experimentalEffects" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Experimental Features" android:key="com.alightcreative.motion.experimentalFeatures" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Simulate Upload" android:key="com.alightcreative.motion.simulateUpload" android:defaultValue="false" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Home Feed, Tutorials &amp; Element Download" app:iconSpaceReserved="false">
+        <SwitchPreference android:title="Use Staging Server" android:key="com.alightcreative.motion.stagingFeed" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Ignore Publishing Date" android:key="com.alightcreative.motion.feedIgnorePubDate" android:defaultValue="false" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="IAP" app:iconSpaceReserved="false">
+        <ListPreference android:entries="@array/accountTestModeLabels" android:title="Sign-in Simulation" android:key="com.alightcreative.motion.acctTestMode" android:summary="%s" android:defaultValue="normal" android:entryValues="@array/accountTestModeValues" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Pass Testing" android:key="com.alightcreative.motion.iaptest" android:summary="Treat annual passes as hourly passes, monthly passes as annual passes" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Simulate Bad Token" android:key="com.alightcreative.motion.iapSimulateBadToken" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Prompt Test" android:key="com.alightcreative.motion.iapPromptTest" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <ListPreference android:entries="@array/iapPromptDelayLabels" android:title="IAP Prompt Delay" android:key="com.alightcreative.motion.iapPromptDelay" android:summary="%s" android:defaultValue="DEFAULT" android:entryValues="@array/iapPromptDelayValues" app:iconSpaceReserved="false" />
+        <ListPreference android:entries="@array/iapPromptTypeLabels" android:title="IAP Prompt Type" android:key="com.alightcreative.motion.iapPrompt" android:summary="%s" android:defaultValue="DEFAULT" android:entryValues="@array/iapPromptTypeValues" app:iconSpaceReserved="false" />
+        <ListPreference android:entries="@array/iapPromptContentTestLabels" android:title="IAP Prompt Content" android:key="com.alightcreative.motion.iapPromptContentTest" android:summary="%s" android:defaultValue="DEFAULT" android:entryValues="@array/iapPromptContentTestValues" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Use Test Ads" android:key="com.alightcreative.motion.useTestAds" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <ListPreference android:title="Open Ads debugger" android:key="com.alightcreative.motion.openADsDebugger" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Use Interstitial Video Test Ads" android:key="com.alightcreative.motion.useInterstitialVideoTestAds" android:defaultValue="false" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Device Information" android:key="header.com.alightcreative.motion.deviceInfo" app:iconSpaceReserved="false">
+        <SwitchPreference android:title="Show Profiling HUD" android:key="com.alightcreative.motion.profilingHud" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <Preference android:title="Device Diagnostic Information" android:key="com.alightcretive.motion.showDiagnosticInfo" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Testing" android:key="header.com.alightcreative.motion.testing" app:iconSpaceReserved="false">
+        <Preference android:title="Reset Privacy Policy Agreement" android:key="com.alightcretive.motion.action.resetPrivacyAgree" app:iconSpaceReserved="false" />
+        <Preference android:title="Reset Review and Lag Popups" android:key="com.alightcretive.motion.action.resetReview" app:iconSpaceReserved="false" />
+        <Preference android:title="Reset Element 'New' Trackng" android:key="com.alightcretive.motion.action.resetElementNew" app:iconSpaceReserved="false" />
+        <Preference android:title="Reset 1-time Popups &amp; Balloons" android:key="com.alightcreative.motion.action.resetOneTimePopups" app:iconSpaceReserved="false" />
+        <Preference android:title="Reset and Wipe App Data" android:key="com.alightcreative.motion.action.resetAppData" app:iconSpaceReserved="false" />
+        <Preference android:title="Reload Remote Config" android:key="com.alightcretive.motion.action.reloadRemoteConfig" app:iconSpaceReserved="false" />
+        <Preference android:title="Copy Firebase IID to Clipboard" android:key="com.alightcretive.motion.action.firebaseIID" android:summary="IID: (loading)" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Disable Render Performance Trace" android:key="com.alightcreative.motion.disableRenderPerformanceTrace" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Simulate EEA Region" android:key="com.alightcreative.motion.testEEA" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Use Firebase Emulator" android:key="com.alightcreative.motion.useFirebaseEmulator" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <EditTextPreference android:title="Firebase Emulator Address" android:key="com.alightcreative.motion.firebaseEmulatorAddress" android:defaultValue="" app:iconSpaceReserved="false" app:useSimpleSummaryProvider="true" />
+        <Preference android:title="Add 3.5 to installed version history" android:key="com.alightcreative.motion.action.addInstall3_5" app:iconSpaceReserved="false" />
+        <Preference android:title="Add 3.10.3 to installed version history" android:key="com.alightcreative.motion.action.addInstall3_10_3" app:iconSpaceReserved="false" />
+        <Preference android:title="Clear installed version history" android:key="com.alightcreative.motion.action.clearInstallHistory" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Audio" app:iconSpaceReserved="false">
+        <ListPreference android:entries="@array/audioResamplerTypeLabels" android:title="Resampler Algorithm" android:key="com.alightcreative.motion.audioResamplerType" android:summary="%s" android:defaultValue="SincLow" android:entryValues="@array/audioResamplerTypeValues" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Utility" android:key="header.com.alightcreative.motion.utils" app:iconSpaceReserved="false">
+        <Preference android:title="Export Effect Documentation Templates" android:key="com.alightcreative.motion.exportEffectDocTemplates" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Mod Advanced" app:iconSpaceReserved="false">
+        <SwitchPreference android:enabled="false" android:title="Bypass Project Export" android:summary="Allows this mod function to export project packages to the server" android:defaultValue="true" app:iconSpaceReserved="false" />
+        <SwitchPreference android:enabled="false" android:title="Remove Paywall Screen" android:summary="Allows this mod to remove the paywall screen that always appears on the homepage and edit projects" android:defaultValue="true" app:iconSpaceReserved="false" />
+        <SwitchPreference android:title="Fake Dark Mode" android:key="com.alightcreative.motion.fakeDarkMode" android:summary="Forces a dark UI look manually (experimental override)" android:defaultValue="false" android:singleLineTitle="false" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Gold Motion Customization" app:iconSpaceReserved="false">
+        <Preference android:title="Customize Gold Motion" android:summary="Pick theme, timeline and home colours, customize the homepage title/subtitle, or replace the homepage logo area with your own photo. The original logo colours stay unchanged." app:iconSpaceReserved="false">
+            <intent android:targetPackage="com.goldmotion.pnkj" android:targetClass="com.goldmotion.customize.CustomizationActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <SwitchPreference android:enabled="false" android:title="Bypass Login (Experimental)" android:summary="Allows this mod to bypass login with Continue As Guest" android:defaultValue="true" app:iconSpaceReserved="false" />
+</PreferenceScreen>

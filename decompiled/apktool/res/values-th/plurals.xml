@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="other">อัปโหลดสำเร็จ %1$d จาก %2$d ไฟล์</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="other">ขออภัย เราอัปโหลดไม่ได้ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="other">คัดลอก %d เลเยอร์</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="other">ชั่วโมง</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="other">นาที</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="other">วินาที</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="other">คุณใช้บัญชีนี้แชร์แพ็กเก็จโปรเจกต์แล้ว %1$d รายการ [b]หากคุณลบบัญชีนี้ แพ็กเก็จที่อยู่ในคลาวด์ ลิงก์และ QR จะถูกลบไปด้วยอย่างถาวรและไม่สามารถกู้คืนได้[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="other">ลบ %d เอเลเมนต์</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="other">ลบ %d โปรเจ็กต์</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="other">ลบเทมเพลตออก %1$d ตัวแล้ว</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="other">ทำซ้ำ %d เอเลเมนต์</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="other">ทำซ้ำ %d เลเยอร์</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="other">ทำซ้ำ %d โปรเจ็กต์</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="other">เลือกแล้ว %d เอเลเมนต์</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">กรอไปข้างหน้า %d วินาที</item>
+        <item quantity="other">กรอไปข้างหน้า %d วินาที</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">กรอกลับ %d วินาที</item>
+        <item quantity="other">กรอกลับ %d วินาที</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="other">ข้อเสนอจะหมดอายุใน %1$d วัน</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="other">ข้อเสนอจะหมดอายุใน %1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">รหัสผ่านไม่รัดกุมมากพอ ใช้อักขระอย่างน้อย %1$d ตัวและต้องเป็นตัวอักษรปนกับตัวเลข</item>
+        <item quantity="other">รหัสผ่านไม่รัดกุมมากพอ ใช้อักขระอย่างน้อย %1$d ตัวและต้องเป็นตัวอักษรปนกับตัวเลข</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="other">นำเข้า %d เอเลเมนต์</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="other">นำเข้า %d โปรเจ็กต์</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="other">เลือก %d เลเยอร์</item>
+    </plurals>
+    <plurals name="linked_projects_changed">
+        <item quantity="other">มีการเปลี่ยนแปลงโปรเจ็กต์/เอเลเมนต์ที่เชื่อมโยง %d รายการ คุณต้องการอัปเดตสำเนาที่ฝังในโปรเจ็กต์นี้หรือไม่</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="other">ไม่มีต้นฉบับสำหรับโปรเจ็กต์/เอเลเมนต์ที่เชื่อมโยง %d รายการ ระบบจะใช้สำเนาที่ฝังล่าสุดในโปรเจ็กต์นี้แทน</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="other">อีก %d รายการ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="other">บัตรผ่าน %d วัน</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="other">รวมการทดลองใช้ฟรี %d วัน</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="other">บัตรผ่าน %d ชั่วโมง</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="other">บัตรผ่าน %d นาที</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="other">บัตรผ่าน %d เดือน</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="other">สมาชิกราย %d เดือน</item>
+    </plurals>
+    <plurals name="n_times">
+        <item quantity="other">%d ครั้ง</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="other">บัตรผ่าน %d ปี</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="other">สมาชิกราย %d ปี</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">เลือก %d รายการแล้ว</item>
+    </plurals>
+    <plurals name="packaging_projects_plural">
+        <item quantity="other">กำลังสร้างแพ็กเกจ %d โปรเจ็กต์</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="other">วาง %d เลเยอร์</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="other">ลบค่าที่ตั้งไว้ล่วงหน้า %1$d</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="other">ส่งออก %1$d ที่ตั้งไว้ล่วงหน้า</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="other">นำเข้า%1$d ที่ตั้งไว้ล่วงหน้า</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="other">เลือกอยู่ %1$d อย่าง</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="other">เลือก %d โปรเจ็กต์</item>
+    </plurals>
+</resources>

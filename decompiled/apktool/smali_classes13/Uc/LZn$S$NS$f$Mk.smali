@@ -1,0 +1,227 @@
+.class final synthetic LUc/LZn$S$NS$f$Mk;
+.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LUc/LZn$S$NS$f;->XF(Lo6/qR;LhN/Composer;I)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1000
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/Object;)V
+    .locals 8
+
+    const/4 v7, 0x7
+
+    const/4 v1, 0x0
+
+    const/4 v7, 0x4
+
+    const-class v3, LEyn/NS;
+
+    const-class v3, LEyn/NS;
+
+    const/4 v7, 0x3
+
+    invoke-static {}, Ln0q/f;->XF()I
+
+    move-result v0
+
+    const/4 v7, 0x6
+
+    mul-int/lit8 v2, v0, 0x3
+
+    const/4 v7, 0x2
+
+    rem-int/2addr v2, v0
+
+    const/4 v7, 0x7
+
+    if-eqz v2, :cond_0
+
+    const/4 v7, 0x7
+
+    const/16 v0, 0x44
+
+    const/4 v7, 0x1
+
+    const-string v2, "fhsav*( {fdazm/{w`t+b ey?,t}s0sr<8#p/|9i"
+
+    const-string v2, "\"! try(szwv{`fhae0dmai?bf98<t{sp} |#*,+"
+
+    const/4 v7, 0x6
+
+    invoke-static {v0, v2}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v7, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v7, 0x6
+
+    const-string/jumbo v0, "lcwmGaasetT"
+
+    const-string v0, "aaTcstGawel"
+
+    :goto_0
+    const/16 v2, -0x52
+
+    const/4 v7, 0x4
+
+    invoke-static {v0, v2}, Ln0q/f;->h(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v4
+
+    const/4 v7, 0x6
+
+    invoke-static {}, Ln0q/f;->XF()I
+
+    move-result v0
+
+    const/4 v7, 0x5
+
+    mul-int/lit8 v2, v0, 0x5
+
+    const/4 v7, 0x3
+
+    rem-int/2addr v2, v0
+
+    const/4 v7, 0x0
+
+    if-nez v2, :cond_1
+
+    const/4 v7, 0x0
+
+    const-string v0, "/u*:o//h040080h8003,8uu(=+<10"
+
+    const-string v0, ":8\u0013*8=\u0008(<,+hh\u0014"
+
+    const/4 v7, 0x3
+
+    goto :goto_1
+
+    :cond_1
+    const/4 v7, 0x5
+
+    const-string/jumbo v0, "h*i:<b`u0l0g/0b2u$cce6utw$80y}fct/u//g/A604{he;,eka(7j/>9<3j 0/0{iu=0"
+
+    const-string v0, "Alihc\'}g*ge\u00ce\u00a6ybt2`u{e7wj:jit>{/36c $(4h<$k<,=;\u0093\u00f8"
+
+    const/4 v7, 0x0
+
+    const/16 v2, 0x22
+
+    invoke-static {v0, v2}, Ln0q/f;->h(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v0
+
+    :goto_1
+    const/16 v2, 0xad5
+
+    const/4 v7, 0x5
+
+    invoke-static {v0, v2}, Ln0q/f;->h(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v5
+
+    const/4 v7, 0x2
+
+    const/4 v6, 0x0
+
+    move-object v0, p0
+
+    move-object v0, p0
+
+    move-object v2, p1
+
+    move-object v2, p1
+
+    const/4 v7, 0x1
+
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    const/4 v7, 0x5
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final XF()V
+    .locals 2
+
+    :try_start_0
+    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+
+    const/4 v1, 0x4
+
+    check-cast v0, LEyn/NS;
+
+    invoke-virtual {v0}, LEyn/lf;->f()V
+    :try_end_0
+    .catch Lcom/alightcreative/maineditor/presetpreview/ui/components/PresetPreviewContentKt$PresetPreviewContent$7$1$3$1$5$1$IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    const/4 v1, 0x6
+
+    return-void
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 2
+
+    :try_start_0
+    const/4 v1, 0x5
+
+    invoke-virtual {p0}, LUc/LZn$S$NS$f$Mk;->XF()V
+
+    sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+    :try_end_0
+    .catch Lcom/alightcreative/maineditor/presetpreview/ui/components/PresetPreviewContentKt$PresetPreviewContent$7$1$3$1$5$1$IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v1, 0x0
+
+    return-object v0
+
+    :catch_0
+    const/4 v1, 0x6
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x3
+
+    return-object v0
+.end method

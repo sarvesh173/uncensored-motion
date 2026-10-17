@@ -1,0 +1,27 @@
+package com.alightcreative.app.motion.activities.main;
+
+@kotlin.Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lcom/alightcreative/app/motion/activities/main/kL$f;", "Lcom/alightcreative/app/motion/activities/main/kL;", "<init>", "()V", "app_release"}, k = 1, mv = {1, 8, 0})
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes14.dex */
+public final class kL$f implements com.alightcreative.app.motion.activities.main.kL {
+    public static final com.alightcreative.app.motion.activities.main.kL$f XF = null;
+
+    static {
+            r1 = 7
+            com.alightcreative.app.motion.activities.main.kL$f r0 = new com.alightcreative.app.motion.activities.main.kL$f     // Catch: com.alightcreative.app.motion.activities.main.MainAction.ArrayOutOfBoundsException -> La
+            r1 = 3
+            r0.<init>()     // Catch: com.alightcreative.app.motion.activities.main.MainAction.ArrayOutOfBoundsException -> La
+            r1 = 6
+            com.alightcreative.app.motion.activities.main.kL$f.XF = r0     // Catch: com.alightcreative.app.motion.activities.main.MainAction.ArrayOutOfBoundsException -> La
+        La:
+            r1 = 3
+            return
+    }
+
+    private kL$f() {
+            r1 = this;
+            r0 = 4
+            r1.<init>()
+            r0 = 2
+            return
+    }
+}

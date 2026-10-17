@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="gmMenuHit" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingStart="0.0dp" android:paddingEnd="16.0dp">
+            <ImageView android:tag="gmMenu" android:padding="12.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/gm_proj_ic_menu" android:scaleType="centerInside" android:contentDescription="Open side menu" />
+            <Space android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="#fff2c94c" android:tag="gmBrand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:fontFamily="@font/spacegrotesk_medium" />
+            <Space android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <View android:layout_width="34.0dp" android:layout_height="34.0dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <TextView android:textSize="25.0sp" android:textColor="#ffffffff" android:tag="gmTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/projects_tab_projects_subtab_name" android:fontFamily="@font/spacegrotesk_medium" />
+            <TextView android:textSize="11.0sp" android:textColor="#ff6e7480" android:tag="gmCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:orientation="vertical" android:tag="gmTabWrap0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="24.0dp">
+                <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:tag="gmTab0" android:paddingBottom="9.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_bar_projects" android:fontFamily="@font/spacegrotesk_medium" />
+                <View android:tag="gmTabLine0" android:background="#fff2c94c" android:layout_width="match_parent" android:layout_height="2.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:tag="gmTabWrap1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="24.0dp">
+                <TextView android:textSize="13.0sp" android:textColor="#ff6e7480" android:tag="gmTab1" android:paddingBottom="9.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/projects_tab_elements_subtab_name" />
+                <View android:tag="gmTabLine1" android:background="#00f2c94c" android:layout_width="match_parent" android:layout_height="2.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:tag="gmTabWrap2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="#ff6e7480" android:tag="gmTab2" android:paddingBottom="9.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_subtab_title" />
+                <View android:tag="gmTabLine2" android:background="#00f2c94c" android:layout_width="match_parent" android:layout_height="2.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="#ff1a1d24" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="-1.0dp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="44.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="gmSort" android:background="@android:color/transparent" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="6.0dp">
+                <TextView android:textSize="11.0sp" android:textColor="#ff8a8f9c" android:tag="gmSortLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sort_by_date" />
+                <ImageView android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/gm_proj_ic_sort" android:scaleType="centerInside" android:layout_marginStart="4.0dp" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_weight="1.0" />
+            <ImageView android:tag="gmViewToggle" android:padding="5.0dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/gm_proj_ic_grid" android:scaleType="centerInside" android:contentDescription="View" />
+            <ImageView android:tag="gmSearchIcon" android:padding="5.0dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/gm_proj_ic_search" android:scaleType="centerInside" android:contentDescription="Search" android:layout_marginStart="4.0dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="gmSearchBar" android:background="@drawable/gm_proj_search_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="42.0dp" android:layout_marginBottom="8.0dp" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+            <ImageView android:layout_width="17.0dp" android:layout_height="17.0dp" android:src="@drawable/gm_proj_ic_search" android:scaleType="centerInside" android:contentDescription="Search" />
+            <EditText android:textSize="13.0sp" android:textColor="#ffffffff" android:textColorHint="#ff5c6270" android:tag="gmSearchInput" android:background="@android:color/transparent" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:hint="@string/gm_proj_search_hint" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionSearch" android:layout_marginStart="8.0dp" />
+            <ImageView android:tag="gmSearchClear" android:padding="4.0dp" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ac_ic_cancel" android:scaleType="centerInside" android:contentDescription="Clear" />
+        </LinearLayout>
+        <FrameLayout android:tag="gmProjectsArea" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <ScrollView android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never">
+                <LinearLayout android:orientation="vertical" android:tag="gmGrid" android:paddingTop="4.0dp" android:paddingBottom="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+            </ScrollView>
+            <TextView android:textSize="13.0sp" android:textColor="#ff5c6270" android:gravity="center" android:layout_gravity="center" android:tag="gmEmpty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="gmSelBar" android:background="#ff000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48.0dp" android:paddingStart="8.0dp" android:paddingEnd="12.0dp">
+        <ImageView android:tag="gmSelClose" android:padding="13.0dp" android:layout_width="50.0dp" android:layout_height="50.0dp" android:src="@drawable/ac_ic_cancel" android:scaleType="centerInside" android:tint="#ffffffff" android:contentDescription="Cancel" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:tag="gmSelCount" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/spacegrotesk_medium" android:layout_marginStart="4.0dp" />
+        <TextView android:textSize="12.0sp" android:textColor="#fff2c94c" android:tag="gmSelAll" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select all" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:tag="gmActBar" android:background="#ff000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="58.0dp">
+        <TextView android:textSize="12.5sp" android:textColor="#ffffffff" android:gravity="center" android:tag="gmActDuplicate" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="Duplicate" android:layout_weight="1.0" />
+        <TextView android:textSize="12.5sp" android:textColor="#ffffffff" android:gravity="center" android:tag="gmActExport" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="Export" android:layout_weight="1.0" />
+        <TextView android:textSize="12.5sp" android:textColor="#ffffffff" android:gravity="center" android:tag="gmActShare" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="Share" android:layout_weight="1.0" />
+        <TextView android:textSize="12.5sp" android:textColor="#ffe24b4a" android:gravity="center" android:tag="gmActDelete" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="Delete" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:tag="gmMenuScrim" android:background="#cc000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/gm_proj_card_bg" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="290.0dp" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="#ff7a8090" android:ellipsize="end" android:tag="gmMenuTitle" android:paddingTop="10.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="18.0dp" android:paddingEnd="18.0dp" />
+            <LinearLayout android:orientation="vertical" android:tag="gmMenuList" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

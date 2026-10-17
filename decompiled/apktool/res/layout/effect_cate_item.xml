@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/gm_effect_category_overlay" android:layout_width="match_parent" android:layout_height="78.0dp" android:layout_margin="5.0dp" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/cateImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.48" />
+    <View android:background="@drawable/gm_effect_category_overlay" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/W1" android:gravity="center" android:id="@id/cateName" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

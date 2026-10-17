@@ -1,0 +1,16 @@
+.class public final synthetic Landroidx/appcompat/widget/z4A;
+.super Ljava/lang/Object;
+
+
+# direct methods
+.method public static bridge synthetic XF(Landroid/widget/TextView;[II)V
+    .locals 1
+
+    const-string v0, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    invoke-virtual {p0, p1, p2}, Landroid/widget/TextView;->setAutoSizeTextTypeUniformWithPresetSizes([II)V
+
+    const/4 v0, 0x1
+
+    return-void
+.end method

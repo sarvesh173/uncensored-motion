@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/app/motion/activities/creatorprogram/optin/CreatorOptInCardKt$CreatorOptInCard$1$Exception;
+.super Ljava/lang/RuntimeException;

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ARRAYS TEMPLATE - placement: res/values/tpl_arrays.xml.
+  Labels + values pairs follow the real Gold Motion pattern: accountTestModeLabels /
+  accountTestModeValues (8 entries each, indexes line up 1:1) and the mod-added
+  effectStrengthLabels / effectStrengthValues (low/medium/high) that backs the
+  "Effect Strength" ListPreference in res/xml/dev_preferences.xml. entries is human
+  copy, entryValues is what gets persisted.
+  Referenced by template-layout-linearlayout.xml (Spinner android:entries) and ready for
+  ListPreference wiring (see references/config-xml-reference.md).
+-->
+<resources>
+    <!-- Option list for the settings screen -->
+    <string-array name="tpl_settings_option_labels">
+        <item>Always</item>
+        <item>Wi-Fi only</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="tpl_settings_option_values">
+        <item>always</item>
+        <item>wifi</item>
+        <item>never</item>
+    </string-array>
+
+    <!-- Effect strength (labels/values pair modeled on the real mod arrays
+         effectStrengthLabels / effectStrengthValues) -->
+    <string-array name="tpl_effect_strength_labels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="tpl_effect_strength_values">
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+
+    <!-- Thumbnail sizes (raw values for a ListPreference; the real
+         recentlyUsedVisualMedia/Values pair follows the same shape) -->
+    <string-array name="tpl_thumbnail_labels">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <integer-array name="tpl_thumbnail_sizes">
+        <item>48</item>
+        <item>96</item>
+        <item>192</item>
+    </integer-array>
+
+    <!-- Simple icons list for code-side TypedArray use -->
+    <array name="tpl_menu_icon_refs" />
+</resources>

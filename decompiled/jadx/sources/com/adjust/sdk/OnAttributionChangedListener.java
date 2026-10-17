@@ -1,0 +1,6 @@
+package com.adjust.sdk;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes17.dex */
+public interface OnAttributionChangedListener {
+    void onAttributionChanged(com.adjust.sdk.AdjustAttribution r1);
+}

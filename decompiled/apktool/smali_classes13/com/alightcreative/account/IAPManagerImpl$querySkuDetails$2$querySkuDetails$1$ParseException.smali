@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/account/IAPManagerImpl$querySkuDetails$2$querySkuDetails$1$ParseException;
+.super Ljava/lang/RuntimeException;

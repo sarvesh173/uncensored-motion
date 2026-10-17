@@ -1,0 +1,2 @@
+.class public Lcom/bendingspoons/spidersense/logger/extensions/failableOperation/internal/FailableOperationInMemoryStorageImpl$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

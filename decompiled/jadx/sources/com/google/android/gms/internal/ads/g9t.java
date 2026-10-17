@@ -1,0 +1,355 @@
+package com.google.android.gms.internal.ads;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes7.dex */
+public final class g9t {
+    public static byte[] XF(byte[] r54, byte[] r55) {
+            r0 = r54
+            r0 = r54
+            r1 = r55
+            r1 = r55
+            r2 = 0
+            long r3 = h(r0, r2, r2)
+            r5 = 3
+            r6 = 2
+            long r7 = h(r0, r5, r6)
+            r9 = 67108611(0x3ffff03, double:3.3156059E-316)
+            r9 = 67108611(0x3ffff03, double:3.3156059E-316)
+            long r7 = r7 & r9
+            r9 = 6
+            r10 = 4
+            long r11 = h(r0, r9, r10)
+            r13 = 67092735(0x3ffc0ff, double:3.31482154E-316)
+            long r11 = r11 & r13
+            r13 = 9
+            long r14 = h(r0, r13, r9)
+            r16 = 66076671(0x3f03fff, double:3.2646213E-316)
+            r16 = 66076671(0x3f03fff, double:3.2646213E-316)
+            long r14 = r14 & r16
+            r13 = 12
+            r9 = 8
+            long r18 = h(r0, r13, r9)
+            r20 = 1048575(0xfffff, double:5.18065E-318)
+            r20 = 1048575(0xfffff, double:5.18065E-318)
+            long r18 = r18 & r20
+            r20 = 5
+            r20 = 5
+            long r22 = r7 * r20
+            long r24 = r11 * r20
+            long r26 = r14 * r20
+            long r28 = r18 * r20
+            r9 = 17
+            byte[] r13 = new byte[r9]
+            r30 = 0
+            r10 = r2
+            r10 = r2
+            r32 = r30
+            r34 = r32
+            r36 = r34
+            r38 = r36
+        L5e:
+            int r5 = r1.length
+            r6 = 16
+            r40 = 67108863(0x3ffffff, double:3.31561837E-316)
+            r40 = 67108863(0x3ffffff, double:3.31561837E-316)
+            r42 = 26
+            if (r10 >= r5) goto L139
+            int r5 = r5 - r10
+            int r5 = java.lang.Math.min(r6, r5)
+            java.lang.System.arraycopy(r1, r10, r13, r2, r5)
+            r43 = 1
+            r13[r5] = r43
+            if (r5 == r6) goto L7e
+            int r5 = r5 + 1
+            java.util.Arrays.fill(r13, r5, r9, r2)
+        L7e:
+            long r43 = h(r13, r2, r2)
+            long r38 = r38 + r43
+            r5 = 3
+            r9 = 2
+            long r43 = h(r13, r5, r9)
+            long r32 = r32 + r43
+            r5 = 6
+            r9 = 4
+            long r44 = h(r13, r5, r9)
+            long r30 = r30 + r44
+            r9 = 9
+            long r44 = h(r13, r9, r5)
+            long r34 = r34 + r44
+            r5 = 12
+            r9 = 8
+            long r44 = h(r13, r5, r9)
+            r5 = r13[r6]
+            r6 = 24
+            int r5 = r5 << r6
+            long r5 = (long) r5
+            long r5 = r44 | r5
+            long r36 = r36 + r5
+            long r5 = r38 * r3
+            long r44 = r32 * r28
+            long r5 = r5 + r44
+            long r44 = r30 * r26
+            long r5 = r5 + r44
+            long r44 = r34 * r24
+            long r5 = r5 + r44
+            long r44 = r36 * r22
+            long r5 = r5 + r44
+            long r44 = r38 * r7
+            long r46 = r32 * r3
+            long r44 = r44 + r46
+            long r46 = r30 * r28
+            long r44 = r44 + r46
+            long r46 = r34 * r26
+            long r44 = r44 + r46
+            long r46 = r36 * r24
+            long r44 = r44 + r46
+            long r46 = r5 >> r42
+            long r44 = r44 + r46
+            long r46 = r38 * r11
+            long r48 = r32 * r7
+            long r46 = r46 + r48
+            long r48 = r30 * r3
+            long r46 = r46 + r48
+            long r48 = r34 * r28
+            long r46 = r46 + r48
+            long r48 = r36 * r26
+            long r46 = r46 + r48
+            long r48 = r44 >> r42
+            long r46 = r46 + r48
+            long r48 = r46 & r40
+            long r50 = r38 * r14
+            long r52 = r32 * r11
+            long r50 = r50 + r52
+            long r52 = r30 * r7
+            long r50 = r50 + r52
+            long r52 = r34 * r3
+            long r50 = r50 + r52
+            long r52 = r36 * r28
+            long r50 = r50 + r52
+            long r46 = r46 >> r42
+            long r50 = r50 + r46
+            long r46 = r50 & r40
+            long r38 = r38 * r18
+            long r32 = r32 * r14
+            long r38 = r38 + r32
+            long r30 = r30 * r11
+            long r38 = r38 + r30
+            long r34 = r34 * r7
+            long r38 = r38 + r34
+            long r36 = r36 * r3
+            long r38 = r38 + r36
+            long r30 = r50 >> r42
+            long r38 = r38 + r30
+            long r36 = r38 & r40
+            long r5 = r5 & r40
+            long r30 = r38 >> r42
+            long r30 = r30 * r20
+            long r5 = r5 + r30
+            long r38 = r5 & r40
+            long r30 = r44 & r40
+            long r5 = r5 >> r42
+            long r32 = r30 + r5
+            int r10 = r10 + 16
+            r34 = r46
+            r30 = r48
+            r6 = 2
+            r9 = 17
+            goto L5e
+        L139:
+            long r3 = r32 >> r42
+            long r30 = r30 + r3
+            long r3 = r30 & r40
+            long r7 = r30 >> r42
+            long r34 = r34 + r7
+            long r7 = r34 & r40
+            long r9 = r34 >> r42
+            long r36 = r36 + r9
+            long r9 = r36 & r40
+            long r11 = r36 >> r42
+            long r11 = r11 * r20
+            long r38 = r38 + r11
+            long r11 = r38 & r40
+            long r13 = r32 & r40
+            long r15 = r38 >> r42
+            long r13 = r13 + r15
+            long r20 = r11 + r20
+            long r15 = r20 >> r42
+            long r15 = r15 + r13
+            long r18 = r15 >> r42
+            long r18 = r3 + r18
+            long r22 = r18 >> r42
+            long r22 = r7 + r22
+            long r24 = r22 >> r42
+            long r24 = r9 + r24
+            r26 = -67108864(0xfffffffffc000000, double:NaN)
+            r26 = -67108864(0xfffffffffc000000, double:NaN)
+            long r24 = r24 + r26
+            r1 = 63
+            r26 = r7
+            long r6 = r24 >> r1
+            r28 = r3
+            long r2 = ~r6
+            long r13 = r13 & r6
+            long r15 = r15 & r40
+            long r15 = r15 & r2
+            long r13 = r13 | r15
+            long r15 = r28 & r6
+            long r18 = r18 & r40
+            long r18 = r18 & r2
+            long r15 = r15 | r18
+            long r18 = r26 & r6
+            long r22 = r22 & r40
+            long r22 = r22 & r2
+            long r18 = r18 | r22
+            long r11 = r11 & r6
+            long r20 = r20 & r40
+            long r20 = r20 & r2
+            long r11 = r11 | r20
+            long r20 = r13 << r42
+            long r11 = r11 | r20
+            r20 = 4294967295(0xffffffff, double:2.1219957905E-314)
+            r20 = 4294967295(0xffffffff, double:2.1219957905E-314)
+            long r11 = r11 & r20
+            r4 = 16
+            long r22 = r5(r0, r4)
+            long r11 = r11 + r22
+            r4 = 6
+            long r13 = r13 >> r4
+            r4 = 20
+            long r22 = r15 << r4
+            long r13 = r13 | r22
+            long r13 = r13 & r20
+            long r22 = r5(r0, r4)
+            long r13 = r13 + r22
+            r4 = 32
+            long r22 = r11 >> r4
+            long r13 = r13 + r22
+            r8 = 12
+            long r15 = r15 >> r8
+            r8 = 14
+            long r22 = r18 << r8
+            long r15 = r15 | r22
+            long r15 = r15 & r20
+            r8 = 24
+            long r22 = r5(r0, r8)
+            long r15 = r15 + r22
+            long r22 = r13 >> r4
+            long r15 = r15 + r22
+            r8 = 28
+            long r22 = r5(r0, r8)
+            r0 = 16
+            byte[] r0 = new byte[r0]
+            long r11 = r11 & r20
+            r1 = 0
+            qu(r0, r11, r1)
+            long r11 = r13 & r20
+            r1 = 4
+            qu(r0, r11, r1)
+            long r11 = r15 & r20
+            r1 = 8
+            qu(r0, r11, r1)
+            r5 = 18
+            long r11 = r18 >> r5
+            long r5 = r9 & r6
+            long r2 = r24 & r2
+            long r2 = r2 | r5
+            long r1 = r2 << r1
+            long r1 = r1 | r11
+            long r1 = r1 & r20
+            long r1 = r1 + r22
+            long r3 = r15 >> r4
+            long r1 = r1 + r3
+            long r1 = r1 & r20
+            r3 = 12
+            qu(r0, r1, r3)
+            return r0
+    }
+
+    private static long h(byte[] r3, int r4, int r5) {
+            java.lang.String r2 = "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif'   ~@~@~@~@~@~@~@~@~@~@~  "
+            long r3 = r5(r3, r4)
+            r2 = 2
+            long r3 = r3 >> r5
+            r2 = 7
+            r0 = 67108863(0x3ffffff, double:3.31561837E-316)
+            r0 = 67108863(0x3ffffff, double:3.31561837E-316)
+            r2 = 7
+            long r3 = r3 & r0
+            r2 = 5
+            return r3
+    }
+
+    private static void qu(byte[] r5, long r6, int r8) {
+            r4 = 0
+            r0 = 0
+        L2:
+            r4 = 3
+            r1 = 4
+            if (r0 >= r1) goto L20
+            r4 = 7
+            int r1 = r8 + r0
+            r4 = 6
+            r2 = 255(0xff, double:1.26E-321)
+            r2 = 255(0xff, double:1.26E-321)
+            r4 = 2
+            long r2 = r2 & r6
+            r4 = 6
+            int r2 = (int) r2
+            byte r2 = (byte) r2
+            r4 = 7
+            r5[r1] = r2
+            r4 = 1
+            int r0 = r0 + 1
+            r4 = 5
+            r1 = 8
+            r4 = 3
+            long r6 = r6 >> r1
+            r4 = 2
+            goto L2
+        L20:
+            r4 = 5
+            return
+    }
+
+    private static long r5(byte[] r3, int r4) {
+            r2 = 3
+            r0 = r3[r4]
+            r2 = 5
+            r0 = r0 & 255(0xff, float:3.57E-43)
+            r2 = 4
+            int r1 = r4 + 1
+            r2 = 4
+            r1 = r3[r1]
+            r2 = 0
+            r1 = r1 & 255(0xff, float:3.57E-43)
+            r2 = 6
+            int r1 = r1 << 8
+            r2 = 5
+            r0 = r0 | r1
+            int r1 = r4 + 2
+            r2 = 7
+            r1 = r3[r1]
+            r2 = 3
+            r1 = r1 & 255(0xff, float:3.57E-43)
+            int r1 = r1 << 16
+            r0 = r0 | r1
+            r2 = 5
+            int r4 = r4 + 3
+            r2 = 1
+            r3 = r3[r4]
+            r2 = 0
+            r3 = r3 & 255(0xff, float:3.57E-43)
+            r2 = 7
+            int r3 = r3 << 24
+            r2 = 4
+            r3 = r3 | r0
+            r2 = 5
+            long r3 = (long) r3
+            r2 = 5
+            r0 = 4294967295(0xffffffff, double:2.1219957905E-314)
+            r0 = 4294967295(0xffffffff, double:2.1219957905E-314)
+            r2 = 3
+            long r3 = r3 & r0
+            r2 = 2
+            return r3
+    }
+}

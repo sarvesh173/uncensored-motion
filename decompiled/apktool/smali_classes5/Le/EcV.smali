@@ -1,0 +1,655 @@
+.class public abstract LLe/EcV;
+.super Landroidx/fragment/app/Fragment;
+
+# interfaces
+.implements LOag/f;
+
+
+# instance fields
+.field private J:Z
+
+.field private Z:Z
+
+.field private final b:Ljava/lang/Object;
+
+.field private volatile g:Ldagger/hilt/android/internal/managers/h6W;
+
+.field private h:Landroid/content/ContextWrapper;
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 2
+
+    const/4 v1, 0x6
+
+    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
+
+    const/4 v1, 0x1
+
+    new-instance v0, Ljava/lang/Object;
+
+    const/4 v1, 0x2
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v1, 0x7
+
+    iput-object v0, p0, LLe/EcV;->b:Ljava/lang/Object;
+
+    const/4 v1, 0x4
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x2
+
+    iput-boolean v0, p0, LLe/EcV;->J:Z
+
+    const/4 v1, 0x7
+
+    return-void
+.end method
+
+.method private MDU()V
+    .locals 2
+
+    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    iget-object v0, p0, LLe/EcV;->h:Landroid/content/ContextWrapper;
+
+    const/4 v1, 0x7
+
+    if-nez v0, :cond_1
+
+    const/4 v1, 0x5
+
+    const-string v0, "0"
+
+    const/4 v1, 0x6
+
+    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v0
+
+    const/4 v1, 0x5
+
+    if-eqz v0, :cond_0
+
+    const/4 v1, 0x1
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x6
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v1, 0x4
+
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const/4 v1, 0x4
+
+    invoke-static {v0, p0}, Ldagger/hilt/android/internal/managers/h6W;->h(Landroid/content/Context;Landroidx/fragment/app/Fragment;)Landroid/content/ContextWrapper;
+
+    move-result-object v0
+
+    :goto_0
+    const/4 v1, 0x6
+
+    iput-object v0, p0, LLe/EcV;->h:Landroid/content/ContextWrapper;
+
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const/4 v1, 0x7
+
+    invoke-static {v0}, LHz/Mk;->XF(Landroid/content/Context;)Z
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    iput-boolean v0, p0, LLe/EcV;->Z:Z
+
+    :cond_1
+    const/4 v1, 0x5
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected L7G()Ldagger/hilt/android/internal/managers/h6W;
+    .locals 2
+
+    :try_start_0
+    const/4 v1, 0x1
+
+    new-instance v0, Ldagger/hilt/android/internal/managers/h6W;
+
+    const/4 v1, 0x3
+
+    invoke-direct {v0, p0}, Ldagger/hilt/android/internal/managers/h6W;-><init>(Landroidx/fragment/app/Fragment;)V
+    :try_end_0
+    .catch Lcom/alightcreative/app/motion/activities/edit/fragments/Hilt_SettingFragmentBase$NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v1, 0x5
+
+    return-object v0
+
+    :catch_0
+    const/4 v1, 0x2
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    return-object v0
+.end method
+
+.method public final V4L()Ljava/lang/Object;
+    .locals 2
+
+    :try_start_0
+    const/4 v1, 0x1
+
+    invoke-virtual {p0}, LLe/EcV;->uD()Ldagger/hilt/android/internal/managers/h6W;
+
+    move-result-object v0
+
+    const/4 v1, 0x7
+
+    invoke-virtual {v0}, Ldagger/hilt/android/internal/managers/h6W;->V4L()Ljava/lang/Object;
+
+    move-result-object v0
+    :try_end_0
+    .catch Lcom/alightcreative/app/motion/activities/edit/fragments/Hilt_SettingFragmentBase$NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v1, 0x0
+
+    return-object v0
+
+    :catch_0
+    const/4 v1, 0x3
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x3
+
+    return-object v0
+.end method
+
+.method protected XHC()V
+    .locals 3
+
+    const/4 v2, 0x4
+
+    iget-boolean v0, p0, LLe/EcV;->J:Z
+
+    const/4 v2, 0x5
+
+    if-nez v0, :cond_1
+
+    const/4 v2, 0x5
+
+    const-string v0, "0"
+
+    const-string v0, "0"
+
+    const/4 v2, 0x0
+
+    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v0
+
+    const/4 v2, 0x1
+
+    if-eqz v0, :cond_0
+
+    const/4 v2, 0x4
+
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    move v2, v0
+
+    iput-boolean v0, p0, LLe/EcV;->J:Z
+
+    const/4 v2, 0x0
+
+    invoke-virtual {p0}, LLe/EcV;->V4L()Ljava/lang/Object;
+
+    move-result-object v0
+
+    :goto_0
+    const/4 v2, 0x1
+
+    check-cast v0, LLe/B9;
+
+    const/4 v2, 0x3
+
+    invoke-static {p0}, LOag/Mk;->XF(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    const/4 v2, 0x2
+
+    check-cast v1, LLe/iCp;
+
+    const/4 v2, 0x2
+
+    invoke-interface {v0, v1}, LLe/B9;->D(LLe/iCp;)V
+
+    :cond_1
+    const/4 v2, 0x5
+
+    return-void
+.end method
+
+.method public getContext()Landroid/content/Context;
+    .locals 3
+
+    const/4 v2, 0x5
+
+    const/4 v0, 0x0
+
+    :try_start_0
+    const/4 v2, 0x3
+
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    const/4 v2, 0x2
+
+    if-nez v1, :cond_0
+
+    iget-boolean v1, p0, LLe/EcV;->Z:Z
+
+    if-nez v1, :cond_0
+
+    const/4 v2, 0x5
+
+    return-object v0
+
+    :cond_0
+    const/4 v2, 0x6
+
+    invoke-direct {p0}, LLe/EcV;->MDU()V
+
+    const/4 v2, 0x1
+
+    iget-object v0, p0, LLe/EcV;->h:Landroid/content/ContextWrapper;
+    :try_end_0
+    .catch Lcom/alightcreative/app/motion/activities/edit/fragments/Hilt_SettingFragmentBase$NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    const/4 v2, 0x7
+
+    return-object v0
+.end method
+
+.method public getDefaultViewModelProviderFactory()Landroidx/lifecycle/Nq$lf;
+    .locals 2
+
+    :try_start_0
+    const/4 v1, 0x6
+
+    invoke-super {p0}, Landroidx/fragment/app/Fragment;->getDefaultViewModelProviderFactory()Landroidx/lifecycle/Nq$lf;
+
+    move-result-object v0
+
+    const/4 v1, 0x3
+
+    invoke-static {p0, v0}, LM55/NS;->h(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Nq$lf;)Landroidx/lifecycle/Nq$lf;
+
+    move-result-object v0
+    :try_end_0
+    .catch Lcom/alightcreative/app/motion/activities/edit/fragments/Hilt_SettingFragmentBase$NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v1, 0x6
+
+    return-object v0
+
+    :catch_0
+    const/4 v1, 0x2
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    return-object v0
+.end method
+
+.method public onAttach(Landroid/app/Activity;)V
+    .locals 6
+
+    const/4 v5, 0x1
+
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onAttach(Landroid/app/Activity;)V
+
+    const/4 v5, 0x0
+
+    iget-object v0, p0, LLe/EcV;->h:Landroid/content/ContextWrapper;
+
+    const/4 v5, 0x4
+
+    const/4 v1, 0x0
+
+    const/4 v5, 0x1
+
+    const/4 v2, 0x1
+
+    const/4 v5, 0x4
+
+    if-eqz v0, :cond_1
+
+    const/4 v5, 0x6
+
+    invoke-static {v0}, Ldagger/hilt/android/internal/managers/h6W;->qu(Landroid/content/Context;)Landroid/content/Context;
+
+    move-result-object v0
+
+    const/4 v5, 0x7
+
+    if-ne v0, p1, :cond_0
+
+    const/4 v5, 0x2
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v5, 0x6
+
+    move p1, v1
+
+    move p1, v1
+
+    const/4 v5, 0x5
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 v5, 0x7
+
+    move p1, v2
+
+    move p1, v2
+
+    :goto_1
+    const/4 v5, 0x6
+
+    const-string v0, "0"
+
+    const-string v0, "0"
+
+    const/4 v5, 0x4
+
+    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v3
+
+    const/4 v5, 0x4
+
+    if-eqz v3, :cond_2
+
+    const/4 v5, 0x3
+
+    move v3, v2
+
+    move v3, v2
+
+    const/4 v5, 0x0
+
+    move v4, v3
+
+    move v4, v3
+
+    const/4 v5, 0x3
+
+    goto :goto_2
+
+    :cond_2
+    const/4 v5, 0x3
+
+    invoke-static {}, LuC/vdD;->XF()I
+
+    move-result v2
+
+    const/4 v5, 0x6
+
+    const/4 v3, 0x6
+
+    const/4 v5, 0x0
+
+    move v4, v3
+
+    move v4, v3
+
+    const/4 v5, 0x3
+
+    move v3, v2
+
+    move v3, v2
+
+    :goto_2
+    const/4 v5, 0x1
+
+    mul-int/lit8 v2, v2, 0x4
+
+    const/4 v5, 0x0
+
+    rem-int/2addr v2, v3
+
+    const/4 v5, 0x0
+
+    if-eqz v2, :cond_3
+
+    const/4 v5, 0x0
+
+    const/16 v2, 0x45
+
+    const/4 v5, 0x7
+
+    const-string v3, "+$sec(-17.t?6<${0j|/p/-:=r3/<)"
+
+    const-string v3, "\r)+1ej--$<cp0<7t\"?$=y3(|.6:{"
+
+    const/4 v5, 0x1
+
+    invoke-static {v2, v3}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v5, 0x1
+
+    goto :goto_3
+
+    :cond_3
+    const/4 v5, 0x1
+
+    const-string/jumbo v2, "~/bmoU~&m;/:l0nyip>$%/v%(x{b0uakuxIfl3slpa:k!>0v}etr45?j(}uWs//7=rc0}k+1j4n%iw)0z5.=1s=/<<igq<k}f5p7!`%k9"
+
+    const-string/jumbo v2, "iiI}~joe.lq}~vp5{btmskpx>kilgp$ros`)nbjkk}u\u007ff3Wzxc}an:<Uws4a\u00041%\"+\"&=9k?%!:<5r=;!v5=y(>(<71%%l"
+
+    :goto_3
+    const/4 v5, 0x2
+
+    invoke-static {v4, v2}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v5, 0x6
+
+    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v0
+
+    const/4 v5, 0x7
+
+    if-eqz v0, :cond_4
+
+    const/4 v5, 0x5
+
+    goto :goto_4
+
+    :cond_4
+    const/4 v5, 0x2
+
+    new-array v0, v1, [Ljava/lang/Object;
+
+    const/4 v5, 0x6
+
+    invoke-static {p1, v2, v0}, LOag/Jl;->r5(ZLjava/lang/String;[Ljava/lang/Object;)V
+
+    :goto_4
+    const/4 v5, 0x2
+
+    invoke-direct {p0}, LLe/EcV;->MDU()V
+
+    const/4 v5, 0x0
+
+    invoke-virtual {p0}, LLe/EcV;->XHC()V
+
+    const/4 v5, 0x1
+
+    return-void
+.end method
+
+.method public onAttach(Landroid/content/Context;)V
+    .locals 1
+
+    :try_start_0
+    const/4 v0, 0x7
+
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onAttach(Landroid/content/Context;)V
+
+    const/4 v0, 0x4
+
+    invoke-direct {p0}, LLe/EcV;->MDU()V
+
+    const/4 v0, 0x2
+
+    invoke-virtual {p0}, LLe/EcV;->XHC()V
+    :try_end_0
+    .catch Lcom/alightcreative/app/motion/activities/edit/fragments/Hilt_SettingFragmentBase$NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    const/4 v0, 0x5
+
+    return-void
+.end method
+
+.method public onGetLayoutInflater(Landroid/os/Bundle;)Landroid/view/LayoutInflater;
+    .locals 2
+
+    :try_start_0
+    const/4 v1, 0x1
+
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onGetLayoutInflater(Landroid/os/Bundle;)Landroid/view/LayoutInflater;
+
+    move-result-object p1
+
+    const/4 v1, 0x7
+
+    invoke-static {p1, p0}, Ldagger/hilt/android/internal/managers/h6W;->r5(Landroid/view/LayoutInflater;Landroidx/fragment/app/Fragment;)Landroid/content/ContextWrapper;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {p1, v0}, Landroid/view/LayoutInflater;->cloneInContext(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object p1
+    :try_end_0
+    .catch Lcom/alightcreative/app/motion/activities/edit/fragments/Hilt_SettingFragmentBase$NullPointerException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v1, 0x6
+
+    return-object p1
+
+    :catch_0
+    const/4 p1, 0x0
+
+    const/4 v1, 0x0
+
+    return-object p1
+.end method
+
+.method public final uD()Ldagger/hilt/android/internal/managers/h6W;
+    .locals 3
+
+    const/4 v2, 0x0
+
+    iget-object v0, p0, LLe/EcV;->g:Ldagger/hilt/android/internal/managers/h6W;
+
+    const/4 v2, 0x5
+
+    if-nez v0, :cond_1
+
+    const/4 v2, 0x3
+
+    iget-object v0, p0, LLe/EcV;->b:Ljava/lang/Object;
+
+    const/4 v2, 0x7
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, LLe/EcV;->g:Ldagger/hilt/android/internal/managers/h6W;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_0
+
+    const/4 v2, 0x4
+
+    invoke-virtual {p0}, LLe/EcV;->L7G()Ldagger/hilt/android/internal/managers/h6W;
+
+    move-result-object v1
+
+    const/4 v2, 0x7
+
+    iput-object v1, p0, LLe/EcV;->g:Ldagger/hilt/android/internal/managers/h6W;
+
+    :cond_0
+    const/4 v2, 0x4
+
+    monitor-exit v0
+
+    const/4 v2, 0x2
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    const/4 v2, 0x2
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    const/4 v2, 0x0
+
+    throw v1
+
+    :cond_1
+    :goto_0
+    const/4 v2, 0x6
+
+    iget-object v0, p0, LLe/EcV;->g:Ldagger/hilt/android/internal/managers/h6W;
+
+    const/4 v2, 0x4
+
+    return-object v0
+.end method

@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/app/motion/activities/edit/fragments/trialList/TrialListViewModel_HiltModules_KeyModule_ProvideFactory$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

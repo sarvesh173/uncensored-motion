@@ -1,0 +1,5 @@
+package com.alightcreative.app.motion.activities.edit;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes2.dex */
+public class DefaultTimelineAdapter$onBindViewHolder$onTouchListener$1$onTouch$4$IOException extends java.lang.RuntimeException {
+}

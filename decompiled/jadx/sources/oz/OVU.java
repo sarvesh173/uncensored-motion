@@ -1,0 +1,370 @@
+package oz;
+
+@kotlin.Metadata(d1 = {"\u00002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\b\u0004\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u0007\n\u0002\b\u0005\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\b\u001a\b\u0007\u0018\u00002\u00020\u0001B'\u0012\u0006\u0010\u001c\u001a\u00020\t\u0012\u0006\u0010 \u001a\u00020\t\u0012\u0006\u0010$\u001a\u00020\t\u0012\u0006\u0010'\u001a\u00020\t¢\u0006\u0004\b+\u0010,J\u000f\u0010\u0003\u001a\u00020\u0002H\u0010¢\u0006\u0004\b\u0003\u0010\u0004J\u000f\u0010\u0005\u001a\u00020\u0000H\u0010¢\u0006\u0004\b\u0005\u0010\u0006J\u0018\u0010\n\u001a\u00020\t2\u0006\u0010\b\u001a\u00020\u0007H\u0090\u0002¢\u0006\u0004\b\n\u0010\u000bJ \u0010\r\u001a\u00020\u00022\u0006\u0010\b\u001a\u00020\u00072\u0006\u0010\f\u001a\u00020\tH\u0090\u0002¢\u0006\u0004\b\r\u0010\u000eJ\b\u0010\u0010\u001a\u00020\u000fH\u0016J\u0013\u0010\u0014\u001a\u00020\u00132\b\u0010\u0012\u001a\u0004\u0018\u00010\u0011H\u0096\u0002J\b\u0010\u0015\u001a\u00020\u0007H\u0016R*\u0010\u001c\u001a\u00020\t2\u0006\u0010\u0016\u001a\u00020\t8\u0006@@X\u0086\u000e¢\u0006\u0012\n\u0004\b\n\u0010\u0017\u001a\u0004\b\u0018\u0010\u0019\"\u0004\b\u001a\u0010\u001bR*\u0010 \u001a\u00020\t2\u0006\u0010\u0016\u001a\u00020\t8\u0006@@X\u0086\u000e¢\u0006\u0012\n\u0004\b\u001d\u0010\u0017\u001a\u0004\b\u001e\u0010\u0019\"\u0004\b\u001f\u0010\u001bR*\u0010$\u001a\u00020\t2\u0006\u0010\u0016\u001a\u00020\t8\u0006@@X\u0086\u000e¢\u0006\u0012\n\u0004\b!\u0010\u0017\u001a\u0004\b\"\u0010\u0019\"\u0004\b#\u0010\u001bR*\u0010'\u001a\u00020\t2\u0006\u0010\u0016\u001a\u00020\t8\u0006@@X\u0086\u000e¢\u0006\u0012\n\u0004\b\u0003\u0010\u0017\u001a\u0004\b%\u0010\u0019\"\u0004\b&\u0010\u001bR\u001a\u0010*\u001a\u00020\u00078\u0010X\u0090D¢\u0006\f\n\u0004\b\r\u0010(\u001a\u0004\b\u001d\u0010)¨\u0006-"}, d2 = {"Loz/OVU;", "Loz/zNr;", "", "qu", "()V", "J", "()Loz/OVU;", "", "index", "", "XF", "(I)F", "value", "Z", "(IF)V", "", "toString", "", "other", "", "equals", "hashCode", "<set-?>", "F", "D3D", "()F", "setV1$animation_core_release", "(F)V", "v1", "h", "g", "setV2$animation_core_release", "v2", "r5", "BW", "setV3$animation_core_release", "v3", "b", "setV4$animation_core_release", "v4", "I", "()I", "size", "<init>", "(FFFF)V", "animation-core_release"}, k = 1, mv = {1, 8, 0})
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes15.dex */
+public final class OVU extends oz.zNr {
+    private float XF;
+    private final int Z;
+
+    /* renamed from: h, reason: collision with root package name */
+    private float f1185h;
+    private float qu;
+    private float r5;
+
+    static {
+            return
+    }
+
+    public OVU(float r3, float r4, float r5, float r6) {
+            r2 = this;
+            r1 = 2
+            r0 = 0
+            r1 = 0
+            r2.<init>(r0)
+            r1 = 5
+            r2.XF = r3
+            r2.f1185h = r4
+            r1 = 5
+            r2.r5 = r5
+            r1 = 4
+            r2.qu = r6
+            r1 = 1
+            r3 = 4
+            r1 = 4
+            r2.Z = r3
+            r1 = 5
+            return
+    }
+
+    public final float BW() {
+            r2 = this;
+            java.lang.String r1 = "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif'   ~@~@~@~@~@~@~@~@~@~@~  "
+            float r0 = r2.r5
+            r1 = 2
+            return r0
+    }
+
+    public final float D3D() {
+            r2 = this;
+            r1 = 6
+            float r0 = r2.XF
+            r1 = 1
+            return r0
+    }
+
+    public oz.OVU J() {
+            r3 = this;
+            r2 = 0
+            oz.OVU r0 = new oz.OVU
+            r1 = 0
+            r1 = 0
+            r0.<init>(r1, r1, r1, r1)
+            return r0
+    }
+
+    @Override // oz.zNr
+    public float XF(int r3) {
+            r2 = this;
+            r1 = 0
+            if (r3 == 0) goto L25
+            r1 = 3
+            r0 = 1
+            r1 = 4
+            if (r3 == r0) goto L20
+            r1 = 3
+            r0 = 2
+            r1 = 5
+            if (r3 == r0) goto L1b
+            r1 = 4
+            r0 = 3
+            r1 = 4
+            if (r3 == r0) goto L16
+            r1 = 5
+            r3 = 0
+            r1 = 2
+            goto L28
+        L16:
+            r1 = 0
+            float r3 = r2.qu
+            r1 = 1
+            goto L28
+        L1b:
+            r1 = 0
+            float r3 = r2.r5
+            r1 = 7
+            goto L28
+        L20:
+            r1 = 7
+            float r3 = r2.f1185h
+            r1 = 1
+            goto L28
+        L25:
+            r1 = 7
+            float r3 = r2.XF
+        L28:
+            r1 = 4
+            return r3
+    }
+
+    @Override // oz.zNr
+    public void Z(int r3, float r4) {
+            r2 = this;
+            r1 = 3
+            if (r3 == 0) goto L20
+            r1 = 3
+            r0 = 1
+            r1 = 4
+            if (r3 == r0) goto L1c
+            r1 = 2
+            r0 = 2
+            r1 = 6
+            if (r3 == r0) goto L17
+            r1 = 4
+            r0 = 3
+            if (r3 == r0) goto L13
+            r1 = 2
+            goto L23
+        L13:
+            r2.qu = r4
+            r1 = 7
+            goto L23
+        L17:
+            r1 = 2
+            r2.r5 = r4
+            r1 = 3
+            goto L23
+        L1c:
+            r1 = 7
+            r2.f1185h = r4
+            goto L23
+        L20:
+            r1 = 3
+            r2.XF = r4
+        L23:
+            r1 = 7
+            return
+    }
+
+    public final float b() {
+            r2 = this;
+            r1 = 5
+            float r0 = r2.qu
+            return r0
+    }
+
+    public boolean equals(java.lang.Object r6) {
+            r5 = this;
+            r4 = 6
+            boolean r0 = r6 instanceof oz.OVU
+            r4 = 6
+            r1 = 0
+            r4 = 6
+            if (r0 == 0) goto L66
+            r4 = 1
+            oz.OVU r6 = (oz.OVU) r6
+            r4 = 7
+            float r0 = r6.XF
+            float r2 = r5.XF
+            r4 = 3
+            int r0 = (r0 > r2 ? 1 : (r0 == r2 ? 0 : -1))
+            r4 = 1
+            r2 = 1
+            if (r0 != 0) goto L1c
+            r4 = 3
+            r0 = r2
+            r0 = r2
+            r4 = 0
+            goto L1f
+        L1c:
+            r4 = 3
+            r0 = r1
+            r0 = r1
+        L1f:
+            r4 = 5
+            if (r0 == 0) goto L66
+            float r0 = r6.f1185h
+            r4 = 7
+            float r3 = r5.f1185h
+            r4 = 7
+            int r0 = (r0 > r3 ? 1 : (r0 == r3 ? 0 : -1))
+            r4 = 2
+            if (r0 != 0) goto L32
+            r4 = 5
+            r0 = r2
+            r0 = r2
+            r4 = 3
+            goto L35
+        L32:
+            r4 = 0
+            r0 = r1
+            r0 = r1
+        L35:
+            if (r0 == 0) goto L66
+            r4 = 4
+            float r0 = r6.r5
+            float r3 = r5.r5
+            r4 = 3
+            int r0 = (r0 > r3 ? 1 : (r0 == r3 ? 0 : -1))
+            r4 = 3
+            if (r0 != 0) goto L47
+            r4 = 7
+            r0 = r2
+            r0 = r2
+            r4 = 3
+            goto L4a
+        L47:
+            r4 = 1
+            r0 = r1
+            r0 = r1
+        L4a:
+            r4 = 7
+            if (r0 == 0) goto L66
+            r4 = 4
+            float r6 = r6.qu
+            r4 = 3
+            float r0 = r5.qu
+            r4 = 3
+            int r6 = (r6 > r0 ? 1 : (r6 == r0 ? 0 : -1))
+            r4 = 2
+            if (r6 != 0) goto L5d
+            r4 = 5
+            r6 = r2
+            r4 = 5
+            goto L60
+        L5d:
+            r4 = 1
+            r6 = r1
+            r6 = r1
+        L60:
+            r4 = 6
+            if (r6 == 0) goto L66
+            r4 = 2
+            r1 = r2
+            r1 = r2
+        L66:
+            r4 = 1
+            return r1
+    }
+
+    public final float g() {
+            r2 = this;
+            r1 = 2
+            float r0 = r2.f1185h
+            r1 = 2
+            return r0
+    }
+
+    @Override // oz.zNr
+    public int h() {
+            r2 = this;
+            r1 = 3
+            int r0 = r2.Z
+            r1 = 0
+            return r0
+    }
+
+    public int hashCode() {
+            r3 = this;
+            r2 = 0
+            float r0 = r3.XF
+            r2 = 4
+            int r0 = java.lang.Float.floatToIntBits(r0)
+            r2 = 4
+            int r0 = r0 * 31
+            r2 = 7
+            float r1 = r3.f1185h
+            r2 = 5
+            int r1 = java.lang.Float.floatToIntBits(r1)
+            r2 = 2
+            int r0 = r0 + r1
+            r2 = 2
+            int r0 = r0 * 31
+            r2 = 0
+            float r1 = r3.r5
+            int r1 = java.lang.Float.floatToIntBits(r1)
+            r2 = 3
+            int r0 = r0 + r1
+            r2 = 1
+            int r0 = r0 * 31
+            float r1 = r3.qu
+            r2 = 7
+            int r1 = java.lang.Float.floatToIntBits(r1)
+            r2 = 3
+            int r0 = r0 + r1
+            r2 = 0
+            return r0
+    }
+
+    @Override // oz.zNr
+    public void qu() {
+            r2 = this;
+            r1 = 1
+            r0 = 0
+            r1 = 3
+            r2.XF = r0
+            r1 = 3
+            r2.f1185h = r0
+            r1 = 0
+            r2.r5 = r0
+            r1 = 1
+            r2.qu = r0
+            r1 = 3
+            return
+    }
+
+    @Override // oz.zNr
+    public /* bridge */ /* synthetic */ oz.zNr r5() {
+            r2 = this;
+            r1 = 1
+            oz.OVU r0 = r2.J()
+            r1 = 3
+            return r0
+    }
+
+    public java.lang.String toString() {
+            r3 = this;
+            r2 = 1
+            java.lang.StringBuilder r0 = new java.lang.StringBuilder
+            r2 = 2
+            r0.<init>()
+            r2 = 7
+            java.lang.String r1 = "o=sn1D iameAi:t4otcv nV "
+            java.lang.String r1 = "AnimationVector4D: v1 = "
+            r2 = 1
+            r0.append(r1)
+            r2 = 3
+            float r1 = r3.XF
+            r2 = 6
+            r0.append(r1)
+            r2 = 1
+            java.lang.String r1 = ", v2 = "
+            r2 = 1
+            r0.append(r1)
+            r2 = 5
+            float r1 = r3.f1185h
+            r2 = 7
+            r0.append(r1)
+            r2 = 1
+            java.lang.String r1 = "3, m=v "
+            java.lang.String r1 = ", v3 = "
+            r2 = 3
+            r0.append(r1)
+            r2 = 6
+            float r1 = r3.r5
+            r2 = 0
+            r0.append(r1)
+            r2 = 5
+            java.lang.String r1 = " 4v=o ,"
+            java.lang.String r1 = ", v4 = "
+            r2 = 7
+            r0.append(r1)
+            r2 = 7
+            float r1 = r3.qu
+            r2 = 6
+            r0.append(r1)
+            r2 = 6
+            java.lang.String r0 = r0.toString()
+            r2 = 6
+            return r0
+    }
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="other">%1$d trong %2$d tập tin đã được tải lên thành công.</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="other">Rất tiếc, chúng tôi không thể tải lên %1$d tập tin.</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="other">Sao chép Lớp</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="other">giờ</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="other">phút</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="other">giây</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="other">Bạn đã chia sẻ %1$d gói dự án bằng tài khoản này. [b]Nếu bạn xóa tài khoản này, các gói sẽ bị xóa khỏi Cloud và các liên kết gói cũng như mã QR sẽ bị xóa vĩnh viễn và không thể khôi phục được.[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="other">Xóa %d phần tử</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="other">Xóa %d dự án</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="other">Xóa %1$d mẫu</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="other">Sao chép %d phần tử</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="other">Sao chép %d Lớp</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="other">Sao chép %d dự án</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="other">Đã chọn %d phần tử</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Tua nhanh %d giây</item>
+        <item quantity="other">Tua nhanh %d giây</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Tua lại %d giây</item>
+        <item quantity="other">Tua lại %d giây</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="other">Ưu đãi sẽ hết hạn sau %1$d ngày.</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="other">Ưu đãi sẽ hết hạn sau %1$d giờ</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Mật khẩu không đủ mạnh. Sử dụng ít nhất %1$d ký tự, kết hợp chữ cái và số</item>
+        <item quantity="other">Mật khẩu không đủ mạnh. Sử dụng ít nhất %1$d ký tự, kết hợp chữ cái và số</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="other">Nhập %d Phần tử</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="other">Nhập %d Dự án</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="other">Đã chọn %d lớp</item>
+    </plurals>
+    <plurals name="linked_projects_changed">
+        <item quantity="other">Đã thay đổi %d dự án/phần tử được liên kết. Bạn có muốn cập nhật các bản sao nhúng trong dự án này?</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="other">Thiếu bản gốc của %d dự án/phần tử được liên kết; các bản sao nhúng gần đây nhất trong dự án này sẽ được sử dụng để thay thế.</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="other">+%d thêm</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="other">Gói %d Ngày</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="other">Bao gồm %d Ngày Dùng thử Miễn phí</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="other">Gói %d Giờ</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="other">Gói %d Phút</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="other">Gói %d Tháng</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="other">Gói Đăng ký Thành viên %d Tháng</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="other">Gói %d Năm</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="other">Gói Đăng ký Thành viên %d Năm</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">Đã chọn %d</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="other">Dán %d Lớp</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="other">Xóa %1$d preset</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="other">Xuất %1$d preset</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="other">Nhập %1$d preset</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="other">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="other">Đã chọn %d dự án</item>
+    </plurals>
+</resources>

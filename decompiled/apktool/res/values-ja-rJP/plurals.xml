@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="other">%2$dファイル中%1$dファイルが正常にアップロードされました。</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="other">%1$dファイルをアップロードできませんでした。</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="other">レイヤー%d個のコピー</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="other">時間</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="other">分</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="other">秒</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="other">このアカウントを使用して%1$dプロジェクトパッケージを共有しました。 [b]このアカウントを削除すると、パッケージはクラウドから削除され、パッケージリンクとQRコードも完全に削除され、復元できなくなります。[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="other">%d個の要素を削除</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="other">%d個のプロジェクトを削除</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="other">%1$d個のテンプレートを削除</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="other">%d個の要素を複製</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="other">レイヤー%d個を複製</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="other">%d個のプロジェクトを複製</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="other">%d個の要素が選択されました</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="other">申し込みは%1$d日以内に有効期限が切れます。</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="other">申し込みは1時間以内に有効期限が切れます</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="other">%d個の要素をインポート</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="other">%d個のプロジェクトをインポート</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="other">%d個のレイヤーが選択されました</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="other">%d個のリンクされたプロジェクト/エレメントのオリジナルがありません。代わりに、このプロジェクトの最新の埋め込みコピーが使用されます。</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="other">＋％d個</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="other">%d日パス</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="other">%d日間の無料体験あり</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="other">%d時間パス</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="other">%d分パス</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="other">%dヶ月パス</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="other">%d月定期購読会員</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="other">%d年パス</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="other">%d年定期購読会員</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%dが選択されました</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="other">レイヤー%d個の貼り付け</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="other">プリセット %1$d を削除する</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="other">%1$d プリセットをエクスポート</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="other">%1$d プリセットをインポートする</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="other">%1$d個を選択</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="other">%d個のプロジェクトが選択されました</item>
+    </plurals>
+</resources>

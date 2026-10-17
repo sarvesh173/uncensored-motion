@@ -1,0 +1,39 @@
+.class public abstract Lye4/co$NS;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation build Lcom/google/auto/value/AutoValue$Builder;
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lye4/co;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "NS"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x6
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract XF()Lye4/co;
+.end method
+
+.method public abstract h(Lye4/co$lf;)Lye4/co$NS;
+.end method
+
+.method public abstract r5(Lye4/co$f;)Lye4/co$NS;
+.end method

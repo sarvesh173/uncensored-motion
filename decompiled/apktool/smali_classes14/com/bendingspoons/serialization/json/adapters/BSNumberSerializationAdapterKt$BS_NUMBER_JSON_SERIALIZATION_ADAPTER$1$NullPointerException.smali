@@ -1,0 +1,2 @@
+.class public Lcom/bendingspoons/serialization/json/adapters/BSNumberSerializationAdapterKt$BS_NUMBER_JSON_SERIALIZATION_ADAPTER$1$NullPointerException;
+.super Ljava/lang/RuntimeException;

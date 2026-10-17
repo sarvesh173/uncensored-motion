@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  COLORS TEMPLATE - placement: res/values/tpl_colors.xml (or merge into colors.xml).
+  Palette values are borrowed from the real Gold Motion scheme so the template set looks
+  like a shipping app: the gold accent is Y1 (#fff6c945) with the brighter
+  import_timeline_gold (#ffffcd4b); surfaces come from the A-scheme (A11 deepest panel,
+  A9 panel, A2 ink); R2 (#ffe01445) is the destructive red; W1/W5 are light surfaces.
+  The real file uses 8-digit #AARRGGBB everywhere - kept here for fidelity.
+  Consumed by: template-values-styles.xml (both themes), template-drawable-* (selector,
+  shape), and all layout templates.
+-->
+<resources>
+    <!-- Brand (shared by light and dark themes) -->
+    <color name="tpl_color_primary">#ff2f4c4f</color>
+    <color name="tpl_color_primary_dark">#ff1f2e30</color>
+    <color name="tpl_color_gold">#fff6c945</color>
+    <color name="tpl_color_gold_bright">#ffffcd4b</color>
+    <color name="tpl_color_accent">#ffe01445</color>
+    <color name="tpl_color_ripple">#33f6c945</color>
+
+    <!-- Light theme surfaces and text -->
+    <color name="tpl_color_background_light">#ffffffff</color>
+    <color name="tpl_color_surface_light">#fff5f5f8</color>
+    <color name="tpl_color_text_primary_light">#ff1e2239</color>
+    <color name="tpl_color_text_secondary_light">#80818390</color>
+
+    <!-- Dark theme surfaces and text (mirror of the light set; the real app also
+         overrides select names under res/values-night/) -->
+    <color name="tpl_color_background_dark">#ff07080a</color>
+    <color name="tpl_color_surface_dark">#ff202332</color>
+    <color name="tpl_color_text_primary_dark">#fff5f5f8</color>
+    <color name="tpl_color_text_secondary_dark">#80ebf6ff</color>
+
+    <!-- Shared controls -->
+    <color name="tpl_color_divider">#ffd8d8d8</color>
+    <color name="tpl_color_error">#ffe01445</color>
+    <color name="tpl_color_success">#ff2c6144</color>
+    <color name="tpl_color_control_normal">#80818390</color>
+    <color name="tpl_color_control_activated">#fff6c945</color>
+</resources>

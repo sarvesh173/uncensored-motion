@@ -1,0 +1,215 @@
+.class final synthetic LLe/DdJ$xnk$lf;
+.super Lkotlin/jvm/internal/PropertyReference1Impl;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LLe/DdJ$xnk;->XF(I)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1000
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final h:LLe/DdJ$xnk$lf;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    :try_start_0
+    const/4 v1, 0x7
+
+    new-instance v0, LLe/DdJ$xnk$lf;
+
+    const/4 v1, 0x1
+
+    invoke-direct {v0}, LLe/DdJ$xnk$lf;-><init>()V
+
+    const/4 v1, 0x1
+
+    sput-object v0, LLe/DdJ$xnk$lf;->h:LLe/DdJ$xnk$lf;
+    :try_end_0
+    .catch Lcom/alightcreative/app/motion/activities/edit/fragments/BorderAndShadowFragment$onViewCreated$2$2$onShowColorPalette$lens$2$IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    const/4 v1, 0x0
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 5
+
+    const/4 v4, 0x5
+
+    invoke-static {}, Ln0q/f;->XF()I
+
+    move-result v0
+
+    const/4 v4, 0x4
+
+    mul-int/lit8 v1, v0, 0x2
+
+    const/4 v4, 0x2
+
+    rem-int/2addr v1, v0
+
+    const/4 v4, 0x7
+
+    if-eqz v1, :cond_0
+
+    const/4 v4, 0x0
+
+    const/16 v0, 0x16
+
+    const/4 v4, 0x6
+
+    const-string/jumbo v1, "f>s/?/|/p+k2)%05) .8317}l6 /s $s.4$~|0/}?/"
+
+    const-string/jumbo v1, "ps}} .$~|%20f1>75603l?8k4?\'s+)  $\'\"|+.)"
+
+    invoke-static {v0, v1}, LuC/vdD;->h(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v4, 0x3
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v4, 0x0
+
+    const-string/jumbo v0, "jzjmh"
+
+    const-string/jumbo v0, "gjjhz"
+
+    :goto_0
+    const/4 v1, 0x5
+
+    const/4 v1, 0x4
+
+    const/4 v4, 0x0
+
+    invoke-static {v0, v1}, Ln0q/f;->h(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/4 v4, 0x3
+
+    invoke-static {}, Ln0q/f;->XF()I
+
+    move-result v1
+
+    const/4 v4, 0x2
+
+    mul-int/lit8 v2, v1, 0x5
+
+    const/4 v4, 0x4
+
+    rem-int/2addr v2, v1
+
+    const/4 v4, 0x1
+
+    if-eqz v2, :cond_1
+
+    const/4 v4, 0x4
+
+    const-string/jumbo v1, "srqsw$*|7y~$-2tpwpi}$\".d|)/yzy5edf0m"
+
+    const/4 v4, 0x7
+
+    const/16 v2, 0x32
+
+    const/4 v4, 0x6
+
+    invoke-static {v1, v2}, Ln0q/f;->h(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v4, 0x1
+
+    goto :goto_1
+
+    :cond_1
+    const/4 v4, 0x2
+
+    const-string/jumbo v1, "/kx$o<=t!?w;|5/1//fv(-~=~*w0/0{z8x[4/}!1eq>/2,/?j{>a77=%4?.</:uS"
+
+    const-string/jumbo v1, "jk{S~~|f=?[{vw4}qwx(5!1!$2.>,e*<=a\"?%;<:z%4=7?t\u00178\'>\"-\'x"
+
+    :goto_1
+    const/4 v4, 0x1
+
+    const/16 v2, 0x1ad
+
+    const/4 v4, 0x4
+
+    invoke-static {v1, v2}, Ln0q/f;->h(Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v4, 0x4
+
+    const/4 v2, 0x0
+
+    const/4 v4, 0x5
+
+    const-class v3, Lcom/alightcreative/app/motion/scene/KeyableEdgeDecoration;
+
+    const-class v3, Lcom/alightcreative/app/motion/scene/KeyableEdgeDecoration;
+
+    const/4 v4, 0x7
+
+    invoke-direct {p0, v3, v0, v1, v2}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    const/4 v4, 0x1
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public get(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    :try_start_0
+    const-string v0, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    check-cast p1, Lcom/alightcreative/app/motion/scene/KeyableEdgeDecoration;
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p1}, Lcom/alightcreative/app/motion/scene/KeyableEdgeDecoration;->getColor()Lcom/alightcreative/app/motion/scene/Keyable;
+
+    move-result-object p1
+    :try_end_0
+    .catch Lcom/alightcreative/app/motion/activities/edit/fragments/BorderAndShadowFragment$onViewCreated$2$2$onShowColorPalette$lens$2$IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v0, 0x3
+
+    return-object p1
+
+    :catch_0
+    const/4 v0, 0x6
+
+    const/4 p1, 0x0
+
+    const/4 v0, 0x2
+
+    return-object p1
+.end method

@@ -1,0 +1,16 @@
+package com.google.android.gms.internal.ads;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes20.dex */
+public interface FG3 extends android.os.IInterface {
+    void R9(int[] r1) throws android.os.RemoteException;
+
+    void f(int r1) throws android.os.RemoteException;
+
+    void paW(int r1) throws android.os.RemoteException;
+
+    void qTc(Ls4.NS r1, java.lang.String r2) throws android.os.RemoteException;
+
+    void qu() throws android.os.RemoteException;
+
+    void y(byte[] r1) throws android.os.RemoteException;
+}

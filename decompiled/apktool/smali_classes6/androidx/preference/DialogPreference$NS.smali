@@ -1,0 +1,27 @@
+.class public interface abstract Landroidx/preference/DialogPreference$NS;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/preference/DialogPreference;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "NS"
+.end annotation
+
+
+# virtual methods
+.method public abstract jSk(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Landroidx/preference/Preference;",
+            ">(",
+            "Ljava/lang/CharSequence;",
+            ")TT;"
+        }
+    .end annotation
+.end method

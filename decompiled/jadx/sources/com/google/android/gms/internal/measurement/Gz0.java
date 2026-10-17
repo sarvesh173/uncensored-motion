@@ -1,0 +1,32 @@
+package com.google.android.gms.internal.measurement;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes11.dex */
+final class Gz0 implements com.google.android.gms.internal.measurement.CI {
+    private final com.google.android.gms.internal.measurement.Cj XF;
+    private final java.lang.String h;
+
+    public Gz0(com.google.android.gms.internal.measurement.Cj r2, java.lang.String r3) {
+            r1 = this;
+            r0 = 5
+            r1.<init>()
+            r0 = 5
+            r1.XF = r2
+            r0 = 1
+            r1.h = r3
+            r0 = 4
+            return
+    }
+
+    public final com.google.android.gms.internal.measurement.Cj XF(com.google.android.gms.internal.measurement.JDF r4) {
+            r3 = this;
+            java.lang.String r2 = "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif'   ~@~@~@~@~@~@~@~@~@~@~  "
+            com.google.android.gms.internal.measurement.Cj r0 = r3.XF
+            r2 = 7
+            com.google.android.gms.internal.measurement.Cj r0 = r0.XF()
+            r2 = 1
+            java.lang.String r1 = r3.h
+            r0.Z(r1, r4)
+            r2 = 2
+            return r0
+    }
+}

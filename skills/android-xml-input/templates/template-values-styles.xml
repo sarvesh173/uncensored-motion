@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  STYLES / THEMES TEMPLATE (LIGHT + DARK PAIR) - placement: res/values/tpl_styles.xml.
+  TplAppTheme.Light is referenced by template-manifest-androidmanifest.xml.
+  Parents follow the AppCompat chain exactly like the real Gold Motion styles.xml:
+  AppTheme (parent Theme.AppCompat.Light) -> AppTheme.MainScreen / AppTheme.NoActionBar,
+  plus Theme.App.Starting (parent Theme.SplashScreen) for the startup screen.
+  Tip: to auto-switch at night, move the <style name="TplAppTheme.Dark"> block into
+  res/values-night/tpl_styles.xml under the SAME name as the light theme and point the
+  manifest at a single TplAppTheme. windowLightStatusBar needs API 23+ - fine, Gold
+  Motion's minSdk is 23 (the real AppTheme.MainScreen sets it).
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- LIGHT theme -->
+    <style name="TplAppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/tpl_color_primary</item>
+        <item name="colorPrimaryDark">@color/tpl_color_primary_dark</item>
+        <item name="colorAccent">@color/tpl_color_gold</item>
+        <item name="android:colorBackground">@color/tpl_color_background_light</item>
+        <item name="android:textColorPrimary">@color/tpl_color_text_primary_light</item>
+        <item name="android:textColorSecondary">@color/tpl_color_text_secondary_light</item>
+        <item name="android:statusBarColor">@color/tpl_color_primary_dark</item>
+        <item name="android:navigationBarColor">@color/tpl_color_background_light</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+    </style>
+
+    <!-- DARK theme (same name pattern; pair with values-night/ for DayNight) -->
+    <style name="TplAppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/tpl_color_primary</item>
+        <item name="colorPrimaryDark">@color/tpl_color_primary_dark</item>
+        <item name="colorAccent">@color/tpl_color_gold</item>
+        <item name="android:colorBackground">@color/tpl_color_background_dark</item>
+        <item name="android:textColorPrimary">@color/tpl_color_text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/tpl_color_text_secondary_dark</item>
+        <item name="android:statusBarColor">@color/tpl_color_background_dark</item>
+        <item name="android:navigationBarColor">@color/tpl_color_background_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+    </style>
+
+    <!-- Screen-specific variant via implicit parent chain: TplAppTheme.Light.MainScreen.
+         The real AppTheme.MainScreen (styles.xml line 365) overlays translucent navigation
+         and a light status bar; this template keeps it minimal. -->
+    <style name="TplAppTheme.Light.MainScreen">
+        <item name="android:windowBackground">@color/tpl_color_background_light</item>
+    </style>
+
+    <!-- Startup/splash pattern modeled on the real Theme.App.Starting
+         (styles.xml line 4719, parent Theme.SplashScreen). The real icon drawable is
+         gold_motion_splash_icon; the placeholder vector stands in here. -->
+    <style name="TplTheme.App.Starting" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/TplAppTheme.Light.MainScreen</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_vector_placeholder</item>
+        <item name="windowSplashScreenBackground">@color/tpl_color_background_dark</item>
+    </style>
+
+    <!-- Widget style example: buttons reuse the selector drawable template -->
+    <style name="TplButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/tpl_button_selector</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

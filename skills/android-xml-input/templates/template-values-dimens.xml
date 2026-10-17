@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  DIMENS TEMPLATE - placement: res/values/tpl_dimens.xml.
+  All size scales in one place: spacing, text, components. Consumed by the layout and
+  drawable templates (e.g. @dimen/tpl_corner_radius in template-drawable-shape.xml).
+  Unit rules: dp for everything, sp for text, px only for hairlines (the real Gold Motion
+  dimens.xml uses decimal dp like 44.0dp - 13.0dp; plain 44dp is identical to AAPT).
+  Real anchors in the APK: slider_height 44dp, color_slide_h_margin 13dp,
+  radius_6dp 6dp, timeline_element_trim_grip_size 30dp.
+-->
+<resources>
+    <!-- Screen padding (matches the 16dp rhythm used across Android) -->
+    <dimen name="tpl_activity_margin">16dp</dimen>
+    <dimen name="tpl_activity_margin_half">8dp</dimen>
+
+    <!-- Spacing scale -->
+    <dimen name="tpl_spacing_xs">2dp</dimen>
+    <dimen name="tpl_spacing_sm">4dp</dimen>
+    <dimen name="tpl_spacing_md">8dp</dimen>
+    <dimen name="tpl_spacing_lg">16dp</dimen>
+    <dimen name="tpl_spacing_xl">24dp</dimen>
+
+    <!-- Typography -->
+    <dimen name="tpl_text_size_caption">12sp</dimen>
+    <dimen name="tpl_text_size_body">14sp</dimen>
+    <dimen name="tpl_text_size_subtitle">16sp</dimen>
+    <dimen name="tpl_text_size_title">20sp</dimen>
+
+    <!-- Components -->
+    <dimen name="tpl_list_item_height">72dp</dimen>
+    <dimen name="tpl_thumbnail_size">48dp</dimen>
+    <dimen name="tpl_button_height">48dp</dimen>
+    <dimen name="tpl_corner_radius">8dp</dimen>
+    <dimen name="tpl_divider_height">1px</dimen>
+
+    <!-- Slider row (mirrors the real colorpicker dimens of the APK:
+         slider_height / color_slide_h_margin) -->
+    <dimen name="tpl_slider_height">44dp</dimen>
+    <dimen name="tpl_slider_label_width">50dp</dimen>
+</resources>

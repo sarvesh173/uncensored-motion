@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/app/motion/activities/edit/fragments/SpeedKeyframeFragment$onViewCreated$5$newSpeedValue$1$Exception;
+.super Ljava/lang/RuntimeException;

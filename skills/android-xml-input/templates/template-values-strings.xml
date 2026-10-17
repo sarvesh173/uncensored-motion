@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  STRINGS TEMPLATE - placement: res/values/tpl_strings.xml (AAPT accepts any filename
+  under res/values*/; or merge into the existing strings.xml).
+  Shared names used by: the manifest (tpl_app_name), all three layout templates,
+  and the styles template. Escape apostrophes (\'); use &amp; for ampersands.
+  Naming mirrors the real Gold Motion strings.xml, which keeps the launcher label in
+  app_name ("Gold Motion") plus a transliterated twin (app_name_transliterated).
+-->
+<resources>
+    <!-- Identity / labels -->
+    <string name="tpl_app_name">Gold Template App</string>
+    <string name="tpl_app_name_transliterated" translatable="false">Gold Template App</string>
+    <string name="tpl_title_main">Home</string>
+    <string name="tpl_action_settings">Settings</string>
+    <string name="tpl_nav_home">Home</string>
+
+    <!-- Settings screen copy (used by template-layout-linearlayout.xml) -->
+    <string name="tpl_settings_header">General</string>
+    <string name="tpl_settings_summary_ai">Show the floating assistant on Home and in the editor</string>
+    <string name="tpl_button_save">Save</string>
+
+    <!-- List item copy (used by template-layout-recyclerview-item.xml and
+         template-layout-constraintlayout.xml) -->
+    <string name="tpl_item_title_template">Project title goes here</string>
+    <string name="tpl_item_subtitle_template">Edited 2 hours ago &#183; 1280&#215;720</string>
+
+    <!-- Accessibility (contentDescription for @drawable/ic_vector_placeholder) -->
+    <string name="tpl_cd_icon">Project thumbnail</string>
+
+    <!-- Format args: positional %1$s; declare false when % is literal. The real
+         strings.xml uses this idiom for upload counts (see plurals in
+         references/values-reference.md). -->
+    <string name="tpl_greeting">Hello, %1$s! You have %2$d items.</string>
+    <string name="tpl_percent_literal" formatted="false">Encode at 100%</string>
+    <string name="tpl_greeting_with_placeholder">Welcome back. This is a placeholder detail body shown by the ConstraintLayout template.</string>
+</resources>

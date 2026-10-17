@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="one">%1$d файл из %2$d был успешно загружен.</item>
+        <item quantity="few">%1$d файла из %2$d были успешно загружены.</item>
+        <item quantity="many">%1$d файлов из %2$d были успешно загружены.</item>
+        <item quantity="other">%1$d файлов из %2$d были успешно загружены.</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="one">К сожалению, не удалось загрузить %1$d файл.</item>
+        <item quantity="few">К сожалению, не удалось загрузить %1$d файла.</item>
+        <item quantity="many">К сожалению, не удалось загрузить %1$d файлов.</item>
+        <item quantity="other">К сожалению, не удалось загрузить %1$d файлов.</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="one">Копировать %d слоя</item>
+        <item quantity="few">Копировать %d слоев</item>
+        <item quantity="many">Копировать %d слоев</item>
+        <item quantity="other">Копировать %d слоев</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="one">час</item>
+        <item quantity="few">часа</item>
+        <item quantity="many">часов</item>
+        <item quantity="other">ч.</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="one">минута</item>
+        <item quantity="few">минуты</item>
+        <item quantity="many">минут</item>
+        <item quantity="other">мин.</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="one">секунда</item>
+        <item quantity="few">секунды</item>
+        <item quantity="many">секунд</item>
+        <item quantity="other">сек.</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="one">Вы поделились %1$d пакетом проекта, используя этот аккаунт. [b]Если вы удалите этот аккаунт, пакеты будут удалены из облака. Ссылки на пакеты и QR-коды будут безвозвратно удалены, и их нельзя будет восстановить.[/b]</item>
+        <item quantity="few">Вы поделились %1$d пакетами проектов, используя этот аккаунт. [b]Если вы удалите этот аккаунт, пакеты будут удалены из облака. Ссылки на пакеты и QR-коды будут безвозвратно удалены, и их нельзя будет восстановить.[/b]</item>
+        <item quantity="many">Вы поделились %1$d пакетами проектов, используя этот аккаунт. [b]Если вы удалите этот аккаунт, пакеты будут удалены из облака. Ссылки на пакеты и QR-коды будут безвозвратно удалены, и их нельзя будет восстановить.[/b]</item>
+        <item quantity="other">Вы поделились %1$d пакетами проектов, используя этот аккаунт. [b]Если вы удалите этот аккаунт, пакеты будут удалены из облака. Ссылки на пакеты и QR-коды будут безвозвратно удалены, и их нельзя будет восстановить.[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="one">Удаление элементов: %d</item>
+        <item quantity="few">Удаление элементов: %d</item>
+        <item quantity="many">Удаление элементов: %d</item>
+        <item quantity="other">Удаление элементов: %d</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="one">Удаление проектов: %d</item>
+        <item quantity="few">Удаление проектов: %d</item>
+        <item quantity="many">Удаление проектов: %d</item>
+        <item quantity="other">Удаление проектов: %d</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="one">Удалить %1$d шаблон</item>
+        <item quantity="few">Удалить %1$d шаблона</item>
+        <item quantity="many">Удалить %1$d шаблонов</item>
+        <item quantity="other">Удалить %1$d шаблонов</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="one">Дублирование элементов: %d</item>
+        <item quantity="few">Дублирование элементов: %d</item>
+        <item quantity="many">Дублирование элементов: %d</item>
+        <item quantity="other">Дублирование элементов: %d</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="one">Дубликат %d слоя</item>
+        <item quantity="few">Дубликат %d слоев</item>
+        <item quantity="many">Дубликат %d слоев</item>
+        <item quantity="other">Дубликат %d слоев</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="one">Дублирование проектов: %d</item>
+        <item quantity="few">Дублирование проектов: %d</item>
+        <item quantity="many">Дублирование проектов: %d</item>
+        <item quantity="other">Дублирование проектов: %d</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="one">Выбрано элементов: %d</item>
+        <item quantity="few">Выбрано элементов: %d</item>
+        <item quantity="many">Выбрано элементов: %d</item>
+        <item quantity="other">Выбрано элементов: %d</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="one">Срок действия акции истекает через %1$d дня</item>
+        <item quantity="few">Срок действия акции истекает через %1$d дня.</item>
+        <item quantity="many">Срок действия акции истекает через %1$d дней.</item>
+        <item quantity="other">Срок действия акции истекает через %1$d дня/дней.</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="one">Срок действия акции истекает через %1$d ч.</item>
+        <item quantity="few">Срок действия акции истекает через %1$d ч.</item>
+        <item quantity="many">Срок действия акции истекает через %1$d ч.</item>
+        <item quantity="other">Срок действия акции истекает через %1$d ч.</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="one">Импорт элемента: %d</item>
+        <item quantity="few">Импорт элементов: %d</item>
+        <item quantity="many">Импорт элементов: %d</item>
+        <item quantity="other">Импорт элементов: %d</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="one">Импорт проекта: %d</item>
+        <item quantity="few">Импорт проектов: %d</item>
+        <item quantity="many">Импорт проектов: %d</item>
+        <item quantity="other">Импорт проектов: %d</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="one">Выбрано слоев: %d</item>
+        <item quantity="few">Выбрано слоев: %d</item>
+        <item quantity="many">Выбрано слоев: %d</item>
+        <item quantity="other">Выбрано слоев: %d</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="one">Отсутствует оригинал привязанного проекта/элемента. Вместо него будет использована самая последняя сохраненная копия из этого проекта.</item>
+        <item quantity="few">Отсутствуют оригиналы %d привязанных проектов/элементов. Вместо них будут использованы самые последние сохраненные копии из этого проекта.</item>
+        <item quantity="many">Отсутствуют оригиналы %d привязанных проектов/элементов. Вместо них будут использованы самые последние сохраненные копии из этого проекта.</item>
+        <item quantity="other">Отсутствуют оригиналы %d привязанных проектов/элементов. Вместо них будут использованы самые последние сохраненные копии из этого проекта.</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="one">+ еще %d</item>
+        <item quantity="few">+ еще %d</item>
+        <item quantity="many">+ еще %d</item>
+        <item quantity="other">+ еще %d</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="one">%d-дневное пользование</item>
+        <item quantity="few">%d-дневное пользование</item>
+        <item quantity="many">%d-дневное пользование</item>
+        <item quantity="other">%d-дневное пользование</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="one">Включает %d-дневный бесплатный пробный период</item>
+        <item quantity="few">Включает %d-дневный бесплатный пробный период</item>
+        <item quantity="many">Включает %d-дневный бесплатный пробный период</item>
+        <item quantity="other">Включает %d-дневный бесплатный пробный период</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="one">%d-часовое пользование</item>
+        <item quantity="few">%d-часовое пользование</item>
+        <item quantity="many">%d-часовое пользование</item>
+        <item quantity="other">%d-часовое пользование</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="one">%d-минутное пользование</item>
+        <item quantity="few">%d-минутное пользование</item>
+        <item quantity="many">%d-минутное пользование</item>
+        <item quantity="other">%d-минутное пользование</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="one">%d-месячное пользование</item>
+        <item quantity="few">%d-месячное пользование</item>
+        <item quantity="many">%d-месячное пользование</item>
+        <item quantity="other">%d-месячное пользование</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="one">Подписка сроком %d месяца</item>
+        <item quantity="few">Подписка сроком %d месяца</item>
+        <item quantity="many">Подписка сроком %d месяца</item>
+        <item quantity="other">Подписка сроком %d месяца</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="one">Пользование в течение %d лет</item>
+        <item quantity="few">Пользование в течение %d лет</item>
+        <item quantity="many">Пользование в течение %d лет</item>
+        <item quantity="other">Пользование в течение %d лет</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="one">Подписка сроком %d года/лет</item>
+        <item quantity="few">Подписка сроком %d года/лет</item>
+        <item quantity="many">Подписка сроком %d года/лет</item>
+        <item quantity="other">Подписка сроком %d года/лет</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="one">Выбрано: %d</item>
+        <item quantity="few">Выбрано: %d</item>
+        <item quantity="many">Выбрано: %d</item>
+        <item quantity="other">Выбрано: %d</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="one">Вставить %d слоя</item>
+        <item quantity="few">Вставить %d слоев</item>
+        <item quantity="many">Вставить %d слоев</item>
+        <item quantity="other">Вставить %d слоев</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="one">Удалить %1$d пресет</item>
+        <item quantity="few">Удалить %1$d пресета</item>
+        <item quantity="many">Удалить %1$d пресетов</item>
+        <item quantity="other">Удалить %1$d пресетов</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="one">Экспортировать %1$d пресет</item>
+        <item quantity="few">Экспортировать %1$d пресета</item>
+        <item quantity="many">Экспортировать %1$d пресетов</item>
+        <item quantity="other">Экспортировать %1$d пресетов</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="one">Импортировать %1$d пресет</item>
+        <item quantity="few">Импортировать %1$d пресета</item>
+        <item quantity="many">Импортировать %1$d пресетов</item>
+        <item quantity="other">Импортировать %1$d пресетов</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="one">%1$d выбран</item>
+        <item quantity="few">%1$d выбрано</item>
+        <item quantity="many">%1$d выбраны</item>
+        <item quantity="other">%1$d выбрано</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="one">Выбрано проектов: %d</item>
+        <item quantity="few">Выбрано проектов: %d</item>
+        <item quantity="many">Выбрано проектов: %d</item>
+        <item quantity="other">Выбрано проектов: %d</item>
+    </plurals>
+</resources>

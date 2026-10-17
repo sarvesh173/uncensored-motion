@@ -1,0 +1,163 @@
+.class final synthetic Lpcm/S$NS;
+.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lpcm/S;->r5(Lpcm/J;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1000
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lpcm/J;",
+        "Lpcm/Mk;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final h:Lpcm/S$NS;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    const/4 v1, 0x1
+
+    new-instance v0, Lpcm/S$NS;
+
+    const/4 v1, 0x2
+
+    invoke-direct {v0}, Lpcm/S$NS;-><init>()V
+
+    const/4 v1, 0x4
+
+    sput-object v0, Lpcm/S$NS;->h:Lpcm/S$NS;
+
+    const/4 v1, 0x3
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 7
+
+    const/4 v6, 0x1
+
+    const/4 v1, 0x2
+
+    const/4 v6, 0x0
+
+    const-class v2, Lpcm/S;
+
+    const-class v2, Lpcm/S;
+
+    const/4 v6, 0x3
+
+    const-string/jumbo v3, "lcssraeVisaiPnrro"
+
+    const-string/jumbo v3, "linearVariProcess"
+
+    const/4 v6, 0x1
+
+    const-string v4, "alimnc/ss/olsnDrloi/iibfrsrmepamatudmsssorViPle/Leinein/gibvopRlo/)pnlggiLa/laprescPsirdobrnss/CSismleoai;/eeairmdRberdc/Sniflaae(neVcelaptng/;oeenorp/nmererCssoiceupapl"
+
+    const-string/jumbo v4, "linearVariProcess(Lcom/bendingspoons/fellini/audioprocessing/resampler/libresample/SRCPrivate;Lcom/bendingspoons/fellini/audioprocessing/resampler/libresample/SRCData;)V"
+
+    const/4 v6, 0x4
+
+    const/4 v5, 0x1
+
+    move-object v0, p0
+
+    move-object v0, p0
+
+    const/4 v6, 0x1
+
+    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    const/4 v6, 0x7
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final XF(Lpcm/J;Lpcm/Mk;)V
+    .locals 2
+
+    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    const-string v0, "0p"
+
+    const-string/jumbo v0, "p0"
+
+    const/4 v1, 0x4
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v1, 0x1
+
+    const-string v0, "1p"
+
+    const-string/jumbo v0, "p1"
+
+    const/4 v1, 0x0
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v1, 0x2
+
+    invoke-static {p1, p2}, Lpcm/S;->qu(Lpcm/J;Lpcm/Mk;)V
+
+    const/4 v1, 0x0
+
+    return-void
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    const/4 v0, 0x4
+
+    check-cast p1, Lpcm/J;
+
+    const/4 v0, 0x0
+
+    check-cast p2, Lpcm/Mk;
+
+    const/4 v0, 0x3
+
+    invoke-virtual {p0, p1, p2}, Lpcm/S$NS;->XF(Lpcm/J;Lpcm/Mk;)V
+
+    const/4 v0, 0x5
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    const/4 v0, 0x1
+
+    return-object p1
+.end method

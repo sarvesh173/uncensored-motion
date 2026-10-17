@@ -1,0 +1,2 @@
+.class public Lcom/bendingspoons/legal/network/AcknowledgePrivacyNoticeAndAcceptTermsOfServiceKt$acknowledgePrivacyNoticeAndAcceptTermsOfService$$inlined$executeCall$1$ParseException;
+.super Ljava/lang/RuntimeException;

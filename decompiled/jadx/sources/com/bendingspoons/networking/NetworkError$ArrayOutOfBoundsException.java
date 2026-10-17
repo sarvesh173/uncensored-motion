@@ -1,0 +1,5 @@
+package com.bendingspoons.networking;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes20.dex */
+public class NetworkError$ArrayOutOfBoundsException extends java.lang.RuntimeException {
+}

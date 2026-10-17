@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="one">%1$d archivo de %2$d se ha subido correctamente.</item>
+        <item quantity="other">%1$d archivos de %2$d se han subido correctamente.</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="one">Lo sentimos, no hemos podido cargar el archivo %1$d.</item>
+        <item quantity="other">Lo sentimos, no hemos podido cargar los archivos %1$d.</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="one">Copiar capa</item>
+        <item quantity="other">Copiar %d capas</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="one">hora</item>
+        <item quantity="other">horas</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="one">minuto</item>
+        <item quantity="other">minutos</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="one">segundo</item>
+        <item quantity="other">segundos</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="one">Has compartido %1$d paquete de proyecto con esta cuenta. [b]Si eliminas esta cuenta, los paquetes se eliminarán de la nube y los enlaces y códigos QR de los paquetes se eliminarán de forma permanente y no se podrán recuperar.[/b]</item>
+        <item quantity="other">Has compartido %1$d paquetes de proyecto con esta cuenta. [b]Si eliminas esta cuenta, los paquetes se eliminarán de la nube y los enlaces y códigos QR de los paquetes se eliminarán de forma permanente y no se podrán recuperar.[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="one">Eliminar %d elemento</item>
+        <item quantity="other">Eliminar %d elementos</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="one">Eliminar %d proyecto</item>
+        <item quantity="other">Eliminar %d proyectos</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="one">Eliminar %1$d plantilla</item>
+        <item quantity="other">Eliminar %1$d plantillas</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="one">Duplicar %d elemento</item>
+        <item quantity="other">Duplicar %d elementos</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="one">Duplicar capa</item>
+        <item quantity="other">Duplicar %d capas</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="one">Duplicar %d proyecto</item>
+        <item quantity="other">Duplicar %d proyectos</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="one">%d elemento seleccionado</item>
+        <item quantity="other">%d elementos seleccionados</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Avanzar %d segundo</item>
+        <item quantity="other">Avanzar %d segundos</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Retroceder %d segundo</item>
+        <item quantity="other">Retroceder %d segundos</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="one">La oferta vence en un día.</item>
+        <item quantity="other">La oferta vence en %1$d días.</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="one">La oferta vence en una hora.</item>
+        <item quantity="other">La oferta vence en %1$d horas</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">La contraseña no es lo suficientemente segura. Usa %1$d carácter como mínimo y combina letras y números.</item>
+        <item quantity="other">La contraseña no es lo suficientemente segura. Usa %1$d caracteres como mínimo y combina letras y números.</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="one">Importar elemento</item>
+        <item quantity="other">Importar %d elementos</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="one">Importar proyecto</item>
+        <item quantity="other">Importar %d proyectos</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="one">%d capa seleccionada</item>
+        <item quantity="other">%d capas seleccionadas</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="one">Falta el original de un proyecto/elemento vinculado. En su lugar, se utilizará la copia incrustada más reciente en este proyecto.</item>
+        <item quantity="other">Faltan los originales de %d proyectos/elementos vinculados. En su lugar, se utilizarán las copias incrustadas más recientes en este proyecto.</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="one">+%d más</item>
+        <item quantity="other">+%d más</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificación nueva</item>
+        <item quantity="other">%d notificaciones nuevas</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="one">Pase de un día</item>
+        <item quantity="other">Pase de %d días</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="one">Incluye una prueba gratis de %d día</item>
+        <item quantity="other">Incluye una prueba gratis de %d días</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="one">Pase de una hora</item>
+        <item quantity="other">Pase de %d horas</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="one">Pase de un minuto</item>
+        <item quantity="other">Pase de %d minutos</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="one">Pase de un mes</item>
+        <item quantity="other">Pase de %d meses</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="one">Membresía de suscripción mensual</item>
+        <item quantity="other">Membresía de suscripción de %d meses</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="one">Pase de un año</item>
+        <item quantity="other">Pase de %d años</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="one">Membresía de suscripción anual</item>
+        <item quantity="other">Membresía de suscripción de %d años</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="one">%d seleccionado</item>
+        <item quantity="other">%d seleccionados</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="one">Pegar capa</item>
+        <item quantity="other">Pegar %d capas</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="one">Eliminar %1$d preset</item>
+        <item quantity="other">Eliminar %1$d presets</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="one"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="one"></item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="one">Se ha seleccionado %1$d</item>
+        <item quantity="other">Se han seleccionado %1$d</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="one">%d proyecto seleccionado</item>
+        <item quantity="other">%d proyectos seleccionados</item>
+    </plurals>
+</resources>

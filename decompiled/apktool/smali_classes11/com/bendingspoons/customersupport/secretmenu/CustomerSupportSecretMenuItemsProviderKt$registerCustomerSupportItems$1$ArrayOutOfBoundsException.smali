@@ -1,0 +1,2 @@
+.class public Lcom/bendingspoons/customersupport/secretmenu/CustomerSupportSecretMenuItemsProviderKt$registerCustomerSupportItems$1$ArrayOutOfBoundsException;
+.super Ljava/lang/RuntimeException;

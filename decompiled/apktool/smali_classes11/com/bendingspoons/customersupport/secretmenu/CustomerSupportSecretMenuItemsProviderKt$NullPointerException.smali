@@ -1,0 +1,2 @@
+.class public Lcom/bendingspoons/customersupport/secretmenu/CustomerSupportSecretMenuItemsProviderKt$NullPointerException;
+.super Ljava/lang/RuntimeException;

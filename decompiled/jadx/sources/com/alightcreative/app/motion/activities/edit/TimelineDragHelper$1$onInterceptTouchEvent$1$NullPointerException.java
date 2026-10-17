@@ -1,0 +1,5 @@
+package com.alightcreative.app.motion.activities.edit;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes2.dex */
+public class TimelineDragHelper$1$onInterceptTouchEvent$1$NullPointerException extends java.lang.RuntimeException {
+}

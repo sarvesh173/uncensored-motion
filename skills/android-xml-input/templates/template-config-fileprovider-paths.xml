@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FILEPROVIDER PATHS TEMPLATE - placement: res/xml/fileprovider_paths.xml.
+  Mirrors the real res/xml/file_paths.xml of the Gold Motion APK: cache share/, export/,
+  debug/ roots PLUS the mod-added files-path gold_light_layers/ - and the real
+  image_share_filepaths.xml (files-path image_provider/). Standard external variants
+  are added and labeled. Each element maps to a Context/Environment root; name = public
+  URI segment, path = subfolder exposed (never "/" ). Wire it up via the manifest
+  provider (the real entry uses authorities
+  "com.goldmotion.pnkj_com.alightcreative.app.motion.fileprovider"):
+  <provider android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.goldtplapp.fileprovider"
+            android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                 android:resource="@xml/fileprovider_paths" />
+  </provider>
+-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Context.getCacheDir() children (matches the APK: share/, export/, debug/) -->
+    <cache-path
+        name="share"
+        path="share/" />
+    <cache-path
+        name="export"
+        path="export/" />
+    <cache-path
+        name="debug"
+        path="debug/" />
+
+    <!-- Context.getFilesDir() children (matches the APK: the mod-added
+         gold_light_layers/ in file_paths.xml and image_provider/ in
+         image_share_filepaths.xml) -->
+    <files-path
+        name="gold_light_layers"
+        path="gold_light_layers/" />
+    <files-path
+        name="docs"
+        path="documents/" />
+
+    <!-- External storage variants (STANDARD FORM - not in the shipped file_paths.xml) -->
+    <external-path
+        name="external_files"
+        path="Download/" />
+    <external-files-path
+        name="pictures"
+        path="Pictures/" />
+    <external-cache-path
+        name="temp"
+        path="tmp/" />
+</paths>

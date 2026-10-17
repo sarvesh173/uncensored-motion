@@ -1,0 +1,67 @@
+.class public final Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/Java16RecordComponentsLoader$Cache;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/Java16RecordComponentsLoader;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Cache"
+.end annotation
+
+
+# instance fields
+.field private final getAccessor:Ljava/lang/reflect/Method;
+
+.field private final getType:Ljava/lang/reflect/Method;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;)V
+    .locals 1
+
+    const/4 v0, 0x5
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x3
+
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/Java16RecordComponentsLoader$Cache;->getType:Ljava/lang/reflect/Method;
+
+    const/4 v0, 0x5
+
+    iput-object p2, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/Java16RecordComponentsLoader$Cache;->getAccessor:Ljava/lang/reflect/Method;
+
+    const/4 v0, 0x1
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getGetAccessor()Ljava/lang/reflect/Method;
+    .locals 2
+
+    const-string v1, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/Java16RecordComponentsLoader$Cache;->getAccessor:Ljava/lang/reflect/Method;
+
+    const/4 v1, 0x1
+
+    return-object v0
+.end method
+
+.method public final getGetType()Ljava/lang/reflect/Method;
+    .locals 2
+
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lkotlin/reflect/jvm/internal/impl/descriptors/runtime/structure/Java16RecordComponentsLoader$Cache;->getType:Ljava/lang/reflect/Method;
+
+    const/4 v1, 0x2
+
+    return-object v0
+.end method

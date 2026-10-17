@@ -1,0 +1,6 @@
+package com.alightcreative.app.motion.activities.creatorprogram.redeem;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes2.dex */
+public interface f {
+    void uD(com.alightcreative.app.motion.activities.creatorprogram.redeem.RedeemTokensActivity r1);
+}

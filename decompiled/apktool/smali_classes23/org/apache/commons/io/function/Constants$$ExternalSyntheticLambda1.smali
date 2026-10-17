@@ -1,0 +1,36 @@
+.class public final synthetic Lorg/apache/commons/io/function/Constants$$ExternalSyntheticLambda1;
+.super Ljava/lang/Object;
+.source "D8$$SyntheticClass"
+
+# interfaces
+.implements Lorg/apache/commons/io/function/IORunnable;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public synthetic asRunnable()Ljava/lang/Runnable;
+    .locals 1
+
+    invoke-static {p0}, Lorg/apache/commons/io/function/IORunnable$-CC;->$default$asRunnable(Lorg/apache/commons/io/function/IORunnable;)Ljava/lang/Runnable;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final run()V
+    .locals 0
+
+    invoke-static {}, Lorg/apache/commons/io/function/Constants;->lambda$static$1()V
+
+    return-void
+.end method

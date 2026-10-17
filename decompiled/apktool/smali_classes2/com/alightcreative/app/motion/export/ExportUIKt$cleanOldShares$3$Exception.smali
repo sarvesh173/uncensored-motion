@@ -1,0 +1,2 @@
+.class public Lcom/alightcreative/app/motion/export/ExportUIKt$cleanOldShares$3$Exception;
+.super Ljava/lang/RuntimeException;

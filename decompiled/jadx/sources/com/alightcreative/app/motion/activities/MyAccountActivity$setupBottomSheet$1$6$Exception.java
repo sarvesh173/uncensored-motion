@@ -1,0 +1,5 @@
+package com.alightcreative.app.motion.activities;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes2.dex */
+public class MyAccountActivity$setupBottomSheet$1$6$Exception extends java.lang.RuntimeException {
+}

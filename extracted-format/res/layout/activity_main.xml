@@ -1,0 +1,8 @@
+<Button
+    android:id="@+id/mod_button"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="16dp"
+    android:background="@drawable/circle_background"
+    android:text="MOD" />

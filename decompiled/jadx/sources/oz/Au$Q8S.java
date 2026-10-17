@@ -1,0 +1,57 @@
+package oz;
+
+@kotlin.Metadata(d1 = {"\u0000\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0001\u001a\u00020\u0000H\n¢\u0006\u0004\b\u0003\u0010\u0004"}, d2 = {"LZ3/vrp;", "it", "Loz/AN;", "XF", "(J)Loz/AN;"}, k = 3, mv = {1, 8, 0})
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes15.dex */
+final class Au$Q8S extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function1<Z3.vrp, oz.AN> {
+
+    /* renamed from: h, reason: collision with root package name */
+    public static final oz.Au$Q8S f1179h = null;
+
+    static {
+            r1 = 0
+            oz.Au$Q8S r0 = new oz.Au$Q8S
+            r0.<init>()
+            r1 = 5
+            oz.Au$Q8S.f1179h = r0
+            r1 = 7
+            return
+    }
+
+    Au$Q8S() {
+            r2 = this;
+            r0 = 7
+            r0 = 1
+            r1 = 1
+            r2.<init>(r0)
+            r1 = 1
+            return
+    }
+
+    public final oz.AN XF(long r4) {
+            r3 = this;
+            java.lang.String r2 = "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif'   ~@~@~@~@~@~@~@~@~@~@~  "
+            oz.AN r0 = new oz.AN
+            int r1 = Z3.vrp.g(r4)
+            r2 = 0
+            float r1 = (float) r1
+            r2 = 0
+            int r4 = Z3.vrp.D3D(r4)
+            r2 = 1
+            float r4 = (float) r4
+            r2 = 4
+            r0.<init>(r1, r4)
+            r2 = 1
+            return r0
+    }
+
+    public /* bridge */ /* synthetic */ java.lang.Object invoke(java.lang.Object r4) {
+            r3 = this;
+            Z3.vrp r4 = (Z3.vrp) r4
+            r2 = 4
+            long r0 = r4.J()
+            r2 = 6
+            oz.AN r4 = r3.XF(r0)
+            r2 = 6
+            return r4
+    }
+}

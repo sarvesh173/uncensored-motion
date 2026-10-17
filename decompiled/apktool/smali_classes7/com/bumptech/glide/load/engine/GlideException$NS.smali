@@ -1,0 +1,264 @@
+.class final Lcom/bumptech/glide/load/engine/GlideException$NS;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/lang/Appendable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bumptech/glide/load/engine/GlideException;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1a
+    name = "NS"
+.end annotation
+
+
+# instance fields
+.field private Z:Z
+
+.field private final h:Ljava/lang/Appendable;
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/Appendable;)V
+    .locals 2
+
+    const/4 v1, 0x3
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v1, 0x2
+
+    const/4 v0, 0x1
+
+    const/4 v1, 0x2
+
+    iput-boolean v0, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->Z:Z
+
+    const/4 v1, 0x0
+
+    iput-object p1, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->h:Ljava/lang/Appendable;
+
+    const/4 v1, 0x3
+
+    return-void
+.end method
+
+.method private XF(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    .locals 1
+
+    const-string v0, "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif\'   ~@~@~@~@~@~@~@~@~@~@~  "
+
+    if-nez p1, :cond_0
+
+    const/4 v0, 0x3
+
+    const-string p1, ""
+
+    const-string p1, ""
+
+    :cond_0
+    const/4 v0, 0x1
+
+    return-object p1
+.end method
+
+
+# virtual methods
+.method public append(C)Ljava/lang/Appendable;
+    .locals 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    const/4 v3, 0x1
+
+    iget-boolean v0, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->Z:Z
+
+    const/4 v3, 0x0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    const/4 v3, 0x6
+
+    iput-boolean v1, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->Z:Z
+
+    const/4 v3, 0x0
+
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->h:Ljava/lang/Appendable;
+
+    const/4 v3, 0x5
+
+    const-string v2, "  "
+
+    const-string v2, "  "
+
+    const/4 v3, 0x4
+
+    invoke-interface {v0, v2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
+
+    :cond_0
+    const/4 v3, 0x7
+
+    const/16 v0, 0xa
+
+    const/4 v3, 0x1
+
+    if-ne p1, v0, :cond_1
+
+    const/4 v3, 0x2
+
+    const/4 v1, 0x1
+
+    :cond_1
+    const/4 v3, 0x5
+
+    iput-boolean v1, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->Z:Z
+
+    const/4 v3, 0x0
+
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->h:Ljava/lang/Appendable;
+
+    const/4 v3, 0x7
+
+    invoke-interface {v0, p1}, Ljava/lang/Appendable;->append(C)Ljava/lang/Appendable;
+
+    const/4 v3, 0x7
+
+    return-object p0
+.end method
+
+.method public append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
+    .locals 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    const/4 v2, 0x0
+
+    invoke-direct {p0, p1}, Lcom/bumptech/glide/load/engine/GlideException$NS;->XF(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+
+    move-result-object p1
+
+    const/4 v2, 0x4
+
+    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+
+    move-result v0
+
+    const/4 v2, 0x6
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x4
+
+    invoke-virtual {p0, p1, v1, v0}, Lcom/bumptech/glide/load/engine/GlideException$NS;->append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
+
+    move-result-object p1
+
+    const/4 v2, 0x6
+
+    return-object p1
+.end method
+
+.method public append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
+    .locals 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    const/4 v3, 0x2
+
+    invoke-direct {p0, p1}, Lcom/bumptech/glide/load/engine/GlideException$NS;->XF(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+
+    move-result-object p1
+
+    const/4 v3, 0x7
+
+    iget-boolean v0, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->Z:Z
+
+    const/4 v3, 0x6
+
+    const/4 v1, 0x0
+
+    const/4 v3, 0x6
+
+    if-eqz v0, :cond_0
+
+    iput-boolean v1, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->Z:Z
+
+    const/4 v3, 0x6
+
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->h:Ljava/lang/Appendable;
+
+    const/4 v3, 0x4
+
+    const-string v2, "  "
+
+    const-string v2, "  "
+
+    const/4 v3, 0x0
+
+    invoke-interface {v0, v2}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
+
+    :cond_0
+    const/4 v3, 0x7
+
+    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
+
+    move-result v0
+
+    const/4 v3, 0x1
+
+    if-lez v0, :cond_1
+
+    const/4 v3, 0x5
+
+    add-int/lit8 v0, p3, -0x1
+
+    const/4 v3, 0x4
+
+    invoke-interface {p1, v0}, Ljava/lang/CharSequence;->charAt(I)C
+
+    move-result v0
+
+    const/4 v3, 0x6
+
+    const/16 v2, 0xa
+
+    const/4 v3, 0x4
+
+    if-ne v0, v2, :cond_1
+
+    const/4 v3, 0x4
+
+    const/4 v1, 0x1
+
+    :cond_1
+    const/4 v3, 0x1
+
+    iput-boolean v1, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->Z:Z
+
+    const/4 v3, 0x6
+
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/GlideException$NS;->h:Ljava/lang/Appendable;
+
+    const/4 v3, 0x3
+
+    invoke-interface {v0, p1, p2, p3}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
+
+    const/4 v3, 0x5
+
+    return-object p0
+.end method

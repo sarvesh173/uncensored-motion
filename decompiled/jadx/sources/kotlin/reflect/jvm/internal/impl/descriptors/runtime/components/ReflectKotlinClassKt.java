@@ -1,0 +1,145 @@
+package kotlin.reflect.jvm.internal.impl.descriptors.runtime.components;
+
+/* loaded from: /home/z/my-project/work/goldmotion-opensource/extracted-format/classes15.dex */
+public final class ReflectKotlinClassKt {
+    private static final java.util.Set<java.lang.Class<?>> TYPES_ELIGIBLE_FOR_SIMPLE_VISIT = null;
+
+    static {
+            r3 = 6
+            r0 = 18
+            r3 = 1
+            java.lang.Class[] r0 = new java.lang.Class[r0]
+            r3 = 7
+            r1 = 0
+            r3 = 7
+            java.lang.Class<java.lang.Integer> r2 = java.lang.Integer.class
+            java.lang.Class<java.lang.Integer> r2 = java.lang.Integer.class
+            r3 = 3
+            r0[r1] = r2
+            r3 = 1
+            r1 = 1
+            r3 = 3
+            java.lang.Class<java.lang.Character> r2 = java.lang.Character.class
+            java.lang.Class<java.lang.Character> r2 = java.lang.Character.class
+            r3 = 7
+            r0[r1] = r2
+            r3 = 6
+            r1 = 2
+            r3 = 2
+            java.lang.Class<java.lang.Byte> r2 = java.lang.Byte.class
+            java.lang.Class<java.lang.Byte> r2 = java.lang.Byte.class
+            r3 = 5
+            r0[r1] = r2
+            r3 = 2
+            r1 = 3
+            r3 = 0
+            java.lang.Class<java.lang.Long> r2 = java.lang.Long.class
+            java.lang.Class<java.lang.Long> r2 = java.lang.Long.class
+            r3 = 0
+            r0[r1] = r2
+            r3 = 4
+            r1 = 4
+            r3 = 5
+            java.lang.Class<java.lang.Short> r2 = java.lang.Short.class
+            java.lang.Class<java.lang.Short> r2 = java.lang.Short.class
+            r3 = 5
+            r0[r1] = r2
+            r3 = 4
+            r1 = 5
+            r3 = 1
+            java.lang.Class<java.lang.Boolean> r2 = java.lang.Boolean.class
+            java.lang.Class<java.lang.Boolean> r2 = java.lang.Boolean.class
+            r3 = 5
+            r0[r1] = r2
+            r1 = 6
+            r3 = r1
+            java.lang.Class<java.lang.Double> r2 = java.lang.Double.class
+            java.lang.Class<java.lang.Double> r2 = java.lang.Double.class
+            r3 = 3
+            r0[r1] = r2
+            r3 = 0
+            r1 = 7
+            r3 = 7
+            java.lang.Class<java.lang.Float> r2 = java.lang.Float.class
+            java.lang.Class<java.lang.Float> r2 = java.lang.Float.class
+            r3 = 1
+            r0[r1] = r2
+            r3 = 6
+            r1 = 8
+            java.lang.Class<int[]> r2 = int[].class
+            java.lang.Class<int[]> r2 = int[].class
+            r3 = 4
+            r0[r1] = r2
+            r1 = 9
+            r3 = 3
+            java.lang.Class<char[]> r2 = char[].class
+            r3 = 0
+            r0[r1] = r2
+            r3 = 0
+            r1 = 10
+            r3 = 2
+            java.lang.Class<byte[]> r2 = byte[].class
+            java.lang.Class<byte[]> r2 = byte[].class
+            r3 = 0
+            r0[r1] = r2
+            r1 = 11
+            r3 = 6
+            java.lang.Class<long[]> r2 = long[].class
+            java.lang.Class<long[]> r2 = long[].class
+            r3 = 4
+            r0[r1] = r2
+            r3 = 3
+            r1 = 12
+            r3 = 6
+            java.lang.Class<short[]> r2 = short[].class
+            java.lang.Class<short[]> r2 = short[].class
+            r3 = 3
+            r0[r1] = r2
+            r3 = 1
+            r1 = 13
+            r3 = 1
+            java.lang.Class<boolean[]> r2 = boolean[].class
+            java.lang.Class<boolean[]> r2 = boolean[].class
+            r3 = 0
+            r0[r1] = r2
+            r3 = 6
+            r1 = 14
+            r3 = 3
+            java.lang.Class<double[]> r2 = double[].class
+            java.lang.Class<double[]> r2 = double[].class
+            r0[r1] = r2
+            r3 = 4
+            r1 = 15
+            r3 = 4
+            java.lang.Class<float[]> r2 = float[].class
+            java.lang.Class<float[]> r2 = float[].class
+            r3 = 7
+            r0[r1] = r2
+            r3 = 2
+            r1 = 16
+            java.lang.Class<java.lang.Class> r2 = java.lang.Class.class
+            java.lang.Class<java.lang.Class> r2 = java.lang.Class.class
+            r3 = 3
+            r0[r1] = r2
+            r3 = 2
+            r1 = 17
+            r3 = 5
+            java.lang.Class<java.lang.String> r2 = java.lang.String.class
+            java.lang.Class<java.lang.String> r2 = java.lang.String.class
+            r3 = 2
+            r0[r1] = r2
+            r3 = 0
+            java.util.Set r0 = kotlin.collections.SetsKt.setOf(r0)
+            r3 = 4
+            kotlin.reflect.jvm.internal.impl.descriptors.runtime.components.ReflectKotlinClassKt.TYPES_ELIGIBLE_FOR_SIMPLE_VISIT = r0
+            r3 = 1
+            return
+    }
+
+    public static final /* synthetic */ java.util.Set access$getTYPES_ELIGIBLE_FOR_SIMPLE_VISIT$p() {
+            java.lang.String r1 = "  ~@~@~@~@~@~@~@~@~@~@~   Smob - Mod obfuscation tool v1.4 by Kirlif'   ~@~@~@~@~@~@~@~@~@~@~  "
+            java.util.Set<java.lang.Class<?>> r0 = kotlin.reflect.jvm.internal.impl.descriptors.runtime.components.ReflectKotlinClassKt.TYPES_ELIGIBLE_FOR_SIMPLE_VISIT
+            r1 = 7
+            return r0
+    }
+}

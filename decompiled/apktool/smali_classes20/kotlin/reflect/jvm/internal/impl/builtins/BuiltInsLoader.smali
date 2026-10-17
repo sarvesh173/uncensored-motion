@@ -1,0 +1,52 @@
+.class public interface abstract Lkotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lkotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader$Companion;
+    }
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lkotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader$Companion;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    const/4 v1, 0x3
+
+    sget-object v0, Lkotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader$Companion;->$$INSTANCE:Lkotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader$Companion;
+
+    const/4 v1, 0x2
+
+    sput-object v0, Lkotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader;->Companion:Lkotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader$Companion;
+
+    const/4 v1, 0x0
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract createPackageFragmentProvider(Lkotlin/reflect/jvm/internal/impl/storage/StorageManager;Lkotlin/reflect/jvm/internal/impl/descriptors/ModuleDescriptor;Ljava/lang/Iterable;Lkotlin/reflect/jvm/internal/impl/descriptors/deserialization/PlatformDependentDeclarationFilter;Lkotlin/reflect/jvm/internal/impl/descriptors/deserialization/AdditionalClassPartsProvider;Z)Lkotlin/reflect/jvm/internal/impl/descriptors/PackageFragmentProvider;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/reflect/jvm/internal/impl/storage/StorageManager;",
+            "Lkotlin/reflect/jvm/internal/impl/descriptors/ModuleDescriptor;",
+            "Ljava/lang/Iterable<",
+            "+",
+            "Lkotlin/reflect/jvm/internal/impl/descriptors/deserialization/ClassDescriptorFactory;",
+            ">;",
+            "Lkotlin/reflect/jvm/internal/impl/descriptors/deserialization/PlatformDependentDeclarationFilter;",
+            "Lkotlin/reflect/jvm/internal/impl/descriptors/deserialization/AdditionalClassPartsProvider;",
+            "Z)",
+            "Lkotlin/reflect/jvm/internal/impl/descriptors/PackageFragmentProvider;"
+        }
+    .end annotation
+.end method

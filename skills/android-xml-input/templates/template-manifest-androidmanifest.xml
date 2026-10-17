@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ANDROID MANIFEST TEMPLATE - pairs with the other template-* files in this set.
+  Placement: merge into AndroidManifest.xml at the project root. For a NEW app use as-is
+  (replace package + authorities; @mipmap/ic_launcher is the standard launcher-icon name -
+  mipmaps are binary PNG/WebP assets supplied outside this XML template set). For Gold
+  Motion, splice individual fragments only: the decoded manifest at
+  decompiled/apktool/AndroidManifest.xml has 427 lines, 78 activities, 15 services,
+  14 receivers and 12 providers - never overwrite it with this skeleton.
+  Structure mirrors the real Gold Motion manifest: launcher activity pattern
+  (GoldStartupActivity), init-order providers (goldai.init etc.), FileProvider with
+  meta-data resource, literal + referenced meta-data values.
+  References: @string/tpl_app_name, @style/TplAppTheme.Light (template-values-strings/styles),
+  @xml/network_security_config + @xml/fileprovider_paths (template-config-*).
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.goldtplapp"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <!-- Permissions: plain, and version-gated. The real Gold Motion manifest gates
+         READ_EXTERNAL_STORAGE at maxSdkVersion 32 and WRITE_EXTERNAL_STORAGE at 28
+         (scoped storage), then appends MANAGE_EXTERNAL_STORAGE as an all-files escape
+         hatch - a mod special case documented in references/manifest-reference.md. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- OpenGL ES 2.0 - Gold Motion declares glEsVersion 0x20000 required -->
+    <uses-feature
+        android:glEsVersion="0x20000"
+        android:required="true" />
+
+    <!-- API 30+ package visibility, if you query other apps (Gold Motion queries
+         com.facebook.katana, custom tabs, billing) -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="video/*" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/tpl_app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/TplAppTheme.Light">
+
+        <!-- Launcher activity: pattern of the real com.goldmotion.startup.GoldStartupActivity
+             (exported + MAIN/LAUNCHER filter). exported is mandatory since API 31 when
+             intent-filters exist; the real file also pins screenOrientation="portrait". -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/tpl_app_name"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Deep link (autoVerify = Android App Links; Gold Motion's MainActivity
+                 declares five such filters, incl. host refs via @string/importing_deep_link) -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="example.com" />
+            </intent-filter>
+        </activity>
+
+        <!-- Plain internal activity, no filter -> no exported requirement -->
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/tpl_action_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Mod-style early-init provider: pattern of the real
+             com.goldmotion.pnkj.goldai.init / GoldAiInitProvider (initOrder 100) -->
+        <provider
+            android:name=".init.TplInitProvider"
+            android:authorities="com.example.goldtplapp.tplinit"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <!-- Service bound by JobScheduler needs the system permission (same shape as the
+             androidx.work SystemJobService entry in the real manifest) -->
+        <service
+            android:name=".sync.SyncJobService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <!-- Receiver listening for system broadcasts must be exported -->
+        <receiver
+            android:name=".boot.BootCompletedReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- FileProvider: authorities MUST be unique; the real Gold Motion entry uses
+             "com.goldmotion.pnkj_com.alightcreative.app.motion.fileprovider" and points
+             at @xml/file_paths. Paths live in res/xml/ (template-config-fileprovider-paths). -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.goldtplapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider_paths" />
+        </provider>
+
+        <!-- Free-form key/value config consumed by libraries. The real manifest mixes
+             literals ("applovin.sdk.key"), booleans (firebase flags) and references
+             (@integer/google_play_services_version, @string/facebook_application_id). -->
+        <meta-data
+            android:name="com.example.goldtplapp.SOME_FLAG"
+            android:value="true" />
+    </application>
+</manifest>
