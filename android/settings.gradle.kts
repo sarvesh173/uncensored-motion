@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "fluxmotion-studio"
+rootProject.name = "uncensored-motion"
 include(":app")
