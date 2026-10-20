@@ -83,17 +83,8 @@ jobs:
           tag_name: v2.1.0-uncensored-opensource
           name: "Uncensored APK v2.1.0 (Open Source Edition)"
           body: |
-            ## Uncensored Motion v2.1.0 — Open Source Edition
-            The definitive open-source, uncensored mobile motion graphics suite uniting **After Motion Z**, **Golden Motion**, **G Motion**, and **After Motion X / CC+** into a single clean architecture.
-
-            ### Downloads
-            - **[📥 Download Uncensored-APK.apk](https://github.com/sarvesh173/uncensored-motion/releases/download/v2.1.0-uncensored-opensource/Uncensored-APK.apk)** — Pre-built, signed APK ready to install.
-            - **[📦 Download Source Code ZIP](https://github.com/sarvesh173/uncensored-motion/releases/download/v2.1.0-uncensored-opensource/uncensored-motion-source-v2.1.0.zip)** — Complete source code package.
-
-            ### Highlights
-            - **Custom Package Identity:** `com.uncensored.motion` (100% clean decoupling).
-            - **Cryptographic Signature:** Verified custom Open Source keystore.
-            - **Uncensored Engine:** No subscription locks, no watermarks, full 4K 60fps export, custom shaders, and XML project portability.
+            Uncensored Motion v2.1.0 source build.
+            Signed APK compiled from reconstructed source with Apktool. No watermarks, no subscription locks.
           files: |
             build/Uncensored-APK.apk
             build/uncensored-motion-source-v2.1.0.zip

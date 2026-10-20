@@ -1,122 +1,60 @@
 <p align="center">
-  <img src="uncensored_motion_icon.svg" width="140" height="140" alt="Uncensored Motion Logo" />
+  <img src="uncensored_motion_icon.svg" width="128" height="128" alt="Uncensored Motion icon" />
 </p>
 
-# Uncensored Motion — Pure Open Source Motion Graphics Suite
+# Uncensored Motion
 
-[![Build Status](https://github.com/sarvesh173/uncensored-motion/actions/workflows/rebuild-apktool.yml/badge.svg)](https://github.com/sarvesh173/uncensored-motion/actions/workflows/rebuild-apktool.yml)
-[![Build Native Compose Studio](https://github.com/sarvesh173/uncensored-motion/actions/workflows/build-apk.yml/badge.svg)](https://github.com/sarvesh173/uncensored-motion/actions/workflows/build-apk.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform: Android](https://img.shields.io/badge/Platform-Android-3DDC84.svg?logo=android&logoColor=white)](https://android.com)
+An open source Android motion graphics editor based on Alight Motion.
 
-**Uncensored Motion** is the independent, fully open-source motion graphics suite and transparent alternative to **Alight Motion**. 
+The project combines features from After Motion Z and After Motion CC+ into a single codebase, removes watermarks and subscription checks, and runs offline without analytics or tracking.
 
-Everything is provided directly as pure, cloneable, transparent source code under the independent package identity **`com.uncensored.motion`**. Anyone can clone the repository, run the build command, and compile a clean, uncensored APK on their own machine in seconds.
+## Building from source
 
----
+You need:
+- JDK 17 or 21
+- [Apktool 3.0.3+](https://github.com/iBotPeaches/Apktool)
+- Android SDK build tools (`zipalign` and `apksigner`)
 
-## ⚡ Clone & Build Instantly
-
-Anyone can clone and compile this repository immediately:
+### Quick build
 
 ```bash
-# 1. Clone the complete source repository
 git clone git@github.com:sarvesh173/uncensored-motion.git
 cd uncensored-motion
 
-# 2. Compile with Apktool — Boom! APK is built!
+# Build APK from reconstructed sources
 mkdir -p build
 apktool b decompiled/apktool -o build/Uncensored-Motion.apk
 
-# 3. Align and Sign with custom Open Source cert
+# Align and sign
 zipalign -p -f 4 build/Uncensored-Motion.apk build/Uncensored-Motion-aligned.apk
 keytool -genkeypair -v -keystore build/uncensored.keystore -alias uncensored_motion_key \
         -keyalg RSA -keysize 2048 -validity 10000 \
         -storepass uncensored2026 -keypass uncensored2026 \
-        -dname "CN=Uncensored Motion Open Source, OU=Community, O=Uncensored Motion, L=Worldwide, ST=OpenSource, C=US"
+        -dname "CN=Uncensored Motion, O=Community, C=US"
 apksigner sign --ks build/uncensored.keystore --ks-key-alias uncensored_motion_key \
                --ks-pass pass:uncensored2026 \
                --out build/Uncensored-Motion-signed.apk build/Uncensored-Motion-aligned.apk
 ```
 
----
+## What is included
 
-## 🌟 The Uncensored Architecture
+- Full keyframing with custom bezier easing curves and motion blur
+- Color correction (CC) tools, LUT filters, and tone curves
+- Standard XML project file import and export
+- 4K and 60 fps exports without watermarks
+- Clean package name (`com.uncensored.motion`) so it installs alongside official builds
+- Telemetry, ads, and login walls removed
 
-**Uncensored Motion** provides a clean, privacy-respecting, fully unlocked motion editing studio:
+## Repository layout
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                       UNCENSORED MOTION (com.uncensored.motion)             │
-│                                                                             │
-│  ┌───────────────────────┐  ┌───────────────────────┐  ┌─────────────────┐ │
-│  │   AFTER MOTION Z      │  │ AFTER MOTION CC+ / X  │  │ UNLOCKED CORE   │ │
-│  │ • Pro Bezier Curves   │  │ • Cinematic Color CC+ │  │ • No Watermark  │ │
-│  │ • Smooth Motion Blur  │  │ • Shake & Twitch FX   │  │ • 4K 60fps HDR  │ │
-│  │ • Spatial Tracking    │  │ • Film Grain & LUTs   │  │ • XML Project IO│ │
-│  └───────────────────────┘  └───────────────────────┘  └─────────────────┘ │
-│                                                                             │
-│  ┌───────────────────────────────────────────────────────────────────────┐  │
-│  │                   ALIGHT MOTION CORE COMPOSITOR                       │  │
-│  │ • Multi-Layer Vector Graphics     • Audio Spectrum Visualizers        │  │
-│  │ • Keyframe Interpolator           • Decoupled Independent Engine      │  │
-│  └───────────────────────────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- `android/` - Clean room motion studio written in Kotlin and Jetpack Compose
+- `decompiled/apktool/` - Main buildable Apktool project (smali, decoded resources, manifest)
+- `decompiled/jadx/` - Java source reference files
+- `extracted-format/` - OpenGL ES shaders, bicubic interpolation tables, and native libraries
+- `docs/` - Build manuals and reverse engineering notes
+- `.github/workflows/` - CI workflows for automated building and testing
 
-### Core Features
+## License
 
-- **Pro Easing & Keyframing:** Multi-point Bezier handles, velocity curves, and spatial motion blur.
-- **Cinematic Color Grading (CC+):** High-fidelity color grading, customizable LUT filters, and high-dynamic-range tonemapping.
-- **Direct XML Portability:** Import and export standard `.xml` Alight Motion project files seamlessly for sharing presets and animations.
-- **Zero Censorship & Zero Telemetry:**
-  - No watermarks on exports.
-  - No subscription paywalls or locked features.
-  - All tracking servers, analytics, and license-checking daemons completely stripped out.
-  - Fully offline and standalone.
-- **Direct Launch:** Launches directly into `MainActivity` as **Uncensored Motion** with custom icon and branding.
-
----
-
-## 📂 Repository Structure
-
-All source code, decompiled trees, analysis reports, and build pipelines are committed directly into this repository:
-
-```text
-uncensored-motion/
-├── uncensored_motion_icon.svg # Official Uncensored Motion vector icon
-├── uncensored_motion_icon.png # High-res rasterized application icon
-├── android/                   # Native Jetpack Compose clean-room motion studio
-│   ├── app/src/main/          # Kotlin source files, UI components, timeline engine
-│   └── build.gradle.kts       # Modern Gradle build configuration
-├── decompiled/                # Reconstructed studio trees (Apktool buildable)
-│   ├── apktool/               # Rebuildable Apktool project
-│   │   ├── AndroidManifest.xml# Clean package manifest (com.uncensored.motion)
-│   │   ├── apktool.yml        # Build specs, SDK levels (min 23, target 36)
-│   │   ├── res/               # Decoded Android XML resources, drawables, layouts
-│   │   └── smali_classes*/    # Full smali assembly trees (34 DEX classes)
-│   └── jadx/
-│       └── sources/           # 46,371 readable decompiled Java reference files
-├── extracted-format/          # Shaders, coefficient tables & project specifications
-│   ├── high_qual_coeffs.txt   # High-precision bicubic interpolation tables
-│   ├── assets/                # Core OpenGL ES GLSL shaders, fonts, presets
-│   └── lib/                   # Native rendering libraries (.so architectures)
-├── docs/                      # Technical blueprints, reverse engineering & rebuild guides
-│   ├── REBUILD-GUIDE.md       # Comprehensive step-by-step local build manual
-│   └── REBUILD-VERIFICATION.md# SHA-256 hashes and certificate validation
-├── analysis/                  # Security audits, permission mappings & SDK breakdowns
-├── skills/                    # Automated AI assistant workflows and dev tooling
-├── .github/workflows/         # Automated Continuous Integration (CI)
-│   ├── rebuild-apktool.yml    # Cloud compilation & automatic source packaging
-│   └── build-apk.yml          # Native Jetpack Compose build verification
-├── agent.md                   # Agent execution protocol & engineering notes
-├── LICENSE                    # MIT Open Source License
-└── README.md                  # Master documentation & entry point
-```
-
----
-
-## 📜 License & Community
-
-- **Software License:** MIT License — see [LICENSE](LICENSE) for full details.
-- **Educational & Interoperability Research:** Decompiled smali structures and reverse-engineered formats are preserved under fair-use provisions for interoperability study, format documentation, and community educational research.
+MIT License. See [LICENSE](LICENSE) for details.
+Smali structures and formats are included for educational study and software interoperability.
