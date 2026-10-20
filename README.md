@@ -36,13 +36,12 @@ apksigner sign --ks build/uncensored.keystore --ks-key-alias uncensored_motion_k
                --out build/Uncensored-Motion-signed.apk build/Uncensored-Motion-aligned.apk
 ```
 
-## What is included
+## Features
 
-- Full keyframing with custom bezier easing curves and motion blur
-- Color correction (CC) tools, LUT filters, and tone curves
+- Keyframing with custom bezier easing curves and motion blur
+- Color correction tools, LUT filters, and tone curves
 - Standard XML project file import and export
 - 4K and 60 fps exports without watermarks
-- Clean package name (`com.uncensored.motion`) so it installs alongside official builds
 - Telemetry, ads, and login walls removed
 
 ## Repository layout
