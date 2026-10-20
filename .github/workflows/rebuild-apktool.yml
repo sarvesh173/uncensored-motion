@@ -58,11 +58,22 @@ jobs:
                          --out build/Uncensored-APK.apk build/Uncensored-APK-aligned.apk
           apksigner verify --print-certs build/Uncensored-APK.apk
 
+      - name: Package Complete Source Code ZIP
+        run: |
+          zip -r build/uncensored-motion-source-v2.1.0.zip android docs analysis extracted-format skills .github README.md LICENSE agent.md .gitignore
+
       - name: Upload Uncensored APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Uncensored-APK
           path: build/Uncensored-APK.apk
+          retention-days: 14
+
+      - name: Upload Source Code ZIP Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: uncensored-motion-source
+          path: build/uncensored-motion-source-v2.1.0.zip
           retention-days: 14
 
       - name: Publish GitHub Release (main branch only)
@@ -72,10 +83,19 @@ jobs:
           tag_name: v2.1.0-uncensored-opensource
           name: "Uncensored APK v2.1.0 (Open Source Edition)"
           body: |
-            ## Uncensored APK v2.1.0 — Open Source Edition
-            - **Package Name:** `com.uncensored.motion` (100% custom package identifier)
-            - **Custom Signature:** Signed with custom `CN=Uncensored Motion Open Source` verified key.
-            - **Direct Download:** `Uncensored-APK.apk`
-          files: build/Uncensored-APK.apk
+            ## Uncensored Motion v2.1.0 — Open Source Edition
+            The definitive open-source, uncensored mobile motion graphics suite uniting **After Motion Z**, **Golden Motion**, **G Motion**, and **After Motion X / CC+** into a single clean architecture.
+
+            ### Downloads
+            - **[📥 Download Uncensored-APK.apk](https://github.com/sarvesh173/uncensored-motion/releases/download/v2.1.0-uncensored-opensource/Uncensored-APK.apk)** — Pre-built, signed APK ready to install.
+            - **[📦 Download Source Code ZIP](https://github.com/sarvesh173/uncensored-motion/releases/download/v2.1.0-uncensored-opensource/uncensored-motion-source-v2.1.0.zip)** — Complete source code package.
+
+            ### Highlights
+            - **Custom Package Identity:** `com.uncensored.motion` (100% clean decoupling).
+            - **Cryptographic Signature:** Verified custom Open Source keystore.
+            - **Uncensored Engine:** No subscription locks, no watermarks, full 4K 60fps export, custom shaders, and XML project portability.
+          files: |
+            build/Uncensored-APK.apk
+            build/uncensored-motion-source-v2.1.0.zip
           draft: false
           prerelease: false
