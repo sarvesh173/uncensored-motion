@@ -1,5 +1,5 @@
 version: 3.0.3
-apkFileName: GoldMotion.apk
+apkFileName: Uncensored-Motion.apk
 usesFramework:
   ids:
   - 1
@@ -19,5 +19,3 @@ doNotCompress:
 - png
 - webp
 - assets/film-v1/film_fp16.tflite
-- assets/goldmotion/gm_anime_x4.tflite
-- assets/goldmotion/gm_soul_x4.tflite

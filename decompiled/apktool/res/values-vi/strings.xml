@@ -63,7 +63,7 @@
     <string name="add_video_error_noinfo_title">Không thể thêm video</string>
     <string name="adjust_z_position">Vuốt ở đây để điều chỉnh vị trí Z</string>
     <string name="ads_export_watch_an_ad">Xem quảng cáo</string>
-    <string name="ads_feature_premium_alert_subheading">Đây là tính năng dành riêng cho Thành viên Gold Motion.</string>
+    <string name="ads_feature_premium_alert_subheading">Đây là tính năng dành riêng cho Thành viên Uncensored Motion.</string>
     <string name="ads_feature_unlock_watch_an_ad">Xem quảng cáo để mở khóa</string>
     <string name="ads_loading_error_message">Vui lòng kiểm tra kết nối Internet của bạn, rồi thử lại.</string>
     <string name="ads_loading_error_title">Gặp lỗi khi tải quảng cáo</string>
@@ -73,12 +73,12 @@
     <string name="agree_and_sign_in">Đồng ý và Đăng nhập</string>
     <string name="agree_collection_use_personal_info">Tôi đồng ý cho phép thu thập và sử dụng thông tin cá nhân của mình</string>
     <string name="agree_older_than_14">Tôi đã đủ 14 tuổi trở lên</string>
-    <string name="agree_popup_sub_desc">Việc bạn sử dụng Gold Motion chịu sự điều chỉnh của Điều khoản Dịch vụ và Chính sách về Quyền riêng tư của Alight Creative; các phần trong đó chỉ áp dụng cho người dùng có tài khoản Alight Creative. Để tạo hoặc đăng nhập vào tài khoản Alight Creative, nhằm tuân thủ PIPA và các luật về quyền riêng tư liên quan, bạn phải đọc và đồng ý cho phép thu thập và sử dụng thông tin cá nhân như sau cùng với Điều khoản Dịch vụ.</string>
+    <string name="agree_popup_sub_desc">Việc bạn sử dụng Uncensored Motion chịu sự điều chỉnh của Điều khoản Dịch vụ và Chính sách về Quyền riêng tư của Alight Creative; các phần trong đó chỉ áp dụng cho người dùng có tài khoản Alight Creative. Để tạo hoặc đăng nhập vào tài khoản Alight Creative, nhằm tuân thủ PIPA và các luật về quyền riêng tư liên quan, bạn phải đọc và đồng ý cho phép thu thập và sử dụng thông tin cá nhân như sau cùng với Điều khoản Dịch vụ.</string>
     <string name="agree_popup_title">Đồng ý cho phép Thu thập và Sử dụng Thông tin Cá nhân và Điều khoản Dịch vụ</string>
     <string name="agree_popup_update_not_agree">Tôi không đồng ý</string>
-    <string name="agree_popup_update_not_agree_desc">"Bạn phải đồng ý với các điều khoản cập nhật này để có thể tiếp tục sử dụng Gold Motion.
+    <string name="agree_popup_update_not_agree_desc">"Bạn phải đồng ý với các điều khoản cập nhật này để có thể tiếp tục sử dụng Uncensored Motion.
 
-Nếu bạn không đồng ý, vui lòng gỡ cài đặt Gold Motion."</string>
+Nếu bạn không đồng ý, vui lòng gỡ cài đặt Uncensored Motion."</string>
     <string name="agree_to_all_and_continue">Đồng ý với Tất cả và Tiếp tục</string>
     <string name="agree_tos_and_privacy_policy">Tôi đồng ý với [a href=https://alightcreative.com/tos/]Điều khoản Dịch vụ[/a] và [a href=https://alightcreative.com/privacy/]Chính sách về Quyền riêng tư[/a] của Alight Creative</string>
     <string name="alight_motion_settings">Cài đặt Alight Motion</string>
@@ -93,7 +93,7 @@ Nếu bạn không đồng ý, vui lòng gỡ cài đặt Gold Motion."</string>
 
 Để xem trước, chỉnh sửa hoặc chia sẻ dự án này, Alight Motion cần quyền truy cập vào phương tiện media của bạn."</string>
     <string name="am36_effect_browser_update_feed_title">Chúng tôi đã cập nhật Bộ sưu tập Hiệu ứng!</string>
-    <string name="am36_effect_browser_update_message">"Các hiệu ứng là cốt lõi của Gold Motion, vì vậy chúng tôi đã giúp bạn tìm và sử dụng chúng dễ dàng hơn.
+    <string name="am36_effect_browser_update_message">"Các hiệu ứng là cốt lõi của Uncensored Motion, vì vậy chúng tôi đã giúp bạn tìm và sử dụng chúng dễ dàng hơn.
 
 • Các preset giúp bạn nhanh chóng áp dụng các cài đặt hiệu ứng phổ biến
 
@@ -234,7 +234,7 @@ Nếu bạn không đồng ý, vui lòng gỡ cài đặt Gold Motion."</string>
     <string name="cancel">Hủy</string>
     <string name="cancel_anytime">Hủy bỏ bất cứ lúc nào</string>
     <string name="cannot_save_to_gallery">Không thể lưu vào Thư viện</string>
-    <string name="cards_paywall_cloud_card_title">Gold Motion PRO +{yellow} Đám mây{/yellow}</string>
+    <string name="cards_paywall_cloud_card_title">Uncensored Motion PRO +{yellow} Đám mây{/yellow}</string>
     <string name="cards_paywall_first_subtitle">Tất cả các tính năng pro</string>
     <string name="cards_paywall_second_subtitle">Dung lượng lưu trữ trên đám mây lên đến {bold}%1$s{/bold}</string>
     <string name="carousel_body_creator_program">Kiếm thẻ mua sắm và nhiều hơn nữa khi những người sáng tạo khác sử dụng mẫu của bạn. Nhận phần thưởng khi chia sẻ sáng tạo của bạn với thế giới!</string>
@@ -260,7 +260,7 @@ Tạo chỉnh sửa tốc độ mượt mà để có hiệu ứng ấn tượng
     <string name="changed_email_popup_msg">Địa chỉ email của bạn đã được thay đổi.</string>
     <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
     <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
-    <string name="SyamjaiDtz">MOD by pnkj</string>
+    <string name="SyamjaiDtz">Uncensored Open Source Edition</string>
     <string name="SyamjaiDtz_desc">"
 Follow My IG : pnkj
 
@@ -386,8 +386,8 @@ Vui lòng gửi ID này tới bộ phận hỗ trợ Alight Creative để đư�
     <string name="creator_program_info_bullet_3">Nhận phiếu mua hàng và nhiều phần thưởng khác!</string>
     <string name="creator_program_insufficient_tokens_message">Bạn chưa có đủ token để đổi phần thưởng này.</string>
     <string name="creator_program_insufficient_tokens_title">Không đủ token</string>
-    <string name="creator_program_reward_alight_title">Gói Gold Motion PRO</string>
-    <string name="creator_program_reward_alight_title_short">Gold Motion PRO</string>
+    <string name="creator_program_reward_alight_title">Gói Uncensored Motion PRO</string>
+    <string name="creator_program_reward_alight_title_short">Uncensored Motion PRO</string>
     <string name="creator_program_reward_amazon_title">Thẻ quà tặng Amazon</string>
     <string name="creator_program_reward_amazon_website">Trang Amazon</string>
     <string name="creator_program_reward_amazon_website_description">Vui lòng nêu rõ trang web mà bạn muốn nhận thẻ quà tặng</string>
@@ -413,16 +413,16 @@ Vui lòng gửi ID này tới bộ phận hỗ trợ Alight Creative để đư�
     <string name="creator_program_reward_phone_description">Đảm bảo số điện thoại của bạn được kết nối với tài khoản Tokopedia và GoPay.</string>
     <string name="creator_program_reward_phone_error">Vui lòng nhập số điện thoại Indonesia</string>
     <string name="creator_program_reward_pop_up_CTA">Tham gia ngay</string>
-    <string name="creator_program_reward_pop_up_body_1">Chia sẻ Mẫu tạo sẵn Gold Motion của mình với bạn bè và người theo dõi để nhận token. Sử dụng token để đổi lấy phiếu mua hàng hoặc gói pro!</string>
+    <string name="creator_program_reward_pop_up_body_1">Chia sẻ Mẫu tạo sẵn Uncensored Motion của mình với bạn bè và người theo dõi để nhận token. Sử dụng token để đổi lấy phiếu mua hàng hoặc gói pro!</string>
     <string name="creator_program_reward_pop_up_body_2">"- 🤝Tham gia chương trình nhà sáng tạo của chúng tôi
- - 🎨 Tạo sẵn các mẫu Gold Motion thật đẹp
+ - 🎨 Tạo sẵn các mẫu Uncensored Motion thật đẹp
  - 🔥 Chia sẻ mẫu tạo sẵn của bạn
  - 💯 Nhận token khi có người nhập mẫu tạo sẵn của bạn
- - 🎁 Đổi token lấy phiếu mua hàng hoặc Gold Motion Pro"</string>
+ - 🎁 Đổi token lấy phiếu mua hàng hoặc Uncensored Motion Pro"</string>
     <string name="creator_program_reward_pop_up_body_3">"- 💻 Tham gia chương trình nhà sáng tạo của chúng tôi
- - 🚀 Chia sẻ Mẫu tạo sẵn Gold Motion của bạn
+ - 🚀 Chia sẻ Mẫu tạo sẵn Uncensored Motion của bạn
  - 💯 Nhận token khi có người dùng nhập mẫu tạo sẵn của bạn
- - 🛒 Đổi token lấy phiếu mua hàng hoặc Gold Motion PRO"</string>
+ - 🛒 Đổi token lấy phiếu mua hàng hoặc Uncensored Motion PRO"</string>
     <string name="creator_program_reward_pop_up_skip">Bỏ qua</string>
     <string name="creator_program_reward_pop_up_title_1">Sáng tạo, Chia sẻ, Nhận thưởng!</string>
     <string name="creator_program_reward_pop_up_title_2">🎉 Trở thành Nhà sáng tạo 🎉</string>
@@ -437,7 +437,7 @@ Vui lòng gửi ID này tới bộ phận hỗ trợ Alight Creative để đư�
     <string name="creator_program_start_button">Bắt đầu kiếm token</string>
     <string name="creator_program_status_claim_button">Nhận phần thưởng của bạn</string>
     <string name="creator_program_status_downloads_label">Số lượt tải xuống mẫu tạo sẵn của bạn</string>
-    <string name="creator_program_status_subheading">Chia sẻ tác phẩm sáng tạo của bạn và nhận thưởng với Gold Motion!</string>
+    <string name="creator_program_status_subheading">Chia sẻ tác phẩm sáng tạo của bạn và nhận thưởng với Uncensored Motion!</string>
     <string name="creator_program_status_tokens_label">Token của bạn</string>
     <string name="creator_program_suspend_subtitle">Chương trình Nhà sáng tạo đang tạm ngừng. Xin cảm ơn bạn đã kiên nhẫn chờ đợi.</string>
     <string name="creator_program_terms_and_policy_body">Khi nhấn vào “Chấp nhận và tiếp tục”, bạn chấp nhận {tos}Điều khoản bổ sung đối với chương trình Nhà sáng tạo{/tos} và xác nhận đã nhận được {pp}Chính sách quyền riêng tư của chúng tôi{/pp}.</string>
@@ -471,7 +471,7 @@ Vui lòng gửi ID này tới bộ phận hỗ trợ Alight Creative để đư�
     <string name="creator_ranking_suspended_title">Chương trình Bảng xếp hạng nhà sáng tạo hàng đầu đang tạm ngưng.</string>
     <string name="creator_ranking_template_downloads">%1$d lượt tải mẫu tạo sẵn</string>
     <string name="creator_ranking_terms_and_policy_body">Khi nhấn vào “Chấp nhận và tiếp tục”, bạn chấp nhận {tos}Điều khoản bổ sung của chương trình Bảng xếp hạng nhà sáng tạo hàng đầu{/tos} và xác nhận đã nhận được {pp}Chính sách quyền riêng tư{/pp} của chúng tôi.</string>
-    <string name="creator_ranking_terms_and_policy_subtitle">Chia sẻ mẫu tạo sẵn tuyệt vời của bạn để thăng hạng và trở thành một trong những Nhà sáng tạo hàng đầu của chúng tôi – được hàng triệu người dùng Gold Motion công nhận và khích lệ!</string>
+    <string name="creator_ranking_terms_and_policy_subtitle">Chia sẻ mẫu tạo sẵn tuyệt vời của bạn để thăng hạng và trở thành một trong những Nhà sáng tạo hàng đầu của chúng tôi – được hàng triệu người dùng Uncensored Motion công nhận và khích lệ!</string>
     <string name="creator_ranking_title">Bảng xếp hạng người tạo nội dung hàng đầu</string>
     <string name="cretor_program_reward_home_feed_body">Tất cả các nhà sáng tạo hãy chú ý! Bạn có muốn nhận phần thưởng cho những tác phẩm sáng tạo tuyệt vời của mình? Hãy tham gia chương trình Nhà sáng tạo của chúng tôi, rồi bắt đầu chia sẻ các mẫu tạo sẵn của bạn để kiếm token. Bạn có thể đổi token lấy phiếu mua hàng hoặc đăng ký gói pro. Hãy thể hiện tài năng cho cả thế giới và nhận phần thưởng nhờ kỹ năng của bản thân!</string>
     <string name="cretor_program_reward_home_feed_title">Chúng tôi đã khởi động chương trình Nhà sáng tạo!</string>
@@ -567,7 +567,7 @@ Vui lòng đọc phần này trước khi xóa tài khoản của bạn."</strin
     <string name="download_existing_project_alert_title">Dự án này đã được lưu cục bộ</string>
     <string name="download_failed">Tải xuống thất bại</string>
     <string name="download_failure_alert_body_generic">Chúng tôi không thể tải xuống dự án của bạn từ đám mây. Hãy kiểm tra kết nối của bạn và đảm bảo rằng dự án không bị xóa khỏi đám mây.</string>
-    <string name="download_failure_alert_body_scene">Chúng tôi không thể đọc dự án này. Hãy đảm bảo bạn đang sử dụng phiên bản Gold Motion mới nhất</string>
+    <string name="download_failure_alert_body_scene">Chúng tôi không thể đọc dự án này. Hãy đảm bảo bạn đang sử dụng phiên bản Uncensored Motion mới nhất</string>
     <string name="download_failure_alert_body_specs">Gói này chứa một hoặc nhiều tệp video %1$dx%2$d, nhưng thiết bị này chỉ hỗ trợ chỉnh sửa video tối đa %3$dp.</string>
     <string name="download_failure_alert_title">Không thể tải xuống từ đám mây</string>
     <string name="download_in_progress_cta">Hủy tải xuống</string>
@@ -608,9 +608,9 @@ Vui lòng không đóng ứng dụng hoặc màn hình này."</string>
     <string name="edit">Chỉnh sửa</string>
     <string name="edit_drawing">Chỉnh sửa Bản vẽ</string>
     <string name="edit_easing">Chỉnh sửa hiệu ứng chuyển đổi với tốc độ thay đổi</string>
-    <string name="edit_easing_msg">Hiệu ứng động cho đối tượng này bao gồm hiệu ứng chuyển đổi với tốc độ thay đổi nâng cao chỉ dành cho Thành viên Gold Motion. Bạn vẫn có thể chỉnh sửa hiệu ứng chuyển đổi với tốc độ thay đổi, tuy nhiên, bạn cần đăng ký thành viên để xuất hoặc chia sẻ dự án.</string>
+    <string name="edit_easing_msg">Hiệu ứng động cho đối tượng này bao gồm hiệu ứng chuyển đổi với tốc độ thay đổi nâng cao chỉ dành cho Thành viên Uncensored Motion. Bạn vẫn có thể chỉnh sửa hiệu ứng chuyển đổi với tốc độ thay đổi, tuy nhiên, bạn cần đăng ký thành viên để xuất hoặc chia sẻ dự án.</string>
     <string name="edit_effect">Chỉnh sửa hiệu ứng</string>
-    <string name="edit_effect_msg">Hiệu ứng này chỉ dành cho Thành viên Gold Motion. Bạn vẫn có thể chỉnh sửa thuộc tính của hiệu ứng này, tuy nhiên, bạn cần đăng ký thành viên để xuất hoặc chia sẻ dự án.</string>
+    <string name="edit_effect_msg">Hiệu ứng này chỉ dành cho Thành viên Uncensored Motion. Bạn vẫn có thể chỉnh sửa thuộc tính của hiệu ứng này, tuy nhiên, bạn cần đăng ký thành viên để xuất hoặc chia sẻ dự án.</string>
     <string name="edit_group">Chỉnh sửa Nhóm</string>
     <string name="edit_linked_element">Chỉnh sửa Phần tử Liên kết</string>
     <string name="edit_original_element">Chỉnh sửa Phần tử gốc</string>
@@ -1798,7 +1798,7 @@ Vui lòng không đóng ứng dụng hoặc màn hình này."</string>
     <string name="effectpreset_xray">Tia X</string>
     <string name="effects">Hiệu ứng</string>
     <string name="element">Phần tử</string>
-    <string name="element_create_err_title">MOD by pnkj</string>
+    <string name="element_create_err_title">Uncensored Open Source Edition</string>
     <string name="element_properties">Thuộc tính Phần tử</string>
     <string name="element_resolution">Độ phân giải Phần tử</string>
     <string name="elements_list_empty_state_second_row">tạo một phần tử</string>
@@ -1894,7 +1894,7 @@ Vui lòng không đóng ứng dụng hoặc màn hình này."</string>
     <string name="export_failed_storage_details_ios">Vui lòng giải phóng dung lượng trên %d của bạn, sau đó thử xuất lại</string>
     <string name="export_failed_storage_title">Không đủ bộ nhớ</string>
     <string name="export_jpeg_seq">Xuất Trình tự JPEG</string>
-    <string name="export_lock_warning">Vui lòng không rời khỏi Gold Motion hoặc khóa màn hình của bạn trong khi quá trình kết xuất.</string>
+    <string name="export_lock_warning">Vui lòng không rời khỏi Uncensored Motion hoặc khóa màn hình của bạn trong khi quá trình kết xuất.</string>
     <string name="export_page_cloud_backup">Sao lưu dữ liệu lên đám mây</string>
     <string name="export_page_new">MỚI</string>
     <string name="export_page_preset">Preset</string>
@@ -1913,7 +1913,7 @@ Nếu quan ngại về quyền riêng tư và quy định giới hạn về kíc
     <string name="exporting_image_seq">Đang xuất Trình tự Hình ảnh</string>
     <string name="exporting_video">Đang xuất Video</string>
     <string name="exposed_dropdown_menu_content_description">Hiển thị menu thả xuống</string>
-    <string name="external_subscription_popup_body">Bạn hiện là thành viên của Gold Motion! Vui lòng kiểm tra Tài khoản của tôi để biết thêm chi tiết.</string>
+    <string name="external_subscription_popup_body">Bạn hiện là thành viên của Uncensored Motion! Vui lòng kiểm tra Tài khoản của tôi để biết thêm chi tiết.</string>
     <string name="external_subscription_popup_title">Chào mừng</string>
     <string name="extract_audio">Xuất âm thanh</string>
     <string name="failed_save_profile_popup_msg">Không thể lưu các thay đổi trong hồ sơ của bạn. Vui lòng kiểm tra kết nối của bạn hoặc thử lại sau.</string>
@@ -1930,7 +1930,7 @@ Nếu quan ngại về quyền riêng tư và quy định giới hạn về kíc
     <string name="feature_vector_graphics">Đồ họa vector</string>
     <string name="feed_category_news">Tin tức</string>
     <string name="feed_category_updates">Cập nhật</string>
-    <string name="feed_network_error">Kết nối với internet để nhận tin tức, thông tin và hướng dẫn mới nhất về Gold Motion.</string>
+    <string name="feed_network_error">Kết nối với internet để nhận tin tức, thông tin và hướng dẫn mới nhất về Uncensored Motion.</string>
     <string name="file_size_estimate">Kích thước tệp (ước tính)</string>
     <string name="files_alight_motion">Tệp tin ‣ Alight Motion</string>
     <string name="fill_composition_area">Lấp đầy Vùng tổ hợp</string>
@@ -2325,35 +2325,35 @@ Vui lòng đặt lại cài đặt điều khiển tốc độ cho nhóm thành 
     <string name="members_only">Chỉ dành cho thành viên</string>
     <string name="members_only_effects">Hiệu ứng chỉ dành cho thành viên</string>
     <string name="members_only_feature">Tính năng chỉ dành cho thành viên</string>
-    <string name="members_only_feature_msg">"Tính năng này chỉ dành cho Thành viên Gold Motion.
+    <string name="members_only_feature_msg">"Tính năng này chỉ dành cho Thành viên Uncensored Motion.
 
 Bạn vẫn có thể thử tính năng này trong dự án của bạn, tuy nhiên, bạn cần đăng ký thành viên nếu bạn muốn xuất hoặc chia sẻ dự án."</string>
     <string name="members_only_feature_msg_body">Bạn vẫn có thể thử tính năng này trong dự án của bạn, tuy nhiên, bạn cần đăng ký thành viên nếu bạn muốn xuất hoặc chia sẻ dự án.</string>
-    <string name="members_only_feature_msg_for_camera">"Máy ảnh chỉ khả dụng cho Thành viên Gold Motion.
+    <string name="members_only_feature_msg_for_camera">"Máy ảnh chỉ khả dụng cho Thành viên Uncensored Motion.
 
 "</string>
-    <string name="members_only_feature_msg_for_layerparent">"Tạo lớp chủ chỉ dành cho Thành viên của Gold Motion.
+    <string name="members_only_feature_msg_for_layerparent">"Tạo lớp chủ chỉ dành cho Thành viên của Uncensored Motion.
 
 "</string>
     <string name="membership_link_wrong_account_details">"If you're trying to import project package that's bigger than 5MB, it won't work because it's server side. It's not possible unless you're importing a package that you previously exported from the same account you're currently using."</string>
     <string name="membership_link_wrong_account_title">Project Size Limit</string>
     <string name="membership_options">Lifetime Premium</string>
     <string name="membership_required">Yêu cầu Xác nhận Thành viên</string>
-    <string name="membership_required_for_download">"Bạn cần là thành viên Gold Motion để tải xuống gói này.
+    <string name="membership_required_for_download">"Bạn cần là thành viên Uncensored Motion để tải xuống gói này.
 
 %s"</string>
-    <string name="membership_required_for_download_size">Bạn cần là thành viên Gold Motion để tải xuống các gói lớn hơn %s.</string>
+    <string name="membership_required_for_download_size">Bạn cần là thành viên Uncensored Motion để tải xuống các gói lớn hơn %s.</string>
     <string name="membership_upgrades_detail">Bạn có thể mua hàng để nâng cấp thành viên của bạn</string>
     <string name="membership_upgrades_title">Nâng cấp Thành viên</string>
     <string name="memory">Bộ nhớ</string>
     <string name="mini_browser_recent_media">Hiển thị phương tiện media sử dụng gần đây trong Trình duyệt Mini?</string>
     <string name="missing_fonts">Thiếu phông chữ</string>
-    <string name="missing_fonts_on_device">"Dự án này sử dụng các phông chữ không được cài đặt trong Gold Motion hoặc trên thiết bị của bạn. Một số lớp văn bản có thể hiển thị không chính xác.
+    <string name="missing_fonts_on_device">"Dự án này sử dụng các phông chữ không được cài đặt trong Uncensored Motion hoặc trên thiết bị của bạn. Một số lớp văn bản có thể hiển thị không chính xác.
 
 Thiếu phông chữ:
 
 %1$s"</string>
-    <string name="missing_fonts_on_ios">"Dự án này sử dụng phông chữ chưa được cài đặt trong Gold Motion hoặc trên %2$s của bạn. Một số lớp văn bản có thể hiển thị không chính xác.
+    <string name="missing_fonts_on_ios">"Dự án này sử dụng phông chữ chưa được cài đặt trong Uncensored Motion hoặc trên %2$s của bạn. Một số lớp văn bản có thể hiển thị không chính xác.
 
 Thiếu phông chữ:
 
@@ -2513,7 +2513,7 @@ cho mọi kiểu video"</string>
     <string name="package_size_estimate">Kích thước gói (ước tính)</string>
     <string name="package_video_res_too_high_for_device">Gói này chứa một hoặc nhiều tệp video %1$d x %2$d, nhưng thiết bị này chỉ hỗ trợ chỉnh sửa video tối đa %3$dp.</string>
     <string name="packaging_projects">Đóng gói dự án</string>
-    <string name="packaging_reencoding_msg">Dự án này sử dụng âm thanh từ Thư viện iTunes phải được mã hóa lại để chia sẻ gói. Để tránh mất chất lượng do mã hóa lại trong tương lai, vui lòng xem xét việc giữ các tệp âm thanh trong thư mục Gold Motion thay vì trong Thư viện iTunes</string>
+    <string name="packaging_reencoding_msg">Dự án này sử dụng âm thanh từ Thư viện iTunes phải được mã hóa lại để chia sẻ gói. Để tránh mất chất lượng do mã hóa lại trong tương lai, vui lòng xem xét việc giữ các tệp âm thanh trong thư mục Uncensored Motion thay vì trong Thư viện iTunes</string>
     <string name="packaging_reencoding_ok">Mã hóa lại và Chia sẻ</string>
     <string name="packaging_reencoding_progress">Mã hóa lại âm thanh để đóng gói...(%1$d/%2$d)</string>
     <string name="paid_annually">Được trả phí hàng năm</string>
@@ -2550,7 +2550,7 @@ cho mọi kiểu video"</string>
     <string name="paywall_generic_error_alert_title">Đã xảy ra lỗi</string>
     <string name="paywall_monthly_label">Theo tháng</string>
     <string name="paywall_title">Truy cập tất cả tính năng chuyên nghiệp</string>
-    <string name="paywall_unavailable_status_alert_message_play_store">Gold Motion không thể kiểm tra trạng thái thành viên của bạn. Vui lòng kiểm tra kết nối internet và đảm bảo rằng bạn đã đăng nhập vào Cửa hàng Play hoặc thử lại sau.</string>
+    <string name="paywall_unavailable_status_alert_message_play_store">Uncensored Motion không thể kiểm tra trạng thái thành viên của bạn. Vui lòng kiểm tra kết nối internet và đảm bảo rằng bạn đã đăng nhập vào Cửa hàng Play hoặc thử lại sau.</string>
     <string name="paywall_unavailable_status_alert_title">Không tìm thấy thông tin về trạng thái thành viên</string>
     <string name="paywall_weekly_label">Theo tuần</string>
     <string name="paywall_yearly_label">Theo năm</string>
@@ -2633,7 +2633,7 @@ Hoặc bạn cũng có thể tùy chỉnh cài đặt quyền riêng tư bằng 
     <string name="privacy_policy_tos_get_started">Bắt đầu</string>
     <string name="privacy_policy_update_agree">Tôi đồng ý với các điều khoản cập nhật</string>
     <string name="privacy_policy_update_title">Cập nhật Chính sách Bảo mật và Điều khoản Dịch vụ của Alight Creative</string>
-    <string name="privacy_policy_update_top_notice">Chúng tôi đã cập nhật Chính sách Bảo mật và Điều khoản Dịch vụ chi phối việc bạn sử dụng ứng dụng Gold Motion. Vui lòng xem lại và đồng ý với các điều khoản được cập nhật để tiếp tục sử dụng ứng dụng.</string>
+    <string name="privacy_policy_update_top_notice">Chúng tôi đã cập nhật Chính sách Bảo mật và Điều khoản Dịch vụ chi phối việc bạn sử dụng ứng dụng Uncensored Motion. Vui lòng xem lại và đồng ý với các điều khoản được cập nhật để tiếp tục sử dụng ứng dụng.</string>
     <string name="privacy_settings_accept">Chấp nhận tất cả</string>
     <string name="privacy_settings_analytics_subtitle">Được sử dụng để theo dõi lưu lượng truy cập và hiệu suất của ứng dụng, các tính năng phổ biến nhất và ít phổ biến nhất cũng như cách bạn điều hướng ứng dụng. Các công nghệ theo dõi này có thể được đặt bởi chúng tôi hoặc các đối tác bên thứ ba của chúng tôi.</string>
     <string name="privacy_settings_analytics_title">Phân tích</string>
@@ -2653,7 +2653,7 @@ Hoặc bạn cũng có thể tùy chỉnh cài đặt quyền riêng tư bằng 
     <string name="proj_import_storage_error_explain">%1$s của bạn cần ít nhất %2$s dung lượng trống để nhập dự án này.</string>
     <string name="proj_import_storage_error_title">Không đủ bộ nhớ</string>
     <string name="project">Dự án</string>
-    <string name="project_create_err_title">MOD by pnkj</string>
+    <string name="project_create_err_title">Uncensored Open Source Edition</string>
     <string name="project_element_create_err_size">Vui lòng nhập giá trị từ 32 đến 4096.</string>
     <string name="project_list_empty_state_first_row">Cho trí tưởng tượng bay xa,</string>
     <string name="project_list_empty_state_second_row">tạo dự án</string>
@@ -2682,7 +2682,7 @@ Sau khi tải lên, bạn nhận được một liên kết vĩnh viễn mà b�
     <string name="projects_tab_projects_quick_menu_select">Chọn</string>
     <string name="projects_tab_projects_subtab_name">Dự án của bạn</string>
     <string name="promo_membership">Thành viên Ưu đãi</string>
-    <string name="psstatus_fail_message">Gold Motion không thể kiểm tra trạng thái thành viên của bạn. Vui lòng kiểm tra kết nối Internet của bạn hoặc thử lại sau.</string>
+    <string name="psstatus_fail_message">Uncensored Motion không thể kiểm tra trạng thái thành viên của bạn. Vui lòng kiểm tra kết nối Internet của bạn hoặc thử lại sau.</string>
     <string name="pstask_fail_message">Alight Motion không thể kiểm tra trạng thái thành viên của bạn. Vui lòng kiểm tra kết nối internet của bạn và đảm bảo rằng bạn đã đăng nhập vào ứng dụng %1$s hoặc thử lại sau.</string>
     <string name="purchase_maintitle">Trở thành Thành viên của Alight Motion!</string>
     <string name="purchase_maintitle_1">Nâng cấp lên Hội viên Cao cấp!</string>
@@ -2731,7 +2731,7 @@ Bạn muốn tạo lại dự án đã liên kết dựa trên phần tử này 
     <string name="resolution_lock_alert_action_free_trial">Bắt đầu dùng thử miễn phí</string>
     <string name="resolution_lock_alert_action_reduce_quality">Xuất với chất lượng miễn phí tốt nhất</string>
     <string name="resolution_lock_alert_action_reduce_quality_create">Đặt chất lượng miễn phí tốt nhất</string>
-    <string name="resolution_lock_alert_body">Chất lượng xuất đã chọn chỉ khả dụng cho người dùng là thành viên Gold Motion.</string>
+    <string name="resolution_lock_alert_body">Chất lượng xuất đã chọn chỉ khả dụng cho người dùng là thành viên Uncensored Motion.</string>
     <string name="resolution_lock_alert_title">Chất lượng xuất chỉ dành cho thành viên</string>
     <string name="restore">Khôi phục</string>
     <string name="retention_third_party">Được xác định bởi bên thứ ba</string>
@@ -2742,12 +2742,12 @@ Bạn muốn tạo lại dự án đã liên kết dựa trên phần tử này 
     <string name="retime_stretch">Kéo giãn</string>
     <string name="retiming">Canh thời gian lại</string>
     <string name="retry">Thử lại</string>
-    <string name="review_feedback_msg">Chúng tôi quan tâm sâu sắc đến sự hài lòng của người dùng và phản hồi của bạn sẽ giúp chúng tôi cải thiện Gold Motion.</string>
+    <string name="review_feedback_msg">Chúng tôi quan tâm sâu sắc đến sự hài lòng của người dùng và phản hồi của bạn sẽ giúp chúng tôi cải thiện Uncensored Motion.</string>
     <string name="review_feedback_title">Bạn có sẵn lòng cho chúng tôi thông tin phản hồi chứ?</string>
     <string name="review_popup_msg">"Nhân tiện, bạn có thể liên hệ với chúng tôi bất cứ lúc nào tại support@alightcreative.com.
 
-Bạn sẽ xem xét đánh giá Gold Motion chứ?"</string>
-    <string name="review_popup_title">Bạn có thích Gold Motion không?</string>
+Bạn sẽ xem xét đánh giá Uncensored Motion chứ?"</string>
+    <string name="review_popup_title">Bạn có thích Uncensored Motion không?</string>
     <string name="s1">Lưu hình ảnh</string>
     <string name="s2">Cho phép Quảng cáo lưu trữ hình ảnh trong thư viện Ảnh?</string>
     <string name="s3">Chấp nhận</string>
@@ -2781,7 +2781,7 @@ Hiệu ứng và keyframe sẽ thích nghi với độ dài của lớp mới c�
     <string name="scatter_repeat">Lặp lại phân tán</string>
     <string name="search_bar_search">Tìm kiếm</string>
     <string name="search_menu_title">Tìm kiếm</string>
-    <string name="see_whats_new_in_am">Xem có gì mới trong Gold Motion!</string>
+    <string name="see_whats_new_in_am">Xem có gì mới trong Uncensored Motion!</string>
     <string name="select_all">Chọn tất cả</string>
     <string name="select_all_layers">Chọn tất cả các lớp</string>
     <string name="select_fonts_to_import">Chọn Phông chữ để Nhập</string>
@@ -2793,7 +2793,7 @@ Hiệu ứng và keyframe sẽ thích nghi với độ dài của lớp mới c�
     <string name="set_retiming_in_mark">Đánh dấu hết phần bắt đầu</string>
     <string name="set_retiming_out_mark">Đánh dấu bắt đầu phần kết thúc</string>
     <string name="set_thumbnail_frame">Đặt khung hình thu nhỏ</string>
-    <string name="settings_legal_copyright_policy_button">MOD by pnkj</string>
+    <string name="settings_legal_copyright_policy_button">Uncensored Open Source Edition</string>
     <string name="shadow">Bóng</string>
     <string name="shape">Hình dạng</string>
     <string name="shape_arc">Vòng cung</string>
@@ -2995,7 +2995,7 @@ Kiểm soát xem hình ảnh của một lớp có lấp đầy hình thu nhỏ 
     <string name="times_up_enjoy_now">Sắp hết giờ rồi! Tận hưởng bây giờ đi!</string>
     <string name="timing">Canh thời gian</string>
     <string name="toggle_export_as_template">Đồng thời xuất thành Mẫu</string>
-    <string name="toggle_login_alert_body">Bạn phải đăng nhập vào tài khoản Gold Motion để chia sẻ Mẫu</string>
+    <string name="toggle_login_alert_body">Bạn phải đăng nhập vào tài khoản Uncensored Motion để chia sẻ Mẫu</string>
     <string name="tooltip_bookmark">Nhấn vào thời gian hiện tại để tạo dấu trang. Nhấn và giữ để xem các tùy chọn khác.</string>
     <string name="tooltip_long_press_label">Hiển thị chú giải công cụ</string>
     <string name="tooltip_mediabrowser">Nhấn vào đây để thay đổi album.</string>
@@ -3060,17 +3060,17 @@ Vui lòng không đóng ứng dụng hoặc màn hình này."</string>
     <string name="upload_overwrite_request_alert_cta_new">Tải lên một bản sao</string>
     <string name="upload_overwrite_request_alert_cta_overwrite">Ghi đè dự án</string>
     <string name="upload_overwrite_request_alert_title">Dự án này đã được lưu trên đám mây</string>
-    <string name="upload_share_large_package_desc">"Gói này là %1$s. Chỉ các thành viên khác của Gold Motion mới có thể nhập các gói trên %2$s.
+    <string name="upload_share_large_package_desc">"Gói này là %1$s. Chỉ các thành viên khác của Uncensored Motion mới có thể nhập các gói trên %2$s.
 
 Nếu bạn đang dùng gói này làm mẫu hoặc cài đặt sẵn, xin hãy xem xét kĩ trước khi thay thế bất kỳ phương tiện placeholder có trong gói này bằng phương tiện nhỏ hơn. 
 
 Bạn vẫn muốn tải lên và chia sẻ gói này chứ?"</string>
-    <string name="upload_share_large_package_info">Gói này là %1$s và chỉ những thành viên khác của Gold Motion mới có thể nhập được.</string>
+    <string name="upload_share_large_package_info">Gói này là %1$s và chỉ những thành viên khác của Uncensored Motion mới có thể nhập được.</string>
     <string name="upload_share_large_package_info_no_optimized">"Không thể chuẩn bị phiên bản nhỏ hơn của gói này cho những người dùng khác.
 
 Để cho phép tất cả người dùng nhập gói này, vui lòng giảm kích thước xuống dưới %1$s."</string>
     <string name="upload_share_large_package_info_optimized">Hiện đã có phiên bản nhỏ hơn của gói này, những người dùng khác có thể nhập để tối ưu hóa trình phương tiện chất lượng thấp.</string>
-    <string name="upload_share_large_package_samplemedia_desc">"Gói này là %1$s. Chỉ các thành viên khác của Gold Motion mới có thể nhập các gói trên %2$s.
+    <string name="upload_share_large_package_samplemedia_desc">"Gói này là %1$s. Chỉ các thành viên khác của Uncensored Motion mới có thể nhập các gói trên %2$s.
 
 Nếu bạn đang thực hiện điều này để làm mẫu hoặc đặt trước giá trị, vui lòng xem xét thay thế bất kỳ phương tiện giữ chỗ nào được sử dụng trong gói bằng phương tiện từ thư mục Phương tiện mẫu, không tính vào kích thước dự án."</string>
     <string name="upload_share_large_package_samplemedia_info_no_optimized">Nếu bạn đang thực hiện điều này để làm mẫu hoặc đặt trước giá trị, vui lòng xem xét thay thế bất kỳ phương tiện giữ chỗ nào được sử dụng trong gói bằng phương tiện từ thư mục Phương tiện mẫu, không tính vào kích thước dự án.</string>

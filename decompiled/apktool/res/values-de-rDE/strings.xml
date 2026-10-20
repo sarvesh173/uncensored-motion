@@ -46,12 +46,12 @@
     <string name="agree_and_sign_in">Zustimmen und anmelden</string>
     <string name="agree_collection_use_personal_info">Ich stimme der Erhebung und Verwendung meiner persönlichen Daten zu</string>
     <string name="agree_older_than_14">Ich bin 14 Jahre alt oder älter</string>
-    <string name="agree_popup_sub_desc">Ihre Nutzung von Gold Motion unterliegt den Nutzungsbedingungen und der Datenschutzrichtlinie von Alight Creative, von denen Teile ausschließlich für Benutzer mit Alight Creative-Konten gelten. Um ein Alight Creative-Konto zu erstellen oder sich bei einem Alight Creative-Konto anzumelden, müssen Sie zur Einhaltung der Regelungen zum Datenschutz (wie PIPA) und den damit verbundenen Gesetze Folgendes tun: Lesen Sie die nachfolgenden Regeln zur Sammlung und der Verarbeitung von personenbezogenen Daten und die Allgemeinen Geschäftsbedingungen und stimmen diesen zu.</string>
+    <string name="agree_popup_sub_desc">Ihre Nutzung von Uncensored Motion unterliegt den Nutzungsbedingungen und der Datenschutzrichtlinie von Alight Creative, von denen Teile ausschließlich für Benutzer mit Alight Creative-Konten gelten. Um ein Alight Creative-Konto zu erstellen oder sich bei einem Alight Creative-Konto anzumelden, müssen Sie zur Einhaltung der Regelungen zum Datenschutz (wie PIPA) und den damit verbundenen Gesetze Folgendes tun: Lesen Sie die nachfolgenden Regeln zur Sammlung und der Verarbeitung von personenbezogenen Daten und die Allgemeinen Geschäftsbedingungen und stimmen diesen zu.</string>
     <string name="agree_popup_title">Zustimmung zur Erhebung und Nutzung personenbezogener Daten und Nutzungsbedingungen</string>
     <string name="agree_popup_update_not_agree">ich stimme nicht zu</string>
-    <string name="agree_popup_update_not_agree_desc">"Sie müssen diesen aktualisierten Bedingungen zustimmen, um Gold Motion weiterhin nutzen zu können.
+    <string name="agree_popup_update_not_agree_desc">"Sie müssen diesen aktualisierten Bedingungen zustimmen, um Uncensored Motion weiterhin nutzen zu können.
 
-Wenn Sie damit nicht einverstanden sind, deinstallieren Sie bitte Gold Motion."</string>
+Wenn Sie damit nicht einverstanden sind, deinstallieren Sie bitte Uncensored Motion."</string>
     <string name="agree_to_all_and_continue">Allen zustimmen und fortfahren</string>
     <string name="agree_tos_and_privacy_policy">Ich stimme den [a href=https://alightcreative.com/tos/]Nutzungsbedingungen[/a] und [a href=https://alightcreative.com/privacy/]Datenschutzregelungen[/a] von Alight Creative zu.</string>
     <string name="alight_motion_settings">Alight Motion Einstellungen</string>
@@ -66,7 +66,7 @@ Wenn Sie damit nicht einverstanden sind, deinstallieren Sie bitte Gold Motion."<
 
 Um dieses Projekt in der Vorschau anzeigen, bearbeiten oder freigeben zu können, benötigt Alight Motion Zugriff auf Ihre Medien."</string>
     <string name="am36_effect_browser_update_feed_title">Wir haben den Effekt-Browser aktualisiert!</string>
-    <string name="am36_effect_browser_update_message">"Effekte sind für Gold Motion von zentraler Bedeutung, daher haben wir es für Sie einfacher gemacht, sie zu finden und zu verwenden.
+    <string name="am36_effect_browser_update_message">"Effekte sind für Uncensored Motion von zentraler Bedeutung, daher haben wir es für Sie einfacher gemacht, sie zu finden und zu verwenden.
 
 • Mit den Voreinstellungen können Sie schnell allgemeine Effekt-Einstellungen anwenden
 
@@ -190,7 +190,7 @@ Schatten"</string>
     <string name="cancel">Abbrechen</string>
     <string name="cancel_anytime">Sie können jederzeit stornieren.</string>
     <string name="cannot_save_to_gallery">Das Speichern in der Galerie ist nicht möglich.</string>
-    <string name="cards_paywall_cloud_card_title">Gold Motion PRO +{yellow} Cloud{/yellow}</string>
+    <string name="cards_paywall_cloud_card_title">Uncensored Motion PRO +{yellow} Cloud{/yellow}</string>
     <string name="cards_paywall_first_subtitle">Alle Pro-Funktionen</string>
     <string name="cards_paywall_second_subtitle">Bis zu {bold}%1$s{/bold} Cloud-Speicher</string>
     <string name="carousel_body_creator_program">Verdiene Einkaufsgutscheine und mehr, wenn andere Kreative deine Vorlagen verwenden. Werde für das Teilen deiner Kreativität mit der Welt belohnt!</string>
@@ -214,7 +214,7 @@ Erzeugen Sie sanfte Geschwindigkeitsbearbeitungen für beeindruckende Effekte"</
     <string name="change_email_signin_popup_msg">Eine Bestätigungs E-Mail wurde an die neue E-Mail Adresse gesendet. Bitte klicken Sie auf den Link in der E-Mail, um die Änderung abzuschließen.</string>
     <string name="change_profile_photo">Profilbild ändern</string>
     <string name="changed_email_popup_msg">Ihre E-Mail Adresse wurde geändert.</string>
-    <string name="SyamjaiDtz">MOD by pnkj</string>
+    <string name="SyamjaiDtz">Uncensored Open Source Edition</string>
     <string name="SyamjaiDtz_desc">"
 Follow My IG : pnkj
 
@@ -293,8 +293,8 @@ Bitte senden Sie diese ID an den Support von Alight Creative, um weitere Unterst
     <string name="creator_program_info_bullet_3">Hol dir Einkaufsgutscheine und mehr!</string>
     <string name="creator_program_insufficient_tokens_message">Du hast nicht genügend Tokens, um diese Belohnung zu erhalten.</string>
     <string name="creator_program_insufficient_tokens_title">Nicht genügend Tokens</string>
-    <string name="creator_program_reward_alight_title">„Gold Motion PRO“-Abonnement</string>
-    <string name="creator_program_reward_alight_title_short">Gold Motion PRO</string>
+    <string name="creator_program_reward_alight_title">„Uncensored Motion PRO“-Abonnement</string>
+    <string name="creator_program_reward_alight_title_short">Uncensored Motion PRO</string>
     <string name="creator_program_reward_amazon_title">Amazon-Geschenkkarte</string>
     <string name="creator_program_reward_amazon_website">Amazon</string>
     <string name="creator_program_reward_amazon_website_description">Bitte gib die Website an, von der du einen Geschenkgutschein erhalten möchtest</string>
@@ -325,11 +325,11 @@ Bitte senden Sie diese ID an den Support von Alight Creative, um weitere Unterst
 - 🎨 Erstelle erstklassige Alight-Motion-Vorlagen
 - 🔥 Teile deine Vorlagen mit anderen
 - 💯 Verdiene Tokens, wenn deine Vorlage importiert wird
-- 🎁 Löse Tokens gegen Einkaufsgutscheine oder Gold Motion Pro ein"</string>
+- 🎁 Löse Tokens gegen Einkaufsgutscheine oder Uncensored Motion Pro ein"</string>
     <string name="creator_program_reward_pop_up_body_3">"- 💻 Mach mit bei unserem Creator-Programm
 - 🚀 Teile deine Alight-Motion-Vorlagen mit anderen
 - 💯 Verdiene Tokens für jeden Nutzer, der deine Vorlagen importiert
-- 🛒 Löse deine Tokens gegen Einkaufsgutscheine oder Gold Motion PRO ein"</string>
+- 🛒 Löse deine Tokens gegen Einkaufsgutscheine oder Uncensored Motion PRO ein"</string>
     <string name="creator_program_reward_pop_up_skip">Überspringen</string>
     <string name="creator_program_reward_pop_up_title_1">Erschaffen, teilen, verdienen!</string>
     <string name="creator_program_reward_pop_up_title_2">🎉 Werde einer unserer Creator 🎉</string>
@@ -344,7 +344,7 @@ Bitte senden Sie diese ID an den Support von Alight Creative, um weitere Unterst
     <string name="creator_program_start_button">Fang an, die Tokens zu verdienen</string>
     <string name="creator_program_status_claim_button">Deine Belohnung erhalten</string>
     <string name="creator_program_status_downloads_label">Anzahl der Downloads deiner Vorlagen</string>
-    <string name="creator_program_status_subheading">Lass mit Gold Motion andere an deiner Kreativität teilhaben und verdiene dir dafür eine Belohnung!</string>
+    <string name="creator_program_status_subheading">Lass mit Uncensored Motion andere an deiner Kreativität teilhaben und verdiene dir dafür eine Belohnung!</string>
     <string name="creator_program_status_tokens_label">Deine Tokens</string>
     <string name="creator_program_suspend_subtitle">Das Creator-Programm wurde vorübergehend ausgesetzt. Vielen Dank für deine Geduld.</string>
     <string name="creator_program_terms_and_policy_body">Wenn du auf „Akzeptieren und fortfahren“ klickst, akzeptierst du die {tos}Zusatzbedingungen für das Creator-Programm{/tos} und bestätigst, dass du die {pp}Datenschutzerklärung{/pp} erhalten hast.</string>
@@ -440,7 +440,7 @@ Bitte lesen Sie dies gründlich durch, bevor Sie Ihr Konto löschen."</string>
     <string name="download_existing_project_alert_title">Dieses Projekt ist bereits lokal gespeichert</string>
     <string name="download_failed">Download fehlgeschlagen</string>
     <string name="download_failure_alert_body_generic">Wir konnten dein Projekt nicht aus der Cloud herunterladen. Überprüfe deine Verbindung und stelle sicher, dass das Projekt nicht aus der Cloud gelöscht wurde.</string>
-    <string name="download_failure_alert_body_scene">Wir konnten dieses Projekt nicht lesen. Stelle sicher, dass du die neueste Version von Gold Motion verwendest</string>
+    <string name="download_failure_alert_body_scene">Wir konnten dieses Projekt nicht lesen. Stelle sicher, dass du die neueste Version von Uncensored Motion verwendest</string>
     <string name="download_failure_alert_body_specs">Dieses Paket enthält eine oder mehrere %1$dx%2$d-Videodateien, aber dieses Gerät unterstützt nur die Bearbeitung von Videos bis zu %3$dp.</string>
     <string name="download_failure_alert_title">Download aus der Cloud fehlgeschlagen</string>
     <string name="download_in_progress_cta">Download abbrechen</string>
@@ -480,9 +480,9 @@ Bitte schließe die App oder dieses Fenster nicht."</string>
     <string name="edit">Bearbeiten</string>
     <string name="edit_drawing">Zeichnung bearbeiten</string>
     <string name="edit_easing">Easing bearbeiten</string>
-    <string name="edit_easing_msg">Diese Eigenschaftsanimation enthält eine erweiterte Beschleunigung, die nur Gold Motion-Mitgliedern zur Verfügung steht. Sie können die Beschleunigung trotzdem bearbeiten, benötigen jedoch eine Mitgliedschaft, um das Projekt zu exportieren oder freizugeben.</string>
+    <string name="edit_easing_msg">Diese Eigenschaftsanimation enthält eine erweiterte Beschleunigung, die nur Uncensored Motion-Mitgliedern zur Verfügung steht. Sie können die Beschleunigung trotzdem bearbeiten, benötigen jedoch eine Mitgliedschaft, um das Projekt zu exportieren oder freizugeben.</string>
     <string name="edit_effect">Effekt bearbeiten</string>
-    <string name="edit_effect_msg">Dieser Effekt steht nur Gold Motion-Mitgliedern zur Verfügung. Sie können die Effekteigenschaften trotzdem bearbeiten, benötigen jedoch eine Mitgliedschaft, um das Projekt zu exportieren oder freizugeben.</string>
+    <string name="edit_effect_msg">Dieser Effekt steht nur Uncensored Motion-Mitgliedern zur Verfügung. Sie können die Effekteigenschaften trotzdem bearbeiten, benötigen jedoch eine Mitgliedschaft, um das Projekt zu exportieren oder freizugeben.</string>
     <string name="edit_group">Gruppe bearbeiten</string>
     <string name="edit_linked_element">Verknüpftes Element bearbeiten</string>
     <string name="edit_original_element">Originalelement bearbeiten</string>
@@ -1671,7 +1671,7 @@ Bitte schließe die App oder dieses Fenster nicht."</string>
     <string name="effectpreset_xray">Röntgen</string>
     <string name="effects">Effekte</string>
     <string name="element">Element</string>
-    <string name="element_create_err_title">MOD by pnkj</string>
+    <string name="element_create_err_title">Uncensored Open Source Edition</string>
     <string name="element_properties">Elementeigenschaften</string>
     <string name="element_resolution">Elementauflösung</string>
     <string name="elements_list_empty_state_second_row">erstelle ein Element</string>
@@ -1713,7 +1713,7 @@ Vorschläge zur Lösung dieses Problems finden Sie unter: %s"</string>
     <string name="export_failed_storage_details_ios">Bitte geben Sie Speicherplatz auf Ihrem %d frei und versuchen Sie es erneut,</string>
     <string name="export_failed_storage_title">Nicht genug Speicherplatz.</string>
     <string name="export_jpeg_seq">JPEG-Sequenz exportieren</string>
-    <string name="export_lock_warning">Bitte schließen Sie Gold Motion nicht und sperren Sie Ihren Bildschirm nicht, während der Export ausgeführt wird.</string>
+    <string name="export_lock_warning">Bitte schließen Sie Uncensored Motion nicht und sperren Sie Ihren Bildschirm nicht, während der Export ausgeführt wird.</string>
     <string name="export_page_cloud_backup">Cloud-Sicherung</string>
     <string name="export_page_new">NEU</string>
     <string name="export_page_preset">Voreinstellung</string>
@@ -1731,7 +1731,7 @@ Aus Datenschutzgründen und aufgrund von Größenbeschränkungen solltest du die
     <string name="exporting_gif">Exportieren der GIF</string>
     <string name="exporting_image_seq">Exportieren der Bildsequenz</string>
     <string name="exporting_video">Exportieren des Videos</string>
-    <string name="external_subscription_popup_body">Sie sind jetzt Gold Motion-Mitglied! Weitere Informationen finden Sie unter Mein Konto.</string>
+    <string name="external_subscription_popup_body">Sie sind jetzt Uncensored Motion-Mitglied! Weitere Informationen finden Sie unter Mein Konto.</string>
     <string name="external_subscription_popup_title">Willkommen</string>
     <string name="extract_audio">Audio extrahieren</string>
     <string name="failed_save_profile_popup_msg">Ihre Profiländerungen konnten nicht gespeichert werden. Bitte überprüfen Sie Ihre Internetverbindung oder versuchen Sie es später erneut.</string>
@@ -1745,7 +1745,7 @@ Aus Datenschutzgründen und aufgrund von Größenbeschränkungen solltest du die
     <string name="feature_vector_graphics">Vektorgrafiken</string>
     <string name="feed_category_news">Nachrichten</string>
     <string name="feed_category_updates">Aktualisierungen</string>
-    <string name="feed_network_error">Stellen Sie eine Verbindung zum Internet her, um die neuesten Nachrichten, Informationen und Tutorials zu Gold Motion zu erhalten.</string>
+    <string name="feed_network_error">Stellen Sie eine Verbindung zum Internet her, um die neuesten Nachrichten, Informationen und Tutorials zu Uncensored Motion zu erhalten.</string>
     <string name="file_size_estimate">Dateigröße (Schätzung)</string>
     <string name="files_alight_motion">Dateien – Alight Motion</string>
     <string name="fill_composition_area">Kompositionsbereich füllen</string>
@@ -2025,35 +2025,35 @@ Bitte setzen Sie die Geschwindigkeitsregelung für die Gruppe auf 1,0x zurück, 
     <string name="members_only">Für Mitglieder</string>
     <string name="members_only_effects">Effekte nur für Mitglieder</string>
     <string name="members_only_feature">Nur für Mitglieder</string>
-    <string name="members_only_feature_msg">"Diese Funktion steht nur Gold Motion-Mitgliedern zur Verfügung.
+    <string name="members_only_feature_msg">"Diese Funktion steht nur Uncensored Motion-Mitgliedern zur Verfügung.
 
 Sie können es gerne zuerst in Ihrem Projekt ausprobieren, aber es ist eine Mitgliedschaft erforderlich, wenn Sie das Projekt exportieren oder freigeben möchten."</string>
     <string name="members_only_feature_msg_body">Sie können es gerne zuerst in Ihrem Projekt ausprobieren, aber es ist eine Mitgliedschaft erforderlich, wenn Sie das Projekt exportieren oder teilen möchten.</string>
-    <string name="members_only_feature_msg_for_camera">"Die Kamera ist nur für Gold Motion-Mitglieder verfügbar.
+    <string name="members_only_feature_msg_for_camera">"Die Kamera ist nur für Uncensored Motion-Mitglieder verfügbar.
 
 "</string>
-    <string name="members_only_feature_msg_for_layerparent">"Layer Parenting (Zuordnung von Gruppen in Schichten) ist nur für Gold Motion-Mitglieder verfügbar.
+    <string name="members_only_feature_msg_for_layerparent">"Layer Parenting (Zuordnung von Gruppen in Schichten) ist nur für Uncensored Motion-Mitglieder verfügbar.
 
 "</string>
     <string name="membership_link_wrong_account_details">"If you're trying to import project package that's bigger than 5MB, it won't work because it's server side. It's not possible unless you're importing a package that you previously exported from the same account you're currently using."</string>
     <string name="membership_link_wrong_account_title">Project Size Limit</string>
     <string name="membership_options">Lifetime Premium</string>
     <string name="membership_required">Mitgliedschaft wird benötigt</string>
-    <string name="membership_required_for_download">"Zum Herunterladen dieses Pakets ist eine Gold Motion-Mitgliedschaft erforderlich.
+    <string name="membership_required_for_download">"Zum Herunterladen dieses Pakets ist eine Uncensored Motion-Mitgliedschaft erforderlich.
 
 %s"</string>
-    <string name="membership_required_for_download_size">Eine Gold Motion-Mitgliedschaft ist erforderlich, um Pakete herunterzuladen, die größer als %s sind.</string>
+    <string name="membership_required_for_download_size">Eine Uncensored Motion-Mitgliedschaft ist erforderlich, um Pakete herunterzuladen, die größer als %s sind.</string>
     <string name="membership_upgrades_detail">Käufe zum Upgrade Ihrer Mitgliedschaft sind verfügbar</string>
     <string name="membership_upgrades_title">Mitgliedschafts-Upgrades</string>
     <string name="memory">RAM</string>
     <string name="mini_browser_recent_media">Kürzlich verwendete Medien im Mini-Browser anzeigen?</string>
     <string name="missing_fonts">Fehlende Schriftarten</string>
-    <string name="missing_fonts_on_device">"Dieses Projekt verwendet Schriftarten, die weder in Gold Motion noch auf Ihrem Gerät installiert sind. Einige Textebenen werden möglicherweise falsch gerendert.
+    <string name="missing_fonts_on_device">"Dieses Projekt verwendet Schriftarten, die weder in Uncensored Motion noch auf Ihrem Gerät installiert sind. Einige Textebenen werden möglicherweise falsch gerendert.
 
 Fehlende Schriftarten:
 
 %1$s"</string>
-    <string name="missing_fonts_on_ios">"Dieses Projekt verwendet Schriftarten, die weder in Gold Motion noch auf Ihrem %2$s installiert sind. Einige Textebenen werden möglicherweise falsch gerendert.
+    <string name="missing_fonts_on_ios">"Dieses Projekt verwendet Schriftarten, die weder in Uncensored Motion noch auf Ihrem %2$s installiert sind. Einige Textebenen werden möglicherweise falsch gerendert.
 
 Fehlende Schriftarten:
 
@@ -2162,7 +2162,7 @@ Wenn Sie bereits Keyframes für eine andere Eigenschaft haben, wählen Sie diese
     <string name="package_size_estimate">Paketgröße (Schätzung)</string>
     <string name="package_video_res_too_high_for_device">Dieses Paket enthält eine oder mehrere %1$d x %2$d Videodateien, dieses Gerät unterstützt jedoch nur die Bearbeitung von Videos bis zu %3$d p.</string>
     <string name="packaging_projects">Verpackungsprojekt(e)</string>
-    <string name="packaging_reencoding_msg">Dieses Projekt verwendet Audio aus der iTunes-Mediathek, das für die gemeinsame Nutzung von Paketen neu codiert werden muss. Um künftig einen Qualitätsverlust durch Neucodierung zu vermeiden, sollten Sie Audiodateien im Ordner \"Gold Motion\" und nicht in der iTunes-Mediathek speichern.</string>
+    <string name="packaging_reencoding_msg">Dieses Projekt verwendet Audio aus der iTunes-Mediathek, das für die gemeinsame Nutzung von Paketen neu codiert werden muss. Um künftig einen Qualitätsverlust durch Neucodierung zu vermeiden, sollten Sie Audiodateien im Ordner \"Uncensored Motion\" und nicht in der iTunes-Mediathek speichern.</string>
     <string name="packaging_reencoding_ok">Neu codieren und freigeben</string>
     <string name="packaging_reencoding_progress">Audio für das Verpacken neu codieren...(%1$d/%2$d)</string>
     <string name="paid_annually">Jährlich bezahlt</string>
@@ -2198,7 +2198,7 @@ Wenn Sie bereits Keyframes für eine andere Eigenschaft haben, wählen Sie diese
     <string name="paywall_generic_error_alert_title">Etwas ist schiefgelaufen</string>
     <string name="paywall_monthly_label">Monatlich</string>
     <string name="paywall_title">Zugriff auf alle Pro-Funktionen erhalten</string>
-    <string name="paywall_unavailable_status_alert_message_play_store">Gold Motion konnte den Status deiner Mitgliedschaft nicht überprüfen. Bitte überprüfe deine Internetverbindung und vergewissere dich, dass du im Play Store angemeldet bist, oder versuche es später erneut.</string>
+    <string name="paywall_unavailable_status_alert_message_play_store">Uncensored Motion konnte den Status deiner Mitgliedschaft nicht überprüfen. Bitte überprüfe deine Internetverbindung und vergewissere dich, dass du im Play Store angemeldet bist, oder versuche es später erneut.</string>
     <string name="paywall_unavailable_status_alert_title">Mitgliedschaftsstatus nicht verfügbar</string>
     <string name="paywall_weekly_label">Wöchentlich</string>
     <string name="paywall_yearly_label">Jährlich</string>
@@ -2267,14 +2267,14 @@ Bitte versuchen Sie es erneut mit einem anderen Link."</string>
     <string name="privacy_policy_tos_get_started">Loslegen</string>
     <string name="privacy_policy_update_agree">Ich stimme den aktualisierten Bedingungen zu.</string>
     <string name="privacy_policy_update_title">Aktualisierung der Datenschutzerklärung und der Nutzungsbedingungen von Alight Creative</string>
-    <string name="privacy_policy_update_top_notice">Die Nutzungsbedingungen und Datenschutzbestimmungen, die Ihre Nutzung der Gold Motion-Anwendung regeln, wurden aktualisiert. Bitte lesen Sie die aktualisierten Bedingungen und stimmen Sie ihnen zu, um die Anwendung weiterhin nutzen zu können.</string>
+    <string name="privacy_policy_update_top_notice">Die Nutzungsbedingungen und Datenschutzbestimmungen, die Ihre Nutzung der Uncensored Motion-Anwendung regeln, wurden aktualisiert. Bitte lesen Sie die aktualisierten Bedingungen und stimmen Sie ihnen zu, um die Anwendung weiterhin nutzen zu können.</string>
     <string name="privacy_settings_title">Datenschutzeinstellungen</string>
     <string name="proj_import_network_error_explain">Der Import ist fehlgeschlagen, da das Projekt oder Elemente nicht heruntergeladen werden konnte. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut. (%1$s)</string>
     <string name="proj_import_network_error_title">Fehler beim Herunterladen.</string>
     <string name="proj_import_storage_error_explain">Es %1$s muss mindestens %2$s freier Speicherplatz vorhanden sein, um dieses Projekt zu importieren.</string>
     <string name="proj_import_storage_error_title">Nicht genug Speicherplatz.</string>
     <string name="project">Projekt</string>
-    <string name="project_create_err_title">MOD by pnkj</string>
+    <string name="project_create_err_title">Uncensored Open Source Edition</string>
     <string name="project_element_create_err_size">Bitte geben Sie einen Wert zwischen 32 und 4.096 ein.</string>
     <string name="project_list_empty_state_first_row">Lass deiner Fantasie freien Lauf,</string>
     <string name="project_list_empty_state_second_row">erstelle ein Projekt</string>
@@ -2303,7 +2303,7 @@ Nach dem Hochladen erhalten Sie einen permanenten Link, den Sie mit anderen teil
     <string name="projects_tab_projects_quick_menu_select">Auswählen</string>
     <string name="projects_tab_projects_subtab_name">Deine Projekte</string>
     <string name="promo_membership">Aktionsmitgliedschaft</string>
-    <string name="psstatus_fail_message">Gold Motion konnte Ihren Mitgliedschaftsstatus nicht überprüfen. Bitte überprüfen Sie Ihre Internetverbindung oder versuchen Sie es später erneut.</string>
+    <string name="psstatus_fail_message">Uncensored Motion konnte Ihren Mitgliedschaftsstatus nicht überprüfen. Bitte überprüfen Sie Ihre Internetverbindung oder versuchen Sie es später erneut.</string>
     <string name="pstask_fail_message">Alight Motion konnte Ihren Mitgliedsstatus nicht überprüfen. Bitte überprüfen Sie Ihre Internetverbindung und stellen Sie sicher, dass Sie bei der %1$s App angemeldet sind, oder versuchen Sie es später noch einmal.</string>
     <string name="purchase_maintitle">Werden Sie Mitglied bei Alight Motion!</string>
     <string name="purchase_maintitle_1">Upgrade auf Premium-Mitgliedschaft!</string>
@@ -2350,7 +2350,7 @@ Möchten Sie das verknüpfte Projekt basierend auf diesem Element neu erstellen 
     <string name="resolution_lock_alert_action_free_trial">Jetzt kostenlose Probezeit beginnen</string>
     <string name="resolution_lock_alert_action_reduce_quality">Exporte mit der besten, kostenlosen Qualität</string>
     <string name="resolution_lock_alert_action_reduce_quality_create">Stellen Sie die beste kostenlose Qualität ein</string>
-    <string name="resolution_lock_alert_body">Die ausgewählte Exportqualität ist nur mit einer Gold Motion-Mitgliedschaft verfügbar.</string>
+    <string name="resolution_lock_alert_body">Die ausgewählte Exportqualität ist nur mit einer Uncensored Motion-Mitgliedschaft verfügbar.</string>
     <string name="resolution_lock_alert_title">Exportqualität nur für Mitglieder</string>
     <string name="restore">Wiederherstellen</string>
     <string name="retime_blank">Leer</string>
@@ -2360,13 +2360,13 @@ Möchten Sie das verknüpfte Projekt basierend auf diesem Element neu erstellen 
     <string name="retime_stretch">Strecken</string>
     <string name="retiming">Neues Timing</string>
     <string name="retry">Wiederholen</string>
-    <string name="review_feedback_msg">Die Benutzerzufriedenheit ist uns sehr wichtig, und Ihr Feedback hilft uns, Gold Motion besser zu machen.</string>
+    <string name="review_feedback_msg">Die Benutzerzufriedenheit ist uns sehr wichtig, und Ihr Feedback hilft uns, Uncensored Motion besser zu machen.</string>
     <string name="review_feedback_title">Würde es Ihnen etwas ausmachen, uns Feedback zu geben?</string>
     <string name="review_popup_msg">"Sie können uns übrigens jederzeit unter 
 support@alightcreative.com erreichen.
 
-Möchten Sie Gold Motion bewerten?"</string>
-    <string name="review_popup_title">Gefällt Ihnen Gold Motion?</string>
+Möchten Sie Uncensored Motion bewerten?"</string>
+    <string name="review_popup_title">Gefällt Ihnen Uncensored Motion?</string>
     <string name="sample_rate">Abtastrate</string>
     <string name="sans_serif_fonts">Serifenlose Schriften</string>
     <string name="save">Speichern</string>
@@ -2393,7 +2393,7 @@ Effekte und Keyframes passen sich an die Länge deiner neuen Ebene an, ohne dein
     <string name="saving_to_gallery">Wird in Galerie gespeichert</string>
     <string name="saving_to_my_elements">In Meine Elemente speichern…</string>
     <string name="scatter_repeat">Streuwiederholung</string>
-    <string name="see_whats_new_in_am">Sehen Sie, was es Neues in Gold Motion gibt!</string>
+    <string name="see_whats_new_in_am">Sehen Sie, was es Neues in Uncensored Motion gibt!</string>
     <string name="select_all">Alle auswählen</string>
     <string name="select_all_layers">Alle Ebenen auswählen</string>
     <string name="select_fonts_to_import">Wählen Sie die zu importierenden Schriften aus</string>
@@ -2404,7 +2404,7 @@ Effekte und Keyframes passen sich an die Länge deiner neuen Ebene an, ohne dein
     <string name="set_retiming_in_mark">Ende des Intro markieren</string>
     <string name="set_retiming_out_mark">Ende des Outro markieren</string>
     <string name="set_thumbnail_frame">Miniaturbildrahmen einstellen</string>
-    <string name="settings_legal_copyright_policy_button">MOD by pnkj</string>
+    <string name="settings_legal_copyright_policy_button">Uncensored Open Source Edition</string>
     <string name="shadow">Schatten</string>
     <string name="shape">Form</string>
     <string name="shape_arc">Bogen</string>
@@ -2644,17 +2644,17 @@ Bitte schließe die App oder dieses Fenster nicht."</string>
     <string name="upload_overwrite_request_alert_cta_new">Eine Kopie hochladen</string>
     <string name="upload_overwrite_request_alert_cta_overwrite">Projekt überschreiben</string>
     <string name="upload_overwrite_request_alert_title">Dieses Projekt ist bereits in der Cloud gespeichert</string>
-    <string name="upload_share_large_package_desc">"Dieses Paket ist %1$s. Pakete über %2$s können nur von anderen Gold Motion Mitgliedern importiert werden.
+    <string name="upload_share_large_package_desc">"Dieses Paket ist %1$s. Pakete über %2$s können nur von anderen Uncensored Motion Mitgliedern importiert werden.
 
 Wenn Sie dies als Vorlage oder Voreinstellung verwenden, sollten Sie alle im Paket verwendeten Platzhaltermedien durch kleinere Medien ersetzen.
 
 Möchten Sie dieses Paket trotzdem hochladen und freigeben?"</string>
-    <string name="upload_share_large_package_info">Dieses Paket hat eine Größe von %1$s und kann nur von Gold Motion Mitgliedern importiert werden.</string>
+    <string name="upload_share_large_package_info">Dieses Paket hat eine Größe von %1$s und kann nur von Uncensored Motion Mitgliedern importiert werden.</string>
     <string name="upload_share_large_package_info_no_optimized">"Die kleinere Version dieses Pakets für andere Benutzer konnte nicht vorbereitet werden.
 
 Reduzieren Sie die Größe des Pakets auf weniger als %1$s, damit es von allen Benutzern importiert werden kann."</string>
     <string name="upload_share_large_package_info_optimized">Andere Benutzer können eine kleinere Version dieses Pakets mit optimierten Medien geringerer Qualität importieren.</string>
-    <string name="upload_share_large_package_samplemedia_desc">"Dieses Paket ist %1$s. Pakete über %2$s können nur von anderen Gold Motion Premium-Mitgliedern importiert werden.
+    <string name="upload_share_large_package_samplemedia_desc">"Dieses Paket ist %1$s. Pakete über %2$s können nur von anderen Uncensored Motion Premium-Mitgliedern importiert werden.
 
 Wenn Sie dies als Vorlage oder Voreinstellung verwenden, ziehen Sie bitte in Betracht, alle im Paket verwendeten Platzhaltermedien durch Medien aus dem Ordner „Beispielmedien“ zu ersetzen, die nicht zur Projektgröße hinzugerechnet werden."</string>
     <string name="upload_share_large_package_samplemedia_info_no_optimized">Wenn Sie dies als Vorlage oder Voreinstellung verwenden, ziehen Sie bitte in Betracht, alle im Paket verwendeten Platzhaltermedien durch Medien aus dem Ordner „Beispielmedien“ zu ersetzen, die nicht auf die Projektgröße hinzugerechnet werden.</string>

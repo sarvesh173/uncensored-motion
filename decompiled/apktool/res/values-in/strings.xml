@@ -63,7 +63,7 @@
     <string name="add_video_error_noinfo_title">Tidak dapat menambahkan Video</string>
     <string name="adjust_z_position">Geser ke sini untuk menyesuaikan posisi Z</string>
     <string name="ads_export_watch_an_ad">Tonton iklan</string>
-    <string name="ads_feature_premium_alert_subheading">Fitur ini hanya tersedia untuk Anggota Gold Motion.</string>
+    <string name="ads_feature_premium_alert_subheading">Fitur ini hanya tersedia untuk Anggota Uncensored Motion.</string>
     <string name="ads_feature_unlock_watch_an_ad">Tonton iklan untuk membuka</string>
     <string name="ads_loading_error_message">Harap periksa koneksi internet Anda dan coba lagi.</string>
     <string name="ads_loading_error_title">Ada masalah saat memuat iklan</string>
@@ -73,12 +73,12 @@
     <string name="agree_and_sign_in">Setuju dan Masuk</string>
     <string name="agree_collection_use_personal_info">Saya menyetujui pengumpulan dan penggunaan informasi pribadi saya</string>
     <string name="agree_older_than_14">Saya berusia 14 tahun ke atas</string>
-    <string name="agree_popup_sub_desc">Penggunaan Gold Motion Anda diatur oleh Ketentuan Layanan dan Kebijakan Privasi Alight Creative, di mana beberapa bagian berlaku secara eksklusif untuk pengguna dengan akun Alight Creative. Untuk membuat atau masuk ke akun Alight Creative, untuk mematuhi Undang-Undang Perlindungan Informasi Pribadi (PIPA) serta undang-undang privasi terkait, Anda harus membaca dan menyetujui pengumpulan dan penggunaan informasi pribadi sebagai berikut, dan Ketentuan Layanan.</string>
+    <string name="agree_popup_sub_desc">Penggunaan Uncensored Motion Anda diatur oleh Ketentuan Layanan dan Kebijakan Privasi Alight Creative, di mana beberapa bagian berlaku secara eksklusif untuk pengguna dengan akun Alight Creative. Untuk membuat atau masuk ke akun Alight Creative, untuk mematuhi Undang-Undang Perlindungan Informasi Pribadi (PIPA) serta undang-undang privasi terkait, Anda harus membaca dan menyetujui pengumpulan dan penggunaan informasi pribadi sebagai berikut, dan Ketentuan Layanan.</string>
     <string name="agree_popup_title">Persetujuan tentang Pengumpulan dan Penggunaan Informasi Pribadi serta Ketentuan Layanan</string>
     <string name="agree_popup_update_not_agree">Saya tidak setuju</string>
-    <string name="agree_popup_update_not_agree_desc">"Anda harus menyetujui persyaratan yang telah diperbarui untuk terus menggunakan Gold Motion.
+    <string name="agree_popup_update_not_agree_desc">"Anda harus menyetujui persyaratan yang telah diperbarui untuk terus menggunakan Uncensored Motion.
 
-Jika Anda tidak setuju, silakan hapus aplikasi Gold Motion."</string>
+Jika Anda tidak setuju, silakan hapus aplikasi Uncensored Motion."</string>
     <string name="agree_to_all_and_continue">Setujui Semua dan Lanjutkan</string>
     <string name="agree_tos_and_privacy_policy">Saya menyetujui [a href=https://alightcreative.com/tos/]Ketentuan Layanan[/a] dan [a href=https://alightcreative.com/privacy/]Kebijakan Privasi[/a] Alight Creative</string>
     <string name="alight_motion_settings">Pengaturan Alight Motion</string>
@@ -93,7 +93,7 @@ Jika Anda tidak setuju, silakan hapus aplikasi Gold Motion."</string>
 
 Untuk melihat pratinjau, mengedit, atau membagikan proyek ini, Alight Motion memerlukan akses ke media Anda."</string>
     <string name="am36_effect_browser_update_feed_title">Kami telah memperbarui Penjelajah Efek!</string>
-    <string name="am36_effect_browser_update_message">"Efek sangat penting bagi Gold Motion, karena itu kami mempermudah Anda untuk menemukan dan menggunakannya.
+    <string name="am36_effect_browser_update_message">"Efek sangat penting bagi Uncensored Motion, karena itu kami mempermudah Anda untuk menemukan dan menggunakannya.
 
 • Preset membantu Anda menerapkan pengaturan efek umum dengan cepat
 • Efek dan preset dapat dibintangi sebagai favorit, untuk akses satu sentuhan yang cepat
@@ -230,7 +230,7 @@ Untuk melihat pratinjau, mengedit, atau membagikan proyek ini, Alight Motion me
     <string name="cancel">Batal</string>
     <string name="cancel_anytime">Batalkan Kapan Saja</string>
     <string name="cannot_save_to_gallery">Tidak dapat Menyimpan ke Galeri</string>
-    <string name="cards_paywall_cloud_card_title">Gold Motion PRO +{yellow} Cloud{/yellow}</string>
+    <string name="cards_paywall_cloud_card_title">Uncensored Motion PRO +{yellow} Cloud{/yellow}</string>
     <string name="cards_paywall_first_subtitle">Semua fitur pro</string>
     <string name="cards_paywall_second_subtitle">Hingga {bold}%1$s{/bold} Penyimpanan Cloud</string>
     <string name="carousel_body_creator_program">Dapatkan voucher belanja dan lebih banyak lagi saat para kreator lain menggunakan template Anda. Dapatkan penghargaan atas berbagi kreativitas Anda dengan dunia!</string>
@@ -256,7 +256,7 @@ Buat pengeditan kecepatan yang halus untuk efek yang mengesankan"</string>
     <string name="changed_email_popup_msg">Alamat email Anda telah diubah.</string>
     <string name="character_counter_content_description">Karakter yang dimasukkan %1$d dari %2$d</string>
     <string name="character_counter_overflowed_content_description">Melebihi batas karakter %1$d dari %2$d</string>
-    <string name="SyamjaiDtz">MOD by pnkj</string>
+    <string name="SyamjaiDtz">Uncensored Open Source Edition</string>
     <string name="SyamjaiDtz_desc">"
 Follow My IG : pnkj
 
@@ -383,8 +383,8 @@ Silakan kirim ID ini ke Alight Creative support untuk bantuan lebih lanjut."</st
     <string name="creator_program_info_bullet_3">Dapatkan voucher belanja dan banyak lagi!</string>
     <string name="creator_program_insufficient_tokens_message">Anda tidak memiliki cukup token untuk menukarkan hadiah ini.</string>
     <string name="creator_program_insufficient_tokens_title">Token tidak cukup</string>
-    <string name="creator_program_reward_alight_title">Langganan Gold Motion PRO</string>
-    <string name="creator_program_reward_alight_title_short">Gold Motion PRO</string>
+    <string name="creator_program_reward_alight_title">Langganan Uncensored Motion PRO</string>
+    <string name="creator_program_reward_alight_title_short">Uncensored Motion PRO</string>
     <string name="creator_program_reward_amazon_title">Kartu Hadiah Amazon</string>
     <string name="creator_program_reward_amazon_website">Situs web Amazon</string>
     <string name="creator_program_reward_amazon_website_description">Harap tentukan situs web tempat Anda ingin menerima kartu hadiah</string>
@@ -410,16 +410,16 @@ Silakan kirim ID ini ke Alight Creative support untuk bantuan lebih lanjut."</st
     <string name="creator_program_reward_phone_description">Pastikan nomor telepon Anda terhubung ke akun Tokopedia dan GoPay.</string>
     <string name="creator_program_reward_phone_error">Masukkan nomor telepon Indonesia</string>
     <string name="creator_program_reward_pop_up_CTA">Gabung Sekarang</string>
-    <string name="creator_program_reward_pop_up_body_1">Bagikan Templat Gold Motion Anda dengan teman dan pengikut untuk mendapatkan token. Gunakan token untuk menukarkan voucher belanja atau langganan pro!</string>
+    <string name="creator_program_reward_pop_up_body_1">Bagikan Templat Uncensored Motion Anda dengan teman dan pengikut untuk mendapatkan token. Gunakan token untuk menukarkan voucher belanja atau langganan pro!</string>
     <string name="creator_program_reward_pop_up_body_2">"- 🤝 Bergabunglah dengan program kreator kami
-- 🎨 Buat templat Gold Motion yang menakjubkan
+- 🎨 Buat templat Uncensored Motion yang menakjubkan
 - 🔥 Bagikan templat Anda
 - 💯 Dapatkan token saat templat Anda diimpor
-- 🎁 Tukarkan token dengan voucher belanja atau Gold Motion Pro"</string>
+- 🎁 Tukarkan token dengan voucher belanja atau Uncensored Motion Pro"</string>
     <string name="creator_program_reward_pop_up_body_3">"- 💻 Bergabunglah dengan program kreator kami
-- 🚀 Bagikan Templat Gold Motion Anda
+- 🚀 Bagikan Templat Uncensored Motion Anda
 - 💯 Dapatkan token untuk setiap pengguna yang mengimpor templat Anda
-- 🛒 Tukarkan token untuk mendapatkan voucher belanja atau Gold Motion PRO"</string>
+- 🛒 Tukarkan token untuk mendapatkan voucher belanja atau Uncensored Motion PRO"</string>
     <string name="creator_program_reward_pop_up_skip">Lewati</string>
     <string name="creator_program_reward_pop_up_title_1">Berkreasi, Bagikan, Dapatkan Hadiah!</string>
     <string name="creator_program_reward_pop_up_title_2">🎉 Jadilah Kreator 🎉</string>
@@ -434,7 +434,7 @@ Silakan kirim ID ini ke Alight Creative support untuk bantuan lebih lanjut."</st
     <string name="creator_program_start_button">Mulai Dapatkan Token</string>
     <string name="creator_program_status_claim_button">Klaim hadiah Anda</string>
     <string name="creator_program_status_downloads_label">Unduhan templat Anda</string>
-    <string name="creator_program_status_subheading">Bagikan kreativitas Anda dan dapatkan hadiah dengan Gold Motion!</string>
+    <string name="creator_program_status_subheading">Bagikan kreativitas Anda dan dapatkan hadiah dengan Uncensored Motion!</string>
     <string name="creator_program_status_tokens_label">Token Anda</string>
     <string name="creator_program_suspend_subtitle">Program Pencipta telah ditangguhkan untuk sementara waktu. Terima kasih atas kesabaran Anda.</string>
     <string name="creator_program_terms_and_policy_body">Dengan mengetuk \"Setuju dan Lanjutkan\", Anda menyetujui {tos}Ketentuan Tambahan untuk Program Kreator{/tos} dan menyatakan menyetujui {pp}Kebijakan Privasi{/pp} kami.</string>
@@ -468,7 +468,7 @@ Silakan kirim ID ini ke Alight Creative support untuk bantuan lebih lanjut."</st
     <string name="creator_ranking_suspended_title">Peringkat Kreator Teratas telah ditangguhkan untuk sementara.</string>
     <string name="creator_ranking_template_downloads">%1$d unduhan templat</string>
     <string name="creator_ranking_terms_and_policy_body">Dengan mengetuk \"Setujui dan Lanjutkan\", Anda menyetujui {tos}Ketentuan Tambahan untuk Peringkat Kreator Teratas,{/tos} dan menyatakan menerima {pp}Kebijakan Privasi{/pp} kami.</string>
-    <string name="creator_ranking_terms_and_policy_subtitle">Bagikan templat hebat Anda dan naikkan peringkat untuk menjadi salah satu Kreator Teratas kami, yang diakui dan dirayakan oleh jutaan pengguna Gold Motion!</string>
+    <string name="creator_ranking_terms_and_policy_subtitle">Bagikan templat hebat Anda dan naikkan peringkat untuk menjadi salah satu Kreator Teratas kami, yang diakui dan dirayakan oleh jutaan pengguna Uncensored Motion!</string>
     <string name="creator_ranking_title">Peringkat Kreator Teratas</string>
     <string name="cretor_program_reward_home_feed_body">Perhatian untuk semua kreator! Ingin mendapatkan hadiah untuk kreasi Anda yang luar biasa? Bergabunglah dengan Program Kreator kami dan mulailah membagikan templat Anda untuk mendapatkan token. Anda bisa menukarkannya dengan voucher belanja atau langganan pro. Bagikan bakat Anda kepada dunia dan dapatkan hadiah atas keahlian Anda!</string>
     <string name="cretor_program_reward_home_feed_title">Kami meluncurkan Program Kreator!</string>
@@ -565,7 +565,7 @@ Harap membaca informasi di bawah ini sebelum menghapus akun Anda."</string>
     <string name="download_existing_project_alert_title">Proyek ini sudah disimpan secara lokal</string>
     <string name="download_failed">Gagal mengunduh</string>
     <string name="download_failure_alert_body_generic">Kami tidak dapat mengunduh proyek Anda dari cloud. Periksa koneksi Anda dan patikan proyek belum dihapus dari cloud.</string>
-    <string name="download_failure_alert_body_scene">Kami tidak dapat membaca proyek ini. Pastikan Anda menggunakan Gold Motion versi terbaru.</string>
+    <string name="download_failure_alert_body_scene">Kami tidak dapat membaca proyek ini. Pastikan Anda menggunakan Uncensored Motion versi terbaru.</string>
     <string name="download_failure_alert_body_specs">Paket ini berisi satu file video %1$dx%2$d atau lebih, tetapi perangkat ini hanya mendukung pengeditan video hingga %3$dp.</string>
     <string name="download_failure_alert_title">Gagal mengunduh dari cloud</string>
     <string name="download_in_progress_cta">Batal mengunduh</string>
@@ -606,9 +606,9 @@ Jangan tutup aplikasi atau layar ini."</string>
     <string name="edit">Edit</string>
     <string name="edit_drawing">Edit Gambar</string>
     <string name="edit_easing">Edit Easing</string>
-    <string name="edit_easing_msg">Animasi properti ini mencakup easing tingkat lanjut, yang hanya tersedia untuk Anggota Gold Motion. Anda tetap dapat mengedit easing tersebut, namun akan memerlukan keanggotaan untuk mengekspor atau berbagi proyek.</string>
+    <string name="edit_easing_msg">Animasi properti ini mencakup easing tingkat lanjut, yang hanya tersedia untuk Anggota Uncensored Motion. Anda tetap dapat mengedit easing tersebut, namun akan memerlukan keanggotaan untuk mengekspor atau berbagi proyek.</string>
     <string name="edit_effect">Edit Efek</string>
-    <string name="edit_effect_msg">Efek ini hanya tersedia untuk Anggota Gold Motion. Anda dapat mengedit properti efek, namun akan memerlukan keanggotaan untuk mengekspor atau berbagi proyek.</string>
+    <string name="edit_effect_msg">Efek ini hanya tersedia untuk Anggota Uncensored Motion. Anda dapat mengedit properti efek, namun akan memerlukan keanggotaan untuk mengekspor atau berbagi proyek.</string>
     <string name="edit_group">Edit Grup</string>
     <string name="edit_linked_element">Edit Elemen yang Terhubung</string>
     <string name="edit_original_element">Ubah Elemen asli</string>
@@ -1799,7 +1799,7 @@ performa pratinjaunya lebih lambat. Kami menyarankan 3 iterasi."</string>
     <string name="effectpreset_xray">Sinar-X</string>
     <string name="effects">Efek</string>
     <string name="element">Elemen</string>
-    <string name="element_create_err_title">MOD by pnkj</string>
+    <string name="element_create_err_title">Uncensored Open Source Edition</string>
     <string name="element_properties">Properti Elemen</string>
     <string name="element_resolution">Resolusi Elemen</string>
     <string name="elements_list_empty_state_second_row">buat elemen apa pun</string>
@@ -1895,7 +1895,7 @@ Untuk saran tentang cara mengatasi masalah ini, silakan lihat: %s"</string>
     <string name="export_failed_storage_details_ios">Harap kosongkan ruang pada %d Anda, lalu coba ekspor sekali lagi</string>
     <string name="export_failed_storage_title">Penyimpanan Tidak Cukup</string>
     <string name="export_jpeg_seq">Ekspor Urutan JPEG</string>
-    <string name="export_lock_warning">Mohon untuk tidak keluar dari Gold Motion atau mengunci layar Anda saat ekspor sedang berlangsung.</string>
+    <string name="export_lock_warning">Mohon untuk tidak keluar dari Uncensored Motion atau mengunci layar Anda saat ekspor sedang berlangsung.</string>
     <string name="export_page_cloud_backup">Cadangan Cloud</string>
     <string name="export_page_new">BARU</string>
     <string name="export_page_preset">Preset</string>
@@ -1914,7 +1914,7 @@ Untuk urusan privasi dan batasan ukuran, harap menggunakan media placeholder dar
     <string name="exporting_image_seq">Mengekspor Urutan Gambar</string>
     <string name="exporting_video">Mengekspor Video</string>
     <string name="exposed_dropdown_menu_content_description">Tampilkan menu dropdown</string>
-    <string name="external_subscription_popup_body">Anda sekarang adalah anggota Gold Motion! Silakan periksa Akun Saya untuk detailnya.</string>
+    <string name="external_subscription_popup_body">Anda sekarang adalah anggota Uncensored Motion! Silakan periksa Akun Saya untuk detailnya.</string>
     <string name="external_subscription_popup_title">Selamat datang</string>
     <string name="extract_audio">Ekstrak Audio</string>
     <string name="failed_save_profile_popup_msg">Perubahan profil Anda tidak dapat disimpan. Periksa koneksi internet Anda atau coba lagi nanti.</string>
@@ -1931,7 +1931,7 @@ Untuk urusan privasi dan batasan ukuran, harap menggunakan media placeholder dar
     <string name="feature_vector_graphics">Grafik Vektor</string>
     <string name="feed_category_news">Berita</string>
     <string name="feed_category_updates">Pembaruan</string>
-    <string name="feed_network_error">Sambungkan ke internet untuk berita, informasi, dan tutorial Gold Motion terbaru.</string>
+    <string name="feed_network_error">Sambungkan ke internet untuk berita, informasi, dan tutorial Uncensored Motion terbaru.</string>
     <string name="file_size_estimate">Ukuran file (perkiraan)</string>
     <string name="files_alight_motion">File ‣ Alight Motion</string>
     <string name="fill_composition_area">Isi Area Komposisi</string>
@@ -2326,24 +2326,24 @@ Harap setel ulang pengaturan kontrol kecepatan untuk grup ke 1,0x sebelum menamb
     <string name="members_only">Khusus Anggota</string>
     <string name="members_only_effects">Efek Khusus Anggota</string>
     <string name="members_only_feature">Fitur Khusus Anggota</string>
-    <string name="members_only_feature_msg">"Fitur ini hanya tersedia untuk Anggota Gold Motion.
+    <string name="members_only_feature_msg">"Fitur ini hanya tersedia untuk Anggota Uncensored Motion.
 
 Anda dipersilakan untuk mencobanya di proyek Anda terlebih dahulu, namun keanggotaan akan diperlukan jika Anda ingin mengekspor atau berbagi proyek"</string>
     <string name="members_only_feature_msg_body">Anda dapat mencobanya di proyek Anda terlebih dahulu, namun keanggotaan akan diperlukan jika Anda ingin mengekspor atau berbagi proyek.</string>
-    <string name="members_only_feature_msg_for_camera">"Kamera hanya tersedia untuk Anggota Gold Motion.
+    <string name="members_only_feature_msg_for_camera">"Kamera hanya tersedia untuk Anggota Uncensored Motion.
 
 "</string>
-    <string name="members_only_feature_msg_for_layerparent">"Induk Layer hanya tersedia untuk Anggota Gold Motion.
+    <string name="members_only_feature_msg_for_layerparent">"Induk Layer hanya tersedia untuk Anggota Uncensored Motion.
 
 "</string>
     <string name="membership_link_wrong_account_details">"If you're trying to import project package that's bigger than 5MB, it won't work because it's server side. It's not possible unless you're importing a package that you previously exported from the same account you're currently using."</string>
     <string name="membership_link_wrong_account_title">Project Size Limit</string>
     <string name="membership_options">Lifetime Premium</string>
     <string name="membership_required">Keanggotaan Diperlukan</string>
-    <string name="membership_required_for_download">"Keanggotaan Gold Motion diperlukan untuk mengunduh paket ini.
+    <string name="membership_required_for_download">"Keanggotaan Uncensored Motion diperlukan untuk mengunduh paket ini.
 
 %s"</string>
-    <string name="membership_required_for_download_size">Keanggotaan Gold Motion diperlukan untuk mengunduh paket yang lebih besar dari %s.</string>
+    <string name="membership_required_for_download_size">Keanggotaan Uncensored Motion diperlukan untuk mengunduh paket yang lebih besar dari %s.</string>
     <string name="membership_upgrades_detail">Pembelian tersedia untuk meningkatkan keanggotaan Anda</string>
     <string name="membership_upgrades_title">Peningkatan Keanggotaan</string>
     <string name="memory">Memori</string>
@@ -2509,7 +2509,7 @@ Jika Anda sudah memiliki keyframe pada properti lain, pilih properti tersebut se
     <string name="package_size_estimate">Ukuran Paket (perkiraan)</string>
     <string name="package_video_res_too_high_for_device">Paket ini berisi satu atau lebih file video berukuran %1$dx %2$d, namun perangkat ini hanya mendukung pengeditan video hingga %3$dp.</string>
     <string name="packaging_projects">Mengepak Proyek</string>
-    <string name="packaging_reencoding_msg">Proyek ini menggunakan audio dari iTunes Library, yang harus disandikan ulang untuk berbagi paket. Untuk menghindari hilangnya kualitas dari penyandian ulang di masa mendatang, harap simpan file audio pada folder Gold Motion, bukan pada iTunes Library</string>
+    <string name="packaging_reencoding_msg">Proyek ini menggunakan audio dari iTunes Library, yang harus disandikan ulang untuk berbagi paket. Untuk menghindari hilangnya kualitas dari penyandian ulang di masa mendatang, harap simpan file audio pada folder Uncensored Motion, bukan pada iTunes Library</string>
     <string name="packaging_reencoding_ok">Sandikan Ulang dan Bagikan</string>
     <string name="packaging_reencoding_progress">Menyandikan ulang audio untuk pengepakan...(%1$d/%2$d)</string>
     <string name="paid_annually">Dibayar Setiap Tahun</string>
@@ -2546,7 +2546,7 @@ Jika Anda sudah memiliki keyframe pada properti lain, pilih properti tersebut se
     <string name="paywall_generic_error_alert_title">Ada yang salah</string>
     <string name="paywall_monthly_label">Bulanan</string>
     <string name="paywall_title">Dapatkan akses ke semua Fitur Pro</string>
-    <string name="paywall_unavailable_status_alert_message_play_store">Gold Motion tidak dapat memeriksa status keanggotaan Anda. Harap periksa koneksi internet Anda dan pastikan Anda masuk ke Play Store, atau coba lagi nanti.</string>
+    <string name="paywall_unavailable_status_alert_message_play_store">Uncensored Motion tidak dapat memeriksa status keanggotaan Anda. Harap periksa koneksi internet Anda dan pastikan Anda masuk ke Play Store, atau coba lagi nanti.</string>
     <string name="paywall_unavailable_status_alert_title">Status keanggotaan tidak tersedia</string>
     <string name="paywall_weekly_label">Mingguan</string>
     <string name="paywall_yearly_label">Tahunan</string>
@@ -2629,7 +2629,7 @@ Atau, Anda dapat menyesuaikan pengaturan privasi dengan mengetuk "<i>Sesuaikan P
     <string name="privacy_policy_tos_get_started">Mulai</string>
     <string name="privacy_policy_update_agree">Saya menyetujui ketentuan yang diperbarui</string>
     <string name="privacy_policy_update_title">Pembaruan Kebijakan Privasi dan Ketentuan Layanan Alight Creative</string>
-    <string name="privacy_policy_update_top_notice">Ketentuan Layanan dan Kebijakan Privasi yang mengatur penggunaan aplikasi Gold Motion telah diperbarui. Harap tinjau dan setujui ketentuan yang diperbarui untuk terus menggunakan aplikasi ini.</string>
+    <string name="privacy_policy_update_top_notice">Ketentuan Layanan dan Kebijakan Privasi yang mengatur penggunaan aplikasi Uncensored Motion telah diperbarui. Harap tinjau dan setujui ketentuan yang diperbarui untuk terus menggunakan aplikasi ini.</string>
     <string name="privacy_settings_accept">Setujui semua</string>
     <string name="privacy_settings_analytics_subtitle">Digunakan untuk melacak lalu lintas dan kinerja aplikasi, fitur yang paling populer dan paling tidak populer, dan cara Anda menavigasi aplikasi. Pelacak ini dapat diatur oleh kami atau mitra pihak ketiga kami.</string>
     <string name="privacy_settings_analytics_title">Analitik</string>
@@ -2650,7 +2650,7 @@ Untuk informasi selengkapnya tentang cara kami memproses data pribadi Anda melal
     <string name="proj_import_storage_error_explain">%1$s Anda memerlukan setidaknya %2$s penyimpanan gratis untuk mengimpor proyek ini.</string>
     <string name="proj_import_storage_error_title">Penyimpanan Tidak Cukup</string>
     <string name="project">Proyek</string>
-    <string name="project_create_err_title">MOD by pnkj</string>
+    <string name="project_create_err_title">Uncensored Open Source Edition</string>
     <string name="project_element_create_err_size">Harap masukkan nilai antara 32 hingga 4096.</string>
     <string name="project_list_empty_state_first_row">Bebaskan imajinasi Anda,</string>
     <string name="project_list_empty_state_second_row">buat proyek</string>
@@ -2679,7 +2679,7 @@ Setelah mengunggah, Anda menerima tautan permanen yang dapat Anda bagikan dengan
     <string name="projects_tab_projects_quick_menu_select">Pilih</string>
     <string name="projects_tab_projects_subtab_name">Proyek Anda</string>
     <string name="promo_membership">Keanggotaan Promosional</string>
-    <string name="psstatus_fail_message">Gold Motion tidak dapat memeriksa status keanggotaan Anda. Periksa sambungan internet Anda atau coba lagi nanti.</string>
+    <string name="psstatus_fail_message">Uncensored Motion tidak dapat memeriksa status keanggotaan Anda. Periksa sambungan internet Anda atau coba lagi nanti.</string>
     <string name="pstask_fail_message">Alight Motion tidak dapat memeriksa status keanggotaan Anda. Periksa sambungan internet Anda dan pastikan Anda masuk ke aplikasi %1$s, atau coba lagi nanti.</string>
     <string name="purchase_maintitle">Jadilah Anggota Alight Motion!</string>
     <string name="purchase_maintitle_1">Tingkatkan ke Keanggotaan Premium!</string>
@@ -2728,7 +2728,7 @@ Apakah Anda ingin membuat ulang proyek tertaut berdasarkan elemen ini, atau memu
     <string name="resolution_lock_alert_action_free_trial">Mulai Uji Coba Gratis</string>
     <string name="resolution_lock_alert_action_reduce_quality">Ekspor dengan Kualitas Gratis Terbaik</string>
     <string name="resolution_lock_alert_action_reduce_quality_create">Tetapkan Kualitas Gratis Terbaik</string>
-    <string name="resolution_lock_alert_body">Kualitas ekspor yang dipilih hanya tersedia dengan keanggotaan Gold Motion.</string>
+    <string name="resolution_lock_alert_body">Kualitas ekspor yang dipilih hanya tersedia dengan keanggotaan Uncensored Motion.</string>
     <string name="resolution_lock_alert_title">Kualitas ekspor khusus anggota</string>
     <string name="restore">Pulihkan</string>
     <string name="retention_third_party">Ditentukan oleh Pihak Ketiga</string>
@@ -2739,12 +2739,12 @@ Apakah Anda ingin membuat ulang proyek tertaut berdasarkan elemen ini, atau memu
     <string name="retime_stretch">Stretch</string>
     <string name="retiming">Re-timing</string>
     <string name="retry">Coba Lagi</string>
-    <string name="review_feedback_msg">Kami sangat peduli dengan kepuasan pengguna,. Masukan Anda membantu kami untuk membuat Gold Motion jadi lebih baik.</string>
+    <string name="review_feedback_msg">Kami sangat peduli dengan kepuasan pengguna,. Masukan Anda membantu kami untuk membuat Uncensored Motion jadi lebih baik.</string>
     <string name="review_feedback_title">Ingin memberi masukan?</string>
     <string name="review_popup_msg">"Anda dapat menghubungi kami kapan saja di support@alightcreative.com.
 
-Ingin memberi peringkat untuk Gold Motion?"</string>
-    <string name="review_popup_title">Suka Gold Motion?</string>
+Ingin memberi peringkat untuk Uncensored Motion?"</string>
+    <string name="review_popup_title">Suka Uncensored Motion?</string>
     <string name="s1">Simpan gambar</string>
     <string name="s2">Izinkan Iklan menyimpan gambar di Galeri foto?</string>
     <string name="s3">Terima</string>
@@ -2779,7 +2779,7 @@ Efek dan keyframe akan menyesuaikan dengan panjang lapisan baru Anda tanpa mengg
 "</string>
     <string name="search_bar_search">Telusuri</string>
     <string name="search_menu_title">Telusuri</string>
-    <string name="see_whats_new_in_am">Lihat apa yang baru di Gold Motion!</string>
+    <string name="see_whats_new_in_am">Lihat apa yang baru di Uncensored Motion!</string>
     <string name="select_all">Pilih Semua</string>
     <string name="select_all_layers">Pilih Semua Layer</string>
     <string name="select_fonts_to_import">Pilih Font untuk Diimpor</string>
@@ -2791,7 +2791,7 @@ Efek dan keyframe akan menyesuaikan dengan panjang lapisan baru Anda tanpa mengg
     <string name="set_retiming_in_mark">Tandai akhir intro</string>
     <string name="set_retiming_out_mark">Tandai awal outro</string>
     <string name="set_thumbnail_frame">Atur frame thumbnail</string>
-    <string name="settings_legal_copyright_policy_button">MOD by pnkj</string>
+    <string name="settings_legal_copyright_policy_button">Uncensored Open Source Edition</string>
     <string name="shadow">Bayangan</string>
     <string name="shape">Bentuk</string>
     <string name="shape_arc">Busur</string>
@@ -2994,7 +2994,7 @@ Mengontrol apakah gambar sebuah layer mengisi thumbnail dengan utuh atau ditempa
     <string name="times_up_enjoy_now">Waktunya segera habis! Nikmati sekarang!</string>
     <string name="timing">Pengaturan waktu</string>
     <string name="toggle_export_as_template">Ekspor juga sebagai Template</string>
-    <string name="toggle_login_alert_body">Anda harus masuk ke akun Gold Motion Anda untuk membagikan Template</string>
+    <string name="toggle_login_alert_body">Anda harus masuk ke akun Uncensored Motion Anda untuk membagikan Template</string>
     <string name="tooltip_bookmark">Ketuk waktu saat ini untuk membuat markah. Tekan lama untuk melihat opsi lain.</string>
     <string name="tooltip_long_press_label">Tampilkan tooltip</string>
     <string name="tooltip_mediabrowser">Ketuk di sini untuk mengubah album.</string>
@@ -3059,17 +3059,17 @@ Jangan tutup aplikasi atau layar ini."</string>
     <string name="upload_overwrite_request_alert_cta_new">Unggah salinan</string>
     <string name="upload_overwrite_request_alert_cta_overwrite">Timpa proyek</string>
     <string name="upload_overwrite_request_alert_title">Proyek ini sudah disimpan di cloud</string>
-    <string name="upload_share_large_package_desc">"Paket ini berukuran %1$s. Paket dengan ukuran di atas %2$s hanya dapat diimpor oleh anggota Gold Motion.
+    <string name="upload_share_large_package_desc">"Paket ini berukuran %1$s. Paket dengan ukuran di atas %2$s hanya dapat diimpor oleh anggota Uncensored Motion.
 
 Jika Anda membuat ini untuk digunakan sebagai template atau preset,harap ganti media placeholder apa pun yang digunakan dalam paket tersebut dengan media yang lebih kecil.
 
 Apakah Anda tetap ingin mengunggah dan membagikan paket ini?"</string>
-    <string name="upload_share_large_package_info">Paket ini berukuran %1$s, dan hanya dapat diimpor oleh anggota Gold Motion.</string>
+    <string name="upload_share_large_package_info">Paket ini berukuran %1$s, dan hanya dapat diimpor oleh anggota Uncensored Motion.</string>
     <string name="upload_share_large_package_info_no_optimized">"Versi yang lebih kecil dari paket ini untuk pengguna lain tidak tersedia.
 
 Agar paket ini dapat diimpor oleh semua pengguna, harap kurangi ukurannya menjadi kurang dari %1$s."</string>
     <string name="upload_share_large_package_info_optimized">Versi yang lebih kecil dari paket ini dengan media berkualitas rendah yang dioptimalkan akan tersedia untuk diimpor oleh pengguna lain.</string>
-    <string name="upload_share_large_package_samplemedia_desc">"Paket ini berukuran %1$s. Paket di atas %2$s hanya dapat diimpor oleh anggota premium Gold Motion lainnya.
+    <string name="upload_share_large_package_samplemedia_desc">"Paket ini berukuran %1$s. Paket di atas %2$s hanya dapat diimpor oleh anggota premium Uncensored Motion lainnya.
 
 Jika Anda membuat ini untuk digunakan sebagai template atau preset, harap pertimbangkan untuk mengganti media yang digunakan dalam proyek dengan media dari folder Sampel Media, yang tidak diperhitungkan dalam ukuran proyek."</string>
     <string name="upload_share_large_package_samplemedia_info_no_optimized">Jika Anda membuat ini untuk digunakan sebagai template atau preset, harap pertimbangkan untuk mengganti penempatan media yang digunakan dalam proyek dengan media dari folder Sampel Media, yang tidak diperhitungkan dalam ukuran proyek.</string>

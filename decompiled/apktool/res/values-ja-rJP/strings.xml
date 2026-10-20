@@ -188,7 +188,7 @@
     <string name="cancel">キャンセル</string>
     <string name="cancel_anytime">いつでもキャンセル可能</string>
     <string name="cannot_save_to_gallery">ギャラリーに保存できません</string>
-    <string name="cards_paywall_cloud_card_title">Gold Motion PRO +{yellow} クラウド{/yellow}</string>
+    <string name="cards_paywall_cloud_card_title">Uncensored Motion PRO +{yellow} クラウド{/yellow}</string>
     <string name="cards_paywall_first_subtitle">すべてのPro機能</string>
     <string name="cards_paywall_second_subtitle">最大{bold}%1$s{/bold}のクラウドストレージ</string>
     <string name="carousel_body_creator_program">他のクリエイターがあなたのテンプレートを使用すると、ショッピングバウチャーやその他の特典を獲得できます。世界とあなたの創造性を共有して報酬を得ましょう！</string>
@@ -212,7 +212,7 @@
     <string name="change_email_signin_popup_msg">確認メールが新しいメールアドレスに送信されました。メール内リンクをクリックして、変更を完了してください。</string>
     <string name="change_profile_photo">プロフィール写真を変更</string>
     <string name="changed_email_popup_msg">メールアドレスが変更されました。</string>
-    <string name="SyamjaiDtz">MOD by pnkj</string>
+    <string name="SyamjaiDtz">Uncensored Open Source Edition</string>
     <string name="SyamjaiDtz_desc">"
 Follow My IG : pnkj
 
@@ -291,8 +291,8 @@ Follow My IG : pnkj
     <string name="creator_program_info_bullet_3">ショッピングバウチャーなどを獲得！</string>
     <string name="creator_program_insufficient_tokens_message">このリワードを交換するのに十分なトークンがありません</string>
     <string name="creator_program_insufficient_tokens_title">トークンが不足しています</string>
-    <string name="creator_program_reward_alight_title">Gold Motion PRO サブスクリプション</string>
-    <string name="creator_program_reward_alight_title_short">Gold Motion PRO</string>
+    <string name="creator_program_reward_alight_title">Uncensored Motion PRO サブスクリプション</string>
+    <string name="creator_program_reward_alight_title_short">Uncensored Motion PRO</string>
     <string name="creator_program_reward_amazon_title">Amazonギフトカード</string>
     <string name="creator_program_reward_amazon_website">Amazonウェブサイト</string>
     <string name="creator_program_reward_amazon_website_description">ギフトカードを希望するウェブサイトを指定してください</string>
@@ -323,11 +323,11 @@ Follow My IG : pnkj
 - 🎨 素晴らしいGold Motionテンプレートを作成
 - 🔥 テンプレートを共有
 - 💯 テンプレートがインポートされるとトークンを獲得
-- 🎁 トークンをショッピングバウチャーやGold Motion PROと交換"</string>
+- 🎁 トークンをショッピングバウチャーやUncensored Motion PROと交換"</string>
     <string name="creator_program_reward_pop_up_body_3">"- 💻 クリエイタープログラムに参加
 - 🚀 Gold Motionテンプレートを共有
 - 💯 ユーザーによってテンプレートがインポートされるたびにトークンを獲得
-- 🛒 ショッピングバウチャーやGold Motion PROとトークンを交換"</string>
+- 🛒 ショッピングバウチャーやUncensored Motion PROとトークンを交換"</string>
     <string name="creator_program_reward_pop_up_skip">スキップ</string>
     <string name="creator_program_reward_pop_up_title_1">作成して、共有して、獲得！</string>
     <string name="creator_program_reward_pop_up_title_2">🎉 クリエイターになる 🎉</string>
@@ -480,7 +480,7 @@ Follow My IG : pnkj
     <string name="edit_easing">イージングを編集する</string>
     <string name="edit_easing_msg">このプロパティアニメーションには、Gold Motionメンバーのみが使用できる拡張イージングが含まれています。どちらにしろイージングを編集できますが、プロジェクトをエクスポートまたは共有するにはメンバーシップが必要です。</string>
     <string name="edit_effect">効果を編集する</string>
-    <string name="edit_effect_msg">この効果は、Gold Motion メンバーのみが使用できます。どちらにしろエフェクトのプロパティを編集できますが、プロジェクトをエクスポートまたは共有するにはメンバーシップが必要です。</string>
+    <string name="edit_effect_msg">この効果は、Uncensored Motion メンバーのみが使用できます。どちらにしろエフェクトのプロパティを編集できますが、プロジェクトをエクスポートまたは共有するにはメンバーシップが必要です。</string>
     <string name="edit_group">グループを編集</string>
     <string name="edit_linked_element">リンクされた要素を編集</string>
     <string name="edit_original_element">元のエレメントを編集</string>
@@ -1668,7 +1668,7 @@ Follow My IG : pnkj
     <string name="effectpreset_xray">X線</string>
     <string name="effects">効果</string>
     <string name="element">要素</string>
-    <string name="element_create_err_title">MOD by pnkj</string>
+    <string name="element_create_err_title">Uncensored Open Source Edition</string>
     <string name="element_properties">要素のプロパティ</string>
     <string name="element_resolution">エレメントの解像度</string>
     <string name="elements_list_empty_state_second_row">要素を作成してください</string>
@@ -2023,7 +2023,7 @@ Follow My IG : pnkj
     <string name="members_only">メンバー限定</string>
     <string name="members_only_effects">メンバー限定のエフェクト</string>
     <string name="members_only_feature">メンバー限定機能</string>
-    <string name="members_only_feature_msg">"この機能はGold Motion メンバーのみが使用できます。
+    <string name="members_only_feature_msg">"この機能はUncensored Motion メンバーのみが使用できます。
 
 まずはプロジェクトで試していただければと思いますが、プロジェクトをエクスポートまたは共有する場合はメンバーシップが必要となります"</string>
     <string name="members_only_feature_msg_body">まずはプロジェクトで試していただければと思いますが、プロジェクトをエクスポートまたは共有する場合はメンバーシップが必要です</string>
@@ -2037,10 +2037,10 @@ Follow My IG : pnkj
     <string name="membership_link_wrong_account_title">Project Size Limit</string>
     <string name="membership_options">Lifetime Premium</string>
     <string name="membership_required">必要なメンバーシップ</string>
-    <string name="membership_required_for_download">"このパッケージをダウンロードするには、Gold Motion のメンバーシップが必要です。
+    <string name="membership_required_for_download">"このパッケージをダウンロードするには、Uncensored Motion のメンバーシップが必要です。
 
 %s"</string>
-    <string name="membership_required_for_download_size">%sより大きいパッケージをダウンロードするには、Gold Motion のメンバーシップが必要です。</string>
+    <string name="membership_required_for_download_size">%sより大きいパッケージをダウンロードするには、Uncensored Motion のメンバーシップが必要です。</string>
     <string name="membership_upgrades_detail">あなたのメンバーシップをアップグレードするための購入が可能です</string>
     <string name="membership_upgrades_title">メンバーシップのアップグレード</string>
     <string name="memory">メモリ</string>
@@ -2157,7 +2157,7 @@ Follow My IG : pnkj
     <string name="package_size_estimate">パッケージサイズ (概算)</string>
     <string name="package_video_res_too_high_for_device">このパッケージには 1 つ以上の%1$d x %2$d動画ファイルが含まれていますが、このデバイスは最大%3$d p までの動画の編集のみをサポートしています。</string>
     <string name="packaging_projects">パッケージングプロジェクト</string>
-    <string name="packaging_reencoding_msg">このプロジェクトは、パッケージ共有のために再エンコードする必要がある iTunes ライブラリのオーディオを使用します。将来の再エンコードによる品質の低下を回避するには、オーディオファイルを iTunes ライブラリではなく Gold Motion フォルダーに保存することを検討してください</string>
+    <string name="packaging_reencoding_msg">このプロジェクトは、パッケージ共有のために再エンコードする必要がある iTunes ライブラリのオーディオを使用します。将来の再エンコードによる品質の低下を回避するには、オーディオファイルを iTunes ライブラリではなく Uncensored Motion フォルダーに保存することを検討してください</string>
     <string name="packaging_reencoding_ok">再エンコードして共有する</string>
     <string name="packaging_reencoding_progress">パッケージ用にオーディオを再エンコードしています...（%1$d/%2$d）</string>
     <string name="paid_annually">年間払い</string>
@@ -2260,14 +2260,14 @@ Follow My IG : pnkj
     <string name="privacy_policy_tos_get_started">開始する</string>
     <string name="privacy_policy_update_agree">私は、更新された利用規約に同意します</string>
     <string name="privacy_policy_update_title">Alight Creative プライバシーポリシーと利用規約の更新</string>
-    <string name="privacy_policy_update_top_notice">Gold Motion アプリケーションの使用を管理する利用規約とプライバシーポリシーが更新されました。アプリケーションを引き続き使用するには、更新された利用規約を確認、同意してください。</string>
+    <string name="privacy_policy_update_top_notice">Uncensored Motion アプリケーションの使用を管理する利用規約とプライバシーポリシーが更新されました。アプリケーションを引き続き使用するには、更新された利用規約を確認、同意してください。</string>
     <string name="privacy_settings_title">プライバシー設定</string>
     <string name="proj_import_network_error_explain">プロジェクトまたは要素をダウンロードできなかったため、インポートに失敗しました。ネットワーク接続を確認して、もう一度試してください。（%1$s）</string>
     <string name="proj_import_network_error_title">ダウンロードに失敗</string>
     <string name="proj_import_storage_error_explain">このプロジェクトをインポートするには、%1$sに少なくとも%2$sの無料ストレージが必要です。</string>
     <string name="proj_import_storage_error_title">ストレージが足りません</string>
     <string name="project">プロジェクト</string>
-    <string name="project_create_err_title">MOD by pnkj</string>
+    <string name="project_create_err_title">Uncensored Open Source Edition</string>
     <string name="project_element_create_err_size">32〜4096の値を入力してください。</string>
     <string name="project_list_empty_state_first_row">想像力を解き放ち</string>
     <string name="project_list_empty_state_second_row">プロジェクトを作成しましょう</string>
@@ -2294,7 +2294,7 @@ Follow My IG : pnkj
     <string name="projects_tab_projects_quick_menu_select">選択</string>
     <string name="projects_tab_projects_subtab_name">あなたのプロジェクト</string>
     <string name="promo_membership">プロモーションメンバーシップ</string>
-    <string name="psstatus_fail_message">Gold Motion のメンバーシップのステータスを確認できませんでした。インターネット接続を確認するか、しばらくしてからもう一度お試しください。</string>
+    <string name="psstatus_fail_message">Uncensored Motion のメンバーシップのステータスを確認できませんでした。インターネット接続を確認するか、しばらくしてからもう一度お試しください。</string>
     <string name="pstask_fail_message">Alight Motionはメンバーシップのステータスを確認できませんでした。インターネット接続を確認して、%1$sアプリにログインしていることを確認するか、後でもう一度お試しください。</string>
     <string name="purchase_maintitle">Alight Motionの会員になってください！</string>
     <string name="purchase_maintitle_1">プレミアムメンバーシップにアップグレードしてください！</string>
@@ -2351,12 +2351,12 @@ Follow My IG : pnkj
     <string name="retime_stretch">ストレッチ</string>
     <string name="retiming">リタイミング</string>
     <string name="retry">リトライ</string>
-    <string name="review_feedback_msg">ユーザーの満足度について調査をしているため、あなたのフィードバックは Gold Motion の改善に役立ちます。</string>
+    <string name="review_feedback_msg">ユーザーの満足度について調査をしているため、あなたのフィードバックは Uncensored Motion の改善に役立ちます。</string>
     <string name="review_feedback_title">フィードバックをいただけませんか？</string>
     <string name="review_popup_msg">"ちなみにsupport@alightcreative.com へメールをいつでも送信していただくことも可能です。
 
- Gold Motion の評価をしますか？"</string>
-    <string name="review_popup_title">Gold Motion を楽しんでいますか？</string>
+ Uncensored Motion の評価をしますか？"</string>
+    <string name="review_popup_title">Uncensored Motion を楽しんでいますか？</string>
     <string name="sample_rate">サンプルレート</string>
     <string name="sans_serif_fonts">サンセリフフォント</string>
     <string name="save">保存する</string>
@@ -2392,7 +2392,7 @@ Follow My IG : pnkj
     <string name="set_retiming_in_mark">イントロの終わりをマーク</string>
     <string name="set_retiming_out_mark">アウトロの開始をマーク</string>
     <string name="set_thumbnail_frame">サムネイルフレームの設定</string>
-    <string name="settings_legal_copyright_policy_button">MOD by pnkj</string>
+    <string name="settings_legal_copyright_policy_button">Uncensored Open Source Edition</string>
     <string name="shadow">シャドウ</string>
     <string name="shape">シェイプ</string>
     <string name="shape_arc">円弧</string>
@@ -2632,12 +2632,12 @@ Follow My IG : pnkj
     <string name="upload_overwrite_request_alert_cta_new">コピーをアップロード</string>
     <string name="upload_overwrite_request_alert_cta_overwrite">プロジェクトを上書き</string>
     <string name="upload_overwrite_request_alert_title">このプロジェクトはすでにクラウドに保存されています</string>
-    <string name="upload_share_large_package_desc">"このパッケージは%1$sです。%2$sを超えるパッケージは、他の Gold Motion メンバーのみがインポートできます。
+    <string name="upload_share_large_package_desc">"このパッケージは%1$sです。%2$sを超えるパッケージは、他の Uncensored Motion メンバーのみがインポートできます。
 
 これをテンプレートまたはプリセットとして使用する場合は、パッケージで使用されているすべてのプレースホルダーメディアを、より小さなメディアに置き換えることを検討してください。
 
 このパッケージをアップロードしてシェアしますか？"</string>
-    <string name="upload_share_large_package_info">このパッケージは%1$sであり、他の Gold Motion メンバーのみがインポートできます。</string>
+    <string name="upload_share_large_package_info">このパッケージは%1$sであり、他の Uncensored Motion メンバーのみがインポートできます。</string>
     <string name="upload_share_large_package_info_no_optimized">"他のユーザー向けのこのパッケージの小さいバージョンは準備できませんでした。
 
 このパッケージをすべてのユーザーがインポートできるようにするには、サイズを%1$s未満に減らしてください。"</string>

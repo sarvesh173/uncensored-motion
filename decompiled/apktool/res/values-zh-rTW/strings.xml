@@ -63,7 +63,7 @@
     <string name="add_video_error_noinfo_title">無法添加視訊</string>
     <string name="adjust_z_position">在此處滑動以調整Z位置</string>
     <string name="ads_export_watch_an_ad">觀看廣告</string>
-    <string name="ads_feature_premium_alert_subheading">這個功能只開放給 Gold Motion 會員使用。</string>
+    <string name="ads_feature_premium_alert_subheading">這個功能只開放給 Uncensored Motion 會員使用。</string>
     <string name="ads_feature_unlock_watch_an_ad">觀看一則廣告即可解鎖</string>
     <string name="ads_loading_error_message">請檢查你的網路連線，然後再試一次。</string>
     <string name="ads_loading_error_title">載入廣告時遇到問題</string>
@@ -76,9 +76,9 @@
     <string name="agree_popup_sub_desc">您对Gold Motion的使用受Alight Creative服务条款和隐私政策的约束，其中部分条款仅适用于拥有Alight Creative账户的用户。为了创建或登录Alight Creative账户，为遵守PIPA和相关隐私法，您必须阅读并同意以下个人信息的收集和使用以及服务条款。</string>
     <string name="agree_popup_title">同意收集和使用个人信息和服务条款</string>
     <string name="agree_popup_update_not_agree">我不同意</string>
-    <string name="agree_popup_update_not_agree_desc">"您必须同意这些更新后的条款才能继续使用Gold Motion。 
+    <string name="agree_popup_update_not_agree_desc">"您必须同意这些更新后的条款才能继续使用Uncensored Motion。 
  
-如果您不同意，请卸载Gold Motion。"</string>
+如果您不同意，请卸载Uncensored Motion。"</string>
     <string name="agree_to_all_and_continue">全部同意并继续</string>
     <string name="agree_tos_and_privacy_policy">我同意Alight Creative[a href=https://alightcreative.com/tos/]服务条款[/a]和[a href=https://alightcreative.com/privacy/]隐私政策[/a]</string>
     <string name="alight_motion_settings">Alight Motion設定</string>
@@ -232,7 +232,7 @@
     <string name="cancel">取消</string>
     <string name="cancel_anytime">隨時取消</string>
     <string name="cannot_save_to_gallery">無法儲存到圖庫</string>
-    <string name="cards_paywall_cloud_card_title">Gold Motion 專業版 +{yellow} 雲端版{/yellow}</string>
+    <string name="cards_paywall_cloud_card_title">Uncensored Motion 專業版 +{yellow} 雲端版{/yellow}</string>
     <string name="cards_paywall_first_subtitle">所有專業版功能</string>
     <string name="cards_paywall_second_subtitle">高達 {bold}%1$s{/bold} 的雲端儲存空間</string>
     <string name="carousel_body_creator_program">當其他創作者使用您的模板時，獲得購物券和更多獎勵。以分享您的創意與世界為榮！</string>
@@ -258,7 +258,7 @@
     <string name="changed_email_popup_msg">您的電子郵箱地址已更改。</string>
     <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
     <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
-    <string name="SyamjaiDtz">MOD by pnkj</string>
+    <string name="SyamjaiDtz">Uncensored Open Source Edition</string>
     <string name="SyamjaiDtz_desc">"
 Follow My IG : pnkj
 
@@ -384,8 +384,8 @@ Follow My IG : pnkj
     <string name="creator_program_info_bullet_3">取得購物兌換券等更多好康！</string>
     <string name="creator_program_insufficient_tokens_message">代幣不足，無法兌換獎勵。</string>
     <string name="creator_program_insufficient_tokens_title">代幣不足</string>
-    <string name="creator_program_reward_alight_title">Gold Motion 專業版訂閱</string>
-    <string name="creator_program_reward_alight_title_short">Gold Motion 專業版</string>
+    <string name="creator_program_reward_alight_title">Uncensored Motion 專業版訂閱</string>
+    <string name="creator_program_reward_alight_title_short">Uncensored Motion 專業版</string>
     <string name="creator_program_reward_amazon_title">Amazon 禮品卡</string>
     <string name="creator_program_reward_amazon_website">Amazon 網站</string>
     <string name="creator_program_reward_amazon_website_description">請說明想從哪個網站領取禮品卡</string>
@@ -411,16 +411,16 @@ Follow My IG : pnkj
     <string name="creator_program_reward_phone_description">確認你的手機號碼已連接到 Tokopedia 和 GoPay 帳號。</string>
     <string name="creator_program_reward_phone_error">請輸入印尼的手機號碼</string>
     <string name="creator_program_reward_pop_up_CTA">立即加入</string>
-    <string name="creator_program_reward_pop_up_body_1">與好友和粉絲分享自己的 Gold Motion 模板，即可賺取代幣。使用代幣，即可兌換成購物兌換券或專業版訂閱！</string>
+    <string name="creator_program_reward_pop_up_body_1">與好友和粉絲分享自己的 Uncensored Motion 模板，即可賺取代幣。使用代幣，即可兌換成購物兌換券或專業版訂閱！</string>
     <string name="creator_program_reward_pop_up_body_2">"- 🤝 加入創作者計畫
-- 🎨 創造令人驚豔的 Gold Motion 模板
+- 🎨 創造令人驚豔的 Uncensored Motion 模板
 - 🔥 分享你的模板
 - 💯 當匯入模板時，即可賺取代幣
-- 🎁 將代幣兌換成購物兌換券或 Gold Motion 專業版"</string>
+- 🎁 將代幣兌換成購物兌換券或 Uncensored Motion 專業版"</string>
     <string name="creator_program_reward_pop_up_body_3">"- 💻 加入我們的創作者計畫
-- 🚀 分享自己的 Gold Motion 模板
+- 🚀 分享自己的 Uncensored Motion 模板
 - 💯 每名匯入你模板的使用者，都能賺取代幣
-- 🛒 將代幣兌換為購物券或 Gold Motion 專業版"</string>
+- 🛒 將代幣兌換為購物券或 Uncensored Motion 專業版"</string>
     <string name="creator_program_reward_pop_up_skip">略過</string>
     <string name="creator_program_reward_pop_up_title_1">建立、分享、賺取代幣！</string>
     <string name="creator_program_reward_pop_up_title_2">🎉 成為創作者 🎉</string>
@@ -435,7 +435,7 @@ Follow My IG : pnkj
     <string name="creator_program_start_button">開始賺取代幣</string>
     <string name="creator_program_status_claim_button">領取獎勵</string>
     <string name="creator_program_status_downloads_label">模板下載次數</string>
-    <string name="creator_program_status_subheading">分享創造力，並使用 Gold Motion 賺取獎勵吧！</string>
+    <string name="creator_program_status_subheading">分享創造力，並使用 Uncensored Motion 賺取獎勵吧！</string>
     <string name="creator_program_status_tokens_label">代幣</string>
     <string name="creator_program_suspend_subtitle">已暫時停用創作者計畫。感謝你的耐心等候。</string>
     <string name="creator_program_terms_and_policy_body">點選「接受並繼續」，即表示你接受{tos}創作者計畫的附加條款規定{/tos}，並承認已接獲我們的{pp}隱私權政策通知{/pp}。</string>
@@ -469,7 +469,7 @@ Follow My IG : pnkj
     <string name="creator_ranking_suspended_title">已暫時停用頂尖創作者排名。</string>
     <string name="creator_ranking_template_downloads">%1$d 模板下載次數</string>
     <string name="creator_ranking_terms_and_policy_body">點選「接受並繼續」，即表示你接受{tos}頂尖創作者排名的附加條款規定{/tos}，並承認已接獲{pp}隱私權政策通知{/pp}。</string>
-    <string name="creator_ranking_terms_and_policy_subtitle">分享精采模板，並晉升排名，成為頂尖創作者，得到數百萬名 Gold Motion 使用者的認可與讚賞！</string>
+    <string name="creator_ranking_terms_and_policy_subtitle">分享精采模板，並晉升排名，成為頂尖創作者，得到數百萬名 Uncensored Motion 使用者的認可與讚賞！</string>
     <string name="creator_ranking_title">優秀創作者排行榜</string>
     <string name="cretor_program_reward_home_feed_body">所有創作者注意！想為你的出色創作贏得獎勵嗎？加入我們的創作者計畫，開始分享模板，即可賺取代幣。你可以將代幣兌換成購物兌換卷，或是專業版訂閱。與世界分享你的才華，並靠技能賺取獎勵！</string>
     <string name="cretor_program_reward_home_feed_title">我們已展開創作者計畫！</string>
@@ -565,7 +565,7 @@ Follow My IG : pnkj
     <string name="download_existing_project_alert_title">此專案已儲存至本機</string>
     <string name="download_failed">下載失敗</string>
     <string name="download_failure_alert_body_generic">我們無法從雲端下載專案。請先檢查連線，再確認沒有從雲端刪除專案。</string>
-    <string name="download_failure_alert_body_scene">我們無法讀取此專案。請確定目前使用的是最新版本的 Gold Motion</string>
+    <string name="download_failure_alert_body_scene">我們無法讀取此專案。請確定目前使用的是最新版本的 Uncensored Motion</string>
     <string name="download_failure_alert_body_specs">此套裝包含一個以上的 %1$dx%2$d 影片檔，但此裝置僅支援以下編輯影片的容量，不能超過 %3$dp。</string>
     <string name="download_failure_alert_title">無法從雲端下載資料</string>
     <string name="download_in_progress_cta">取消下載</string>
@@ -1796,7 +1796,7 @@ Follow My IG : pnkj
     <string name="effectpreset_xray">X射線</string>
     <string name="effects">效果</string>
     <string name="element">元素</string>
-    <string name="element_create_err_title">MOD by pnkj</string>
+    <string name="element_create_err_title">Uncensored Open Source Edition</string>
     <string name="element_properties">元素屬性</string>
     <string name="element_resolution">元素解析度</string>
     <string name="elements_list_empty_state_second_row">建立元素</string>
@@ -2553,7 +2553,7 @@ Follow My IG : pnkj
     <string name="paywall_generic_error_alert_title">發生錯誤</string>
     <string name="paywall_monthly_label">每月</string>
     <string name="paywall_title">取得所有專業功能</string>
-    <string name="paywall_unavailable_status_alert_message_play_store">Gold Motion 無法確認你的會員狀態。請確認網路連線，並確保你已登入 Play 商店，或者稍後重試。</string>
+    <string name="paywall_unavailable_status_alert_message_play_store">Uncensored Motion 無法確認你的會員狀態。請確認網路連線，並確保你已登入 Play 商店，或者稍後重試。</string>
     <string name="paywall_unavailable_status_alert_title">無法確認會員狀態</string>
     <string name="paywall_weekly_label">每週</string>
     <string name="paywall_yearly_label">每年</string>
@@ -2630,7 +2630,7 @@ Follow My IG : pnkj
     <string name="proj_import_storage_error_explain">您的%1$s需要至少%2$s的可用存儲空間才能匯入此項目。</string>
     <string name="proj_import_storage_error_title">存儲空間不足</string>
     <string name="project">項目</string>
-    <string name="project_create_err_title">MOD by pnkj</string>
+    <string name="project_create_err_title">Uncensored Open Source Edition</string>
     <string name="project_element_create_err_size">請輸入32到4096之間的值。</string>
     <string name="project_list_empty_state_first_row">釋放想像力，</string>
     <string name="project_list_empty_state_second_row">建立專案</string>
@@ -2706,7 +2706,7 @@ Follow My IG : pnkj
     <string name="resolution_lock_alert_action_free_trial">開始免費試用</string>
     <string name="resolution_lock_alert_action_reduce_quality">以最佳免費品質匯出</string>
     <string name="resolution_lock_alert_action_reduce_quality_create">設置最佳免費質量</string>
-    <string name="resolution_lock_alert_body">指定匯出品質僅適用於 Gold Motion 會員。</string>
+    <string name="resolution_lock_alert_body">指定匯出品質僅適用於 Uncensored Motion 會員。</string>
     <string name="resolution_lock_alert_title">會員專屬的匯出品質</string>
     <string name="restore">恢復</string>
     <string name="retime_blank">空白</string>
@@ -2716,12 +2716,12 @@ Follow My IG : pnkj
     <string name="retime_stretch">拉伸</string>
     <string name="retiming">重新定時</string>
     <string name="retry">重試</string>
-    <string name="review_feedback_msg">我們非常關心用戶滿意度，您的回饋有助於我們改善Gold Motion。</string>
+    <string name="review_feedback_msg">我們非常關心用戶滿意度，您的回饋有助於我們改善Uncensored Motion。</string>
     <string name="review_feedback_title">您願意給我們回饋嗎？</string>
     <string name="review_popup_msg">"另外，您可以隨時通過support@alightcreative.com與我們聯絡。
 
 您能評價一下Gold Motion嗎？"</string>
-    <string name="review_popup_title">喜歡Gold Motion？</string>
+    <string name="review_popup_title">喜歡Uncensored Motion？</string>
     <string name="s1">儲存圖片</string>
     <string name="s2">要允許廣告將圖片儲存在相片庫中嗎？</string>
     <string name="s3">接受</string>
@@ -2767,7 +2767,7 @@ Follow My IG : pnkj
     <string name="set_retiming_in_mark">標記開頭部分的末尾</string>
     <string name="set_retiming_out_mark">標記末尾部分的開頭</string>
     <string name="set_thumbnail_frame">設定縮略圖框</string>
-    <string name="settings_legal_copyright_policy_button">MOD by pnkj</string>
+    <string name="settings_legal_copyright_policy_button">Uncensored Open Source Edition</string>
     <string name="shadow">陰影</string>
     <string name="shape">形狀</string>
     <string name="shape_arc">弧形</string>
@@ -2969,7 +2969,7 @@ Follow My IG : pnkj
     <string name="times_up_enjoy_now">時間快到了！馬上享受！</string>
     <string name="timing">定時</string>
     <string name="toggle_export_as_template">也會以模板格式匯出</string>
-    <string name="toggle_login_alert_body">必須先登入 Gold Motion 帳戶，才能分享模板</string>
+    <string name="toggle_login_alert_body">必須先登入 Uncensored Motion 帳戶，才能分享模板</string>
     <string name="tooltip_bookmark">點擊當前時間以創建書籤。長按查看其他選項。</string>
     <string name="tooltip_long_press_label">顯示工具提示</string>
     <string name="tooltip_mediabrowser">點擊此處更改相冊。</string>

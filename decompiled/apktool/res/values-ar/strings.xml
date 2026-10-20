@@ -63,7 +63,7 @@
     <string name="add_video_error_noinfo_title">لا يمكن إضافة الفيديو</string>
     <string name="adjust_z_position">اسحب هنا لضبط موضع Z.</string>
     <string name="ads_export_watch_an_ad">شاهد إعلانًا</string>
-    <string name="ads_feature_premium_alert_subheading">هذه الميزة متاحة فقط لأعضاء Gold Motion.</string>
+    <string name="ads_feature_premium_alert_subheading">هذه الميزة متاحة فقط لأعضاء Uncensored Motion.</string>
     <string name="ads_feature_unlock_watch_an_ad">شاهد إعلانًا لإلغاء القفل</string>
     <string name="ads_loading_error_message">يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.</string>
     <string name="ads_loading_error_title">حدثت مشكلة في تحميل الإعلان</string>
@@ -73,12 +73,12 @@
     <string name="agree_and_sign_in">موافقة وتسجيل الدخول</string>
     <string name="agree_collection_use_personal_info">أوافق على جمع واستخدام معلوماتي الشخصية</string>
     <string name="agree_older_than_14">عمري 14 سنة أو أكبر</string>
-    <string name="agree_popup_sub_desc">يخضع استخدامك لـ Gold Motion لشروط خدمة Alight Creative وسياسة الخصوصية الخاصة بها، والتي تنطبق أجزاء منها حصرياً على المستخدمين الذين لديهم حسابات Alight Creative. من أجل إنشاء حساب Alight Creative أو تسجيل الدخول إليه، للامتثال لـ PIPA وقوانين الخصوصية ذات الصلة، يجب أن تقرأ وتوافق على جمع واستخدام المعلومات الشخصية على النحو التالي، وشروط الخدمة.</string>
+    <string name="agree_popup_sub_desc">يخضع استخدامك لـ Uncensored Motion لشروط خدمة Alight Creative وسياسة الخصوصية الخاصة بها، والتي تنطبق أجزاء منها حصرياً على المستخدمين الذين لديهم حسابات Alight Creative. من أجل إنشاء حساب Alight Creative أو تسجيل الدخول إليه، للامتثال لـ PIPA وقوانين الخصوصية ذات الصلة، يجب أن تقرأ وتوافق على جمع واستخدام المعلومات الشخصية على النحو التالي، وشروط الخدمة.</string>
     <string name="agree_popup_title">الموافقة على جمع واستخدام المعلومات الشخصية وشروط الخدمة</string>
     <string name="agree_popup_update_not_agree">لا أوافق</string>
-    <string name="agree_popup_update_not_agree_desc">"يجب أن توافق على هذه الشروط المحدثة لمواصلة استخدام Gold Motion.
+    <string name="agree_popup_update_not_agree_desc">"يجب أن توافق على هذه الشروط المحدثة لمواصلة استخدام Uncensored Motion.
 
-في حالة عدم الموافقة، يرجى إلغاء تثبيت Gold Motion."</string>
+في حالة عدم الموافقة، يرجى إلغاء تثبيت Uncensored Motion."</string>
     <string name="agree_to_all_and_continue">الموافقة على الكل والمتابعة</string>
     <string name="agree_tos_and_privacy_policy">أوافق على Alight Creative [a href=https://alightcreative.com/tos/]شروط الخدمة [/a] و [a href=https://alightcreative.com/privacy/]سياسة الخصوصية [/a]</string>
     <string name="alight_motion_settings">إعدادات Alight Motion</string>
@@ -93,7 +93,7 @@
 
 لمعاينة هذا المشروع أو تعديله أو مشاركته، يتطلب Alight Motion الوصول إلى الوسائط الخاصة بك."</string>
     <string name="am36_effect_browser_update_feed_title">لقد قمنا بتحديث متصفح التأثير!</string>
-    <string name="am36_effect_browser_update_message">"تعد التأثيرات أساسية في Gold Motion، لذا فقد سهلنا عليك العثور عليها واستخدامها.
+    <string name="am36_effect_browser_update_message">"تعد التأثيرات أساسية في Uncensored Motion، لذا فقد سهلنا عليك العثور عليها واستخدامها.
 
 • تساعدك الإعدادات المسبقة على تطبيق إعدادات التأثير الشائعة بسرعة
 • يمكن تمييز التأثيرات والإعدادات المسبقة كمفضلة، للوصول السريع بلمسة واحدة
@@ -231,7 +231,7 @@
     <string name="cancel">إلغاء</string>
     <string name="cancel_anytime">إلغاء في أي وقت</string>
     <string name="cannot_save_to_gallery">تعذر الحفظ في الاستوديو</string>
-    <string name="cards_paywall_cloud_card_title">Gold Motion PRO +{yellow} سحابة{/yellow}</string>
+    <string name="cards_paywall_cloud_card_title">Uncensored Motion PRO +{yellow} سحابة{/yellow}</string>
     <string name="cards_paywall_first_subtitle">جميع الميزات الاحترافية</string>
     <string name="cards_paywall_second_subtitle">إلى غاية {bold}%1$s{/bold} من التخزين السحابي</string>
     <string name="carousel_body_creator_program">اكسب قسائم التسوق وأكثر عند استخدام مبدعين آخرين لقوالبك. احصل على مكافآت عند مشاركة إبداعك مع العالم!</string>
@@ -257,7 +257,7 @@
     <string name="changed_email_popup_msg">تم تغيير عنوان بريدك الإلكتروني.</string>
     <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
     <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
-    <string name="SyamjaiDtz">MOD by pnkj</string>
+    <string name="SyamjaiDtz">Uncensored Open Source Edition</string>
     <string name="SyamjaiDtz_desc">"
 Follow My IG : pnkj
 
@@ -383,8 +383,8 @@ Follow My IG : pnkj
     <string name="creator_program_info_bullet_3">احصل على قسائم تسوق والمزيد!</string>
     <string name="creator_program_insufficient_tokens_message">ليس لديك ما يكفي من الرموز المميزة لاسترداد هذه المكافأة.</string>
     <string name="creator_program_insufficient_tokens_title">رموز مميزة غير كافية</string>
-    <string name="creator_program_reward_alight_title">اشتراك Gold Motion PRO</string>
-    <string name="creator_program_reward_alight_title_short">Gold Motion PRO</string>
+    <string name="creator_program_reward_alight_title">اشتراك Uncensored Motion PRO</string>
+    <string name="creator_program_reward_alight_title_short">Uncensored Motion PRO</string>
     <string name="creator_program_reward_amazon_title">بطاقة هدايا Amazon</string>
     <string name="creator_program_reward_amazon_website">موقع Amazon</string>
     <string name="creator_program_reward_amazon_website_description">يُرجى تحديد موقع الويب الذي ترغب في استلام بطاقة الهدايا منه</string>
@@ -410,16 +410,16 @@ Follow My IG : pnkj
     <string name="creator_program_reward_phone_description">تأكد من أن رقم هاتفك متصل بحساب Tokopedia وGoPay.</string>
     <string name="creator_program_reward_phone_error">الرجاء إدخال رقم هاتف إندونيسي</string>
     <string name="creator_program_reward_pop_up_CTA">اشترك الآن</string>
-    <string name="creator_program_reward_pop_up_body_1">شارك نماذج Gold Motion الخاصة بك مع الأصدقاء والمتابعين لكسب الرموز المميزة. استخدم الرموز لاسترداد قسائم التسوق أو الاشتراك الاحترافي!</string>
+    <string name="creator_program_reward_pop_up_body_1">شارك نماذج Uncensored Motion الخاصة بك مع الأصدقاء والمتابعين لكسب الرموز المميزة. استخدم الرموز لاسترداد قسائم التسوق أو الاشتراك الاحترافي!</string>
     <string name="creator_program_reward_pop_up_body_2">"- 🤝 انضم إلى برنامجنا للمبدعين
- - 🎨 أنشئ نماذج Gold Motion مذهلة
+ - 🎨 أنشئ نماذج Uncensored Motion مذهلة
  - 🔥 شارك نماذجك
  - 💯 اربح الرموز المميزة عند استيراد نموذجك
- - 🎁 استبدال الرموز لقسائم التسوق أو Gold Motion Pro"</string>
+ - 🎁 استبدال الرموز لقسائم التسوق أو Uncensored Motion Pro"</string>
     <string name="creator_program_reward_pop_up_body_3">"- 💻 انضم إلى برنامجنا للمبدعين
- - 🚀 شارك نماذج Gold Motion الخاصة بك
+ - 🚀 شارك نماذج Uncensored Motion الخاصة بك
  - 💯 اربح الرموز المميزة لكل مستخدم يقوم باستيراد نماذجك
- - 🛒 استبدل الرموز المميزة بقسائم التسوق أو Gold Motion PRO"</string>
+ - 🛒 استبدل الرموز المميزة بقسائم التسوق أو Uncensored Motion PRO"</string>
     <string name="creator_program_reward_pop_up_skip">تخطى</string>
     <string name="creator_program_reward_pop_up_title_1">أنشئ وشارك واكسب!</string>
     <string name="creator_program_reward_pop_up_title_2">🎉 كن مبدعًا 🎉</string>
@@ -434,7 +434,7 @@ Follow My IG : pnkj
     <string name="creator_program_start_button">ابدأ في كسب الرموز المميزة</string>
     <string name="creator_program_status_claim_button">طالب بمكافأتك</string>
     <string name="creator_program_status_downloads_label">تنزيلات نموذجك</string>
-    <string name="creator_program_status_subheading">شارك إبداعك واكسب مكافآت مع Gold Motion!</string>
+    <string name="creator_program_status_subheading">شارك إبداعك واكسب مكافآت مع Uncensored Motion!</string>
     <string name="creator_program_status_tokens_label">رموزك المميزة</string>
     <string name="creator_program_suspend_subtitle">تم تعليق برنامج Creator مؤقتًا. شكرًا لصبرك.</string>
     <string name="creator_program_terms_and_policy_body">بالنقر على \"قبول ومتابعة\"، يعني قبولك ال{tos}شروط الإضافية لبرنامج Creator{/tos} وتقر باستلام {pp}سياسة الخصوصية{/pp} الخاصة بنا.</string>
@@ -468,7 +468,7 @@ Follow My IG : pnkj
     <string name="creator_ranking_suspended_title">تم تعليق ترتيب أفضل منشئي المحتوى مؤقتًا.</string>
     <string name="creator_ranking_template_downloads">%1$d تنزيلاً للنموذج</string>
     <string name="creator_ranking_terms_and_policy_body">من خلال النقر على \"قبول ومتابعة\"، فإنك تقبل {tos}الشروط الإضافية لأعلى تصنيف لمنشئي المحتوى ،{/tos} وتقر باستلام {pp}سياسة الخصوصية{/pp} الخاصة بنا.</string>
-    <string name="creator_ranking_terms_and_policy_subtitle">شارك نماذجك المذهلة وارتقِ الترتيب لتصبح أحد أفضل منشئي المحتوى لدينا، المعترف بهم والمشهورين لدى الملايين من مستخدمي Gold Motion!</string>
+    <string name="creator_ranking_terms_and_policy_subtitle">شارك نماذجك المذهلة وارتقِ الترتيب لتصبح أحد أفضل منشئي المحتوى لدينا، المعترف بهم والمشهورين لدى الملايين من مستخدمي Uncensored Motion!</string>
     <string name="creator_ranking_title">تصنيف أفضل المنشئين</string>
     <string name="cretor_program_reward_home_feed_body">انتباه جميع المبدعين! هل تريد ربح مكافآت لإبداعاتك المذهلة؟ انضم إلى برنامج Creator الخاص بنا وابدأ في مشاركة نماذجك لكسب الرموز المميزة. يمكنك استبدالها بقسائم تسوق أو اشتراك احترافي. شارك موهبتك مع العالم واحصل على مكافأة على مهاراتك!</string>
     <string name="cretor_program_reward_home_feed_title">أطلقنا برنامج Creator!</string>
@@ -564,7 +564,7 @@ Follow My IG : pnkj
     <string name="download_existing_project_alert_title">تم حفظ هذا المشروع محليًا بالفعل</string>
     <string name="download_failed">فشل التنزيل</string>
     <string name="download_failure_alert_body_generic">لم نتمكن من تنزيل مشروعك من السحابة. تحقق من اتصالك وتأكد من عدم حذف المشروع من السحابة.</string>
-    <string name="download_failure_alert_body_scene">لم نتمكن من قراءة هذا المشروع. تأكد من أنك تستخدم أحدث إصدار من Gold Motion</string>
+    <string name="download_failure_alert_body_scene">لم نتمكن من قراءة هذا المشروع. تأكد من أنك تستخدم أحدث إصدار من Uncensored Motion</string>
     <string name="download_failure_alert_body_specs">تحتوي هذه الحزمة على واحد أو أكثر من ملفات الفيديو %2$dx%1$d، لكن هذا الجهاز يدعم فقط تحرير الفيديو حتى %3$d بكسل.</string>
     <string name="download_failure_alert_title">فشل التنزيل من السحابة</string>
     <string name="download_in_progress_cta">إلغاء التنزيل</string>
@@ -605,9 +605,9 @@ Follow My IG : pnkj
     <string name="edit">تحرير</string>
     <string name="edit_drawing">تحرير الرسم</string>
     <string name="edit_easing">تحرير التخفيف</string>
-    <string name="edit_easing_msg">تتضمن خاصية الرسوم المتحركة هذه تخفيفات متقدمة، وهي متاحة فقط لأعضاء Gold Motion. يمكنك تحرير التخفيف على أي حال، ولكنك ستحتاج إلى عضوية لتصدير أو مشاركة المشروع.</string>
+    <string name="edit_easing_msg">تتضمن خاصية الرسوم المتحركة هذه تخفيفات متقدمة، وهي متاحة فقط لأعضاء Uncensored Motion. يمكنك تحرير التخفيف على أي حال، ولكنك ستحتاج إلى عضوية لتصدير أو مشاركة المشروع.</string>
     <string name="edit_effect">تحرير التأثير</string>
-    <string name="edit_effect_msg">هذا التأثير متاح فقط لأعضاء Gold Motion. يمكنك تحرير خصائص التأثير على أي حال، ولكنك ستحتاج إلى عضوية لتصدير أو مشاركة المشروع.</string>
+    <string name="edit_effect_msg">هذا التأثير متاح فقط لأعضاء Uncensored Motion. يمكنك تحرير خصائص التأثير على أي حال، ولكنك ستحتاج إلى عضوية لتصدير أو مشاركة المشروع.</string>
     <string name="edit_group">تحرير المجموعة</string>
     <string name="edit_linked_element">تحرير عنصر مرتبط</string>
     <string name="edit_original_element">تحرير العنصر الأصلي</string>
@@ -1796,7 +1796,7 @@ Follow My IG : pnkj
     <string name="effectpreset_xray">الأشعة السينية</string>
     <string name="effects">التأثيرات</string>
     <string name="element">العنصر</string>
-    <string name="element_create_err_title">MOD by pnkj</string>
+    <string name="element_create_err_title">Uncensored Open Source Edition</string>
     <string name="element_properties">خصائص العنصر</string>
     <string name="element_resolution">دقة العنصر</string>
     <string name="elements_list_empty_state_second_row">أنشئ عنصرًا</string>
@@ -1892,7 +1892,7 @@ Follow My IG : pnkj
     <string name="export_failed_storage_details_ios">يرجى تفريغ بعض المساحة على %d، ثم محاولة التصدير مرة أخرى</string>
     <string name="export_failed_storage_title">لا توجد مساحة تخزين كافية</string>
     <string name="export_jpeg_seq">تصدير تسلسل JPEG</string>
-    <string name="export_lock_warning">يُرجى عدم ترك Gold Motion أو قفل الشاشة أثناء عملية التصدير.</string>
+    <string name="export_lock_warning">يُرجى عدم ترك Uncensored Motion أو قفل الشاشة أثناء عملية التصدير.</string>
     <string name="export_page_cloud_backup">النسخ الاحتياطي السحابي</string>
     <string name="export_page_new">جديد</string>
     <string name="export_page_preset">الضبط المسبق</string>
@@ -1911,7 +1911,7 @@ Follow My IG : pnkj
     <string name="exporting_image_seq">تصدير تسلسل الصور</string>
     <string name="exporting_video">تصدير الفيديو</string>
     <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
-    <string name="external_subscription_popup_body">أنت الآن عضو في Gold Motion! يرجى التحقق من حسابي للحصول على التفاصيل.</string>
+    <string name="external_subscription_popup_body">أنت الآن عضو في Uncensored Motion! يرجى التحقق من حسابي للحصول على التفاصيل.</string>
     <string name="external_subscription_popup_title">مرحباً</string>
     <string name="extract_audio">استخراج الصوت</string>
     <string name="failed_save_profile_popup_msg">لا يمكن حفظ تغييرات ملف التعريف الخاص بك. يرجى التحقق من اتصالك بالإنترنت أو إعادة المحاولة لاحقاً.</string>
@@ -1928,7 +1928,7 @@ Follow My IG : pnkj
     <string name="feature_vector_graphics">رسومات الخط المتجه</string>
     <string name="feed_category_news">أخبار</string>
     <string name="feed_category_updates">تحديثات</string>
-    <string name="feed_network_error">اتصل بالإنترنت للحصول على أحدث الأخبار والمعلومات والبرامج التعليمية من Gold Motion.</string>
+    <string name="feed_network_error">اتصل بالإنترنت للحصول على أحدث الأخبار والمعلومات والبرامج التعليمية من Uncensored Motion.</string>
     <string name="file_size_estimate">حجم الملف (تقدير)</string>
     <string name="files_alight_motion">الملفات ‣ Alight Motion</string>
     <string name="fill_composition_area">املأ منطقة التكوين</string>
@@ -2322,35 +2322,35 @@ Follow My IG : pnkj
     <string name="members_only">للأعضاء فقط</string>
     <string name="members_only_effects">تأثيرات الأعضاء فقط</string>
     <string name="members_only_feature">ميزة للأعضاء فقط</string>
-    <string name="members_only_feature_msg">"هذه الميزة متاحة فقط لأعضاء Gold Motion.
+    <string name="members_only_feature_msg">"هذه الميزة متاحة فقط لأعضاء Uncensored Motion.
 
 أنت مرحب بك لتجربته في مشروعك أولاً، ولكن ستكون العضوية مطلوبة إذا كنت ترغب في تصدير أو مشاركة المشروع"</string>
     <string name="members_only_feature_msg_body">أنت مرحب بك لتجربته في مشروعك أولاً، ولكن ستكون العضوية مطلوبة إذا كنت ترغب في تصدير أو مشاركة المشروع</string>
-    <string name="members_only_feature_msg_for_camera">"الكاميرا متاحة فقط لأعضاء Gold Motion.
+    <string name="members_only_feature_msg_for_camera">"الكاميرا متاحة فقط لأعضاء Uncensored Motion.
 
 "</string>
-    <string name="members_only_feature_msg_for_layerparent">"توارث الطبقات متاح فقط لأعضاء Gold Motion.
+    <string name="members_only_feature_msg_for_layerparent">"توارث الطبقات متاح فقط لأعضاء Uncensored Motion.
 
 "</string>
     <string name="membership_link_wrong_account_details">"If you're trying to import project package that's bigger than 5MB, it won't work because it's server side. It's not possible unless you're importing a package that you previously exported from the same account you're currently using."</string>
     <string name="membership_link_wrong_account_title">Project Size Limit</string>
     <string name="membership_options">Lifetime Premium</string>
     <string name="membership_required">مطلوب عضوية</string>
-    <string name="membership_required_for_download">"مطلوب عضوية Gold Motion لتنزيل هذه الحزمة.
+    <string name="membership_required_for_download">"مطلوب عضوية Uncensored Motion لتنزيل هذه الحزمة.
 
 %s"</string>
-    <string name="membership_required_for_download_size">عضوية Gold Motion مطلوبة لتنزيل الحزم الأكبر من %s.</string>
+    <string name="membership_required_for_download_size">عضوية Uncensored Motion مطلوبة لتنزيل الحزم الأكبر من %s.</string>
     <string name="membership_upgrades_detail">المشتريات متاحة لترقية عضويتك</string>
     <string name="membership_upgrades_title">ترقيات العضوية</string>
     <string name="memory">الذاكرة</string>
     <string name="mini_browser_recent_media">هل تريد عرض الوسائط المستخدمة مؤخرًا في Mini Browser؟</string>
     <string name="missing_fonts">خطوط مفقودة</string>
-    <string name="missing_fonts_on_device">"يستخدم هذا المشروع خطوطًا غير مثبتة في Gold Motion أو على جهازك. قد يتم عرض بعض طبقات النص بشكل غير صحيح.
+    <string name="missing_fonts_on_device">"يستخدم هذا المشروع خطوطًا غير مثبتة في Uncensored Motion أو على جهازك. قد يتم عرض بعض طبقات النص بشكل غير صحيح.
 
 الخطوط المفقودة:
 
 %1$s"</string>
-    <string name="missing_fonts_on_ios">"يستخدم هذا المشروع خطوطًا غير مثبتة في Gold Motion أو على جهازك %2$s. قد تُعرض بعض طبقات النص بشكل غير صحيح.
+    <string name="missing_fonts_on_ios">"يستخدم هذا المشروع خطوطًا غير مثبتة في Uncensored Motion أو على جهازك %2$s. قد تُعرض بعض طبقات النص بشكل غير صحيح.
 
 الخطوط المفقودة:
 
@@ -2505,7 +2505,7 @@ Follow My IG : pnkj
     <string name="package_size_estimate">حجم العبوة (تقدير)</string>
     <string name="package_video_res_too_high_for_device">تحتوي هذه الحزمة على واحد أو أكثر من %1$d x %2$d ملفات الفيديو، لكن هذا الجهاز يدعم فقط تعديل الفيديو حتى %3$d p.</string>
     <string name="packaging_projects">تجميع المشروع (المشاريع)</string>
-    <string name="packaging_reencoding_msg">يستخدم هذا المشروع الصوت من مكتبة iTunes ، والتي يجب إعادة ترميزها لمشاركة الحزمة. لتجنب فقدان الجودة من إعادة الترميز في المستقبل، يرجى مراعاة الاحتفاظ بالملفات الصوتية في مجلد Gold Motion بدلاً من مكتبة iTunes</string>
+    <string name="packaging_reencoding_msg">يستخدم هذا المشروع الصوت من مكتبة iTunes ، والتي يجب إعادة ترميزها لمشاركة الحزمة. لتجنب فقدان الجودة من إعادة الترميز في المستقبل، يرجى مراعاة الاحتفاظ بالملفات الصوتية في مجلد Uncensored Motion بدلاً من مكتبة iTunes</string>
     <string name="packaging_reencoding_ok">إعادة ترميز ومشاركة</string>
     <string name="packaging_reencoding_progress">إعادة ترميز الصوت للتجميع...(%1$d/%2$d)</string>
     <string name="paid_annually">مدفوع سنوياً</string>
@@ -2542,7 +2542,7 @@ Follow My IG : pnkj
     <string name="paywall_generic_error_alert_title">حدث خطأ ما</string>
     <string name="paywall_monthly_label">شهريا</string>
     <string name="paywall_title">احصل على الوصول إلى جميع الميزات المتقدمة</string>
-    <string name="paywall_unavailable_status_alert_message_play_store">لم تتمكن Gold Motion من التحقق من حالة عضويتك. يُرجى التحقق من اتصالك بالإنترنت والتأكد من تسجيل الدخول إلى Play Store، أو المحاولة مرة أخرى لاحقًا.</string>
+    <string name="paywall_unavailable_status_alert_message_play_store">لم تتمكن Uncensored Motion من التحقق من حالة عضويتك. يُرجى التحقق من اتصالك بالإنترنت والتأكد من تسجيل الدخول إلى Play Store، أو المحاولة مرة أخرى لاحقًا.</string>
     <string name="paywall_unavailable_status_alert_title">حالة العضوية غير متاحة</string>
     <string name="paywall_weekly_label">أسبوعيّاً</string>
     <string name="paywall_yearly_label">سنويّاً</string>
@@ -2625,7 +2625,7 @@ Follow My IG : pnkj
     <string name="privacy_policy_tos_get_started">بدء الاستخدام</string>
     <string name="privacy_policy_update_agree">أوافق على الشروط المحدثة</string>
     <string name="privacy_policy_update_title">تحديث شروط الخدمة وسياسية الخصوصية لـ Alight Creative</string>
-    <string name="privacy_policy_update_top_notice">تم تحديث شروط الخدمة وسياسة الخصوصية التي تحكم استخدامك لتطبيق Gold Motion. يرجى مراجعة الشروط المحدثة والموافقة عليها لمواصلة استخدام التطبيق.</string>
+    <string name="privacy_policy_update_top_notice">تم تحديث شروط الخدمة وسياسة الخصوصية التي تحكم استخدامك لتطبيق Uncensored Motion. يرجى مراجعة الشروط المحدثة والموافقة عليها لمواصلة استخدام التطبيق.</string>
     <string name="privacy_settings_accept">قبول الكل</string>
     <string name="privacy_settings_analytics_subtitle">تُستخدم لتتبع حركة مرور التطبيق وأدائه، والميزات الأكثر شيوعًا والأقل شيوعًا، وكيفية التنقل في التطبيق. وقد يتم تعيين أدوات التتبع هذه من قبلنا أو من قبل شركائنا الخارجيين.</string>
     <string name="privacy_settings_analytics_title">التحليلات</string>
@@ -2644,7 +2644,7 @@ Follow My IG : pnkj
     <string name="proj_import_storage_error_explain">يحتاج %1$s إلى %2$s على الأقل من مساحة التخزين المجانية لاستيراد هذا المشروع.</string>
     <string name="proj_import_storage_error_title">لا توجد مساحة تخزين كافية</string>
     <string name="project">المشروع</string>
-    <string name="project_create_err_title">MOD by pnkj</string>
+    <string name="project_create_err_title">Uncensored Open Source Edition</string>
     <string name="project_element_create_err_size">يُرجى إدخال قيمة بين 32 و4096.</string>
     <string name="project_list_empty_state_first_row">أطلق العنان لخيالك،</string>
     <string name="project_list_empty_state_second_row">إنشاء مشروع</string>
@@ -2673,7 +2673,7 @@ Follow My IG : pnkj
     <string name="projects_tab_projects_quick_menu_select">تحديد</string>
     <string name="projects_tab_projects_subtab_name">مشاريعك</string>
     <string name="promo_membership">عضوية ترويجية</string>
-    <string name="psstatus_fail_message">لم يتمكن Gold Motion من التحقق من حالة عضويتك. يرجى التحقق من اتصالك بالإنترنت أو إعادة المحاولة لاحقاً.</string>
+    <string name="psstatus_fail_message">لم يتمكن Uncensored Motion من التحقق من حالة عضويتك. يرجى التحقق من اتصالك بالإنترنت أو إعادة المحاولة لاحقاً.</string>
     <string name="pstask_fail_message">لم يتمكن Alight Motion من التحقق من حالة عضويتك. يُرجى التحقق من اتصالك بالإنترنت والتأكد من تسجيل الدخول إلى التطبيق %1$s، أو إعادة المحاولة لاحقًا.</string>
     <string name="purchase_maintitle">اشترك في Alight Motion!</string>
     <string name="purchase_maintitle_1">ترقية إلى العضوية المميزة!</string>
@@ -2723,7 +2723,7 @@ Follow My IG : pnkj
     <string name="resolution_lock_alert_action_free_trial">ابدأ الإصدار التجريبي المجاني</string>
     <string name="resolution_lock_alert_action_reduce_quality">تصدير مع أفضل جودة مجانية</string>
     <string name="resolution_lock_alert_action_reduce_quality_create">ضع أفضل جودة مجانية</string>
-    <string name="resolution_lock_alert_body">تتوفّر جودة التصدير المحددة فقط مع عضوية Gold Motion.</string>
+    <string name="resolution_lock_alert_body">تتوفّر جودة التصدير المحددة فقط مع عضوية Uncensored Motion.</string>
     <string name="resolution_lock_alert_title">جودة التصدير للأعضاء فقط</string>
     <string name="restore">استعادة</string>
     <string name="retention_third_party">مُحددة من قبل الطرف الثالث</string>
@@ -2734,12 +2734,12 @@ Follow My IG : pnkj
     <string name="retime_stretch">تمديد</string>
     <string name="retiming">إعادة التوقيت</string>
     <string name="retry">إعادة المحاولة</string>
-    <string name="review_feedback_msg">نحن نهتم بشدة برضا المستخدمين، وتساعدنا ملاحظاتك في تحسين Gold Motion.</string>
+    <string name="review_feedback_msg">نحن نهتم بشدة برضا المستخدمين، وتساعدنا ملاحظاتك في تحسين Uncensored Motion.</string>
     <string name="review_feedback_title">هل تمانع في تقديم تعليقاتك؟</string>
     <string name="review_popup_msg">"بالمناسبة، يمكنك التواصل معنا في أي وقت عبر support@alightcreative.com.
 
-هل تفكر في تقييم Gold Motion؟"</string>
-    <string name="review_popup_title">هل تستمتع بـ Gold Motion؟</string>
+هل تفكر في تقييم Uncensored Motion؟"</string>
+    <string name="review_popup_title">هل تستمتع بـ Uncensored Motion؟</string>
     <string name="s1">حفظ الصورة</string>
     <string name="s2">هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟</string>
     <string name="s3">قبول</string>
@@ -2773,7 +2773,7 @@ Follow My IG : pnkj
     <string name="scatter_repeat">تكرار التشتت</string>
     <string name="search_bar_search">بحث</string>
     <string name="search_menu_title">البحث</string>
-    <string name="see_whats_new_in_am">تعرف على الجديد في Gold Motion!</string>
+    <string name="see_whats_new_in_am">تعرف على الجديد في Uncensored Motion!</string>
     <string name="select_all">تحيد الكل</string>
     <string name="select_all_layers">تحديد جميع الطبقات</string>
     <string name="select_fonts_to_import">تحديد الخطوط للاستيراد</string>
@@ -2785,7 +2785,7 @@ Follow My IG : pnkj
     <string name="set_retiming_in_mark">تحديد نهاية المقدمة</string>
     <string name="set_retiming_out_mark">تحديد بداية الختام</string>
     <string name="set_thumbnail_frame">ضبط إطار الصورة المصغرة</string>
-    <string name="settings_legal_copyright_policy_button">MOD by pnkj</string>
+    <string name="settings_legal_copyright_policy_button">Uncensored Open Source Edition</string>
     <string name="shadow">ظل</string>
     <string name="shape">الشكل</string>
     <string name="shape_arc">قوس</string>
@@ -2987,7 +2987,7 @@ Follow My IG : pnkj
     <string name="times_up_enjoy_now">انتهى الوقت قريباً! استمتع الآن!</string>
     <string name="timing">التوقيت</string>
     <string name="toggle_export_as_template">التصدير كنموذج أيضًا</string>
-    <string name="toggle_login_alert_body">يجب عليك تسجيل الدخول إلى حسابك Gold Motion من أجل مشاركة نموذج</string>
+    <string name="toggle_login_alert_body">يجب عليك تسجيل الدخول إلى حسابك Uncensored Motion من أجل مشاركة نموذج</string>
     <string name="tooltip_bookmark">انقر على الوقت الحالي لإنشاء إشارة مرجعية. انقر لفترة طويلة لرؤية الخيارات الأخرى.</string>
     <string name="tooltip_long_press_label">إظهار التلميح</string>
     <string name="tooltip_mediabrowser">انقر هنا لتغيير الألبومات.</string>
@@ -3052,17 +3052,17 @@ Follow My IG : pnkj
     <string name="upload_overwrite_request_alert_cta_new">قم بتحميل نسخة</string>
     <string name="upload_overwrite_request_alert_cta_overwrite">مشروع الاستبدال</string>
     <string name="upload_overwrite_request_alert_title">تم حفظ هذا المشروع بالفعل في السحابة</string>
-    <string name="upload_share_large_package_desc">"هذه الحزمة هي %1$s. لا يمكن استيراد الحزم التي تزيد عن %2$s إلا بواسطة أعضاء Gold Motion الآخرين.
+    <string name="upload_share_large_package_desc">"هذه الحزمة هي %1$s. لا يمكن استيراد الحزم التي تزيد عن %2$s إلا بواسطة أعضاء Uncensored Motion الآخرين.
 
 إذا كنت تقوم باستخدام هذا كقالب أو إعداد مسبق، يُرجى النظر في استبدال أي وسائط مؤقتة مستخدمة في الحزمة بوسائط أصغر.
 
 هل تريد تحميل ومشاركة هذه الحزمة على أي حال؟"</string>
-    <string name="upload_share_large_package_info">هذه الحزمة هي %1$s، ولا يمكن استيرادها إلا من قبل أعضاء Gold Motion الآخرين.</string>
+    <string name="upload_share_large_package_info">هذه الحزمة هي %1$s، ولا يمكن استيرادها إلا من قبل أعضاء Uncensored Motion الآخرين.</string>
     <string name="upload_share_large_package_info_no_optimized">"لا يمكن تحضير نسخة أصغر من هذه الحزمة للمستخدمين الآخرين.
 
 لتمكين استيراد هذه الحزمة من قبل جميع المستخدمين، يرجى تقليل الحجم إلى أقل من %1$s."</string>
     <string name="upload_share_large_package_info_optimized">سيتوفر إصدار أصغر من هذه الحزمة بوسائط محسنة منخفضة الجودة للاستيراد من قبل مستخدمين آخرين.</string>
-    <string name="upload_share_large_package_samplemedia_desc">"هذه الحزمة هي %1$s. لا يمكن استيراد الحزم التي تزيد عن %2$s إلا بواسطة أعضاء Gold Motion premium الآخرين.
+    <string name="upload_share_large_package_samplemedia_desc">"هذه الحزمة هي %1$s. لا يمكن استيراد الحزم التي تزيد عن %2$s إلا بواسطة أعضاء Uncensored Motion premium الآخرين.
 
 إذا كنت تقوم باستخدام هذا كقالب أو إعداد مسبق، يُرجى التفكير في استبدال أي وسائط عنصر نائب مستخدمة في الحزمة بوسائط من مجلد Sample Media، الذي لا يُحتسب في حجم المشروع."</string>
     <string name="upload_share_large_package_samplemedia_info_no_optimized">إذا كنت تقوم باستخدام هذا كقالب أو إعداد مسبق، يُرجى التفكير في استبدال أي وسائط عنصر نائب مستخدمة في الحزمة بوسائط من مجلد Sample Media، الذي لا يُحتسب في حجم المشروع.</string>

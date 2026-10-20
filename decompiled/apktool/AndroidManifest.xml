@@ -37,33 +37,8 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
     <permission android:name="com.uncensored.motion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
     <uses-permission android:name="com.uncensored.motion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
-    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:fullBackupContent="false" android:hardwareAccelerated="true" android:icon="@drawable/gold_motion_icon" android:label="Gold Motion" android:largeHeap="true" android:name="arm.EpicVm" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:roundIcon="@drawable/gold_motion_icon" android:supportsRtl="true" android:theme="@style/AppTheme.NoActionBar" android:usesCleartextTraffic="true">
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:fullBackupContent="false" android:hardwareAccelerated="true" android:icon="@drawable/uncensored_motion_icon" android:label="Uncensored Motion" android:largeHeap="true" android:name="arm.EpicVm" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:roundIcon="@drawable/uncensored_motion_icon" android:supportsRtl="true" android:theme="@style/AppTheme.NoActionBar" android:usesCleartextTraffic="true">
         <activity android:name="com.alightcreative.app.motion.activities.DeviceMismatchNoticeActivity"/>
-        <provider android:authorities="com.uncensored.motion.goldai.init" android:exported="false" android:initOrder="100" android:name="com.goldmotion.ai.GoldAiInitProvider"/>
-        <provider android:authorities="com.uncensored.motion.goldupdate.init" android:exported="false" android:initOrder="90" android:name="com.goldmotion.update.ForceUpdateInitProvider"/>
-        <provider android:authorities="com.uncensored.motion.customization.init" android:exported="false" android:initOrder="80" android:name="com.goldmotion.customize.CustomizationInitProvider"/>
-        <provider android:authorities="com.uncensored.motion.performance.init" android:exported="false" android:initOrder="70" android:name="com.goldmotion.performance.PerformanceInitProvider"/>
-        <activity android:exported="false" android:name="com.goldmotion.customize.CustomizationActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:exported="false" android:name="com.goldmotion.tools.ToolStudioActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:exported="false" android:name="com.goldmotion.tools.YtvdBridgeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:exported="false" android:name="com.goldmotion.tutorial.SafeTutorialActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.goldmotion.ai.GoldAiActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent" android:windowSoftInputMode="adjustResize"/>
-        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.goldmotion.share.XmlSaveActivity" android:theme="@style/Theme.Transparent"/>
-        <activity android:exported="true" android:name="com.goldmotion.share.RemoteImportActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="import" android:scheme="goldmotion"/>
-                <data android:host="import" android:scheme="intent"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="npsvzzmajpkdeztlbdde.supabase.co" android:pathPrefix="/goldmotion/import/" android:scheme="https"/>
-            </intent-filter>
-        </activity>
         <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false"/>
         <meta-data android:name="firebase_performance_collection_enabled" android:value="false"/>
         <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false"/>
@@ -71,14 +46,12 @@
         <meta-data android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT" android:value="true"/>
         <meta-data android:name="applovin.sdk.key" android:value="CP6wULIVzxoRdrEz130IlL7mRDBDktcW4qq0FhFvMkwPOoHmOdaAO3dQpT7kAA4MV8aUK7RLkNmWAzowzoVAtQ"/>
         <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
-        <activity android:exported="true" android:label="Gold Motion" android:name="com.goldmotion.startup.GoldStartupActivity" android:screenOrientation="portrait" android:theme="@style/Theme.App.Starting">
+        
+        <activity android:exported="true" android:label="Uncensored Motion" android:launchMode="singleTask" android:name="com.alightcreative.app.motion.activities.main.MainActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.MainScreen" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.goldmotion.startup.OnboardingDoneActivity" android:noHistory="true" android:theme="@style/AppTheme.MainScreen"/>
-        <activity android:exported="true" android:label="Gold Motion" android:launchMode="singleTask" android:name="com.alightcreative.app.motion.activities.main.MainActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.MainScreen" android:windowSoftInputMode="adjustResize">
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -90,7 +63,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="alight.to" android:scheme="goldmotion"/>
+                <data android:host="alight.to" android:scheme="uncensoredmotion"/>
             </intent-filter>
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW"/>
@@ -126,7 +99,7 @@
         </provider>
         <receiver android:name="com.alightcreative.share.ChooserResultReceiver"/>
         <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="Gold Motion" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="Uncensored Motion" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
         <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>

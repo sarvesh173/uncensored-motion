@@ -46,12 +46,12 @@
     <string name="agree_and_sign_in">Принять и войти</string>
     <string name="agree_collection_use_personal_info">Я соглашаюсь на сбор и использование моей личной информации</string>
     <string name="agree_older_than_14">Мне 14 лет и больше</string>
-    <string name="agree_popup_sub_desc">Использование вами Gold Motion регулируется Условиями обслуживания и Политикой конфиденциальности Alight Creative, некоторые части которых применимы исключительно к пользователям с учетными записями Alight Creative. Чтобы создать или войти в учетную запись Alight Creative согласно PIPA и соответствующим законам о конфиденциальности, вам нужно прочитать текст и дать согласие на сбор и использование личной информации, как указано ниже, а также на Условия обслуживания.</string>
+    <string name="agree_popup_sub_desc">Использование вами Uncensored Motion регулируется Условиями обслуживания и Политикой конфиденциальности Alight Creative, некоторые части которых применимы исключительно к пользователям с учетными записями Alight Creative. Чтобы создать или войти в учетную запись Alight Creative согласно PIPA и соответствующим законам о конфиденциальности, вам нужно прочитать текст и дать согласие на сбор и использование личной информации, как указано ниже, а также на Условия обслуживания.</string>
     <string name="agree_popup_title">Согласие на сбор и использование личной информации и условия обслуживания</string>
     <string name="agree_popup_update_not_agree">Я не соглашаюсь</string>
-    <string name="agree_popup_update_not_agree_desc">"Вам нужно согласиться с этими обновленными условиями, чтобы продолжить использование Gold Motion.
+    <string name="agree_popup_update_not_agree_desc">"Вам нужно согласиться с этими обновленными условиями, чтобы продолжить использование Uncensored Motion.
 
-Если вы не согласны, удалите Gold Motion."</string>
+Если вы не согласны, удалите Uncensored Motion."</string>
     <string name="agree_to_all_and_continue">Соглашаюсь со всем и продолжить</string>
     <string name="agree_tos_and_privacy_policy">Я соглашаюсь с Условиями обслуживания[a href=https://alightcreative.com/tos/]Alight Creative[/a] и [a href=https://alightcreative.com/privacy/]Политикой конфиденциальности[/a]</string>
     <string name="alight_motion_settings">Настройки Alight Motion</string>
@@ -66,7 +66,7 @@
 
 Для предварительного просмотра, редактирования и публикации этого проекта Alight Motion требуется доступ к медиафайлам."</string>
     <string name="am36_effect_browser_update_feed_title">Мы обновили Браузер эффектов!</string>
-    <string name="am36_effect_browser_update_message">"Эффекты занимают центральное место в Gold Motion, поэтому мы упростили их поиск и использование.
+    <string name="am36_effect_browser_update_message">"Эффекты занимают центральное место в Uncensored Motion, поэтому мы упростили их поиск и использование.
 
 • Предустановки помогут вам быстро применить общие настройки эффектов
 
@@ -190,7 +190,7 @@
     <string name="cancel">Отмена</string>
     <string name="cancel_anytime">Вы можете отменить в любое время.</string>
     <string name="cannot_save_to_gallery">Невозможно сохранить в галерее</string>
-    <string name="cards_paywall_cloud_card_title">Gold Motion PRO +{yellow} облако{/yellow}</string>
+    <string name="cards_paywall_cloud_card_title">Uncensored Motion PRO +{yellow} облако{/yellow}</string>
     <string name="cards_paywall_first_subtitle">Все функции Pro</string>
     <string name="cards_paywall_second_subtitle">До {bold}%1$s{/bold} места в облачном хранилище</string>
     <string name="carousel_body_creator_program">Получайте покупочные купоны и многое другое, когда другие создатели используют ваши шаблоны. Будьте вознаграждены за то, что делитесь своим творчеством с миром!</string>
@@ -214,7 +214,7 @@
     <string name="change_email_signin_popup_msg">Письмо с подтверждением отправлено на новый адрес электронной почты. Нажмите на ссылку в письме, чтобы завершить изменение.</string>
     <string name="change_profile_photo">Изменить фото профиля</string>
     <string name="changed_email_popup_msg">Ваш адрес электронной почты был изменен.</string>
-    <string name="SyamjaiDtz">MOD by pnkj</string>
+    <string name="SyamjaiDtz">Uncensored Open Source Edition</string>
     <string name="SyamjaiDtz_desc">"
 Follow My IG : pnkj
 
@@ -293,8 +293,8 @@ Follow My IG : pnkj
     <string name="creator_program_info_bullet_3">Получайте сертификаты для совершения покупок и многое другое!</string>
     <string name="creator_program_insufficient_tokens_message">У вас недостаточно токенов для получения этой награды.</string>
     <string name="creator_program_insufficient_tokens_title">Недостаточно токенов</string>
-    <string name="creator_program_reward_alight_title">Подписка на Gold Motion PRO</string>
-    <string name="creator_program_reward_alight_title_short">Gold Motion PRO</string>
+    <string name="creator_program_reward_alight_title">Подписка на Uncensored Motion PRO</string>
+    <string name="creator_program_reward_alight_title_short">Uncensored Motion PRO</string>
     <string name="creator_program_reward_amazon_title">Подарочная карта Amazon</string>
     <string name="creator_program_reward_amazon_website">Веб-сайт Amazon</string>
     <string name="creator_program_reward_amazon_website_description">Укажите веб-сайт, с которого вы хотели бы получить подарочную карту</string>
@@ -320,16 +320,16 @@ Follow My IG : pnkj
     <string name="creator_program_reward_phone_description">Ваш номер телефона должен быть привязан к аккаунту в Tokopedia и GoPay.</string>
     <string name="creator_program_reward_phone_error">Укажите индонезийский номер телефона</string>
     <string name="creator_program_reward_pop_up_CTA">Зарегистрируйтесь</string>
-    <string name="creator_program_reward_pop_up_body_1">Делитесь шаблонами Gold Motion с друзьями и подписчиками, чтобы зарабатывать токены. Обменивайте токены на сертификаты для совершения покупок или подписку на версию Pro!</string>
+    <string name="creator_program_reward_pop_up_body_1">Делитесь шаблонами Uncensored Motion с друзьями и подписчиками, чтобы зарабатывать токены. Обменивайте токены на сертификаты для совершения покупок или подписку на версию Pro!</string>
     <string name="creator_program_reward_pop_up_body_2">"- 🤝 Зарегистрируйтесь в Creator Program
-- 🎨 Создавайте потрясающие шаблоны Gold Motion
+- 🎨 Создавайте потрясающие шаблоны Uncensored Motion
 - 🔥 Делитесь шаблонами
 - 💯 Получайте токены за каждый импортированный шаблон
-- 🎁 Обменивайте токены на сертификаты для совершения покупок или версию Gold Motion Pro"</string>
+- 🎁 Обменивайте токены на сертификаты для совершения покупок или версию Uncensored Motion Pro"</string>
     <string name="creator_program_reward_pop_up_body_3">"- 💻 Зарегистрируйтесь в Creator Program
-- 🚀 Опубликуйте свои шаблоны Gold Motion
+- 🚀 Опубликуйте свои шаблоны Uncensored Motion
 - 💯 Получайте токены за каждого пользователя, импортирующего ваши шаблоны
-- 🛒 Обменивайте токены на сертификаты для совершения покупок или версию Gold Motion PRO"</string>
+- 🛒 Обменивайте токены на сертификаты для совершения покупок или версию Uncensored Motion PRO"</string>
     <string name="creator_program_reward_pop_up_skip">Пропустить</string>
     <string name="creator_program_reward_pop_up_title_1">Создавайте, делитесь и зарабатывайте!</string>
     <string name="creator_program_reward_pop_up_title_2">🎉 Станьте креатором 🎉</string>
@@ -344,7 +344,7 @@ Follow My IG : pnkj
     <string name="creator_program_start_button">Начните зарабатывать токены</string>
     <string name="creator_program_status_claim_button">Запросить награду</string>
     <string name="creator_program_status_downloads_label">Скачивания ваших шаблонов</string>
-    <string name="creator_program_status_subheading">Покажите свой талант и заработайте награды в Gold Motion!</string>
+    <string name="creator_program_status_subheading">Покажите свой талант и заработайте награды в Uncensored Motion!</string>
     <string name="creator_program_status_tokens_label">Ваши токены</string>
     <string name="creator_program_suspend_subtitle">Программа Creator Program временно приостановлена. Благодарим за терпение.</string>
     <string name="creator_program_terms_and_policy_body">Нажав «Принять и продолжить», вы подтверждаете свое согласие с {tos}дополнительными условиями участия в Creator Program{/tos} и ознакомление с нашей {pp}Политикой конфиденциальности{/pp}.</string>
@@ -378,7 +378,7 @@ Follow My IG : pnkj
     <string name="creator_ranking_suspended_title">Рейтинг лучших создателей временно приостановлен.</string>
     <string name="creator_ranking_template_downloads">Скачиваний шаблона: %1$d</string>
     <string name="creator_ranking_terms_and_policy_body">Нажав «Принять и продолжить», ты принимаешь {tos}Дополнительные условия участия в рейтинге лучших создателей{/tos} и подтверждаешь согласие с нашей {pp}Политикой конфиденциальности{/pp}.</string>
-    <string name="creator_ranking_terms_and_policy_subtitle">Делись своими потрясающими шаблонами и поднимайся в рейтинге, чтобы стать одним из лучших наших создателей, признанных и отмеченных миллионами пользователей Gold Motion!</string>
+    <string name="creator_ranking_terms_and_policy_subtitle">Делись своими потрясающими шаблонами и поднимайся в рейтинге, чтобы стать одним из лучших наших создателей, признанных и отмеченных миллионами пользователей Uncensored Motion!</string>
     <string name="creator_ranking_title">Рейтинг лучших создателей</string>
     <string name="cretor_program_reward_home_feed_body">Дорогие креаторы! Хотите получать награды за свои потрясающие работы? Зарегистрируйтесь в Creator Program и начните публиковать шаблоны, чтобы заработать токены. Их можно обменивать на сертификаты для совершения покупок или подписку на версию Pro. Покажите свой талант миру и получите награду за свои навыки!</string>
     <string name="cretor_program_reward_home_feed_title">Мы запустили Creator Program!</string>
@@ -440,7 +440,7 @@ Follow My IG : pnkj
     <string name="download_existing_project_alert_title">Проект уже сохранен на устройстве</string>
     <string name="download_failed">Не удалось выполнить скачивание</string>
     <string name="download_failure_alert_body_generic">Нам не удалось загрузить ваш проект из облака. Проверьте соединение и убедитесь, что проект не был оттуда удален.</string>
-    <string name="download_failure_alert_body_scene">Нам не удалось считать данные об этом проекте. Убедитесь, что вы используете последнюю версию Gold Motion.</string>
+    <string name="download_failure_alert_body_scene">Нам не удалось считать данные об этом проекте. Убедитесь, что вы используете последнюю версию Uncensored Motion.</string>
     <string name="download_failure_alert_body_specs">Этот пакет содержит один или несколько видеофайлов (%1$dx%2$d), но на вашем устройстве можно отредактировать не более %3$dp.</string>
     <string name="download_failure_alert_title">Загрузка из облака не удалась</string>
     <string name="download_in_progress_cta">Отменить скачивание</string>
@@ -480,9 +480,9 @@ Follow My IG : pnkj
     <string name="edit">Изменить</string>
     <string name="edit_drawing">Редактировать рисунок</string>
     <string name="edit_easing">Редактировать замедление</string>
-    <string name="edit_easing_msg">Анимация этого свойства включает расширенное замедление, которое доступно только для участников Gold Motion. В любом случае вы можете отредактировать замедление, но для экспорта или публикации вам нужен членский абонемент.</string>
+    <string name="edit_easing_msg">Анимация этого свойства включает расширенное замедление, которое доступно только для участников Uncensored Motion. В любом случае вы можете отредактировать замедление, но для экспорта или публикации вам нужен членский абонемент.</string>
     <string name="edit_effect">Изменить эффект</string>
-    <string name="edit_effect_msg">Этот эффект доступен только для участников Gold Motion. В любом случае вы можете редактировать свойства эффекта, но для экспорта или публикации проекта вам нужен членский абонемент.</string>
+    <string name="edit_effect_msg">Этот эффект доступен только для участников Uncensored Motion. В любом случае вы можете редактировать свойства эффекта, но для экспорта или публикации проекта вам нужен членский абонемент.</string>
     <string name="edit_group">Редактировать группу</string>
     <string name="edit_linked_element">Редактировать прикрепленный элемент</string>
     <string name="edit_original_element">Редактировать исходный элемент</string>
@@ -1670,7 +1670,7 @@ Follow My IG : pnkj
     <string name="effectpreset_xray">Рентген</string>
     <string name="effects">Эффекты</string>
     <string name="element">Элемент</string>
-    <string name="element_create_err_title">MOD by pnkj</string>
+    <string name="element_create_err_title">Uncensored Open Source Edition</string>
     <string name="element_properties">Свойства элемента</string>
     <string name="element_resolution">Разрешение элемента</string>
     <string name="elements_list_empty_state_second_row">создай элемент</string>
@@ -1712,7 +1712,7 @@ Follow My IG : pnkj
     <string name="export_failed_storage_details_ios">Освободите место на вашем %d, затем попробуйте повторить экспорт</string>
     <string name="export_failed_storage_title">Недостаточно места</string>
     <string name="export_jpeg_seq">Экспорт последовательности JPEG</string>
-    <string name="export_lock_warning">Пожалуйста, не покидайте Gold Motion и не выключайте экран во время экспорта.</string>
+    <string name="export_lock_warning">Пожалуйста, не покидайте Uncensored Motion и не выключайте экран во время экспорта.</string>
     <string name="export_page_cloud_backup">Облачное резервное копирование</string>
     <string name="export_page_new">НОВОЕ</string>
     <string name="export_page_preset">Предустановка</string>
@@ -1730,7 +1730,7 @@ Follow My IG : pnkj
     <string name="exporting_gif">Экспорт GIF</string>
     <string name="exporting_image_seq">Экспорт последовательности изображений</string>
     <string name="exporting_video">Экспорт видео</string>
-    <string name="external_subscription_popup_body">Теперь вы являетесь участником Gold Motion! Пожалуйста, обратитесь к экрану «Моя учетная запись» для получения подробной информации.</string>
+    <string name="external_subscription_popup_body">Теперь вы являетесь участником Uncensored Motion! Пожалуйста, обратитесь к экрану «Моя учетная запись» для получения подробной информации.</string>
     <string name="external_subscription_popup_title">Добро пожаловать</string>
     <string name="extract_audio">Извлечь аудио</string>
     <string name="failed_save_profile_popup_msg">Изменения вашего профиля не могут быть сохранены. Пожалуйста, проверьте подключение к Интернету или повторите попытку позже.</string>
@@ -1744,7 +1744,7 @@ Follow My IG : pnkj
     <string name="feature_vector_graphics">Векторная графика</string>
     <string name="feed_category_news">Новости</string>
     <string name="feed_category_updates">Обновления</string>
-    <string name="feed_network_error">Подключитесь к Интернету, чтобы получать последние новости, информацию и обучающие материалы Gold Motion.</string>
+    <string name="feed_network_error">Подключитесь к Интернету, чтобы получать последние новости, информацию и обучающие материалы Uncensored Motion.</string>
     <string name="file_size_estimate">Размер файла (прибл.)</string>
     <string name="files_alight_motion">Файлы ‣ Alight Motion</string>
     <string name="fill_composition_area">Заполнить область композиции</string>
@@ -2023,35 +2023,35 @@ Follow My IG : pnkj
     <string name="members_only">Только для членов</string>
     <string name="members_only_effects">Эффекты только для участников</string>
     <string name="members_only_feature">Функция только для членов</string>
-    <string name="members_only_feature_msg">"Эта функция доступна только для участников Gold Motion.
+    <string name="members_only_feature_msg">"Эта функция доступна только для участников Uncensored Motion.
 
 Вы можете сначала попробовать его в своем проекте, но если вы хотите экспортировать или поделиться проектом, вам нужно стать участником."</string>
     <string name="members_only_feature_msg_body">Вы можете сначала попробовать эту функцию в своем проекте, но если вы захотите экспортировать проект или поделиться им, вам нужно стать участником.</string>
-    <string name="members_only_feature_msg_for_camera">"Камера доступна только участникам Gold Motion.
+    <string name="members_only_feature_msg_for_camera">"Камера доступна только участникам Uncensored Motion.
 
 "</string>
-    <string name="members_only_feature_msg_for_layerparent">"Функция «Родительские слои» доступна только участникам Gold Motion.
+    <string name="members_only_feature_msg_for_layerparent">"Функция «Родительские слои» доступна только участникам Uncensored Motion.
 
 "</string>
     <string name="membership_link_wrong_account_details">"If you're trying to import project package that's bigger than 5MB, it won't work because it's server side. It's not possible unless you're importing a package that you previously exported from the same account you're currently using."</string>
     <string name="membership_link_wrong_account_title">Project Size Limit</string>
     <string name="membership_options">Lifetime Premium</string>
     <string name="membership_required">Требуется членство</string>
-    <string name="membership_required_for_download">"Для загрузки этого пакета требуется членство в Gold Motion.
+    <string name="membership_required_for_download">"Для загрузки этого пакета требуется членство в Uncensored Motion.
 
 %s"</string>
-    <string name="membership_required_for_download_size">Для загрузки пакетов размером более %s требуется членство в Gold Motion.</string>
+    <string name="membership_required_for_download_size">Для загрузки пакетов размером более %s требуется членство в Uncensored Motion.</string>
     <string name="membership_upgrades_detail">Доступны опции улучшения вашей подписки</string>
     <string name="membership_upgrades_title">Опции обновления</string>
     <string name="memory">Память</string>
     <string name="mini_browser_recent_media">Показывать недавно использованные медиафайлы в мини-браузере?</string>
     <string name="missing_fonts">Отсутствуют шрифты</string>
-    <string name="missing_fonts_on_device">"В этом проекте используются шрифты, которые не установлены в Gold Motion или на вашем устройстве. Некоторые текстовые слои могут отображаться некорректно.
+    <string name="missing_fonts_on_device">"В этом проекте используются шрифты, которые не установлены в Uncensored Motion или на вашем устройстве. Некоторые текстовые слои могут отображаться некорректно.
 
 Отсутствующие шрифты:
 
 %1$s"</string>
-    <string name="missing_fonts_on_ios">"В этом проекте используются шрифты, которые не установлены в Gold Motion или на вашем %2$s. Некоторые текстовые слои могут отображаться некорректно.
+    <string name="missing_fonts_on_ios">"В этом проекте используются шрифты, которые не установлены в Uncensored Motion или на вашем %2$s. Некоторые текстовые слои могут отображаться некорректно.
 
 Отсутствующие шрифты:
 
@@ -2165,7 +2165,7 @@ Follow My IG : pnkj
     <string name="package_size_estimate">Размер пакета (оценка)</string>
     <string name="package_video_res_too_high_for_device">Этот пакет содержит один или несколько видеофайлов размером %1$d x %2$d, но это устройство поддерживает только редактирование видео размером до %3$d п.</string>
     <string name="packaging_projects">Упаковочны(е) проект(ы)</string>
-    <string name="packaging_reencoding_msg">В этом проекте используется аудио из библиотеки iTunes, которое необходимо перекодировать для совместного использования пакетов. Сохраните аудиофайлов в папке Gold Motion, а не в библиотеке iTunes, чтобы избежать потери качества при перекодировании в будущем.</string>
+    <string name="packaging_reencoding_msg">В этом проекте используется аудио из библиотеки iTunes, которое необходимо перекодировать для совместного использования пакетов. Сохраните аудиофайлов в папке Uncensored Motion, а не в библиотеке iTunes, чтобы избежать потери качества при перекодировании в будущем.</string>
     <string name="packaging_reencoding_ok">Перекодировать и поделиться</string>
     <string name="packaging_reencoding_progress">Перекодирование аудио для упаковки...(%1$d/%2$d)</string>
     <string name="paid_annually">Оплачивается ежегодно</string>
@@ -2201,7 +2201,7 @@ Follow My IG : pnkj
     <string name="paywall_generic_error_alert_title">Что-то пошло не так</string>
     <string name="paywall_monthly_label">Ежемесячно</string>
     <string name="paywall_title">Получите доступ ко всем функциям Pro</string>
-    <string name="paywall_unavailable_status_alert_message_play_store">Gold Motion не удалось проверить твой статус подписки. Проверь подключение к Интернету и убедись, что вход в Play Store выполнен, или повтори попытку позже.</string>
+    <string name="paywall_unavailable_status_alert_message_play_store">Uncensored Motion не удалось проверить твой статус подписки. Проверь подключение к Интернету и убедись, что вход в Play Store выполнен, или повтори попытку позже.</string>
     <string name="paywall_unavailable_status_alert_title">Статус подписки недоступен</string>
     <string name="paywall_weekly_label">Еженедельно</string>
     <string name="paywall_yearly_label">Ежегодно</string>
@@ -2270,14 +2270,14 @@ Follow My IG : pnkj
     <string name="privacy_policy_tos_get_started">Приступим</string>
     <string name="privacy_policy_update_agree">Я согласен с обновленными условиями</string>
     <string name="privacy_policy_update_title">Обновление Политики конфиденциальности и Условий предоставления услуг Alight Creative</string>
-    <string name="privacy_policy_update_top_notice">Условия предоставления услуг и Политика конфиденциальности, регулирующие использование вами приложения Gold Motion, были обновлены. Ознакомьтесь и согласитесь с обновленными условиями, чтобы продолжить использование приложения.</string>
+    <string name="privacy_policy_update_top_notice">Условия предоставления услуг и Политика конфиденциальности, регулирующие использование вами приложения Uncensored Motion, были обновлены. Ознакомьтесь и согласитесь с обновленными условиями, чтобы продолжить использование приложения.</string>
     <string name="privacy_settings_title">Настройки конфиденциальности</string>
     <string name="proj_import_network_error_explain">Не удалось импортировать, потому что проект или элемент не может быть загружен. Пожалуйста, проверьте ваше сетевое соединение и попробуйте снова. (%1$s)</string>
     <string name="proj_import_network_error_title">Не удалось выполнить скачивание</string>
     <string name="proj_import_storage_error_explain">Вашему %1$s требуется как минимум %2$s свободного места для импорта этого проекта.</string>
     <string name="proj_import_storage_error_title">Недостаточно места</string>
     <string name="project">Проект</string>
-    <string name="project_create_err_title">MOD by pnkj</string>
+    <string name="project_create_err_title">Uncensored Open Source Edition</string>
     <string name="project_element_create_err_size">Введите значение от 32 до 4096.</string>
     <string name="project_list_empty_state_first_row">Раскрой свой потенциал —</string>
     <string name="project_list_empty_state_second_row">создай проект</string>
@@ -2306,7 +2306,7 @@ Follow My IG : pnkj
     <string name="projects_tab_projects_quick_menu_select">Выбери</string>
     <string name="projects_tab_projects_subtab_name">Твои проекты</string>
     <string name="promo_membership">Промо-подписка</string>
-    <string name="psstatus_fail_message">Gold Motion не удалось проверить ваш статус участника. Пожалуйста, проверьте подключение к Интернету или повторите попытку позже.</string>
+    <string name="psstatus_fail_message">Uncensored Motion не удалось проверить ваш статус участника. Пожалуйста, проверьте подключение к Интернету или повторите попытку позже.</string>
     <string name="pstask_fail_message">Alight Motion не удалось проверить статус вашей подписки. Пожалуйста, проверьте ваше подключение к Интернету и убедитесь в том, что вход в приложение %1$s осуществлен, или повторите попытку позже.</string>
     <string name="purchase_maintitle">Станьте владельцем платного аккаунта Alight Motion!</string>
     <string name="purchase_maintitle_1">Обновите Ваш статус до Премиум!</string>
@@ -2353,7 +2353,7 @@ Follow My IG : pnkj
     <string name="resolution_lock_alert_action_free_trial">Начать бесплатную пробную версию</string>
     <string name="resolution_lock_alert_action_reduce_quality">Экспорт с лучшим бесплатным качеством</string>
     <string name="resolution_lock_alert_action_reduce_quality_create">Установить лучшее бесплатное качество</string>
-    <string name="resolution_lock_alert_body">Выбранное качество экспорта доступно только при наличии платной подписки на Gold Motion.</string>
+    <string name="resolution_lock_alert_body">Выбранное качество экспорта доступно только при наличии платной подписки на Uncensored Motion.</string>
     <string name="resolution_lock_alert_title">Качество экспорта только для платных подписчиков</string>
     <string name="restore">Восстановить</string>
     <string name="retime_blank">Не отображать</string>
@@ -2363,11 +2363,11 @@ Follow My IG : pnkj
     <string name="retime_stretch">Продлить</string>
     <string name="retiming">Изменение времени</string>
     <string name="retry">Повторить</string>
-    <string name="review_feedback_msg">Мы заботимся об удовлетворенности пользователей, и ваши отзывы помогут нам улучшить Gold Motion.</string>
+    <string name="review_feedback_msg">Мы заботимся об удовлетворенности пользователей, и ваши отзывы помогут нам улучшить Uncensored Motion.</string>
     <string name="review_feedback_title">Не могли бы вы оставить отзыв?</string>
     <string name="review_popup_msg">"Кстати, вы можете связаться с нами в любое время по адресу support@alightcreative.com.
 
-Пожалуйста оцените Gold Motion."</string>
+Пожалуйста оцените Uncensored Motion."</string>
     <string name="review_popup_title">Вам понравилось зажигательное движение?</string>
     <string name="sample_rate">Частота дискретизации</string>
     <string name="sans_serif_fonts">Шрифты без засечек</string>
@@ -2393,7 +2393,7 @@ Follow My IG : pnkj
     <string name="saving_to_gallery">Сохранение в галерее</string>
     <string name="saving_to_my_elements">Сохранение в моих элементах...</string>
     <string name="scatter_repeat">Повтор с рассеянием</string>
-    <string name="see_whats_new_in_am">Узнайте, что нового в Gold Motion!</string>
+    <string name="see_whats_new_in_am">Узнайте, что нового в Uncensored Motion!</string>
     <string name="select_all">Выбрать все</string>
     <string name="select_all_layers">Выбрать все слои</string>
     <string name="select_fonts_to_import">Выберите шрифты для импорта</string>
@@ -2404,7 +2404,7 @@ Follow My IG : pnkj
     <string name="set_retiming_in_mark">Отметить конец вступления</string>
     <string name="set_retiming_out_mark">Отметить начало концовки</string>
     <string name="set_thumbnail_frame">Установить рамку с миниатюрами</string>
-    <string name="settings_legal_copyright_policy_button">MOD by pnkj</string>
+    <string name="settings_legal_copyright_policy_button">Uncensored Open Source Edition</string>
     <string name="shadow">Тень</string>
     <string name="shape">Фигура</string>
     <string name="shape_arc">Дуга</string>
@@ -2587,7 +2587,7 @@ Follow My IG : pnkj
     <string name="times_up_enjoy_now">Время скоро истечет! Наслаждайтесь сейчас!</string>
     <string name="timing">Время</string>
     <string name="toggle_export_as_template">Также экспортировать как шаблон</string>
-    <string name="toggle_login_alert_body">Вы должны войти в свою учетную запись Gold Motion, чтобы поделиться шаблоном</string>
+    <string name="toggle_login_alert_body">Вы должны войти в свою учетную запись Uncensored Motion, чтобы поделиться шаблоном</string>
     <string name="tooltip_bookmark">Нажмите на текущее время, чтобы создать закладку. Нажмите и удерживайте, чтобы увидеть другие параметры.</string>
     <string name="tooltip_mediabrowser">Нажмите здесь, чтобы сменить альбомы.</string>
     <string name="tooltip_viewmode">Чтобы видеть с точки зрения камеры, откройте эту панель и включите «Активный вид с камеры».</string>
@@ -2644,17 +2644,17 @@ Follow My IG : pnkj
     <string name="upload_overwrite_request_alert_cta_new">Загрузить копию</string>
     <string name="upload_overwrite_request_alert_cta_overwrite">Перезаписать проект</string>
     <string name="upload_overwrite_request_alert_title">Проект уже сохранен в облаке</string>
-    <string name="upload_share_large_package_desc">"Этот пакет занимает %1$s. Только другие участники Gold Motion могут импортировать пакеты более %2$s.
+    <string name="upload_share_large_package_desc">"Этот пакет занимает %1$s. Только другие участники Uncensored Motion могут импортировать пакеты более %2$s.
 
 Если вы планируете это использовать в качестве шаблона или пресета, рассмотрите возможность заменить любые носители-заполнители, используемые в пакете, носителями меньшего размера.
 
 Вы все равно хотите загрузить и поделиться этим пакетом?"</string>
-    <string name="upload_share_large_package_info">Размер этого пакета %1$s, и его могут импортировать только другие участники Gold Motion.</string>
+    <string name="upload_share_large_package_info">Размер этого пакета %1$s, и его могут импортировать только другие участники Uncensored Motion.</string>
     <string name="upload_share_large_package_info_no_optimized">"Не удалось подготовить уменьшенную версию этого пакета для других пользователей.
 
 Чтобы разрешить всем пользователям импортировать этот пакет, уменьшите его размер, чтобы он был менее %1$s."</string>
     <string name="upload_share_large_package_info_optimized">Для импорта другим пользователям будет доступна уменьшенная версия этого пакета с оптимизированными медиа более низкого качества.</string>
-    <string name="upload_share_large_package_samplemedia_desc">"Этот пакет занимает %1$s. Только участники Gold Motion могут импортировать пакеты более %2$s.
+    <string name="upload_share_large_package_samplemedia_desc">"Этот пакет занимает %1$s. Только участники Uncensored Motion могут импортировать пакеты более %2$s.
 
 Если вы хотите это использовать в качестве шаблона или предустановки, подумайте о том, чтобы заменить любые медиа-заполнители, используемые в пакете, на медиа из папки «Образцы медиа» - они не учитываются в размере проекта."</string>
     <string name="upload_share_large_package_samplemedia_info_no_optimized">Если вы хотите это использовать в качестве шаблона или предустановки, подумайте о том, чтобы заменить любые медиа-заполнители, используемые в пакете, на медиа из папки «Образцы медиа» - они не учитываются в размере проекта.</string>
